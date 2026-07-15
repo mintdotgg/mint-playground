@@ -41,6 +41,16 @@ pipeline and
   <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/impossible-places">Code</a> · <a href="https://play.mint.gg/impossible-places">Live demo</a></p>
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+  <a href="https://play.mint.gg/mint-hoops"><img src="https://play.mint.gg/experience-assets/mint-hoops/social-card.webp" alt="Mint Hoops fieldhouse with a basketball aimed at a lime-trimmed hoop" width="100%"></a>
+  <h3>Mint Hoops</h3>
+  <p>A 60-second arcade basketball score attack with drag-to-shoot controls, combo multipliers, and a three-point finale.</p>
+  <p><sub>Three.js · Basketball · Arcade · Game</sub></p>
+  <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/mint-hoops">Code</a> · <a href="https://play.mint.gg/mint-hoops">Live demo</a></p>
+</td>
+<td width="50%"></td>
+</tr>
 </table>
 
 ## Run locally

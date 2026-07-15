@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 2,
+  "order": 50,
+  "slug": "mint-hoops",
+  "title": "Mint Hoops",
+  "description": "A 60-second arcade basketball score attack with drag-to-shoot controls, combo multipliers, and a three-point finale.",
+  "status": "published",
+  "publishedAt": "2026-07-15",
+  "tags": ["Three.js", "Basketball", "Arcade", "Game"],
+  "prompt": {
+    "version": 1,
+    "objective": "Build a one-minute arcade basketball score attack with satisfying drag-to-shoot controls.",
+    "mintAssets": [
+      {
+        "kind": "asset-pack",
+        "brief": "A game-ready basketball, portable hoop, and fieldhouse wall mark in one cohesive stylized pack."
+      }
+    ],
+    "experience": [
+      "Drag the ball to set launch direction and power, then release to shoot.",
+      "Reward consecutive baskets with escalating multipliers and a final three-point phase.",
+      "Pause, mute, replay, and support the same core interaction on pointer and touch."
+    ],
+    "visualDirection": "Dark fieldhouse shell framing a warm court with mint, lime, charcoal, and playful broadcast graphics."
+  },
+  "thumbnail": {
+    "src": "/experience-assets/mint-hoops/social-card.webp",
+    "alt": "Mint Hoops fieldhouse with a basketball aimed at a lime-trimmed hoop"
+  },
+  "social": {
+    "title": "Mint Hoops",
+    "description": "Sink baskets, build a multiplier, and chase the final three-point phase in a 60-second fieldhouse run.",
+    "image": {
+      "src": "/experience-assets/mint-hoops/social-card.webp",
+      "alt": "Mint Hoops arcade basketball game inside a bright Mint fieldhouse",
+      "width": 1200,
+      "height": 630,
+      "accent": "#C4F042"
+    }
+  },
+  "runtime": {
+    "kind": "bundle",
+    "src": "/_experiences/mint-hoops/index.html",
+    "title": "Mint Hoops"
+  }
+}

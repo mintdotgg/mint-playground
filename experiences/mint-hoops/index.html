@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#0E110F" />
+    <meta name="description" content="Mint Hoops — a one-minute arcade basketball score attack." />
+    <title>Mint Hoops</title>
+  </head>
+  <body>
+    <main class="game-shell" aria-labelledby="game-title">
+      <header class="topbar">
+        <div class="brand-lockup">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 54.5455 272.727 218.1815" focusable="false">
+              <path d="M0 218.182H54.5455V272.727H0V218.182ZM0 163.636H54.5455V218.182H0V163.636ZM0 109.091H54.5455V163.636H0V109.091ZM0 54.5455H54.5455V109.091H0V54.5455ZM54.5455 54.5455H109.091V109.091H54.5455V54.5455ZM109.091 109.091H163.636V163.636H109.091V109.091ZM109.091 163.636H163.636V218.182H109.091V163.636ZM109.091 218.182H163.636V272.727H109.091V218.182ZM163.636 54.5455H218.182V109.091H163.636V54.5455ZM218.182 109.091H272.727V163.636H218.182V109.091ZM218.182 163.636H272.727V218.182H218.182V163.636ZM218.182 218.182H272.727V272.727H218.182V218.182Z" />
+            </svg>
+          </span>
+          <div>
+            <h1 id="game-title">Mint Hoops</h1>
+            <p>Fieldhouse 01 <span aria-hidden="true">/</span> Open run</p>
+          </div>
+        </div>
+
+        <div class="hud" aria-label="Game status">
+          <div class="hud-readout timer-readout" id="timer-readout">
+            <span class="hud-label">Time</span>
+            <output id="timer" aria-live="off">60</output>
+          </div>
+          <div class="hud-divider" aria-hidden="true"></div>
+          <div class="hud-readout score-readout">
+            <span class="hud-label">Score</span>
+            <output id="score" aria-live="polite">0</output>
+          </div>
+          <div class="hud-divider streak-divider" aria-hidden="true"></div>
+          <div class="hud-readout streak-readout">
+            <span class="hud-label">Multiplier</span>
+            <output id="streak" aria-live="polite">×1</output>
+          </div>
+          <button class="icon-button" id="pause-button" type="button" aria-label="Pause game" aria-pressed="false" disabled>
+            <svg class="pause-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M7 5h3v14H7zM14 5h3v14h-3z" />
+            </svg>
+            <svg class="resume-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="m8 5 11 7-11 7V5Z" />
+            </svg>
+          </button>
+          <button class="icon-button" id="mute-button" type="button" aria-label="Mute sound" aria-pressed="false">
+            <svg class="sound-on" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M5 9v6h4l5 4V5L9 9H5Zm12.2-.9a5 5 0 0 1 0 7.8M19.7 5.6a9 9 0 0 1 0 12.8" />
+            </svg>
+            <svg class="sound-off" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M5 9v6h4l5 4V5L9 9H5Zm12 1 5 5m0-5-5 5" />
+            </svg>
+          </button>
+        </div>
+      </header>
+
+      <p class="instruction" id="instruction">Drag the ball toward the hoop and release to shoot.</p>
+
+      <section class="game-stage" id="game-stage" aria-label="Mint Hoops game court">
+        <canvas id="game-canvas" width="1280" height="720" aria-describedby="instruction">
+          Mint Hoops requires a browser with HTML5 Canvas support.
+        </canvas>
+        <canvas id="model-canvas" width="1280" height="720" aria-hidden="true"></canvas>
+
+        <div class="stage-vignette" aria-hidden="true"></div>
+        <div class="clock-track" aria-hidden="true"><i></i></div>
+        <div class="court-chip" aria-hidden="true"><i></i><span>Live</span> 60-sec shootout</div>
+
+        <div class="shot-panel" id="shot-panel" aria-hidden="true">
+          <div class="shot-panel-copy">
+            <span id="shot-status">Drag to aim</span>
+            <strong><span id="power-value">00</span><small>%</small></strong>
+          </div>
+          <div class="power-track"><i id="power-fill"></i><b></b><b></b></div>
+          <div class="power-labels"><span>Touch</span><span>Range</span><span>Heat</span></div>
+        </div>
+
+        <div class="three-point-banner" aria-hidden="true">
+          <span>Final 15</span>
+          <strong>Base bucket = 3</strong>
+        </div>
+
+        <div class="screen-overlay visible" id="start-screen" role="dialog" aria-modal="true" aria-labelledby="start-title">
+          <div class="overlay-card start-card">
+            <div class="start-card-mark" aria-hidden="true"><span>01</span><i>Mint<br />Fieldhouse</i></div>
+            <div class="start-card-copy">
+              <span class="eyebrow">60 second score attack</span>
+              <h2 id="start-title">Make it rain.</h2>
+              <p>Drag from the ball to set angle and power, then release. Every consecutive make raises the multiplier. A miss resets it to ×1.</p>
+              <div class="rule-strip" aria-hidden="true"><span>01 Aim</span><i></i><span>02 Pull</span><i></i><span>03 Release</span></div>
+              <button class="primary-button" id="start-button" type="button" aria-label="Start game">Enter the court <span aria-hidden="true">↗</span></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="screen-overlay" id="pause-screen" role="dialog" aria-modal="true" aria-labelledby="pause-title" aria-hidden="true">
+          <div class="overlay-card pause-card">
+            <span class="eyebrow">Timeout</span>
+            <h2 id="pause-title" aria-label="Game paused">Catch your breath.</h2>
+            <p>Your shot and the clock are frozen exactly where you left them.</p>
+            <div class="overlay-actions">
+              <button class="primary-button" id="resume-button" type="button">Resume <span aria-hidden="true">▶</span></button>
+              <button class="secondary-button" id="restart-button" type="button">Restart game</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="screen-overlay" id="game-over-screen" role="dialog" aria-modal="true" aria-labelledby="game-over-title" aria-hidden="true">
+          <div class="overlay-card game-over-card">
+            <span class="eyebrow">Final buzzer</span>
+            <h2 id="game-over-title">Time’s up.</h2>
+            <p class="final-score-label">Final score</p>
+            <output class="final-score" id="final-score">0</output>
+            <p class="result-message" id="result-message">Nice shooting!</p>
+            <div class="final-stats" aria-label="Run statistics">
+              <span><small>Hit rate</small><output id="final-accuracy">0%</output></span>
+              <i aria-hidden="true"></i>
+              <span><small>Peak multiplier</small><output id="final-streak">×1</output></span>
+            </div>
+            <button class="primary-button" id="play-again-button" type="button" aria-label="Play again">Run it back <span aria-hidden="true">↻</span></button>
+          </div>
+        </div>
+
+        <div class="swish-banner" id="swish-banner" aria-live="polite">Swish!</div>
+      </section>
+
+      <aside class="mobile-deck" id="mobile-deck" aria-hidden="true">
+        <div class="mobile-deck-status">
+          <span>Shot telemetry</span>
+          <strong id="mobile-shot-status">Court ready</strong>
+        </div>
+        <div class="mobile-deck-metrics">
+          <span><small>Power</small><output id="mobile-power-value">00%</output></span>
+          <i aria-hidden="true"></i>
+          <span><small>Multiplier</small><output id="mobile-streak">×1</output></span>
+        </div>
+        <div class="mobile-power-track" aria-hidden="true"><i id="mobile-power-fill"></i></div>
+        <p>Rotate for the widest court <span aria-hidden="true">↻</span></p>
+      </aside>
+
+      <div class="court-footer" aria-hidden="true">
+        <span>Pointer + touch</span><i></i><span>Drag to set power</span><i></i><span>Esc to pause</span><b>Built for Mint Playground</b>
+      </div>
+      <p class="sr-only" id="live-status" aria-live="polite"></p>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

@@ -43,6 +43,16 @@ importers:
         specifier: 8.1.4
         version: 8.1.4(esbuild@0.28.1)
 
+  experiences/mint-hoops:
+    dependencies:
+      three:
+        specifier: 0.185.1
+        version: 0.185.1
+    devDependencies:
+      vite:
+        specifier: 7.3.6
+        version: 7.3.6(lightningcss@1.32.0)
+
   experiences/neon-relic:
     dependencies:
       three:

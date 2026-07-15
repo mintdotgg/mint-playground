@@ -1,0 +1,32 @@
+{
+  "registryVersion": 1,
+  "assetRoot": "public",
+  "delivery": "mint_cdn",
+  "assets": {
+    "basketball-hoop": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks7a2akag9ntd1w4gxmf82tst98afkv6",
+        "mintUrl": "https://mint.gg/chat/ph7abvfen9v15ewts9596f0m0x8afzjn"
+      },
+      "transform": {
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0],
+        "scale": [1, 1, 1]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "model": {
+          "artifactId": "ks7a2akag9ntd1w4gxmf82tst98afkv6",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/mint-monogram-hoop-normalized-c2f298a502b7cbcc.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    }
+  }
+}
