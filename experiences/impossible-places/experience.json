@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 2,
+  "order": 40,
+  "slug": "impossible-places",
+  "title": "Impossible Places",
+  "description": "A cinematic travel magazine spanning five explorable Mint-generated Gaussian-splat worlds.",
+  "status": "published",
+  "publishedAt": "2026-07-13",
+  "tags": ["Three.js", "Gaussian Splats", "Worlds", "Exploration"],
+  "prompt": {
+    "version": 1,
+    "objective": "Build a cinematic travel magazine connecting five impossible Gaussian-splat destinations.",
+    "mintAssets": [
+      {
+        "kind": "world",
+        "brief": "Five separate explorable worlds; import every final RAD stream with its matching collider."
+      }
+    ],
+    "experience": [
+      "Blend full-viewport world exploration with an editorial travel cover.",
+      "Switch among five remote splat worlds without losing navigation context."
+    ],
+    "visualDirection": "Dark travel journal with gold ornament, monumental serif type, and cinematic light."
+  },
+  "thumbnail": {
+    "src": "/experience-assets/impossible-places/social-card.webp",
+    "alt": "The Observatory issue of the Impossible Places travel magazine"
+  },
+  "social": {
+    "title": "Impossible Places",
+    "description": "Travel through five impossible destinations in an interactive Gaussian-splat magazine.",
+    "image": {
+      "src": "/experience-assets/impossible-places/social-card.webp",
+      "alt": "Impossible Places interactive Gaussian-splat travel magazine",
+      "width": 1200,
+      "height": 630,
+      "accent": "#D8B86C"
+    }
+  },
+  "runtime": {
+    "kind": "bundle",
+    "src": "/_experiences/impossible-places/index.html",
+    "title": "Impossible Places"
+  }
+}

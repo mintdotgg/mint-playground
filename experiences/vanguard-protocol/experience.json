@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 2,
+  "order": 10,
+  "slug": "vanguard-protocol",
+  "title": "Vanguard Protocol",
+  "description": "A cinematic five-character combat roster with animated fighters and reactive tactical staging.",
+  "status": "published",
+  "publishedAt": "2026-07-13",
+  "tags": ["Three.js", "Characters", "Animation", "Interactive"],
+  "prompt": {
+    "version": 1,
+    "objective": "Build a tactical archive for selecting and inspecting five animated sci-fi combatants.",
+    "mintAssets": [
+      {
+        "kind": "asset-pack",
+        "brief": "Five distinct humanoid combatants in a coherent pack; T-pose, frontal, empty hands, and riggable."
+      },
+      {
+        "kind": "model-animation",
+        "brief": "Discover and apply a curated idle or combat set; never guess IDs."
+      }
+    ],
+    "experience": [
+      "Select a fighter from a five-slot roster and orbit the central model.",
+      "Sync dossier copy, lighting, and accent effects to the selection."
+    ],
+    "visualDirection": "Dark tactical sci-fi UI with violet energy, sparse grids, and condensed type."
+  },
+  "thumbnail": {
+    "src": "/experience-assets/vanguard-protocol/social-card.webp",
+    "alt": "Nyx-7 displayed in the Vanguard Protocol combat roster"
+  },
+  "social": {
+    "title": "Vanguard Protocol",
+    "description": "Choose and inspect five animated combatants in a reactive sci-fi staging system.",
+    "image": {
+      "src": "/experience-assets/vanguard-protocol/social-card.webp",
+      "alt": "Vanguard Protocol animated character roster",
+      "width": 1200,
+      "height": 630,
+      "accent": "#8B78FF"
+    }
+  },
+  "runtime": {
+    "kind": "bundle",
+    "src": "/_experiences/vanguard-protocol/index.html",
+    "title": "Vanguard Protocol"
+  }
+}

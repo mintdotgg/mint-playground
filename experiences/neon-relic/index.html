@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NEON RELIC — Poster Gallery</title>
+  </head>
+  <body>
+    <div id="app">
+      <canvas id="gl"></canvas>
+
+      <!-- Poster typographic chrome (data-driven, re-skinned per poster) -->
+      <div id="chrome" aria-hidden="true">
+        <div class="mega-title-wrap"><h1 class="mega-title"></h1></div>
+        <div class="mega-sub"></div>
+
+        <div class="corner code-tl"></div>
+        <div class="corner code-tr"></div>
+        <div class="corner code-bl"></div>
+        <div class="corner code-br"></div>
+
+        <div class="edge-left"></div>
+        <div class="edge-right"></div>
+        <div class="ghost-index"></div>
+
+        <div class="brand-block">
+          <div class="brand-lines"></div>
+          <div class="brand-copy">©</div>
+        </div>
+
+        <div class="side-left">
+          <div class="name-tag"></div>
+          <div class="chips"></div>
+        </div>
+
+        <div class="info-card">
+          <div class="info-code"></div>
+          <div class="info-tagline"></div>
+          <div class="info-stats"></div>
+          <div class="info-barcode"></div>
+          <div class="info-serial"></div>
+        </div>
+
+        <div class="para-block">
+          <div class="para-head"></div>
+          <p class="para-body"></p>
+          <div class="para-foot">CONTINUED ON PANEL 12 →</div>
+        </div>
+
+        <div class="side-right">
+          <div class="big-index"></div>
+          <div class="glyph-stack">✱<br />▪<br />▪</div>
+        </div>
+
+        <div class="strand strand-1"></div>
+        <div class="strand strand-2"></div>
+        <div class="strand strand-3"></div>
+        <div class="strand strand-4"></div>
+
+        <!-- system marks -->
+        <svg class="mark mark-cross" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+          <circle cx="12" cy="12" r="10" /><path d="M12 0v24M0 12h24" />
+        </svg>
+        <svg class="mark mark-reg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+          <circle cx="12" cy="12" r="8" /><circle cx="12" cy="12" r="2.5" fill="currentColor" stroke="none" />
+        </svg>
+        <svg class="mark mark-tri" viewBox="0 0 24 22" fill="none" stroke="currentColor" stroke-width="1.4">
+          <path d="M12 2 22 20 2 20Z" /><path d="M12 9v5" /><circle cx="12" cy="17" r="0.6" fill="currentColor" />
+        </svg>
+        <svg class="mark mark-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+          <path d="M3 3l16 16M19 8v11H8" />
+        </svg>
+        <svg class="mark mark-grid" viewBox="0 0 40 16" fill="currentColor">
+          <circle cx="2" cy="2" r="1"/><circle cx="11" cy="2" r="1"/><circle cx="20" cy="2" r="1"/><circle cx="29" cy="2" r="1"/><circle cx="38" cy="2" r="1"/>
+          <circle cx="2" cy="8" r="1"/><circle cx="11" cy="8" r="1"/><circle cx="20" cy="8" r="1"/><circle cx="29" cy="8" r="1"/><circle cx="38" cy="8" r="1"/>
+          <circle cx="2" cy="14" r="1"/><circle cx="11" cy="14" r="1"/><circle cx="20" cy="14" r="1"/><circle cx="29" cy="14" r="1"/><circle cx="38" cy="14" r="1"/>
+        </svg>
+        <div class="micro micro-1">CMYK ▓▒░ PROOF</div>
+        <div class="micro micro-2">300 DPI / BLEED 3MM</div>
+        <div class="micro micro-3">FOLD → HERE</div>
+        <div class="micro micro-4">SCROLL — INSPECT · DRAG — ROTATE</div>
+
+        <div class="ticker"><span class="ticker-inner"></span></div>
+      </div>
+
+      <!-- Slideshow rail -->
+      <nav id="rail">
+        <button id="sound-toggle" title="toggle audio">SND<span class="snd-state">OFF</span></button>
+        <div id="thumbs"></div>
+        <div id="auto-meter"><div id="auto-fill"></div></div>
+      </nav>
+
+      <!-- Loader -->
+      <div id="loader">
+        <div class="loader-box">
+          <div class="loader-title">NEON&nbsp;RELIC<sup>©</sup></div>
+          <div class="loader-sub">FABRICATING EXHIBITS // MINT PIPELINE</div>
+          <div class="loader-bar"><div id="loader-fill"></div></div>
+          <div id="loader-log">BOOT_</div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

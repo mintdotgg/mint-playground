@@ -1,0 +1,10 @@
+{
+  "name": "mint-playground",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "packageManager": "pnpm@10.6.2",
+  "scripts": {
+    "build": "pnpm -r --if-present build"
+  }
+}

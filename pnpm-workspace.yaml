@@ -1,0 +1,4 @@
+packages:
+  - "experiences/*"
+onlyBuiltDependencies:
+  - "esbuild"

@@ -1,0 +1,82 @@
+{
+  "registryVersion": 1,
+  "assetRoot": "public",
+  "delivery": "mint_cdn",
+  "assets": {
+    "nyx-character": {
+      "source": { "manifestVersion": 1, "kind": "animation", "assetType": "model_animation_batch", "assetId": "w57170acwdh45gyhvt8t2q3b858aee82", "mintUrl": "https://mint.gg/chat/ph7dtpm671ye8f3kdyx4qkrccd8afbrj" },
+      "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
+      "mode": "remote_url",
+      "artifacts": {
+        "idle_glb": { "artifactId": "clip:w970g397kybrck8g4b4s5b7eeh8ae1x4:animation_glb", "role": "animation_clip", "format": "glb", "contentType": "model/gltf-binary", "runtimeUrl": "https://cdn.mint.gg/glb/idle-02-eh8ae1x4-glb-79e4de98acf7d714.glb", "loaderHint": "gltf" },
+        "signature_glb": { "artifactId": "clip:w97brb0cre0b0c1w4byh1kx4md8affx7:animation_glb", "role": "animation_clip", "format": "glb", "contentType": "model/gltf-binary", "runtimeUrl": "https://cdn.mint.gg/glb/roundhouse-kick-md8affx7-glb-a5433796aa767add.glb", "loaderHint": "gltf" }
+      }
+    },
+    "morrow-character": {
+      "source": { "manifestVersion": 1, "kind": "animation", "assetType": "model_animation_batch", "assetId": "w57cq34gzf5am2tmg9kwz6ghk58afnxy", "mintUrl": "https://mint.gg/chat/ph7dtpm671ye8f3kdyx4qkrccd8afbrj" },
+      "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
+      "mode": "remote_url",
+      "artifacts": {
+        "idle_glb": { "artifactId": "clip:w979m062s60p3mdx79wbpr01c58aftth:animation_glb", "role": "animation_clip", "format": "glb", "contentType": "model/gltf-binary", "runtimeUrl": "https://cdn.mint.gg/glb/idle-02-c58aftth-glb-8228e84f80cb8830.glb", "loaderHint": "gltf" },
+        "signature_glb": { "artifactId": "clip:w97emxhgb4y3e927cq377r74xh8aef0m:animation_glb", "role": "animation_clip", "format": "glb", "contentType": "model/gltf-binary", "runtimeUrl": "https://cdn.mint.gg/glb/punch-combo-xh8aef0m-glb-babac76d66db3434.glb", "loaderHint": "gltf" }
+      }
+    },
+    "aegis-character": {
+      "source": { "manifestVersion": 1, "kind": "animation", "assetType": "model_animation_batch", "assetId": "w5784qjdw1sz20hc9yby1ws6e98ae5k4", "mintUrl": "https://mint.gg/chat/ph7dtpm671ye8f3kdyx4qkrccd8afbrj" },
+      "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
+      "mode": "remote_url",
+      "artifacts": {
+        "idle_glb": { "artifactId": "clip:w975frmjjn6rdr92t5sn2e3ay18af10h:animation_glb", "role": "animation_clip", "format": "glb", "contentType": "model/gltf-binary", "runtimeUrl": "https://cdn.mint.gg/glb/idle-02-y18af10h-glb-5ac0fda34a758e9b.glb", "loaderHint": "gltf" },
+        "signature_glb": { "artifactId": "clip:w97f292y27sp06w3rxrynr1p0h8afp62:animation_glb", "role": "animation_clip", "format": "glb", "contentType": "model/gltf-binary", "runtimeUrl": "https://cdn.mint.gg/glb/elbow-strike-0h8afp62-glb-ef2006bd4825f13c.glb", "loaderHint": "gltf" }
+      }
+    },
+    "vanta-character": {
+      "source": { "manifestVersion": 1, "kind": "animation", "assetType": "model_animation_batch", "assetId": "w571gb78wxa9346wtj6r6vb8gs8afj9d", "mintUrl": "https://mint.gg/chat/ph7dtpm671ye8f3kdyx4qkrccd8afbrj" },
+      "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
+      "mode": "remote_url",
+      "artifacts": {
+        "idle_glb": { "artifactId": "clip:w9756khqwcxp6wfyv6cpv7h8018af51w:animation_glb", "role": "animation_clip", "format": "glb", "contentType": "model/gltf-binary", "runtimeUrl": "https://cdn.mint.gg/glb/idle-02-018af51w-glb-73c0eab5eaea7c7a.glb", "loaderHint": "gltf" },
+        "signature_glb": { "artifactId": "clip:w97221mz4z916aw47gfvmdg39n8aegw1:animation_glb", "role": "animation_clip", "format": "glb", "contentType": "model/gltf-binary", "runtimeUrl": "https://cdn.mint.gg/glb/stand-dodge-3-9n8aegw1-glb-902e6b3ad1e9c486.glb", "loaderHint": "gltf" }
+      }
+    },
+    "solara-character": {
+      "source": { "manifestVersion": 1, "kind": "animation", "assetType": "model_animation_batch", "assetId": "w57859r98xnmm5gbh3ydfwj16d8aedhz", "mintUrl": "https://mint.gg/chat/ph7dtpm671ye8f3kdyx4qkrccd8afbrj" },
+      "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
+      "mode": "remote_url",
+      "artifacts": {
+        "idle_glb": { "artifactId": "clip:w97a8ksva0gmwj0y5eajzwx61n8ae3tb:animation_glb", "role": "animation_clip", "format": "glb", "contentType": "model/gltf-binary", "runtimeUrl": "https://cdn.mint.gg/glb/idle-02-1n8ae3tb-glb-f753fd939cb3354f.glb", "loaderHint": "gltf" },
+        "signature_glb": { "artifactId": "clip:w970n81cayjb768dc0gs88mxg58af9qw:animation_glb", "role": "animation_clip", "format": "glb", "contentType": "model/gltf-binary", "runtimeUrl": "https://cdn.mint.gg/glb/left-jab-from-guard-g58af9qw-glb-34447a3b6e4e8da3.glb", "loaderHint": "gltf" }
+      }
+    },
+    "nyx-cache": {
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "image", "assetId": "gs7ggtzzcr4tentcqp1gzawr2d8af729", "mintUrl": "https://mint.gg/chat/qn774hf9zjat4d969a4xwvjs1n8afde2" },
+      "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
+      "mode": "remote_url",
+      "artifacts": { "image": { "artifactId": "gs7ggtzzcr4tentcqp1gzawr2d8af729", "role": "reference_image", "format": "png", "contentType": "image/png", "runtimeUrl": "https://cdn.mint.gg/images/gs7ggtzzcr4tentcqp1gzawr2d8af729/nyx-riftwalker-cache-d14340-1bdba6e5e471180c.png", "loaderHint": "image" } }
+    },
+    "morrow-cache": {
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "image", "assetId": "gs7xkjw42vg19r90nnmj105nms8ae42g", "mintUrl": "https://mint.gg/chat/qn734kn1v4mpppawa8mfwaf80s8afn4t" },
+      "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
+      "mode": "remote_url",
+      "artifacts": { "image": { "artifactId": "gs7xkjw42vg19r90nnmj105nms8ae42g", "role": "reference_image", "format": "png", "contentType": "image/png", "runtimeUrl": "https://cdn.mint.gg/images/gs7xkjw42vg19r90nnmj105nms8ae42g/morrow-outbreak-cache-3a9c0b-447dbfde139d309e.png", "loaderHint": "image" } }
+    },
+    "aegis-cache": {
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "image", "assetId": "gs7xw7qtwvbfewvyhwh1n5kwj58afn0j", "mintUrl": "https://mint.gg/chat/qn743eadf6zsxw7agkwyajwkvd8ae57t" },
+      "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
+      "mode": "remote_url",
+      "artifacts": { "image": { "artifactId": "gs7xw7qtwvbfewvyhwh1n5kwj58afn0j", "role": "reference_image", "format": "png", "contentType": "image/png", "runtimeUrl": "https://cdn.mint.gg/images/gs7xw7qtwvbfewvyhwh1n5kwj58afn0j/aegis-vanguard-cache-ce42bb-0848c4b83bf6ddcd.png", "loaderHint": "image" } }
+    },
+    "vanta-cache": {
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "image", "assetId": "gs7gkk05w1vmgr63713p8y0g598afzc2", "mintUrl": "https://mint.gg/chat/qn73a85rqg85hhnnnz7y6mxwkh8afeg2" },
+      "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
+      "mode": "remote_url",
+      "artifacts": { "image": { "artifactId": "gs7gkk05w1vmgr63713p8y0g598afzc2", "role": "reference_image", "format": "png", "contentType": "image/png", "runtimeUrl": "https://cdn.mint.gg/images/gs7gkk05w1vmgr63713p8y0g598afzc2/vanta-void-cache-2cf781-7b096450755737dd.png", "loaderHint": "image" } }
+    },
+    "solara-cache": {
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "image", "assetId": "gs7nbk80vpht91m0fzc2b150dn8ae983", "mintUrl": "https://mint.gg/chat/qn70c1xa5sbcnp8rxdxwbkpdh98aej2" },
+      "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
+      "mode": "remote_url",
+      "artifacts": { "image": { "artifactId": "gs7nbk80vpht91m0fzc2b150dn8ae983", "role": "reference_image", "format": "png", "contentType": "image/png", "runtimeUrl": "https://cdn.mint.gg/images/gs7nbk80vpht91m0fzc2b150dn8ae983/solara-dawn-cache-44d6d2-aebfe59b90da6f0b.png", "loaderHint": "image" } }
+    }
+  }
+}

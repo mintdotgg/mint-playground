@@ -1,0 +1,75 @@
+{
+  "registryVersion": 1,
+  "assetRoot": "public",
+  "delivery": "mint_cdn",
+  "assets": {
+    "aether-model": {
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "model", "assetId": "ks79nrpz72rn848471wngbnfpd8aea89", "mintUrl": "https://mint.gg/chat/ph7e73s8wffzw2n4xw66vbxfx58afc17" },
+      "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
+      "mode": "remote_url",
+      "artifacts": { "model": { "artifactId": "ks79nrpz72rn848471wngbnfpd8aea89", "role": "canonical_model", "format": "glb", "contentType": "model/gltf-binary", "runtimeUrl": "https://cdn.mint.gg/glb/porcelain-chain-android-normalized-c931a83aec063e6e.glb", "loaderHint": "gltf" } }
+    },
+    "prism-model": {
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "model", "assetId": "ks7d8wan91ejbt62zqvk5azjm18aen37", "mintUrl": "https://mint.gg/chat/ph77ey7rbjtm5rvj9vnwg9dzk98ae1rk" },
+      "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
+      "mode": "remote_url",
+      "artifacts": { "model": { "artifactId": "ks7d8wan91ejbt62zqvk5azjm18aen37", "role": "canonical_model", "format": "glb", "contentType": "model/gltf-binary", "runtimeUrl": "https://cdn.mint.gg/glb/prismatic-crystal-kaiju-normalized-3899a0a7fe8dad5c.glb", "loaderHint": "gltf" } }
+    },
+    "glare-model": {
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "model", "assetId": "ks79yknr6t47rs6vywss0ky6j18aer00", "mintUrl": "https://mint.gg/chat/ph772e46j6rq5hpj9vje8g45258aer01" },
+      "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
+      "mode": "remote_url",
+      "artifacts": { "model": { "artifactId": "ks79yknr6t47rs6vywss0ky6j18aer00", "role": "canonical_model", "format": "glb", "contentType": "model/gltf-binary", "runtimeUrl": "https://cdn.mint.gg/glb/graffiti-chrome-cairn-normalized-8759d0cc1a65c04c.glb", "loaderHint": "gltf" } }
+    },
+    "goldspine-model": {
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "model", "assetId": "ks713esn8yf7z0rvsbnb6092n58ae6bn", "mintUrl": "https://mint.gg/chat/ph71vck2srjjscakekz5dz6v518ae508" },
+      "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
+      "mode": "remote_url",
+      "artifacts": { "model": { "artifactId": "ks713esn8yf7z0rvsbnb6092n58ae6bn", "role": "canonical_model", "format": "glb", "contentType": "model/gltf-binary", "runtimeUrl": "https://cdn.mint.gg/glb/pearl-quill-stalker-normalized-beac862e4d9d17de.glb", "loaderHint": "gltf" } }
+    },
+    "gallery-ambience": {
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "audio", "assetId": "xd750qfgsraw01bsjbrycmwzj58afpgc", "mintUrl": "https://mint.gg/chat/ph7bs7ndavgbq5k8sbwxex56ad8afxqy" },
+      "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
+      "mode": "remote_url",
+      "artifacts": { "audio": { "artifactId": "xd750qfgsraw01bsjbrycmwzj58afpgc", "role": "audio", "format": "mp3", "contentType": "audio/mpeg", "runtimeUrl": "https://cdn.mint.gg/audio/xd750qfgsraw01bsjbrycmwzj58afpgc/gallery-ambience-loop-c552ef-5681ab77a067f358.mp3", "loaderHint": "audio" } }
+    },
+    "morph-whoosh": {
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "audio", "assetId": "xd7dz4qg74v3g890dszzxxkxjx8aevhw", "mintUrl": "https://mint.gg/chat/ph7amvzahn7ackfbv0scrtq6t58afb25" },
+      "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
+      "mode": "remote_url",
+      "artifacts": { "audio": { "artifactId": "xd7dz4qg74v3g890dszzxxkxjx8aevhw", "role": "audio", "format": "mp3", "contentType": "audio/mpeg", "runtimeUrl": "https://cdn.mint.gg/audio/xd7dz4qg74v3g890dszzxxkxjx8aevhw/morph-whoosh-c87983-dfdf120f7758586b.mp3", "loaderHint": "audio" } }
+    },
+    "ui-blip": {
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "audio", "assetId": "xd7dkf29c4ye1vj7w1ftfb8gc98afhfz", "mintUrl": "https://mint.gg/chat/ph77getsf8n2pt4zszvhn9cy5s8aeb5a" },
+      "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
+      "mode": "remote_url",
+      "artifacts": { "audio": { "artifactId": "xd7dkf29c4ye1vj7w1ftfb8gc98afhfz", "role": "audio", "format": "mp3", "contentType": "audio/mpeg", "runtimeUrl": "https://cdn.mint.gg/audio/xd7dkf29c4ye1vj7w1ftfb8gc98afhfz/ui-hover-blip-52e78f-d7d8ebc35bd25023.mp3", "loaderHint": "audio" } }
+    },
+    "lock-impact": {
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "audio", "assetId": "xd747atsw07zgt3zjsz6s0eprh8afr14", "mintUrl": "https://mint.gg/chat/ph79haakqmp264tdx4syvjn7fn8afw7b" },
+      "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
+      "mode": "remote_url",
+      "artifacts": { "audio": { "artifactId": "xd747atsw07zgt3zjsz6s0eprh8afr14", "role": "audio", "format": "mp3", "contentType": "audio/mpeg", "runtimeUrl": "https://cdn.mint.gg/audio/xd747atsw07zgt3zjsz6s0eprh8afr14/poster-lock-impact-4ae1d3-820e92c3f1b02b08.mp3", "loaderHint": "audio" } }
+    },
+    "gallery-concrete": {
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "material", "assetId": "w17dgqb5cd44dtn45wm6x2hmt58af4gr", "mintUrl": "https://mint.gg/chat/ph7f3p82ds8p2zrfqycpkbps9s8ae2av" },
+      "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
+      "mode": "remote_url",
+      "artifacts": {
+        "basecolor": { "artifactId": "basecolor", "role": "material_basecolor", "format": "png", "contentType": "image/png", "runtimeUrl": "https://cdn.mint.gg/materials/w17dgqb5cd44dtn45wm6x2hmt58af4gr/gallery-concrete-basecolor-ec626b-fe05d0d60bf3258f.png", "loaderHint": "texture" },
+        "normal": { "artifactId": "normal", "role": "material_normal", "format": "png", "contentType": "image/png", "runtimeUrl": "https://cdn.mint.gg/materials/w17dgqb5cd44dtn45wm6x2hmt58af4gr/gallery-concrete-normal-b8870b-9844d25a4840d93d.png", "loaderHint": "texture" },
+        "roughness": { "artifactId": "roughness", "role": "material_roughness", "format": "png", "contentType": "image/png", "runtimeUrl": "https://cdn.mint.gg/materials/w17dgqb5cd44dtn45wm6x2hmt58af4gr/gallery-concrete-roughness-01d900-0439b2e8ac9c9d72.png", "loaderHint": "texture" }
+      }
+    },
+    "holo-foil": {
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "material", "assetId": "w1709vds5bfqjmphw2b8jcqhjs8aeb4w", "mintUrl": "https://mint.gg/chat/ph7cszn2f8g202a37yjgmsnmcx8afpgw" },
+      "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
+      "mode": "remote_url",
+      "artifacts": {
+        "basecolor": { "artifactId": "basecolor", "role": "material_basecolor", "format": "png", "contentType": "image/png", "runtimeUrl": "https://cdn.mint.gg/materials/w1709vds5bfqjmphw2b8jcqhjs8aeb4w/holo-foil-basecolor-7bec78-79ddef1b989cab3e.png", "loaderHint": "texture" },
+        "normal": { "artifactId": "normal", "role": "material_normal", "format": "png", "contentType": "image/png", "runtimeUrl": "https://cdn.mint.gg/materials/w1709vds5bfqjmphw2b8jcqhjs8aeb4w/holo-foil-normal-19569b-c6894527d2a1a9f4.png", "loaderHint": "texture" },
+        "roughness": { "artifactId": "roughness", "role": "material_roughness", "format": "png", "contentType": "image/png", "runtimeUrl": "https://cdn.mint.gg/materials/w1709vds5bfqjmphw2b8jcqhjs8aeb4w/holo-foil-roughness-3a3d08-cbdaaacfb0c97d34.png", "loaderHint": "texture" }
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 2,
+  "order": 30,
+  "slug": "neon-relic",
+  "title": "Neon Relic",
+  "description": "An interactive poster gallery where four sci-fi relics reshape the typography, lighting, materials, and sound.",
+  "status": "published",
+  "publishedAt": "2026-07-13",
+  "tags": ["Three.js", "Editorial", "Models", "Audio"],
+  "prompt": {
+    "version": 1,
+    "objective": "Build an editorial gallery where four relics transform the poster, stage, and sound.",
+    "mintAssets": [
+      {
+        "kind": "asset-pack",
+        "brief": "Four museum relics with distinct forms, materials, and stories."
+      },
+      {
+        "kind": "material-pack",
+        "brief": "PBR surfaces for the floor, plinths, and hardware."
+      },
+      {
+        "kind": "audio",
+        "brief": "Selection sounds and a subtle gallery ambience bed."
+      }
+    ],
+    "experience": [
+      "Stage one orbitable relic as the dominant poster subject.",
+      "Use four selections to swap object, type, lighting, copy, and sound."
+    ],
+    "visualDirection": "Monochrome editorial with acid-lime accents, oversized type, and hard shadows."
+  },
+  "thumbnail": {
+    "src": "/experience-assets/neon-relic/social-card.webp",
+    "alt": "Aether humanoid displayed in the Neon Relic editorial gallery"
+  },
+  "social": {
+    "title": "Neon Relic",
+    "description": "Explore four sci-fi relics through a reactive fusion of 3D staging and experimental poster design.",
+    "image": {
+      "src": "/experience-assets/neon-relic/social-card.webp",
+      "alt": "Neon Relic interactive science-fiction poster gallery",
+      "width": 1200,
+      "height": 630,
+      "accent": "#C8FF00"
+    }
+  },
+  "runtime": {
+    "kind": "bundle",
+    "src": "/_experiences/neon-relic/index.html",
+    "title": "Neon Relic"
+  }
+}

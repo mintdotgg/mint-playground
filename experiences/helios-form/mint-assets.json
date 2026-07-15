@@ -1,0 +1,78 @@
+{
+  "registryVersion": 1,
+  "assetRoot": "public",
+  "delivery": "mint_cdn",
+  "assets": {
+    "vehicle-collection": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset_pack",
+        "assetType": "asset_pack",
+        "assetId": "th7eabwt8wwb4qskka942gk5q58aenws",
+        "mintUrl": "https://mint.gg/chat/ph731tk9v4m3ms7t4re2vj8khx8afvwe"
+      },
+      "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
+      "mode": "remote_url",
+      "artifacts": {
+        "asterion": { "artifactId": "ks7czwz5a55crj28kzxkzbab6d8af1ba", "role": "canonical_model", "format": "glb", "contentType": "model/gltf-binary", "runtimeUrl": "https://cdn.mint.gg/glb/asterion-interceptor-normalized-bdc5d443342e05eb.glb", "loaderHint": "gltf" },
+        "lumen": { "artifactId": "ks73272ssmyzxabxbx4c09q9v58ae1ne", "role": "canonical_model", "format": "glb", "contentType": "model/gltf-binary", "runtimeUrl": "https://cdn.mint.gg/glb/lumen-survey-drone-normalized-cae0c71f3e7c1c69.glb", "loaderHint": "gltf" },
+        "vesper": { "artifactId": "ks75dkd3zwnknhvjp34pjekf3d8afv5z", "role": "canonical_model", "format": "glb", "contentType": "model/gltf-binary", "runtimeUrl": "https://cdn.mint.gg/glb/vesper-courier-normalized-1f73880a61e0273b.glb", "loaderHint": "gltf" },
+        "kestrel": { "artifactId": "ks76sv5k249b5pr572py63z0jx8afwb2", "role": "canonical_model", "format": "glb", "contentType": "model/gltf-binary", "runtimeUrl": "https://cdn.mint.gg/glb/kestrel-skimmer-normalized-2020f9d491a3e96b.glb", "loaderHint": "gltf" },
+        "helix": { "artifactId": "ks78qsytwhs457686m5cdggtmn8afcab", "role": "canonical_model", "format": "glb", "contentType": "model/gltf-binary", "runtimeUrl": "https://cdn.mint.gg/glb/helix-vtol-normalized-4912d91bd16d1cc2.glb", "loaderHint": "gltf" },
+        "orison": { "artifactId": "ks782ce17g89qy486tccgch6e58ae738", "role": "canonical_model", "format": "glb", "contentType": "model/gltf-binary", "runtimeUrl": "https://cdn.mint.gg/glb/orison-explorer-normalized-d1a9615fc39aec00.glb", "loaderHint": "gltf" }
+      }
+    },
+    "selection-sound": {
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "audio", "assetId": "xd7114dcf5k49vvpzmz78nedc98aee4c", "mintUrl": "https://mint.gg/chat/ph732pqy6b5y15374wmk7escnh8aew2g" },
+      "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio": { "artifactId": "xd7114dcf5k49vvpzmz78nedc98aee4c", "role": "audio", "format": "mp3", "contentType": "audio/mpeg", "runtimeUrl": "https://cdn.mint.gg/audio/xd7114dcf5k49vvpzmz78nedc98aee4c/vehicle-selector-confirmation-313e06-0df4b3cba5753b57.mp3", "loaderHint": "audio" }
+      }
+    },
+    "showroom-ambience": {
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "audio", "assetId": "xd7ba9ks7jt8ca3dm2q75cb4es8afpmv", "mintUrl": "https://mint.gg/chat/ph7edk556j5njp3cepvqcztdph8aekq6" },
+      "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio": { "artifactId": "xd7ba9ks7jt8ca3dm2q75cb4es8afpmv", "role": "audio", "format": "mp3", "contentType": "audio/mpeg", "runtimeUrl": "https://cdn.mint.gg/audio/xd7ba9ks7jt8ca3dm2q75cb4es8afpmv/orbital-showroom-ambience-7c5100-082d953b02a18606.mp3", "loaderHint": "audio" }
+      }
+    },
+    "asterion-dossier": {
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "image", "assetId": "xn71vgq9am6mgpxtnn2c3x0y5s8afaxr", "mintUrl": "https://mint.gg/chat/ph7fw05tdsm2d03w03wq9asew58afm6p" },
+      "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
+      "mode": "remote_url",
+      "artifacts": { "image": { "artifactId": "xn71vgq9am6mgpxtnn2c3x0y5s8afaxr", "role": "reference_image", "format": "png", "contentType": "image/png", "runtimeUrl": "https://cdn.mint.gg/images/xn71vgq9am6mgpxtnn2c3x0y5s8afaxr/asterion-onboard-dossier-a35a63-b3a103319a2d29d5.png", "loaderHint": "image" } }
+    },
+    "lumen-dossier": {
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "image", "assetId": "xn79pt01ezv62rk5pttxyks5718afgdr", "mintUrl": "https://mint.gg/chat/ph7drj7xg729kpyp9bcyfyxmh18aftj7" },
+      "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
+      "mode": "remote_url",
+      "artifacts": { "image": { "artifactId": "xn79pt01ezv62rk5pttxyks5718afgdr", "role": "reference_image", "format": "png", "contentType": "image/png", "runtimeUrl": "https://cdn.mint.gg/images/xn79pt01ezv62rk5pttxyks5718afgdr/lumen-onboard-dossier-f5a5a9-8cde5f0be0fdc56a.png", "loaderHint": "image" } }
+    },
+    "vesper-dossier": {
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "image", "assetId": "xn7149qz58mq24xkv01bxecw3s8afzg6", "mintUrl": "https://mint.gg/chat/ph7c4q227y3858zze04r8yedp18aed8v" },
+      "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
+      "mode": "remote_url",
+      "artifacts": { "image": { "artifactId": "xn7149qz58mq24xkv01bxecw3s8afzg6", "role": "reference_image", "format": "png", "contentType": "image/png", "runtimeUrl": "https://cdn.mint.gg/images/xn7149qz58mq24xkv01bxecw3s8afzg6/vesper-onboard-dossier-aa2162-2f8c71d88e117dd4.png", "loaderHint": "image" } }
+    },
+    "kestrel-dossier": {
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "image", "assetId": "xn745j1vef5m248p4hcqwa7n8n8aeynn", "mintUrl": "https://mint.gg/chat/ph70d6r3r8m57k7pm96r0abb4x8afhny" },
+      "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
+      "mode": "remote_url",
+      "artifacts": { "image": { "artifactId": "xn745j1vef5m248p4hcqwa7n8n8aeynn", "role": "reference_image", "format": "png", "contentType": "image/png", "runtimeUrl": "https://cdn.mint.gg/images/xn745j1vef5m248p4hcqwa7n8n8aeynn/kestrel-onboard-dossier-64a269-a782e27c39caa764.png", "loaderHint": "image" } }
+    },
+    "helix-dossier": {
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "image", "assetId": "xn7daxg5bgy9dzqetq516sgp2h8afqg9", "mintUrl": "https://mint.gg/chat/ph75z9xc10a4pwyxfmwx3w50a18afjcf" },
+      "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
+      "mode": "remote_url",
+      "artifacts": { "image": { "artifactId": "xn7daxg5bgy9dzqetq516sgp2h8afqg9", "role": "reference_image", "format": "png", "contentType": "image/png", "runtimeUrl": "https://cdn.mint.gg/images/xn7daxg5bgy9dzqetq516sgp2h8afqg9/helix-onboard-dossier-6d1f82-8b1a10186493d73f.png", "loaderHint": "image" } }
+    },
+    "orison-dossier": {
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "image", "assetId": "xn795ab5zzdqz2jyjav6syw2dx8afctr", "mintUrl": "https://mint.gg/chat/ph76vaqjabdgqqw5k75apapd9s8afwd9" },
+      "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
+      "mode": "remote_url",
+      "artifacts": { "image": { "artifactId": "xn795ab5zzdqz2jyjav6syw2dx8afctr", "role": "reference_image", "format": "png", "contentType": "image/png", "runtimeUrl": "https://cdn.mint.gg/images/xn795ab5zzdqz2jyjav6syw2dx8afctr/orison-onboard-dossier-4fcac2-6041bcf8054dc8cb.png", "loaderHint": "image" } }
+    }
+  }
+}

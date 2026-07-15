@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#05070d" />
+    <meta
+      name="description"
+      content="Explore five impossible Gaussian-splat worlds through a cinematic thumbnail carousel."
+    />
+    <title>Impossible Places</title>
+  </head>
+  <body data-transitioning="true" data-cover="hidden">
+    <main id="app" aria-label="Impossible Places world explorer"></main>
+
+    <section id="magazine-cover" class="magazine-cover" aria-live="polite">
+      <header class="cover-topline cover-piece" style="--cover-delay: 40ms">
+        <p class="cover-brandline">FARFIELD <span>Interspatial travel review</span></p>
+        <p id="cover-issue" class="cover-issue"></p>
+      </header>
+
+      <p class="cover-masthead cover-piece" style="--cover-delay: 90ms" aria-hidden="true">
+        FARFIELD
+      </p>
+
+      <aside class="cover-feature cover-feature-primary cover-piece" style="--cover-delay: 180ms">
+        <p id="cover-lead-label" class="cover-label"></p>
+        <h2 id="cover-lead-title"></h2>
+        <p id="cover-lead-copy" class="cover-feature-copy"></p>
+        <div class="cover-story-viewport">
+          <div id="cover-story" class="cover-story-track"></div>
+        </div>
+      </aside>
+
+      <aside class="cover-feature cover-feature-secondary cover-piece" style="--cover-delay: 260ms">
+        <p id="cover-side-label" class="cover-label"></p>
+        <h3 id="cover-side-title"></h3>
+      </aside>
+
+      <div class="cover-folio cover-piece" style="--cover-delay: 320ms">
+        <span id="cover-folio"></span>
+        <i></i>
+        <span>05 DESTINATIONS</span>
+      </div>
+
+      <div class="cover-chapter cover-piece" style="--cover-delay: 380ms">
+        <p id="cover-chapter"></p>
+        <span>WEB / XR EDITION</span>
+      </div>
+
+      <p id="cover-footer" class="cover-footer cover-piece" style="--cover-delay: 440ms"></p>
+
+      <p id="cover-edge-left" class="cover-edge-note cover-edge-left cover-piece" style="--cover-delay: 470ms"></p>
+      <p id="cover-edge-right" class="cover-edge-note cover-edge-right cover-piece" style="--cover-delay: 510ms"></p>
+
+      <aside class="cover-next-issue cover-piece" style="--cover-delay: 540ms">
+        <p>Next issue <span>→</span></p>
+        <h4 id="cover-next-issue"></h4>
+        <small>FARFIELD / ADVANCE EDITION</small>
+      </aside>
+
+      <div class="cover-register cover-piece" style="--cover-delay: 570ms" aria-hidden="true">
+        <span>15</span><i></i><span>00</span><i></i><span>05</span>
+      </div>
+
+      <div class="cover-barcode cover-piece" style="--cover-delay: 600ms" aria-hidden="true">
+        <i></i>
+        <span>0 20890 00105 7</span>
+      </div>
+
+      <p class="cover-entry-hint cover-piece" style="--cover-delay: 640ms">
+        <b>Move to enter</b> <span>W A S D</span>
+      </p>
+    </section>
+
+    <section id="world-copy" class="world-copy" aria-live="polite">
+      <div class="world-kicker-row">
+        <p id="world-kicker" class="world-kicker"></p>
+        <p id="world-coordinate" class="world-coordinate"></p>
+      </div>
+      <h1 id="world-title"></h1>
+      <p id="world-description" class="world-description"></p>
+    </section>
+
+    <section id="world-status" class="world-status" aria-live="polite">
+      <span class="status-orbit" aria-hidden="true"></span>
+      <p id="world-status-label">Opening the first world…</p>
+      <button id="retry-button" class="quiet-button" type="button" hidden>Retry</button>
+    </section>
+
+    <nav id="world-carousel" class="world-carousel" aria-label="World destinations">
+      <div class="carousel-row">
+        <button id="previous-world" class="nav-button" type="button" aria-label="Previous world">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="m14.5 5-7 7 7 7" stroke="currentColor" stroke-width="1.5" />
+          </svg>
+        </button>
+        <div id="world-strip" class="world-strip"></div>
+        <button id="next-world" class="nav-button" type="button" aria-label="Next world">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="m9.5 5 7 7-7 7" stroke="currentColor" stroke-width="1.5" />
+          </svg>
+        </button>
+      </div>
+      <div class="carousel-footer">
+        <p class="carousel-hint"><span>← →</span> navigate <i></i> click a world</p>
+        <div id="world-controls" class="world-controls" aria-label="World controls">
+          <p><span>WASD</span> move</p>
+          <p><span>Shift</span> sprint</p>
+          <p><span>Drag</span> look</p>
+          <button id="tour-button" class="quiet-button" type="button">Start tour</button>
+          <button id="reset-button" class="quiet-button" type="button">Reset</button>
+        </div>
+      </div>
+    </nav>
+
+    <canvas id="splat-transition" class="splat-transition" aria-hidden="true"></canvas>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

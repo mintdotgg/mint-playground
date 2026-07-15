@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 2,
+  "order": 20,
+  "slug": "helios-form",
+  "title": "Helios Form",
+  "description": "A luminous orbital-vehicle showroom for inspecting six futuristic craft and their onboard systems.",
+  "status": "published",
+  "publishedAt": "2026-07-13",
+  "tags": ["Three.js", "Vehicles", "Showroom", "Audio"],
+  "prompt": {
+    "version": 1,
+    "objective": "Build a luminous systems showroom for selecting and inspecting six futuristic orbital vehicles.",
+    "mintAssets": [
+      {
+        "kind": "asset-pack",
+        "brief": "Six aircraft-style orbital vehicles with distinct roles and silhouettes in one cohesive asset pack."
+      },
+      {
+        "kind": "audio",
+        "brief": "A restrained aerospace ambience bed and one precise selection sound."
+      }
+    ],
+    "experience": [
+      "Orbit the selected craft in a bright inspection bay.",
+      "Sync a six-item selector, specifications, lighting, camera, and audio."
+    ],
+    "visualDirection": "White-and-ice-blue aerospace editorial UI with technical linework and soft reflections."
+  },
+  "thumbnail": {
+    "src": "/experience-assets/helios-form/social-card.webp",
+    "alt": "Asterion interceptor displayed in the Helios Form orbital showroom"
+  },
+  "social": {
+    "title": "Helios Form",
+    "description": "Inspect six futuristic orbital vehicles in a responsive, sound-rich systems showroom.",
+    "image": {
+      "src": "/experience-assets/helios-form/social-card.webp",
+      "alt": "Helios Form orbital vehicle showroom",
+      "width": 1200,
+      "height": 630,
+      "accent": "#31C7EC"
+    }
+  },
+  "runtime": {
+    "kind": "bundle",
+    "src": "/_experiences/helios-form/index.html",
+    "title": "Helios Form"
+  }
+}
