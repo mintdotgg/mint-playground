@@ -1,0 +1,11 @@
+{
+  "manifestVersion": 1,
+  "collection": "Dynasty Index",
+  "generatedWith": "Mint MCP",
+  "artifacts": [
+    { "label": "Collector Card Stand GLB", "role": "canonical_model", "loaderHint": "gltf", "path": "https://cdn.mint.gg/glb/collector-card-stand-normalized-32eac3bd3b87dbda.glb" },
+    { "label": "Protective Slab Detail Kit GLB", "role": "canonical_model", "loaderHint": "gltf", "path": "https://cdn.mint.gg/glb/protective-slab-detail-kit-normalized-4f789b501d433b49.glb" },
+    { "label": "Abstract Sports Memorabilia Cluster GLB", "role": "canonical_model", "loaderHint": "gltf", "path": "https://cdn.mint.gg/glb/abstract-sports-memorabilia-cluster-normalized-3707e8260f2d03fb.glb" },
+    { "label": "Vault Light Blade GLB", "role": "canonical_model", "loaderHint": "gltf", "path": "https://cdn.mint.gg/glb/vault-light-blade-normalized-dd9b3c6745ee0c0a.glb" }
+  ]
+}

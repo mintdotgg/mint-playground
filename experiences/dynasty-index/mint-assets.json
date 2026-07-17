@@ -1,0 +1,96 @@
+{
+  "registryVersion": 1,
+  "assetRoot": "public",
+  "delivery": "mint_cdn",
+  "assets": {
+    "vault-display-kit": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "asset_pack",
+        "assetId": "th78t2j8nz71630zaf8twtbs1n8agx8t"
+      },
+      "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
+      "mode": "remote_url",
+      "artifacts": {
+        "collector-stand": {
+          "artifactId": "asset_pack_item_glb:vd72wd56azfsammg4bn1ezrk258ah730:0:ks7axmjdmxx1gqn4pp9pb36t758age3v",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/collector-card-stand-normalized-32eac3bd3b87dbda.glb",
+          "loaderHint": "gltf"
+        },
+        "slab-detail-kit": {
+          "artifactId": "asset_pack_item_glb:vd72wd56azfsammg4bn1ezrk258ah730:2:ks77astkps5ygprmaz1fcs2hj58ahg16",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/protective-slab-detail-kit-normalized-4f789b501d433b49.glb",
+          "loaderHint": "gltf"
+        },
+        "memorabilia": {
+          "artifactId": "asset_pack_item_glb:vd72wd56azfsammg4bn1ezrk258ah730:3:ks7d1fztxsdy3wj50nskm35we18ahe3t",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/abstract-sports-memorabilia-cluster-normalized-3707e8260f2d03fb.glb",
+          "loaderHint": "gltf"
+        },
+        "light-blade": {
+          "artifactId": "asset_pack_item_glb:vd72wd56azfsammg4bn1ezrk258ah730:4:ks7c2svmxd95jr7kc8d44jstw98ah3hz",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/vault-light-blade-normalized-dd9b3c6745ee0c0a.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "basketball-art": {
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "image", "assetId": "xn7fxfx36ezz85jesan7q4eadd8ah4pj" },
+      "mode": "remote_url",
+      "artifacts": { "image": { "artifactId": "image_file", "role": "image", "format": "png", "contentType": "image/png", "runtimeUrl": "https://cdn.mint.gg/images/xn7fxfx36ezz85jesan7q4eadd8ah4pj/dynasty-index-01-basketball-phenom-art-58bd4c-fd1b238159d44806.png", "loaderHint": "image" } }
+    },
+    "football-art": {
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "image", "assetId": "xn78frhj5f9wd0rkaj6t69xsxh8agy50" },
+      "mode": "remote_url",
+      "artifacts": { "image": { "artifactId": "image_file", "role": "image", "format": "png", "contentType": "image/png", "runtimeUrl": "https://cdn.mint.gg/images/xn78frhj5f9wd0rkaj6t69xsxh8agy50/dynasty-index-02-quarterback-art-06bab6-ae69518118e0ac22.png", "loaderHint": "image" } }
+    },
+    "baseball-art": {
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "image", "assetId": "xn77tbfx6y3jzc9v9q2p9qf0en8agpyx" },
+      "mode": "remote_url",
+      "artifacts": { "image": { "artifactId": "image_file", "role": "image", "format": "png", "contentType": "image/png", "runtimeUrl": "https://cdn.mint.gg/images/xn77tbfx6y3jzc9v9q2p9qf0en8agpyx/dynasty-index-03-baseball-slugger-art-4394e5-b8e6ee9a017dd9c8.png", "loaderHint": "image" } }
+    },
+    "soccer-art": {
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "image", "assetId": "xn762crpc8jvx60scqt159fadx8agf40" },
+      "mode": "remote_url",
+      "artifacts": { "image": { "artifactId": "image_file", "role": "image", "format": "png", "contentType": "image/png", "runtimeUrl": "https://cdn.mint.gg/images/xn762crpc8jvx60scqt159fadx8agf40/dynasty-index-04-soccer-playmaker-art-acc92e-bd1dd90ecd034eae.png", "loaderHint": "image" } }
+    },
+    "hockey-art": {
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "image", "assetId": "xn75t395f0ve50hbrqzzy1338d8agv1a" },
+      "mode": "remote_url",
+      "artifacts": { "image": { "artifactId": "image_file", "role": "image", "format": "png", "contentType": "image/png", "runtimeUrl": "https://cdn.mint.gg/images/xn75t395f0ve50hbrqzzy1338d8agv1a/dynasty-index-05-hockey-goaltender-art-f9d1a1-4d0478aa47af4f68.png", "loaderHint": "image" } }
+    },
+    "track-art": {
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "image", "assetId": "xn77nn7m0n5n8mq7m1406mfars8agfph" },
+      "mode": "remote_url",
+      "artifacts": { "image": { "artifactId": "image_file", "role": "image", "format": "png", "contentType": "image/png", "runtimeUrl": "https://cdn.mint.gg/images/xn77nn7m0n5n8mq7m1406mfars8agfph/dynasty-index-06-track-champion-art-9b8849-d8a5fc3664f3a3ed.png", "loaderHint": "image" } }
+    },
+    "vault-ambience": {
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "audio", "assetId": "xd71spsm66tvd6bcqknzyzz4ph8ahek8" },
+      "mode": "remote_url",
+      "artifacts": { "audio": { "artifactId": "audio_file", "role": "audio", "format": "mp3", "contentType": "audio/mpeg", "runtimeUrl": "https://cdn.mint.gg/audio/xd71spsm66tvd6bcqknzyzz4ph8ahek8/dynasty-index-arena-vault-ambience-6f3b2a-e3f0e5052990cb58.mp3", "loaderHint": "audio" } }
+    },
+    "selection-sound": {
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "audio", "assetId": "xd7fbggyavddvewxtan92pxheh8ahy5s" },
+      "mode": "remote_url",
+      "artifacts": { "audio": { "artifactId": "audio_file", "role": "audio", "format": "mp3", "contentType": "audio/mpeg", "runtimeUrl": "https://cdn.mint.gg/audio/xd7fbggyavddvewxtan92pxheh8ahy5s/dynasty-index-card-selection-a4cb75-38886e4ae05d1a44.mp3", "loaderHint": "audio" } }
+    },
+    "foil-sound": {
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "audio", "assetId": "xd77e4ymzk1nty9670qek47g858agpqb" },
+      "mode": "remote_url",
+      "artifacts": { "audio": { "artifactId": "audio_file", "role": "audio", "format": "mp3", "contentType": "audio/mpeg", "runtimeUrl": "https://cdn.mint.gg/audio/xd77e4ymzk1nty9670qek47g858agpqb/dynasty-index-foil-shimmer-f7a4c0-acbc4454ab52bbb5.mp3", "loaderHint": "audio" } }
+    }
+  }
+}

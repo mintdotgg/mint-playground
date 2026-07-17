@@ -4,7 +4,7 @@
   "delivery": "mint_cdn",
   "assets": {
     "nyx-character": {
-      "source": { "manifestVersion": 1, "kind": "animation", "assetType": "model_animation_batch", "assetId": "w57170acwdh45gyhvt8t2q3b858aee82", "mintUrl": "https://mint.gg/chat/ph7dtpm671ye8f3kdyx4qkrccd8afbrj" },
+      "source": { "manifestVersion": 1, "kind": "animation", "assetType": "model_animation_batch", "assetId": "w57170acwdh45gyhvt8t2q3b858aee82" },
       "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
       "mode": "remote_url",
       "artifacts": {
@@ -13,7 +13,7 @@
       }
     },
     "morrow-character": {
-      "source": { "manifestVersion": 1, "kind": "animation", "assetType": "model_animation_batch", "assetId": "w57cq34gzf5am2tmg9kwz6ghk58afnxy", "mintUrl": "https://mint.gg/chat/ph7dtpm671ye8f3kdyx4qkrccd8afbrj" },
+      "source": { "manifestVersion": 1, "kind": "animation", "assetType": "model_animation_batch", "assetId": "w57cq34gzf5am2tmg9kwz6ghk58afnxy" },
       "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
       "mode": "remote_url",
       "artifacts": {
@@ -22,7 +22,7 @@
       }
     },
     "aegis-character": {
-      "source": { "manifestVersion": 1, "kind": "animation", "assetType": "model_animation_batch", "assetId": "w5784qjdw1sz20hc9yby1ws6e98ae5k4", "mintUrl": "https://mint.gg/chat/ph7dtpm671ye8f3kdyx4qkrccd8afbrj" },
+      "source": { "manifestVersion": 1, "kind": "animation", "assetType": "model_animation_batch", "assetId": "w5784qjdw1sz20hc9yby1ws6e98ae5k4" },
       "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
       "mode": "remote_url",
       "artifacts": {
@@ -31,7 +31,7 @@
       }
     },
     "vanta-character": {
-      "source": { "manifestVersion": 1, "kind": "animation", "assetType": "model_animation_batch", "assetId": "w571gb78wxa9346wtj6r6vb8gs8afj9d", "mintUrl": "https://mint.gg/chat/ph7dtpm671ye8f3kdyx4qkrccd8afbrj" },
+      "source": { "manifestVersion": 1, "kind": "animation", "assetType": "model_animation_batch", "assetId": "w571gb78wxa9346wtj6r6vb8gs8afj9d" },
       "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
       "mode": "remote_url",
       "artifacts": {
@@ -40,7 +40,7 @@
       }
     },
     "solara-character": {
-      "source": { "manifestVersion": 1, "kind": "animation", "assetType": "model_animation_batch", "assetId": "w57859r98xnmm5gbh3ydfwj16d8aedhz", "mintUrl": "https://mint.gg/chat/ph7dtpm671ye8f3kdyx4qkrccd8afbrj" },
+      "source": { "manifestVersion": 1, "kind": "animation", "assetType": "model_animation_batch", "assetId": "w57859r98xnmm5gbh3ydfwj16d8aedhz" },
       "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
       "mode": "remote_url",
       "artifacts": {
@@ -49,31 +49,31 @@
       }
     },
     "nyx-cache": {
-      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "image", "assetId": "gs7ggtzzcr4tentcqp1gzawr2d8af729", "mintUrl": "https://mint.gg/chat/qn774hf9zjat4d969a4xwvjs1n8afde2" },
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "image", "assetId": "gs7ggtzzcr4tentcqp1gzawr2d8af729" },
       "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
       "mode": "remote_url",
       "artifacts": { "image": { "artifactId": "gs7ggtzzcr4tentcqp1gzawr2d8af729", "role": "reference_image", "format": "png", "contentType": "image/png", "runtimeUrl": "https://cdn.mint.gg/images/gs7ggtzzcr4tentcqp1gzawr2d8af729/nyx-riftwalker-cache-d14340-1bdba6e5e471180c.png", "loaderHint": "image" } }
     },
     "morrow-cache": {
-      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "image", "assetId": "gs7xkjw42vg19r90nnmj105nms8ae42g", "mintUrl": "https://mint.gg/chat/qn734kn1v4mpppawa8mfwaf80s8afn4t" },
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "image", "assetId": "gs7xkjw42vg19r90nnmj105nms8ae42g" },
       "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
       "mode": "remote_url",
       "artifacts": { "image": { "artifactId": "gs7xkjw42vg19r90nnmj105nms8ae42g", "role": "reference_image", "format": "png", "contentType": "image/png", "runtimeUrl": "https://cdn.mint.gg/images/gs7xkjw42vg19r90nnmj105nms8ae42g/morrow-outbreak-cache-3a9c0b-447dbfde139d309e.png", "loaderHint": "image" } }
     },
     "aegis-cache": {
-      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "image", "assetId": "gs7xw7qtwvbfewvyhwh1n5kwj58afn0j", "mintUrl": "https://mint.gg/chat/qn743eadf6zsxw7agkwyajwkvd8ae57t" },
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "image", "assetId": "gs7xw7qtwvbfewvyhwh1n5kwj58afn0j" },
       "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
       "mode": "remote_url",
       "artifacts": { "image": { "artifactId": "gs7xw7qtwvbfewvyhwh1n5kwj58afn0j", "role": "reference_image", "format": "png", "contentType": "image/png", "runtimeUrl": "https://cdn.mint.gg/images/gs7xw7qtwvbfewvyhwh1n5kwj58afn0j/aegis-vanguard-cache-ce42bb-0848c4b83bf6ddcd.png", "loaderHint": "image" } }
     },
     "vanta-cache": {
-      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "image", "assetId": "gs7gkk05w1vmgr63713p8y0g598afzc2", "mintUrl": "https://mint.gg/chat/qn73a85rqg85hhnnnz7y6mxwkh8afeg2" },
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "image", "assetId": "gs7gkk05w1vmgr63713p8y0g598afzc2" },
       "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
       "mode": "remote_url",
       "artifacts": { "image": { "artifactId": "gs7gkk05w1vmgr63713p8y0g598afzc2", "role": "reference_image", "format": "png", "contentType": "image/png", "runtimeUrl": "https://cdn.mint.gg/images/gs7gkk05w1vmgr63713p8y0g598afzc2/vanta-void-cache-2cf781-7b096450755737dd.png", "loaderHint": "image" } }
     },
     "solara-cache": {
-      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "image", "assetId": "gs7nbk80vpht91m0fzc2b150dn8ae983", "mintUrl": "https://mint.gg/chat/qn70c1xa5sbcnp8rxdxwbkpdh98aej2" },
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "image", "assetId": "gs7nbk80vpht91m0fzc2b150dn8ae983" },
       "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
       "mode": "remote_url",
       "artifacts": { "image": { "artifactId": "gs7nbk80vpht91m0fzc2b150dn8ae983", "role": "reference_image", "format": "png", "contentType": "image/png", "runtimeUrl": "https://cdn.mint.gg/images/gs7nbk80vpht91m0fzc2b150dn8ae983/solara-dawn-cache-44d6d2-aebfe59b90da6f0b.png", "loaderHint": "image" } }

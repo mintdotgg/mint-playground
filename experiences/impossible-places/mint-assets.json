@@ -4,7 +4,7 @@
   "delivery": "mint_cdn",
   "assets": {
     "celestial-world": {
-      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "world", "assetId": "j977x22ypgh1dxd9ghywp66aqx8aecgg", "mintUrl": "https://mint.gg/chat/ph7ebxwxbxgxvag7qt20bg56c58afkk2" },
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "world", "assetId": "j977x22ypgh1dxd9ghywp66aqx8aecgg" },
       "transform": { "position": [0, 1.5, 0], "rotation": [3.141592653589793, 3.141592653589793, 0], "scale": [2.5, 2.5, 2.5] },
       "mode": "remote_stream",
       "artifacts": {
@@ -13,7 +13,7 @@
       }
     },
     "stepwell-world": {
-      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "world", "assetId": "j9747v887chpq0p2zvs5vzhcmx8aeenn", "mintUrl": "https://mint.gg/chat/ph71254jpys7crktj41z55x3nn8afp7q" },
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "world", "assetId": "j9747v887chpq0p2zvs5vzhcmx8aeenn" },
       "transform": { "position": [0, 1.5, 0], "rotation": [3.141592653589793, 3.141592653589793, 0], "scale": [2.5, 2.5, 2.5] },
       "mode": "remote_stream",
       "artifacts": {
@@ -22,7 +22,7 @@
       }
     },
     "conservatory-world": {
-      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "world", "assetId": "j971vbeyxw70b95r72pdhv01fh8ae0ja", "mintUrl": "https://mint.gg/chat/ph7ffe0vgzyqg8m93k7y6ah12x8af6j9" },
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "world", "assetId": "j971vbeyxw70b95r72pdhv01fh8ae0ja" },
       "transform": { "position": [0, 1.5, 0], "rotation": [3.141592653589793, 3.141592653589793, 0], "scale": [2.5, 2.5, 2.5] },
       "mode": "remote_stream",
       "artifacts": {
@@ -31,7 +31,7 @@
       }
     },
     "oceanliner-world": {
-      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "world", "assetId": "j972e01v8bxep4ztvz4dqz465n8af7hk", "mintUrl": "https://mint.gg/chat/ph7btycgy8jjk3sb96ma6sc7yn8aebkc" },
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "world", "assetId": "j972e01v8bxep4ztvz4dqz465n8af7hk" },
       "transform": { "position": [0, 1.5, 0], "rotation": [3.141592653589793, 3.141592653589793, 0], "scale": [2.5, 2.5, 2.5] },
       "mode": "remote_stream",
       "artifacts": {
@@ -40,7 +40,7 @@
       }
     },
     "forge-world": {
-      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "world", "assetId": "j979wh2d5cmk2vg7g8s53fd8418af2mh", "mintUrl": "https://mint.gg/chat/ph7526nez8yxy99rax5ft1nzq58af8dn" },
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "world", "assetId": "j979wh2d5cmk2vg7g8s53fd8418af2mh" },
       "transform": { "position": [0, 1.5, 0], "rotation": [3.141592653589793, 3.141592653589793, 0], "scale": [2.5, 2.5, 2.5] },
       "mode": "remote_stream",
       "artifacts": {
@@ -49,31 +49,31 @@
       }
     },
     "celestial-thumbnail": {
-      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "image", "assetId": "xn7c44t3k1e1h8sp6wdx8fexch8afmwr", "mintUrl": "https://mint.gg/chat/ph74ygc96emgf13ew183ch77xx8aesv1" },
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "image", "assetId": "xn7c44t3k1e1h8sp6wdx8fexch8afmwr" },
       "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
       "mode": "remote_url",
       "artifacts": { "image": { "artifactId": "xn7c44t3k1e1h8sp6wdx8fexch8afmwr", "role": "reference_image", "format": "png", "contentType": "image/png", "runtimeUrl": "https://cdn.mint.gg/images/xn7c44t3k1e1h8sp6wdx8fexch8afmwr/celestial-observatory-palace-atlas-thumbnail-79ac47-5cbf4118b6bbf684.png", "loaderHint": "image" } }
     },
     "stepwell-thumbnail": {
-      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "image", "assetId": "xn729nqc7ja343z22wpcxsd0es8ae5wp", "mintUrl": "https://mint.gg/chat/ph7eq1x2q6d17799ekkzy6xvcd8afk0t" },
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "image", "assetId": "xn729nqc7ja343z22wpcxsd0es8ae5wp" },
       "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
       "mode": "remote_url",
       "artifacts": { "image": { "artifactId": "xn729nqc7ja343z22wpcxsd0es8ae5wp", "role": "reference_image", "format": "png", "contentType": "image/png", "runtimeUrl": "https://cdn.mint.gg/images/xn729nqc7ja343z22wpcxsd0es8ae5wp/palace-of-the-infinite-stepwell-atlas-thumbnail-876567-f152fd689961ec2a.png", "loaderHint": "image" } }
     },
     "conservatory-thumbnail": {
-      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "image", "assetId": "xn7dmvh9gjd0dr392geghn78px8aff4j", "mintUrl": "https://mint.gg/chat/ph744tmdw1srqfzr9f14w7ksv18af4cg" },
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "image", "assetId": "xn7dmvh9gjd0dr392geghn78px8aff4j" },
       "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
       "mode": "remote_url",
       "artifacts": { "image": { "artifactId": "xn7dmvh9gjd0dr392geghn78px8aff4j", "role": "reference_image", "format": "png", "contentType": "image/png", "runtimeUrl": "https://cdn.mint.gg/images/xn7dmvh9gjd0dr392geghn78px8aff4j/art-nouveau-cloud-conservatory-atlas-thumbnail-1696ef-2be5156e60d8b6fe.png", "loaderHint": "image" } }
     },
     "oceanliner-thumbnail": {
-      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "image", "assetId": "xn76g9f1kv821c0j1evt35ygws8af864", "mintUrl": "https://mint.gg/chat/ph79ca9vkhhhdf4b04xzdpfe7s8af1qk" },
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "image", "assetId": "xn76g9f1kv821c0j1evt35ygws8af864" },
       "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
       "mode": "remote_url",
       "artifacts": { "image": { "artifactId": "xn76g9f1kv821c0j1evt35ygws8af864", "role": "reference_image", "format": "png", "contentType": "image/png", "runtimeUrl": "https://cdn.mint.gg/images/xn76g9f1kv821c0j1evt35ygws8af864/midnight-art-deco-ocean-liner-atlas-thumbnail-756bbe-b03cb5abdab870c0.png", "loaderHint": "image" } }
     },
     "forge-thumbnail": {
-      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "image", "assetId": "xn7b8bnpk3hc8v7ytsgk5v31c58af2dd", "mintUrl": "https://mint.gg/chat/ph76wp5gt5pkf2gz04dmjyk95n8ae0jy" },
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "image", "assetId": "xn7b8bnpk3hc8v7ytsgk5v31c58af2dd" },
       "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
       "mode": "remote_url",
       "artifacts": { "image": { "artifactId": "xn7b8bnpk3hc8v7ytsgk5v31c58af2dd", "role": "reference_image", "format": "png", "contentType": "image/png", "runtimeUrl": "https://cdn.mint.gg/images/xn7b8bnpk3hc8v7ytsgk5v31c58af2dd/volcanic-cathedral-forge-atlas-thumbnail-b1a12d-96fdb0a3ec2de1cd.png", "loaderHint": "image" } }

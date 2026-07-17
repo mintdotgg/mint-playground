@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#101812" />
+    <meta name="description" content="Mossbound — a first-person enchanted-grove melee game." />
+    <title>Mossbound</title>
+  </head>
+  <body>
+    <main id="app">
+      <canvas id="game-canvas" tabindex="0" aria-label="Mossbound first-person game canvas"></canvas>
+
+      <div id="damage-vignette" aria-hidden="true"></div>
+      <div id="sprint-vignette" aria-hidden="true"></div>
+      <div id="impact-flash" aria-hidden="true"></div>
+      <div id="reticle" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+
+      <section id="hud" aria-live="polite" aria-label="Game status">
+        <div class="vitals-cluster">
+          <div class="meter-row danger">
+            <span class="meter-label">HP</span>
+            <div class="meter-shell"><div id="health-fill" class="meter-fill"></div></div>
+            <strong id="health-value">100/100</strong>
+          </div>
+          <div class="meter-row spirit">
+            <span class="meter-label">XP</span>
+            <div class="meter-shell"><div id="xp-fill" class="meter-fill"></div></div>
+            <strong id="xp-value">0/40</strong>
+          </div>
+          <div class="meter-row stamina">
+            <span class="meter-label">STAMINA</span>
+            <div class="meter-shell"><div id="stamina-fill" class="meter-fill"></div></div>
+            <strong id="stamina-value">100/100</strong>
+          </div>
+        </div>
+
+        <div class="encounter-cluster">
+          <div id="wave-label">GROVE I · WAVE 1</div>
+          <div id="boss-meter" class="boss-meter hidden">
+            <div class="boss-row"><strong id="boss-name">THORNHEART</strong><span id="boss-value">0/0</span></div>
+            <div class="boss-shell"><div id="boss-fill"></div></div>
+          </div>
+        </div>
+
+        <div class="currency-cluster">
+          <div class="currency-total">
+            <span class="coin-glyph">◆</span>
+            <strong id="coin-value">0</strong>
+          </div>
+          <div id="explosive-status" class="explosive-status">
+            <kbd>E</kbd>
+            <span>GROVE BLAST</span>
+            <strong id="explosive-cost">12 ◆</strong>
+          </div>
+        </div>
+
+        <div id="objective-line">Awaken the grove</div>
+        <div id="combo-line" class="hidden">BLADE CHAIN ×<span id="combo-value">1</span></div>
+        <div id="event-banner" class="hidden">WAVE CLEARED</div>
+        <div id="combat-floaters" aria-hidden="true"></div>
+
+        <aside class="tactical-cluster" aria-label="Tactical information">
+          <div class="weapon-slot">
+            <div class="weapon-strip-copy">
+              <span class="weapon-mark" aria-hidden="true">╱</span>
+              <strong>RUNE IRON</strong>
+              <span id="level-value">LV 1</span>
+            </div>
+            <div class="weapon-level-track" aria-hidden="true"><i id="weapon-level-fill"></i></div>
+          </div>
+
+          <div class="minimap-panel">
+            <div class="minimap-heading">
+              <strong id="minimap-level">GROVE I · WAVE 1/5</strong>
+              <span id="minimap-count">0 HOSTILES</span>
+            </div>
+            <canvas
+              id="minimap-canvas"
+              width="192"
+              height="192"
+              role="img"
+              aria-label="Tactical map of the grove"
+            ></canvas>
+            <div class="minimap-legend" aria-hidden="true">
+              <span><i class="legend-player"></i>YOU</span>
+              <span><i class="legend-enemy"></i>ENEMY</span>
+            </div>
+          </div>
+
+        </aside>
+      </section>
+
+      <section id="loading-screen" class="modal-screen active" aria-live="polite">
+        <div class="modal-card loading-card">
+          <div class="sigil" aria-hidden="true">✦</div>
+          <p class="eyebrow">ENTERING THE OLD GROVE</p>
+          <h1>MOSSBOUND</h1>
+          <p id="loading-status">Preparing the grove…</p>
+          <div class="loading-track"><div id="loading-fill"></div></div>
+          <p id="loading-detail" class="fineprint">Loading Mint-crafted models and sounds</p>
+        </div>
+      </section>
+
+      <section id="intro-screen" class="modal-screen" aria-labelledby="game-title">
+        <div class="modal-card hero-card">
+          <div class="intro-border" aria-hidden="true">
+            <img class="intro-token intro-creature token-sproutling" src="https://cdn.mint.gg/images/models/sproutling-5aba4f558714c7e5.webp" alt="" decoding="async" />
+            <img class="intro-token intro-creature token-sporecap" src="https://cdn.mint.gg/images/models/sporecap-f70601fd6c048f55.webp" alt="" decoding="async" />
+            <img class="intro-token intro-creature token-moonhare" src="https://cdn.mint.gg/images/models/moonhare-4113b83d1012bcb4.webp" alt="" decoding="async" />
+            <img class="intro-token intro-creature token-thornheart" src="https://cdn.mint.gg/images/models/thornheart-63fd0b552b043d16.webp" alt="" decoding="async" />
+            <img class="intro-token intro-reward token-coin" src="https://cdn.mint.gg/images/models/golden-sap-coin-0a7f6ec82cfe66a0.webp" alt="" decoding="async" />
+            <img class="intro-token intro-reward token-spirit" src="https://cdn.mint.gg/images/models/spirit-mote-crystal-14a4b366bbb8f483.webp" alt="" decoding="async" />
+            <img class="intro-token intro-reward token-heal" src="https://cdn.mint.gg/images/models/healing-bloom-f51731cbc3e4470e.webp" alt="" decoding="async" />
+            <img class="intro-token intro-reward token-stamina" src="https://cdn.mint.gg/images/models/stamina-leaf-charm-4f4016920c760a23.webp" alt="" decoding="async" />
+          </div>
+          <p class="eyebrow">THE GROVE REMEMBERS EVERY BLADE</p>
+          <h1 id="game-title">MOSSBOUND</h1>
+          <p class="hero-copy">Cut through a corrupted woodland ritual. Read the tells, protect your stamina, and break the Thornheart.</p>
+          <div class="control-ribbon" aria-label="Controls">
+            <span><kbd>WASD</kbd> Move</span>
+            <span><kbd>MOUSE</kbd> Look</span>
+            <span><kbd>LMB</kbd> Slash</span>
+            <span><kbd>RMB</kbd> Guard</span>
+            <span><kbd>SHIFT</kbd> Sprint</span>
+            <span><kbd>E</kbd> Grove Blast</span>
+          </div>
+          <button id="start-button" class="primary-button" type="button">ENTER THE GROVE</button>
+          <p class="fineprint">Headphones recommended · press Esc to pause</p>
+        </div>
+      </section>
+
+      <section id="pause-screen" class="modal-screen" aria-labelledby="pause-title">
+        <div class="modal-card compact-card scene-card pause-card">
+          <div class="menu-border" aria-hidden="true">
+            <img class="menu-token menu-creature menu-tl" src="https://cdn.mint.gg/images/models/sproutling-5aba4f558714c7e5.webp" alt="" decoding="async" />
+            <img class="menu-token menu-creature menu-tr" src="https://cdn.mint.gg/images/models/sporecap-f70601fd6c048f55.webp" alt="" decoding="async" />
+            <img class="menu-token menu-reward menu-ml" src="https://cdn.mint.gg/images/models/golden-sap-coin-0a7f6ec82cfe66a0.webp" alt="" decoding="async" />
+            <img class="menu-token menu-reward menu-mr" src="https://cdn.mint.gg/images/models/spirit-mote-crystal-14a4b366bbb8f483.webp" alt="" decoding="async" />
+            <img class="menu-token menu-creature menu-bl" src="https://cdn.mint.gg/images/models/moonhare-4113b83d1012bcb4.webp" alt="" decoding="async" />
+            <img class="menu-token menu-reward menu-br" src="https://cdn.mint.gg/images/models/stamina-leaf-charm-4f4016920c760a23.webp" alt="" decoding="async" />
+          </div>
+          <p class="eyebrow">THE GROVE HOLDS ITS BREATH</p>
+          <h2 id="pause-title">PAUSED</h2>
+          <button id="resume-button" class="primary-button" type="button">RESUME</button>
+          <button id="restart-pause-button" class="secondary-button" type="button">RESTART RUN</button>
+          <button id="mute-button" class="secondary-button" type="button">SOUND: ON</button>
+          <p class="fineprint">Press Esc again to resume</p>
+        </div>
+      </section>
+
+      <section id="upgrade-screen" class="boon-tray" aria-labelledby="upgrade-title" aria-live="polite">
+        <div class="boon-strip">
+          <div class="boon-heading">
+            <strong id="upgrade-title">BOON READY</strong>
+            <span><kbd>1–3</kbd> SELECT · AUTO <b id="upgrade-countdown">5.0</b>s</span>
+          </div>
+          <div id="upgrade-options" class="upgrade-options"></div>
+          <div class="boon-timer" aria-hidden="true"><i id="upgrade-timer-fill"></i></div>
+        </div>
+      </section>
+
+      <section id="end-screen" class="modal-screen" aria-labelledby="end-title">
+        <div class="modal-card compact-card scene-card end-card">
+          <div class="menu-border" aria-hidden="true">
+            <img class="menu-token menu-creature menu-tl" src="https://cdn.mint.gg/images/models/sproutling-5aba4f558714c7e5.webp" alt="" decoding="async" />
+            <img class="menu-token menu-creature menu-boss menu-tr" src="https://cdn.mint.gg/images/models/thornheart-63fd0b552b043d16.webp" alt="" decoding="async" />
+            <img class="menu-token menu-reward menu-ml" src="https://cdn.mint.gg/images/models/healing-bloom-f51731cbc3e4470e.webp" alt="" decoding="async" />
+            <img class="menu-token menu-reward menu-mr" src="https://cdn.mint.gg/images/models/stamina-leaf-charm-4f4016920c760a23.webp" alt="" decoding="async" />
+            <img class="menu-token menu-creature menu-bl" src="https://cdn.mint.gg/images/models/moonhare-4113b83d1012bcb4.webp" alt="" decoding="async" />
+            <img class="menu-token menu-reward menu-br" src="https://cdn.mint.gg/images/models/golden-sap-coin-0a7f6ec82cfe66a0.webp" alt="" decoding="async" />
+          </div>
+          <p id="end-eyebrow" class="eyebrow">THE THORNS CLOSE IN</p>
+          <h2 id="end-title">RUN ENDED</h2>
+          <p id="end-summary"></p>
+          <div class="end-score" aria-label="Final grove score">
+            <span>GROVE SCORE</span>
+            <strong id="end-score">0</strong>
+          </div>
+          <div class="end-coin-total">
+            <span class="end-coin-glyph" aria-hidden="true">◆</span>
+            <span class="end-coin-copy">COINS GATHERED <strong id="end-coins">0</strong></span>
+          </div>
+          <div class="run-secondary" aria-label="Run details">
+            <span>WAVE REACHED <strong id="end-wave">1</strong></span>
+            <i aria-hidden="true"></i>
+            <span>RUN TIME <strong id="end-time">00:00</strong></span>
+          </div>
+          <button id="retry-button" class="primary-button" type="button">RETURN TO THE GROVE</button>
+        </div>
+      </section>
+
+      <div id="touch-controls" aria-label="Touch game controls">
+        <div id="touch-stick" class="touch-stick"><div id="touch-knob"></div></div>
+        <div class="touch-actions">
+          <button id="guard-button" type="button">GUARD</button>
+          <button id="sprint-button" type="button">RUN</button>
+          <button id="blast-button" class="blast-button" type="button">BLAST<small id="blast-cost">12◆</small></button>
+          <button id="slash-button" class="slash-button" type="button">SLASH</button>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

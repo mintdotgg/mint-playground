@@ -1,0 +1,860 @@
+{
+  "registryVersion": 1,
+  "assetRoot": "public",
+  "delivery": "mint_cdn",
+  "assets": {
+    "tropical-battle-kit": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "asset_pack",
+        "assetId": "th7ee5xn1srw0tzs929hcwqy5x8aj0e7"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "ocean-arena-normalized": {
+          "artifactId": "glb/ocean-arena-normalized-80242a1b9f8d268b.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/ocean-arena-normalized-80242a1b9f8d268b.glb",
+          "loaderHint": "gltf"
+        },
+        "rival-raft-normalized": {
+          "artifactId": "glb/rival-raft-normalized-f5643472d1e40e67.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/rival-raft-normalized-f5643472d1e40e67.glb",
+          "loaderHint": "gltf"
+        },
+        "sunny-sandbar-normalized": {
+          "artifactId": "glb/sunny-sandbar-normalized-154d8f8dd6eb90de.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/sunny-sandbar-normalized-154d8f8dd6eb90de.glb",
+          "loaderHint": "gltf"
+        },
+        "volcanic-islet-normalized": {
+          "artifactId": "glb/volcanic-islet-normalized-be81727c5080a0ef.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/volcanic-islet-normalized-be81727c5080a0ef.glb",
+          "loaderHint": "gltf"
+        },
+        "driftwood-barricade-normalized": {
+          "artifactId": "glb/driftwood-barricade-normalized-284b656eddde2375.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/driftwood-barricade-normalized-284b656eddde2375.glb",
+          "loaderHint": "gltf"
+        },
+        "coral-cover-normalized": {
+          "artifactId": "glb/coral-cover-normalized-3d9806ab091944d4.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/coral-cover-normalized-3d9806ab091944d4.glb",
+          "loaderHint": "gltf"
+        },
+        "treasure-chest-normalized": {
+          "artifactId": "glb/treasure-chest-normalized-9314d02a14b0b65d.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/treasure-chest-normalized-9314d02a14b0b65d.glb",
+          "loaderHint": "gltf"
+        },
+        "coconut-ball-normalized": {
+          "artifactId": "glb/coconut-ball-normalized-d3a30cb989e99974.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/coconut-ball-normalized-d3a30cb989e99974.glb",
+          "loaderHint": "gltf"
+        },
+        "pineapple-bomb-normalized": {
+          "artifactId": "glb/pineapple-bomb-normalized-3382ef0682e91ecf.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/pineapple-bomb-normalized-3382ef0682e91ecf.glb",
+          "loaderHint": "gltf"
+        },
+        "pebble-volley-normalized": {
+          "artifactId": "glb/pebble-volley-normalized-44a3a982e1bda884.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/pebble-volley-normalized-44a3a982e1bda884.glb",
+          "loaderHint": "gltf"
+        },
+        "golden-shell-coin-normalized": {
+          "artifactId": "glb/golden-shell-coin-normalized-c5024335e4bccb83.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/golden-shell-coin-normalized-c5024335e4bccb83.glb",
+          "loaderHint": "gltf"
+        },
+        "bonus-buoy-normalized": {
+          "artifactId": "glb/bonus-buoy-normalized-d189880efd76b51e.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/bonus-buoy-normalized-d189880efd76b51e.glb",
+          "loaderHint": "gltf"
+        },
+        "aim-marker-normalized": {
+          "artifactId": "glb/aim-marker-normalized-a16535892e858fe0.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/aim-marker-normalized-a16535892e858fe0.glb",
+          "loaderHint": "gltf"
+        },
+        "splash-crown-normalized": {
+          "artifactId": "glb/splash-crown-normalized-7068ea923f4fb834.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/splash-crown-normalized-7068ea923f4fb834.glb",
+          "loaderHint": "gltf"
+        },
+        "impact-burst-normalized": {
+          "artifactId": "glb/impact-burst-normalized-a40818f0f9702414.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/impact-burst-normalized-a40818f0f9702414.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "beach-horizon-kit": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "asset_pack",
+        "assetId": "th7ffvqdx3ndqmq4bs8n7rg2b18ak3nb"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "sunlit-dune-beach-horizon-normalized": {
+          "artifactId": "glb/sunlit-dune-beach-horizon-normalized-287c6d59086ebe12.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/sunlit-dune-beach-horizon-normalized-287c6d59086ebe12.glb",
+          "loaderHint": "gltf"
+        },
+        "left-puffy-cloud-bank-normalized": {
+          "artifactId": "glb/left-puffy-cloud-bank-normalized-b8f6219a86668cfb.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/left-puffy-cloud-bank-normalized-b8f6219a86668cfb.glb",
+          "loaderHint": "gltf"
+        },
+        "center-wispy-cloud-bank-normalized": {
+          "artifactId": "glb/center-wispy-cloud-bank-normalized-7dded93fa4225b16.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/center-wispy-cloud-bank-normalized-7dded93fa4225b16.glb",
+          "loaderHint": "gltf"
+        },
+        "right-puffy-cloud-bank-normalized": {
+          "artifactId": "glb/right-puffy-cloud-bank-normalized-2d0dadb434540720.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/right-puffy-cloud-bank-normalized-2d0dadb434540720.glb",
+          "loaderHint": "gltf"
+        },
+        "coral-cove-sand-islet-normalized": {
+          "artifactId": "glb/coral-cove-sand-islet-normalized-129d61fd8611574b.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/coral-cove-sand-islet-normalized-129d61fd8611574b.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "hero-inner-tubes": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "asset_pack",
+        "assetId": "th72razqkvcpmygb4hn2d46xq58akab6"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "sunburst-inner-tube-normalized": {
+          "artifactId": "glb/sunburst-inner-tube-normalized-6ec0235a90fa9c11.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/sunburst-inner-tube-normalized-6ec0235a90fa9c11.glb",
+          "loaderHint": "gltf"
+        },
+        "coral-wave-inner-tube-normalized": {
+          "artifactId": "glb/coral-wave-inner-tube-normalized-f6122fb9fb2ad6a3.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/coral-wave-inner-tube-normalized-f6122fb9fb2ad6a3.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "water-blasters": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "asset_pack",
+        "assetId": "th78tpdyhan0zaa858bsxjcc7x8ajsga"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "tide-team-water-blaster-normalized": {
+          "artifactId": "glb/tide-team-water-blaster-normalized-139783f5a9eb0403.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/tide-team-water-blaster-normalized-139783f5a9eb0403.glb",
+          "loaderHint": "gltf"
+        },
+        "reef-rival-water-blaster-normalized": {
+          "artifactId": "glb/reef-rival-water-blaster-normalized-12bf4ec235cacf27.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/reef-rival-water-blaster-normalized-12bf4ec235cacf27.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "tropical-water-material": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "material",
+        "assetId": "w1733e3ah39a0emtgg3cap38rs8aj7dv"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "reef-rivals-tropical-ripple-water-basecolor-f66322": {
+          "artifactId": "materials/w1733e3ah39a0emtgg3cap38rs8aj7dv/reef-rivals-tropical-ripple-water-basecolor-f66322-730de75f87d02502.png",
+          "role": "image",
+          "format": "png",
+          "contentType": "image/png",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w1733e3ah39a0emtgg3cap38rs8aj7dv/reef-rivals-tropical-ripple-water-basecolor-f66322-730de75f87d02502.png",
+          "loaderHint": "image"
+        },
+        "reef-rivals-tropical-ripple-water-normal-00741c": {
+          "artifactId": "materials/w1733e3ah39a0emtgg3cap38rs8aj7dv/reef-rivals-tropical-ripple-water-normal-00741c-1564dadd0bab4073.png",
+          "role": "image",
+          "format": "png",
+          "contentType": "image/png",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w1733e3ah39a0emtgg3cap38rs8aj7dv/reef-rivals-tropical-ripple-water-normal-00741c-1564dadd0bab4073.png",
+          "loaderHint": "image"
+        },
+        "reef-rivals-tropical-ripple-water-roughness-a9ccbc": {
+          "artifactId": "materials/w1733e3ah39a0emtgg3cap38rs8aj7dv/reef-rivals-tropical-ripple-water-roughness-a9ccbc-f6ae896badaefffe.png",
+          "role": "image",
+          "format": "png",
+          "contentType": "image/png",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w1733e3ah39a0emtgg3cap38rs8aj7dv/reef-rivals-tropical-ripple-water-roughness-a9ccbc-f6ae896badaefffe.png",
+          "loaderHint": "image"
+        }
+      }
+    },
+    "kai-character-and-animations": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "animation",
+        "assetType": "model_animation_batch",
+        "assetId": "w5760wwf5sgwnd1attsyc1zpb18ak1f6"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "kai-tide-b18ak1f6-rigged-glb": {
+          "artifactId": "glb/kai-tide-b18ak1f6-rigged-glb-8f00396b485b1ae7.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/kai-tide-b18ak1f6-rigged-glb-8f00396b485b1ae7.glb",
+          "loaderHint": "gltf"
+        },
+        "idle-398ajbbt-glb": {
+          "artifactId": "glb/idle-398ajbbt-glb-f5dc05dede9625ed.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/idle-398ajbbt-glb-f5dc05dede9625ed.glb",
+          "loaderHint": "gltf"
+        },
+        "female-crouch-pick-throw-forward-5d8ajcns-glb": {
+          "artifactId": "glb/female-crouch-pick-throw-forward-5d8ajcns-glb-dc755afa72bd2c63.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/female-crouch-pick-throw-forward-5d8ajcns-glb-dc755afa72bd2c63.glb",
+          "loaderHint": "gltf"
+        },
+        "hit-reaction-1-e18ajxj1-glb": {
+          "artifactId": "glb/hit-reaction-1-e18ajxj1-glb-3e7625bb4d8c9a6a.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/hit-reaction-1-e18ajxj1-glb-3e7625bb4d8c9a6a.glb",
+          "loaderHint": "gltf"
+        },
+        "shot-and-fall-backward-fn8ajm3d-glb": {
+          "artifactId": "glb/shot-and-fall-backward-fn8ajm3d-glb-c62352129cbb354a.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/shot-and-fall-backward-fn8ajm3d-glb-c62352129cbb354a.glb",
+          "loaderHint": "gltf"
+        },
+        "victory-cheer-z18ak4ax-glb": {
+          "artifactId": "glb/victory-cheer-z18ak4ax-glb-75018b289ad90bda.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/victory-cheer-z18ak4ax-glb-75018b289ad90bda.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "nia-character-and-animations": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "animation",
+        "assetType": "model_animation_batch",
+        "assetId": "w57bqyjt721cnf33mxnpn8nn218akfeb"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "nia-tide-218akfeb-rigged-glb": {
+          "artifactId": "glb/nia-tide-218akfeb-rigged-glb-e826e4647e7e4e70.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/nia-tide-218akfeb-rigged-glb-e826e4647e7e4e70.glb",
+          "loaderHint": "gltf"
+        },
+        "idle-fs8akt2g-glb": {
+          "artifactId": "glb/idle-fs8akt2g-glb-9338809063cf8d0b.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/idle-fs8akt2g-glb-9338809063cf8d0b.glb",
+          "loaderHint": "gltf"
+        },
+        "female-crouch-pick-throw-forward-9d8akdd3-glb": {
+          "artifactId": "glb/female-crouch-pick-throw-forward-9d8akdd3-glb-64bf46cf8ad1d372.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/female-crouch-pick-throw-forward-9d8akdd3-glb-64bf46cf8ad1d372.glb",
+          "loaderHint": "gltf"
+        },
+        "hit-reaction-1-hx8aj71y-glb": {
+          "artifactId": "glb/hit-reaction-1-hx8aj71y-glb-1c41f620c0d2c49c.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/hit-reaction-1-hx8aj71y-glb-1c41f620c0d2c49c.glb",
+          "loaderHint": "gltf"
+        },
+        "shot-and-fall-backward-3d8ak5qj-glb": {
+          "artifactId": "glb/shot-and-fall-backward-3d8ak5qj-glb-fbe0ebda11bebbbc.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/shot-and-fall-backward-3d8ak5qj-glb-fbe0ebda11bebbbc.glb",
+          "loaderHint": "gltf"
+        },
+        "victory-cheer-js8ajpkt-glb": {
+          "artifactId": "glb/victory-cheer-js8ajpkt-glb-9fc297c42178d191.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/victory-cheer-js8ajpkt-glb-9fc297c42178d191.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "captain-character-and-animations": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "animation",
+        "assetType": "model_animation_batch",
+        "assetId": "w57af61e72dyw0wcdabc5n7vk58aj3tp"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "maroon-crest-toon-k58aj3tp-rigged-glb": {
+          "artifactId": "glb/maroon-crest-toon-k58aj3tp-rigged-glb-36706900989f5b3f.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/maroon-crest-toon-k58aj3tp-rigged-glb-36706900989f5b3f.glb",
+          "loaderHint": "gltf"
+        },
+        "idle-8n8ak15h-glb": {
+          "artifactId": "glb/idle-8n8ak15h-glb-9e3e1bcaad1c1066.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/idle-8n8ak15h-glb-9e3e1bcaad1c1066.glb",
+          "loaderHint": "gltf"
+        },
+        "female-crouch-pick-throw-forward-2x8ajcbm-glb": {
+          "artifactId": "glb/female-crouch-pick-throw-forward-2x8ajcbm-glb-8ef75e344cced079.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/female-crouch-pick-throw-forward-2x8ajcbm-glb-8ef75e344cced079.glb",
+          "loaderHint": "gltf"
+        },
+        "hit-reaction-1-gs8ak9dy-glb": {
+          "artifactId": "glb/hit-reaction-1-gs8ak9dy-glb-b7b3e5b805214b07.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/hit-reaction-1-gs8ak9dy-glb-b7b3e5b805214b07.glb",
+          "loaderHint": "gltf"
+        },
+        "shot-and-fall-backward-8x8ajsbh-glb": {
+          "artifactId": "glb/shot-and-fall-backward-8x8ajsbh-glb-86076d24865b6d34.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/shot-and-fall-backward-8x8ajsbh-glb-86076d24865b6d34.glb",
+          "loaderHint": "gltf"
+        },
+        "victory-cheer-tx8ak45m-glb": {
+          "artifactId": "glb/victory-cheer-tx8ak45m-glb-bbef7bc73b6562aa.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/victory-cheer-tx8ak45m-glb-bbef7bc73b6562aa.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "patch-character-and-animations": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "animation",
+        "assetType": "model_animation_batch",
+        "assetId": "w57e8asycc4bfr57mab6pbnnm98ajhn1"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "eyepatch-toon-pirate-m98ajhn1-rigged-glb": {
+          "artifactId": "glb/eyepatch-toon-pirate-m98ajhn1-rigged-glb-79983524337bee64.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/eyepatch-toon-pirate-m98ajhn1-rigged-glb-79983524337bee64.glb",
+          "loaderHint": "gltf"
+        },
+        "idle-tx8ak5dj-glb": {
+          "artifactId": "glb/idle-tx8ak5dj-glb-8de41a939400c74d.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/idle-tx8ak5dj-glb-8de41a939400c74d.glb",
+          "loaderHint": "gltf"
+        },
+        "female-crouch-pick-throw-forward-xh8ajycm-glb": {
+          "artifactId": "glb/female-crouch-pick-throw-forward-xh8ajycm-glb-a68388290e2d14db.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/female-crouch-pick-throw-forward-xh8ajycm-glb-a68388290e2d14db.glb",
+          "loaderHint": "gltf"
+        },
+        "hit-reaction-1-c58aj4k0-glb": {
+          "artifactId": "glb/hit-reaction-1-c58aj4k0-glb-47a33a96516e7a29.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/hit-reaction-1-c58aj4k0-glb-47a33a96516e7a29.glb",
+          "loaderHint": "gltf"
+        },
+        "shot-and-fall-backward-e58ajh0z-glb": {
+          "artifactId": "glb/shot-and-fall-backward-e58ajh0z-glb-1b89f4fbfe087eb1.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/shot-and-fall-backward-e58ajh0z-glb-1b89f4fbfe087eb1.glb",
+          "loaderHint": "gltf"
+        },
+        "victory-cheer-918ak072-glb": {
+          "artifactId": "glb/victory-cheer-918ak072-glb-2bb3eec7b7a961a2.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/victory-cheer-918ak072-glb-2bb3eec7b7a961a2.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "pearl-character-and-animations": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "animation",
+        "assetType": "model_animation_batch",
+        "assetId": "w57fwjh3344cyr1aypkxb5hpfx8akjd7"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "red-bandana-bug-eyes-fx8akjd7-rigged-glb": {
+          "artifactId": "glb/red-bandana-bug-eyes-fx8akjd7-rigged-glb-4ec5ffd9ee0e41a9.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/red-bandana-bug-eyes-fx8akjd7-rigged-glb-4ec5ffd9ee0e41a9.glb",
+          "loaderHint": "gltf"
+        },
+        "idle-xd8akdqn-glb": {
+          "artifactId": "glb/idle-xd8akdqn-glb-1a90d0050cfc727b.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/idle-xd8akdqn-glb-1a90d0050cfc727b.glb",
+          "loaderHint": "gltf"
+        },
+        "female-crouch-pick-throw-forward-eh8akbaq-glb": {
+          "artifactId": "glb/female-crouch-pick-throw-forward-eh8akbaq-glb-b7ea2a7f1f5906db.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/female-crouch-pick-throw-forward-eh8akbaq-glb-b7ea2a7f1f5906db.glb",
+          "loaderHint": "gltf"
+        },
+        "hit-reaction-1-cs8ak52p-glb": {
+          "artifactId": "glb/hit-reaction-1-cs8ak52p-glb-51ba83b634affa3e.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/hit-reaction-1-cs8ak52p-glb-51ba83b634affa3e.glb",
+          "loaderHint": "gltf"
+        },
+        "shot-and-fall-backward-q98ak9ka-glb": {
+          "artifactId": "glb/shot-and-fall-backward-q98ak9ka-glb-2b4d5da15150677d.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/shot-and-fall-backward-q98ak9ka-glb-2b4d5da15150677d.glb",
+          "loaderHint": "gltf"
+        },
+        "victory-cheer-rd8ajwgx-glb": {
+          "artifactId": "glb/victory-cheer-rd8ajwgx-glb-2e6893aae12df833.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/victory-cheer-rd8ajwgx-glb-2e6893aae12df833.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "tiki-character-and-animations": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "animation",
+        "assetType": "model_animation_batch",
+        "assetId": "w57ew779andjwxcfehj0c92mnd8akzhr"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "flower-shirt-sproutling-nd8akzhr-rigged-glb": {
+          "artifactId": "glb/flower-shirt-sproutling-nd8akzhr-rigged-glb-9e5363c982657eec.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/flower-shirt-sproutling-nd8akzhr-rigged-glb-9e5363c982657eec.glb",
+          "loaderHint": "gltf"
+        },
+        "idle-3s8akay6-glb": {
+          "artifactId": "glb/idle-3s8akay6-glb-757483fd8585bdd5.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/idle-3s8akay6-glb-757483fd8585bdd5.glb",
+          "loaderHint": "gltf"
+        },
+        "female-crouch-pick-throw-forward-5x8ak9sq-glb": {
+          "artifactId": "glb/female-crouch-pick-throw-forward-5x8ak9sq-glb-84f46f0642997e3c.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/female-crouch-pick-throw-forward-5x8ak9sq-glb-84f46f0642997e3c.glb",
+          "loaderHint": "gltf"
+        },
+        "hit-reaction-1-rs8aj654-glb": {
+          "artifactId": "glb/hit-reaction-1-rs8aj654-glb-9ad69ea5407fc2b4.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/hit-reaction-1-rs8aj654-glb-9ad69ea5407fc2b4.glb",
+          "loaderHint": "gltf"
+        },
+        "shot-and-fall-backward-3d8akjch-glb": {
+          "artifactId": "glb/shot-and-fall-backward-3d8akjch-glb-018e6e28ed0c3b6d.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/shot-and-fall-backward-3d8akjch-glb-018e6e28ed0c3b6d.glb",
+          "loaderHint": "gltf"
+        },
+        "victory-cheer-bx8ajttt-glb": {
+          "artifactId": "glb/victory-cheer-bx8ajttt-glb-e9d77742b8ec8bd0.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/victory-cheer-bx8ajttt-glb-e9d77742b8ec8bd0.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "title-art": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "image",
+        "assetId": "xn73f0yesvgh4d440fhswxxee98ajm2r"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "reef-rivals-teal-plaque-title-bf84f2": {
+          "artifactId": "images/xn73f0yesvgh4d440fhswxxee98ajm2r/reef-rivals-teal-plaque-title-bf84f2-e7e54c875489dcff.png",
+          "role": "image",
+          "format": "png",
+          "contentType": "image/png",
+          "runtimeUrl": "https://cdn.mint.gg/images/xn73f0yesvgh4d440fhswxxee98ajm2r/reef-rivals-teal-plaque-title-bf84f2-e7e54c875489dcff.png",
+          "loaderHint": "image"
+        }
+      }
+    },
+    "hud-art": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "image",
+        "assetId": "xn78wenjjmhpt604eekscrq94s8aj468"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "reef-rivals-cream-badge-hud-110ea1": {
+          "artifactId": "images/xn78wenjjmhpt604eekscrq94s8aj468/reef-rivals-cream-badge-hud-110ea1-a0c787ef8d4d5e2f.png",
+          "role": "image",
+          "format": "png",
+          "contentType": "image/png",
+          "runtimeUrl": "https://cdn.mint.gg/images/xn78wenjjmhpt604eekscrq94s8aj468/reef-rivals-cream-badge-hud-110ea1-a0c787ef8d4d5e2f.png",
+          "loaderHint": "image"
+        }
+      }
+    },
+    "power-upgrade-art": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "image",
+        "assetId": "xn78zffc6ybb2agzettxc7zwe98akgdx"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "hot-coconuts-float-upgrade-badge-aa6b51": {
+          "artifactId": "images/xn78zffc6ybb2agzettxc7zwe98akgdx/hot-coconuts-float-upgrade-badge-aa6b51-4d86f795b63622f9.png",
+          "role": "image",
+          "format": "png",
+          "contentType": "image/png",
+          "runtimeUrl": "https://cdn.mint.gg/images/xn78zffc6ybb2agzettxc7zwe98akgdx/hot-coconuts-float-upgrade-badge-aa6b51-4d86f795b63622f9.png",
+          "loaderHint": "image"
+        }
+      }
+    },
+    "patch-upgrade-art": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "image",
+        "assetId": "xn73feg84mdw6jqy46dn4c56vh8aje4c"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "heart-patch-float-upgrade-badge-17afc1": {
+          "artifactId": "images/xn73feg84mdw6jqy46dn4c56vh8aje4c/heart-patch-float-upgrade-badge-17afc1-d287a28bab76d523.png",
+          "role": "image",
+          "format": "png",
+          "contentType": "image/png",
+          "runtimeUrl": "https://cdn.mint.gg/images/xn73feg84mdw6jqy46dn4c56vh8aje4c/heart-patch-float-upgrade-badge-17afc1-d287a28bab76d523.png",
+          "loaderHint": "image"
+        }
+      }
+    },
+    "armor-upgrade-art": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "image",
+        "assetId": "xn70pm64ard9xvqg8thc6pnrfs8ajyn1"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "coral-armor-float-upgrade-badge-525c52": {
+          "artifactId": "images/xn70pm64ard9xvqg8thc6pnrfs8ajyn1/coral-armor-float-upgrade-badge-525c52-19ff6ffc4c331307.png",
+          "role": "image",
+          "format": "png",
+          "contentType": "image/png",
+          "runtimeUrl": "https://cdn.mint.gg/images/xn70pm64ard9xvqg8thc6pnrfs8ajyn1/coral-armor-float-upgrade-badge-525c52-19ff6ffc4c331307.png",
+          "loaderHint": "image"
+        }
+      }
+    },
+    "battle-music": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd718t4nb2t5b7q3anz045h38h8ajxrx"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "reef-rivals-menacing-pirate-battle-loop-de1919": {
+          "artifactId": "audio/xd718t4nb2t5b7q3anz045h38h8ajxrx/reef-rivals-menacing-pirate-battle-loop-de1919-74fbe7dd577b74ab.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd718t4nb2t5b7q3anz045h38h8ajxrx/reef-rivals-menacing-pirate-battle-loop-de1919-74fbe7dd577b74ab.mp3",
+          "loaderHint": "audio"
+        }
+      }
+    },
+    "launch-audio": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd7at0p3s29h3wsq8s9yn3wjqs8ak707"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "coconut-launch-25bfc7": {
+          "artifactId": "audio/xd7at0p3s29h3wsq8s9yn3wjqs8ak707/coconut-launch-25bfc7-d7cd979c57898f30.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd7at0p3s29h3wsq8s9yn3wjqs8ak707/coconut-launch-25bfc7-d7cd979c57898f30.mp3",
+          "loaderHint": "audio"
+        }
+      }
+    },
+    "splash-audio": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd72ndx2h8hf9mts77mszmndp58ajwk9"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "ocean-splash-965244": {
+          "artifactId": "audio/xd72ndx2h8hf9mts77mszmndp58ajwk9/ocean-splash-965244-b618e97728a61628.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd72ndx2h8hf9mts77mszmndp58ajwk9/ocean-splash-965244-b618e97728a61628.mp3",
+          "loaderHint": "audio"
+        }
+      }
+    },
+    "impact-audio": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd7d4bnm1g8b9f4njkjfstv4xh8akdg3"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "raft-impact-3f98c8": {
+          "artifactId": "audio/xd7d4bnm1g8b9f4njkjfstv4xh8akdg3/raft-impact-3f98c8-0c3b8da15cd95ed1.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd7d4bnm1g8b9f4njkjfstv4xh8akdg3/raft-impact-3f98c8-0c3b8da15cd95ed1.mp3",
+          "loaderHint": "audio"
+        }
+      }
+    },
+    "bonus-audio": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd7832w3st4kb3tgqabkz7nbrs8akjva"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "shell-bonus-1b69f9": {
+          "artifactId": "audio/xd7832w3st4kb3tgqabkz7nbrs8akjva/shell-bonus-1b69f9-feb7bf660199c03b.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd7832w3st4kb3tgqabkz7nbrs8akjva/shell-bonus-1b69f9-feb7bf660199c03b.mp3",
+          "loaderHint": "audio"
+        }
+      }
+    },
+    "victory-audio": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd77j69cf4h2p5bcd6y790yfg58ak8rj"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "reef-rivals-victory-30650b": {
+          "artifactId": "audio/xd77j69cf4h2p5bcd6y790yfg58ak8rj/reef-rivals-victory-30650b-7e6ef425a6470102.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd77j69cf4h2p5bcd6y790yfg58ak8rj/reef-rivals-victory-30650b-7e6ef425a6470102.mp3",
+          "loaderHint": "audio"
+        }
+      }
+    },
+    "defeat-audio": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd7bgq39sd3wab9p4aq1wwn4r58akbqm"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "reef-rivals-defeat-32a1b6": {
+          "artifactId": "audio/xd7bgq39sd3wab9p4aq1wwn4r58akbqm/reef-rivals-defeat-32a1b6-c494904dec00dbd3.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd7bgq39sd3wab9p4aq1wwn4r58akbqm/reef-rivals-defeat-32a1b6-c494904dec00dbd3.mp3",
+          "loaderHint": "audio"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,144 @@
+:root {
+  --ink: #17344a;
+  --cream: #fff5d3;
+  --coral: #f75f58;
+  --coral-dark: #b83446;
+  --aqua: #25c9c3;
+  --aqua-dark: #087d8d;
+  --sun: #ffd64f;
+}
+
+* { box-sizing: border-box; }
+html, body { width: 100%; height: 100%; margin: 0; overflow: hidden; }
+body { background: #73cfda; color: var(--ink); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+button, input { font: inherit; }
+button { touch-action: manipulation; }
+
+.reef-game { position: relative; width: 100vw; height: 100dvh; min-height: 560px; overflow: hidden; isolation: isolate; background: #72ccd6; }
+.reef-canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+
+.reef-topbar { position: absolute; z-index: 4; top: 12px; left: 18px; right: 18px; height: 58px; display: flex; align-items: center; gap: 14px; pointer-events: none; }
+.reef-mini-logo { width: 175px; height: 74px; object-fit: contain; object-position: left center; clip-path: inset(5% round 9%); filter: drop-shadow(0 4px 0 rgba(16,64,79,.18)); }
+.reef-round-chip, .reef-sound, .reef-shells, .reef-status { border: 3px solid rgba(255,255,255,.78); box-shadow: 0 5px 0 rgba(19,70,81,.2), 0 10px 24px rgba(18,72,84,.16); }
+.reef-round-chip { margin-left: auto; padding: 8px 15px; border-radius: 999px; background: rgba(18,70,84,.84); color: white; font-size: 12px; font-weight: 950; letter-spacing: .13em; }
+.reef-sound { pointer-events: auto; cursor: pointer; padding: 8px 13px; border-radius: 999px; background: rgba(255,245,211,.93); color: var(--ink); font-size: 10px; font-weight: 950; letter-spacing: .08em; }
+.reef-sound:hover { transform: translateY(-1px); }
+
+.reef-health { position: absolute; z-index: 4; top: 84px; width: min(28vw, 330px); padding: 10px 13px 12px; border: 3px solid rgba(255,255,255,.82); border-radius: 18px; background: rgba(19,60,74,.76); box-shadow: 0 6px 0 rgba(15,57,70,.22); color: white; }
+.reef-health-player { left: 20px; }
+.reef-health-enemy { right: 20px; }
+.reef-health-copy { display: flex; align-items: center; justify-content: space-between; margin-bottom: 6px; }
+.reef-health-copy span { font-size: 11px; font-weight: 950; letter-spacing: .12em; }
+.reef-health-copy strong { font: 900 18px/1 "SFMono-Regular", Consolas, "Liberation Mono", monospace; }
+.reef-health-track { height: 12px; overflow: hidden; border: 2px solid rgba(255,255,255,.66); border-radius: 99px; background: rgba(0,0,0,.28); }
+.reef-health-track i { display: block; height: 100%; border-radius: inherit; background: linear-gradient(90deg, #56f09b, #dcf76a); transition: width .35s ease; }
+.reef-health-enemy .reef-health-track i { background: linear-gradient(90deg, #ffae4c, #ff5e57); }
+
+.reef-status { position: absolute; z-index: 4; top: 88px; left: 50%; max-width: 38vw; transform: translateX(-50%); padding: 9px 18px; border-radius: 999px; background: rgba(255,245,211,.94); color: var(--ink); font-size: 12px; font-weight: 900; text-align: center; }
+.reef-status-enemy { background: rgba(255,104,91,.94); color: white; }
+.reef-status-projectile { background: rgba(255,214,79,.95); }
+.reef-shells { position: absolute; z-index: 4; top: 145px; left: 50%; display: flex; align-items: center; gap: 4px; transform: translateX(-50%); padding: 5px 12px 5px 6px; border-radius: 999px; background: rgba(16,83,93,.86); color: white; font-weight: 950; }
+
+.reef-overlay { position: absolute; z-index: 10; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 22px; background: radial-gradient(circle at 50% 40%, rgba(103,225,223,.58), rgba(19,74,91,.88)); color: white; text-align: center; backdrop-filter: blur(6px); }
+.reef-loading { gap: 18px; font-weight: 800; letter-spacing: .04em; }
+.reef-spinner { width: 72px; height: 72px; padding: 8px; border: 5px solid rgba(255,255,255,.3); border-radius: 50%; }
+.reef-spinner span { display: block; width: 100%; height: 100%; border: 8px dotted var(--sun); border-radius: 50%; animation: reef-spin 1s linear infinite; }
+@keyframes reef-spin { to { transform: rotate(360deg); } }
+
+.reef-menu { gap: 12px; }
+.reef-menu > img { width: auto; height: min(38vh, 380px); max-width: 76vw; object-fit: contain; clip-path: inset(3% round 9%); filter: drop-shadow(0 10px 0 rgba(13,67,79,.18)); }
+.reef-menu p { max-width: 610px; margin: -14px auto 7px; color: #fff9e4; font-size: clamp(15px, 2vw, 20px); font-weight: 750; line-height: 1.45; text-shadow: 0 2px 0 rgba(13,67,79,.3); }
+.reef-menu small { font-weight: 800; opacity: .82; }
+.reef-primary { cursor: pointer; min-width: 235px; padding: 15px 28px 13px; border: 4px solid white; border-radius: 18px; background: linear-gradient(#ff7d65, #ed4e57); box-shadow: 0 7px 0 #a72f48, 0 13px 28px rgba(9,52,62,.3); color: white; font-weight: 1000; letter-spacing: .08em; text-shadow: 0 2px 0 rgba(123,32,54,.35); }
+.reef-primary:hover { transform: translateY(-2px); box-shadow: 0 9px 0 #a72f48, 0 15px 30px rgba(9,52,62,.3); }
+.reef-primary:active { transform: translateY(5px); box-shadow: 0 2px 0 #a72f48; }
+
+.reef-upgrade { gap: 4px; background: radial-gradient(circle, rgba(42,200,191,.76), rgba(12,62,78,.94)); }
+.reef-kicker { color: var(--sun); font-size: 12px; font-weight: 1000; letter-spacing: .22em; }
+.reef-upgrade h1, .reef-result h1 { margin: 8px 0 22px; font-size: clamp(28px, 4vw, 50px); line-height: 1; text-shadow: 0 5px 0 rgba(13,62,75,.25); }
+.reef-upgrade h1 { color: #ff785f; font-family: "Arial Rounded MT Bold", "Trebuchet MS", system-ui, sans-serif; font-weight: 1000; letter-spacing: .035em; text-transform: uppercase; -webkit-text-stroke: 7px #fff0bd; paint-order: stroke fill; filter: drop-shadow(0 6px 0 #087d8d) drop-shadow(0 10px 0 #b83446); }
+.reef-upgrade-grid { width: min(900px, 94vw); display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.reef-upgrade-grid button { cursor: pointer; min-height: 270px; padding: 14px 16px 20px; border: 4px solid white; border-radius: 24px; background: linear-gradient(145deg, #fff8dc, #ffd971); box-shadow: 0 8px 0 #d58a3c, 0 18px 34px rgba(7,49,62,.22); color: var(--ink); }
+.reef-upgrade-grid button:hover { transform: translateY(-4px) rotate(-1deg); }
+.reef-upgrade-grid b, .reef-upgrade-grid span { display: block; }
+.reef-upgrade-art { width: 132px; height: 132px; margin: 0 auto 8px; border-radius: 50%; background-position: center; background-repeat: no-repeat; background-size: 122%; box-shadow: 0 5px 0 rgba(22,52,74,.16); }
+.reef-upgrade-grid b { margin-bottom: 7px; color: var(--coral-dark); font-family: "Arial Rounded MT Bold", "Trebuchet MS", system-ui, sans-serif; font-size: 19px; font-weight: 1000; letter-spacing: .035em; }
+.reef-upgrade-grid .reef-upgrade-copy { font-size: 13px; font-weight: 750; line-height: 1.35; }
+
+.reef-result { gap: 13px; }
+.reef-result p { margin: 0; font-size: 18px; font-weight: 750; }
+.reef-result > strong { margin-bottom: 9px; color: var(--sun); letter-spacing: .12em; }
+.reef-result-icon { width: 116px !important; height: 116px !important; }
+
+.reef-controls { position: absolute; z-index: 5; left: 50%; bottom: 30px; width: min(960px, calc(100vw - 30px)); min-height: 112px; display: grid; grid-template-columns: 1fr 1fr auto 130px; align-items: center; gap: 15px; transform: translateX(-50%); padding: 14px 16px; border: 4px solid rgba(255,255,255,.88); border-radius: 24px; background: linear-gradient(180deg, rgba(255,247,218,.96), rgba(255,220,122,.95)); box-shadow: 0 9px 0 rgba(162,91,53,.52), 0 18px 32px rgba(16,64,75,.22); transition: opacity .2s, transform .2s; }
+.reef-controls.is-locked { opacity: .48; transform: translateX(-50%) translateY(6px); }
+.reef-control-block label { display: flex; justify-content: space-between; margin-bottom: 8px; color: var(--ink); font-size: 11px; font-weight: 1000; letter-spacing: .1em; }
+.reef-control-block label b { color: var(--coral-dark); }
+.reef-control-block input { width: 100%; accent-color: var(--coral); cursor: pointer; }
+.reef-control-block input:disabled { cursor: not-allowed; }
+.reef-ammo { display: flex; gap: 7px; }
+.reef-ammo button { position: relative; cursor: pointer; width: 60px; height: 68px; padding: 3px; border: 3px solid rgba(19,52,74,.18); border-radius: 15px; background: rgba(255,255,255,.48); color: var(--ink); }
+.reef-ammo button.is-active { border-color: var(--coral); background: white; box-shadow: 0 4px 0 var(--coral-dark); transform: translateY(-3px); }
+.reef-ammo button:disabled { cursor: not-allowed; filter: grayscale(.8); opacity: .43; }
+.reef-ammo button b { position: absolute; right: 4px; bottom: 2px; min-width: 19px; padding: 2px 4px; border-radius: 99px; background: var(--ink); color: white; font-size: 10px; }
+.reef-fire { cursor: pointer; height: 76px; border: 4px solid white; border-radius: 19px; background: linear-gradient(#ff755b, #e83e51); box-shadow: 0 7px 0 #9d2844; color: white; text-shadow: 0 2px 0 rgba(121,31,53,.45); }
+.reef-fire span, .reef-fire small { display: block; }
+.reef-fire span { font-size: 23px; font-weight: 1000; letter-spacing: .05em; }
+.reef-fire small { font-size: 8px; font-weight: 900; opacity: .72; }
+.reef-fire:hover:not(:disabled) { transform: translateY(-2px); }
+.reef-fire:active:not(:disabled) { transform: translateY(5px); box-shadow: 0 2px 0 #9d2844; }
+.reef-fire:disabled { cursor: not-allowed; filter: grayscale(.55); opacity: .65; }
+
+.reef-icon { display: inline-block; width: 44px; height: 44px; background-image: var(--reef-hud-sprite); background-repeat: no-repeat; background-size: 400% 200%; vertical-align: middle; }
+.reef-icon-heart { background-position: 0 0; }
+.reef-icon-coconut { background-position: 33.333% 0; }
+.reef-icon-pineapple { background-position: 66.666% 0; }
+.reef-icon-volley { background-position: 100% 0; }
+.reef-icon-shell { width: 31px; height: 31px; background-position: 0 100%; }
+.reef-icon-star { background-position: 100% 100%; }
+.reef-credit { position: absolute; z-index: 4; right: 17px; bottom: 8px; color: rgba(255,255,255,.9); font-size: 8px; font-weight: 950; letter-spacing: .16em; text-shadow: 0 1px 0 rgba(13,62,75,.4); }
+
+@media (max-width: 760px) {
+  .reef-game { min-height: 620px; }
+  .reef-topbar { top: 6px; left: 8px; right: 8px; height: 48px; gap: 7px; }
+  .reef-mini-logo { width: 112px; height: 52px; }
+  .reef-round-chip { padding: 6px 9px; font-size: 9px; }
+  .reef-sound { padding: 6px 8px; font-size: 8px; }
+  .reef-health { top: 62px; width: calc(50vw - 13px); padding: 7px 9px 9px; border-radius: 14px; }
+  .reef-health-player { left: 7px; }
+  .reef-health-enemy { right: 7px; }
+  .reef-health-copy span { font-size: 8px; }
+  .reef-health-copy strong { font-size: 14px; }
+  .reef-health-track { height: 9px; }
+  .reef-status { top: 114px; max-width: 80vw; padding: 6px 12px; font-size: 9px; }
+  .reef-shells { top: 146px; padding: 3px 8px 3px 3px; font-size: 11px; }
+  .reef-shells .reef-icon { width: 24px; height: 24px; }
+  .reef-controls { bottom: 24px; min-height: 0; grid-template-columns: 1fr 1fr 93px; gap: 9px; padding: 10px; border-radius: 18px; }
+  .reef-ammo { grid-column: 1 / 3; grid-row: 2; }
+  .reef-ammo button { width: 54px; height: 50px; }
+  .reef-ammo .reef-icon { width: 36px; height: 36px; }
+  .reef-fire { grid-column: 3; grid-row: 1 / 3; height: 92px; }
+  .reef-fire span { font-size: 18px; }
+  .reef-control-block label { font-size: 9px; }
+  .reef-upgrade-grid { grid-template-columns: 1fr; gap: 10px; }
+  .reef-upgrade-grid button { min-height: 92px; display: grid; grid-template-columns: 72px 1fr; align-items: center; column-gap: 10px; padding: 8px 14px; text-align: left; }
+  .reef-upgrade-art { grid-row: 1 / 3; width: 70px; height: 70px; margin: 0; }
+  .reef-upgrade-grid b { align-self: end; margin: 0 0 2px; }
+  .reef-upgrade-grid .reef-upgrade-copy { align-self: start; }
+  .reef-upgrade h1 { margin-bottom: 12px; }
+  .reef-menu > img { width: 94vw; }
+  .reef-menu p { margin-top: -8px; font-size: 14px; }
+  .reef-credit { bottom: 5px; font-size: 6px; }
+}
+
+@media (max-height: 640px) and (orientation: landscape) {
+  .reef-health { top: 62px; }
+  .reef-status { top: 66px; }
+  .reef-shells { top: 104px; }
+  .reef-controls { bottom: 18px; min-height: 92px; padding-block: 8px; }
+  .reef-menu > img { max-height: 35vh; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; transition-duration: .01ms !important; }
+}

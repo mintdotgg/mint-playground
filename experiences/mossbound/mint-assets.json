@@ -1,0 +1,2013 @@
+{
+  "registryVersion": 1,
+  "assetRoot": "public",
+  "delivery": "mint_cdn",
+  "assets": {
+    "audio-boss-loop": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd7abhx0e1r4m6xzjvnqays1c18ajd3z"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio_file": {
+          "artifactId": "audio_file",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "Mossbound-Thornheart-Battle-Loop-ea799b.mp3",
+          "loaderHint": "audio",
+          "byteSize": 1081512,
+          "durationSeconds": 45,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd7abhx0e1r4m6xzjvnqays1c18ajd3z/mossbound-thornheart-battle-loop-ea799b-522e1ea641737631.mp3"
+        }
+      }
+    },
+    "audio-coin-pickup": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd7b64pfmypm9a97qhke6brgds8akr3t"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio_file": {
+          "artifactId": "audio_file",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "Mossbound-Sap-Coin-Pickup-9f468e.mp3",
+          "loaderHint": "audio",
+          "byteSize": 17180,
+          "durationSeconds": 1,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd7b64pfmypm9a97qhke6brgds8akr3t/mossbound-sap-coin-pickup-9f468e-9b3309dd680fa0ac.mp3"
+        }
+      }
+    },
+    "audio-creature-impact": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd7146j6z7ttm0jg46h7555zf18ak3hm"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio_file": {
+          "artifactId": "audio_file",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "Mossbound-Creature-Sword-Impact-6ef37f.mp3",
+          "loaderHint": "audio",
+          "byteSize": 17180,
+          "durationSeconds": 1,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd7146j6z7ttm0jg46h7555zf18ak3hm/mossbound-creature-sword-impact-6ef37f-315a1849c274922d.mp3"
+        }
+      }
+    },
+    "audio-enemy-alert": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd7e41fbgc8fqm18yynbzma1b58ajnfp"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio_file": {
+          "artifactId": "audio_file",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "Mossbound-Enemy-Alert-a45066.mp3",
+          "loaderHint": "audio",
+          "byteSize": 17180,
+          "durationSeconds": 1,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd7e41fbgc8fqm18yynbzma1b58ajnfp/mossbound-enemy-alert-a45066-e48f1827a8d0dea8.mp3"
+        }
+      }
+    },
+    "audio-enemy-hurt": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd7ct69f66xd0gq8mxn7ytwhwx8ak7yz"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio_file": {
+          "artifactId": "audio_file",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "Mossbound-Enemy-Hurt-d6c81b.mp3",
+          "loaderHint": "audio",
+          "byteSize": 17180,
+          "durationSeconds": 1,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd7ct69f66xd0gq8mxn7ytwhwx8ak7yz/mossbound-enemy-hurt-d6c81b-6389140c6355aa40.mp3"
+        }
+      }
+    },
+    "audio-forest-loop": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd70nrnw4vy0jbt3nqympjez0n8ak6c2"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio_file": {
+          "artifactId": "audio_file",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "Mossbound-Enchanted-Forest-Loop-d5974a.mp3",
+          "loaderHint": "audio",
+          "byteSize": 1081512,
+          "durationSeconds": 45,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd70nrnw4vy0jbt3nqympjez0n8ak6c2/mossbound-enchanted-forest-loop-d5974a-b106607b9580353c.mp3"
+        }
+      }
+    },
+    "audio-level-up": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd7f7svdxht9mr8g8ymgr3g0wh8akmh1"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio_file": {
+          "artifactId": "audio_file",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "Mossbound-Level-Up-24034a.mp3",
+          "loaderHint": "audio",
+          "byteSize": 48945,
+          "durationSeconds": 3,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd7f7svdxht9mr8g8ymgr3g0wh8akmh1/mossbound-level-up-24034a-63ed592a50a458e8.mp3"
+        }
+      }
+    },
+    "audio-player-damage": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd70w4s9csthgez9h0atq148ms8ak3f4"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio_file": {
+          "artifactId": "audio_file",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "Mossbound-Player-Damage-013e33.mp3",
+          "loaderHint": "audio",
+          "byteSize": 17180,
+          "durationSeconds": 1,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd70w4s9csthgez9h0atq148ms8ak3f4/mossbound-player-damage-013e33-a49e16ba420ab0b5.mp3"
+        }
+      }
+    },
+    "audio-stone-impact": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd7d27wtqntvf481sey9yk4hjx8akmda"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio_file": {
+          "artifactId": "audio_file",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "Mossbound-Stone-Shield-Impact-78e5e9.mp3",
+          "loaderHint": "audio",
+          "byteSize": 17180,
+          "durationSeconds": 1,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd7d27wtqntvf481sey9yk4hjx8akmda/mossbound-stone-shield-impact-78e5e9-f60fcdc3c458f668.mp3"
+        }
+      }
+    },
+    "audio-sword-slash-heavy": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd75tq84h4fztmc0v9ha9tfsax8ajzsp"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio_file": {
+          "artifactId": "audio_file",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "Mossbound-Sword-Slash-Heavy-add62d.mp3",
+          "loaderHint": "audio",
+          "byteSize": 33062,
+          "durationSeconds": 2,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd75tq84h4fztmc0v9ha9tfsax8ajzsp/mossbound-sword-slash-heavy-add62d-fafface85aca27be.mp3"
+        }
+      }
+    },
+    "audio-sword-slash-light": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd7aqevmtkza3jcc0w473n0cnh8akr65"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio_file": {
+          "artifactId": "audio_file",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "Mossbound-Sword-Slash-Light-7787d2.mp3",
+          "loaderHint": "audio",
+          "byteSize": 17180,
+          "durationSeconds": 1,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd7aqevmtkza3jcc0w473n0cnh8akr65/mossbound-sword-slash-light-7787d2-8a90798bde95988d.mp3"
+        }
+      }
+    },
+    "audio-xp-pickup": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd7arjpy2jgkx2tt9gz2jrr75n8aja53"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio_file": {
+          "artifactId": "audio_file",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "Mossbound-Spirit-Mote-Pickup-b086a6.mp3",
+          "loaderHint": "audio",
+          "byteSize": 17180,
+          "durationSeconds": 1,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd7arjpy2jgkx2tt9gz2jrr75n8aja53/mossbound-spirit-mote-pickup-b086a6-dc59ae333b39b28e.mp3"
+        }
+      }
+    },
+    "first-person-sword-hand": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks75v4dw923n08es3ecbmaa6vn8ajras"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "original_glb": {
+          "artifactId": "original_glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "blue-cuff-gauntlet-grip-vn8ajras-original.glb",
+          "loaderHint": "gltf",
+          "byteSize": 802224,
+          "runtimeUrl": "https://cdn.mint.gg/glb/blue-cuff-gauntlet-grip-normalized-a0cd446d408bbaa6.glb",
+          "extensionsUsed": [],
+          "extensionsRequired": [],
+          "usesDraco": false,
+          "requiresDraco": false,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": []
+        }
+      }
+    },
+    "pack-creatures": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "asset_pack",
+        "assetId": "th77pxdg13j50bek9an2ekscrs8ajmxc"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "asset_pack_item_glb:vd74spxn94790tnvvr2h7k9gb18ajnfa:0:ks76nsh75f9xfz3kcry7shfrah8akkvk": {
+          "artifactId": "asset_pack_item_glb:vd74spxn94790tnvvr2h7k9gb18ajnfa:0:ks76nsh75f9xfz3kcry7shfrah8akkvk",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "sproutling-ah8akkvk.glb",
+          "loaderHint": "gltf",
+          "byteSize": 634696,
+          "runtimeUrl": "https://cdn.mint.gg/glb/sproutling-f142051a8cbd0cc1.glb",
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": []
+        },
+        "asset_pack_item_glb:vd74spxn94790tnvvr2h7k9gb18ajnfa:1:ks72fna1emkeya8tjg7pfdrrp58ajy87": {
+          "artifactId": "asset_pack_item_glb:vd74spxn94790tnvvr2h7k9gb18ajnfa:1:ks72fna1emkeya8tjg7pfdrrp58ajy87",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "sporecap-p58ajy87.glb",
+          "loaderHint": "gltf",
+          "byteSize": 650464,
+          "runtimeUrl": "https://cdn.mint.gg/glb/sporecap-d7b2ff9adc215b57.glb",
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": []
+        },
+        "asset_pack_item_glb:vd74spxn94790tnvvr2h7k9gb18ajnfa:2:ks73625yd0dymhjd3s6x0j3zt18akc39": {
+          "artifactId": "asset_pack_item_glb:vd74spxn94790tnvvr2h7k9gb18ajnfa:2:ks73625yd0dymhjd3s6x0j3zt18akc39",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "brambleback-t18akc39.glb",
+          "loaderHint": "gltf",
+          "byteSize": 1005216,
+          "runtimeUrl": "https://cdn.mint.gg/glb/brambleback-b5da811f14cf4790.glb",
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": []
+        },
+        "asset_pack_item_glb:vd74spxn94790tnvvr2h7k9gb18ajnfa:3:ks74yacrjt05wdqwkya6mr1x758aj3ps": {
+          "artifactId": "asset_pack_item_glb:vd74spxn94790tnvvr2h7k9gb18ajnfa:3:ks74yacrjt05wdqwkya6mr1x758aj3ps",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "moonhare-758aj3ps.glb",
+          "loaderHint": "gltf",
+          "byteSize": 900236,
+          "runtimeUrl": "https://cdn.mint.gg/glb/moonhare-7e9adaca3e48b92d.glb",
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": []
+        },
+        "asset_pack_item_glb:vd74spxn94790tnvvr2h7k9gb18ajnfa:4:ks72ywe6608mcqkkpx6b2j47vh8aj0qn": {
+          "artifactId": "asset_pack_item_glb:vd74spxn94790tnvvr2h7k9gb18ajnfa:4:ks72ywe6608mcqkkpx6b2j47vh8aj0qn",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "rootlurker-vh8aj0qn.glb",
+          "loaderHint": "gltf",
+          "byteSize": 870724,
+          "runtimeUrl": "https://cdn.mint.gg/glb/rootlurker-6cea63885fe9eb62.glb",
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": []
+        },
+        "asset_pack_item_glb:vd74spxn94790tnvvr2h7k9gb18ajnfa:5:ks71m22wbg3nj659g0cmeaf4gh8ajmd9": {
+          "artifactId": "asset_pack_item_glb:vd74spxn94790tnvvr2h7k9gb18ajnfa:5:ks71m22wbg3nj659g0cmeaf4gh8ajmd9",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "pollen-wisp-gh8ajmd9.glb",
+          "loaderHint": "gltf",
+          "byteSize": 1095480,
+          "runtimeUrl": "https://cdn.mint.gg/glb/pollen-wisp-c130782270827ec0.glb",
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": []
+        },
+        "asset_pack_item_glb:vd74spxn94790tnvvr2h7k9gb18ajnfa:6:ks77gefnbafcnjep73cwy1bqgn8akkf5": {
+          "artifactId": "asset_pack_item_glb:vd74spxn94790tnvvr2h7k9gb18ajnfa:6:ks77gefnbafcnjep73cwy1bqgn8akkf5",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "bark-knight-gn8akkf5.glb",
+          "loaderHint": "gltf",
+          "byteSize": 1118296,
+          "runtimeUrl": "https://cdn.mint.gg/glb/bark-knight-d3186109b9bc55c3.glb",
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": []
+        },
+        "asset_pack_item_glb:vd74spxn94790tnvvr2h7k9gb18ajnfa:7:ks79d7z9t1f6fdbwfs9d9jwjhh8ajnpy": {
+          "artifactId": "asset_pack_item_glb:vd74spxn94790tnvvr2h7k9gb18ajnfa:7:ks79d7z9t1f6fdbwfs9d9jwjhh8ajnpy",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "rot-toad-hh8ajnpy.glb",
+          "loaderHint": "gltf",
+          "byteSize": 625364,
+          "runtimeUrl": "https://cdn.mint.gg/glb/rot-toad-582373fff48399bc.glb",
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": []
+        },
+        "asset_pack_item_glb:vd74spxn94790tnvvr2h7k9gb18ajnfa:8:ks74ms0hawjzrcp3ya6z38brg98aj733": {
+          "artifactId": "asset_pack_item_glb:vd74spxn94790tnvvr2h7k9gb18ajnfa:8:ks74ms0hawjzrcp3ya6z38brg98aj733",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "stonehorn-g98aj733.glb",
+          "loaderHint": "gltf",
+          "byteSize": 826504,
+          "runtimeUrl": "https://cdn.mint.gg/glb/stonehorn-c3848fb05eb4f9bd.glb",
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": []
+        },
+        "asset_pack_item_glb:vd74spxn94790tnvvr2h7k9gb18ajnfa:9:ks78rb24wrntancr65hrabqqcn8aj9ty": {
+          "artifactId": "asset_pack_item_glb:vd74spxn94790tnvvr2h7k9gb18ajnfa:9:ks78rb24wrntancr65hrabqqcn8aj9ty",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "thornheart-cn8aj9ty.glb",
+          "loaderHint": "gltf",
+          "byteSize": 1113484,
+          "runtimeUrl": "https://cdn.mint.gg/glb/thornheart-fa98e25e470c7486.glb",
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": []
+        },
+        "preview_image:vd74spxn94790tnvvr2h7k9gb18ajnfa:0": {
+          "artifactId": "preview_image:vd74spxn94790tnvvr2h7k9gb18ajnfa:0",
+          "role": "preview_image",
+          "format": "webp",
+          "contentType": "image/webp",
+          "filename": "sproutling-rs8ajmxc-preview.webp",
+          "loaderHint": "image",
+          "byteSize": 77732,
+          "runtimeUrl": "https://cdn.mint.gg/images/models/sproutling-5aba4f558714c7e5.webp"
+        },
+        "preview_image:vd74spxn94790tnvvr2h7k9gb18ajnfa:1": {
+          "artifactId": "preview_image:vd74spxn94790tnvvr2h7k9gb18ajnfa:1",
+          "role": "preview_image",
+          "format": "webp",
+          "contentType": "image/webp",
+          "filename": "sporecap-rs8ajmxc-preview.webp",
+          "loaderHint": "image",
+          "byteSize": 75274,
+          "runtimeUrl": "https://cdn.mint.gg/images/models/sporecap-f70601fd6c048f55.webp"
+        },
+        "preview_image:vd74spxn94790tnvvr2h7k9gb18ajnfa:3": {
+          "artifactId": "preview_image:vd74spxn94790tnvvr2h7k9gb18ajnfa:3",
+          "role": "preview_image",
+          "format": "webp",
+          "contentType": "image/webp",
+          "filename": "moonhare-rs8ajmxc-preview.webp",
+          "loaderHint": "image",
+          "byteSize": 87896,
+          "runtimeUrl": "https://cdn.mint.gg/images/models/moonhare-4113b83d1012bcb4.webp"
+        },
+        "preview_image:vd74spxn94790tnvvr2h7k9gb18ajnfa:9": {
+          "artifactId": "preview_image:vd74spxn94790tnvvr2h7k9gb18ajnfa:9",
+          "role": "preview_image",
+          "format": "webp",
+          "contentType": "image/webp",
+          "filename": "thornheart-rs8ajmxc-preview.webp",
+          "loaderHint": "image",
+          "byteSize": 197354,
+          "runtimeUrl": "https://cdn.mint.gg/images/models/thornheart-63fd0b552b043d16.webp"
+        }
+      }
+    },
+    "pack-gameplay": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "asset_pack",
+        "assetId": "th738fq43y24q7kr12yj7k6qxd8aktvf"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "asset_pack_item_glb:vd71116xqmeyjm7af2cg27yt318akct1:0:ks73gf201pwnfmm77h69tyxkg98aks3q": {
+          "artifactId": "asset_pack_item_glb:vd71116xqmeyjm7af2cg27yt318akct1:0:ks73gf201pwnfmm77h69tyxkg98aks3q",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "rune-iron-sword-g98aks3q.glb",
+          "loaderHint": "gltf",
+          "byteSize": 1428184,
+          "runtimeUrl": "https://cdn.mint.gg/glb/rune-iron-sword-96f04d14511a9266.glb",
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": []
+        },
+        "asset_pack_item_glb:vd71116xqmeyjm7af2cg27yt318akct1:1:ks7edgesxt6nj8w3mcqaagbwen8ak1va": {
+          "artifactId": "asset_pack_item_glb:vd71116xqmeyjm7af2cg27yt318akct1:1:ks7edgesxt6nj8w3mcqaagbwen8ak1va",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "thornwood-buckler-en8ak1va.glb",
+          "loaderHint": "gltf",
+          "byteSize": 949648,
+          "runtimeUrl": "https://cdn.mint.gg/glb/thornwood-buckler-ad7a05485dde6517.glb",
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": []
+        },
+        "asset_pack_item_glb:vd71116xqmeyjm7af2cg27yt318akct1:2:ks78xsr6g3jk5e75qnehjkng198akktw": {
+          "artifactId": "asset_pack_item_glb:vd71116xqmeyjm7af2cg27yt318akct1:2:ks78xsr6g3jk5e75qnehjkng198akktw",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "golden-sap-coin-198akktw.glb",
+          "loaderHint": "gltf",
+          "byteSize": 613028,
+          "runtimeUrl": "https://cdn.mint.gg/glb/golden-sap-coin-2c6a6e9f5bb2e422.glb",
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": []
+        },
+        "asset_pack_item_glb:vd71116xqmeyjm7af2cg27yt318akct1:3:ks71g4dkwdnz06kbkbha3yegx58ajmrt": {
+          "artifactId": "asset_pack_item_glb:vd71116xqmeyjm7af2cg27yt318akct1:3:ks71g4dkwdnz06kbkbha3yegx58ajmrt",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "spirit-mote-crystal-x58ajmrt.glb",
+          "loaderHint": "gltf",
+          "byteSize": 914980,
+          "runtimeUrl": "https://cdn.mint.gg/glb/spirit-mote-crystal-025f055235fda84e.glb",
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": []
+        },
+        "asset_pack_item_glb:vd71116xqmeyjm7af2cg27yt318akct1:4:ks73v11vrayeqsjz8apxb8cwys8ak1nf": {
+          "artifactId": "asset_pack_item_glb:vd71116xqmeyjm7af2cg27yt318akct1:4:ks73v11vrayeqsjz8apxb8cwys8ak1nf",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "healing-bloom-ys8ak1nf.glb",
+          "loaderHint": "gltf",
+          "byteSize": 614584,
+          "runtimeUrl": "https://cdn.mint.gg/glb/healing-bloom-31d8c8a3641f1c46.glb",
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": []
+        },
+        "asset_pack_item_glb:vd71116xqmeyjm7af2cg27yt318akct1:5:ks7ep10c2vd6pdhst0z40d46y98ak96q": {
+          "artifactId": "asset_pack_item_glb:vd71116xqmeyjm7af2cg27yt318akct1:5:ks7ep10c2vd6pdhst0z40d46y98ak96q",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "stamina-leaf-charm-y98ak96q.glb",
+          "loaderHint": "gltf",
+          "byteSize": 810612,
+          "runtimeUrl": "https://cdn.mint.gg/glb/stamina-leaf-charm-a5d556350dcd4a50.glb",
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": []
+        },
+        "asset_pack_item_glb:vd71116xqmeyjm7af2cg27yt318akct1:6:ks7a5znhn78tppwjkkdr298smx8aj9d2": {
+          "artifactId": "asset_pack_item_glb:vd71116xqmeyjm7af2cg27yt318akct1:6:ks7a5znhn78tppwjkkdr298smx8aj9d2",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "upgrade-shrine-obelisk-mx8aj9d2.glb",
+          "loaderHint": "gltf",
+          "byteSize": 1093092,
+          "runtimeUrl": "https://cdn.mint.gg/glb/upgrade-shrine-obelisk-bcfc8cb44707a05a.glb",
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": []
+        },
+        "asset_pack_item_glb:vd71116xqmeyjm7af2cg27yt318akct1:7:ks70ke9tt9wsrym5gbez74mbd18ak7nc": {
+          "artifactId": "asset_pack_item_glb:vd71116xqmeyjm7af2cg27yt318akct1:7:ks70ke9tt9wsrym5gbez74mbd18ak7nc",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "spore-projectile-pod-d18ak7nc.glb",
+          "loaderHint": "gltf",
+          "byteSize": 709464,
+          "runtimeUrl": "https://cdn.mint.gg/glb/spore-projectile-pod-f3085682a13c5123.glb",
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": []
+        },
+        "asset_pack_item_glb:vd71116xqmeyjm7af2cg27yt318akct1:8:ks76bpgban8jdqtvngxpg96rph8ajd48": {
+          "artifactId": "asset_pack_item_glb:vd71116xqmeyjm7af2cg27yt318akct1:8:ks76bpgban8jdqtvngxpg96rph8ajd48",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "root-spike-trap-ph8ajd48.glb",
+          "loaderHint": "gltf",
+          "byteSize": 413992,
+          "runtimeUrl": "https://cdn.mint.gg/glb/root-spike-trap-3d20d0820dc1cee2.glb",
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": []
+        },
+        "preview_image:vd71116xqmeyjm7af2cg27yt318akct1:2": {
+          "artifactId": "preview_image:vd71116xqmeyjm7af2cg27yt318akct1:2",
+          "role": "preview_image",
+          "format": "webp",
+          "contentType": "image/webp",
+          "filename": "golden-sap-coin-xd8aktvf-preview.webp",
+          "loaderHint": "image",
+          "byteSize": 78318,
+          "runtimeUrl": "https://cdn.mint.gg/images/models/golden-sap-coin-0a7f6ec82cfe66a0.webp"
+        },
+        "preview_image:vd71116xqmeyjm7af2cg27yt318akct1:3": {
+          "artifactId": "preview_image:vd71116xqmeyjm7af2cg27yt318akct1:3",
+          "role": "preview_image",
+          "format": "webp",
+          "contentType": "image/webp",
+          "filename": "spirit-mote-crystal-xd8aktvf-preview.webp",
+          "loaderHint": "image",
+          "byteSize": 73420,
+          "runtimeUrl": "https://cdn.mint.gg/images/models/spirit-mote-crystal-14a4b366bbb8f483.webp"
+        },
+        "preview_image:vd71116xqmeyjm7af2cg27yt318akct1:4": {
+          "artifactId": "preview_image:vd71116xqmeyjm7af2cg27yt318akct1:4",
+          "role": "preview_image",
+          "format": "webp",
+          "contentType": "image/webp",
+          "filename": "healing-bloom-xd8aktvf-preview.webp",
+          "loaderHint": "image",
+          "byteSize": 71020,
+          "runtimeUrl": "https://cdn.mint.gg/images/models/healing-bloom-f51731cbc3e4470e.webp"
+        },
+        "preview_image:vd71116xqmeyjm7af2cg27yt318akct1:5": {
+          "artifactId": "preview_image:vd71116xqmeyjm7af2cg27yt318akct1:5",
+          "role": "preview_image",
+          "format": "webp",
+          "contentType": "image/webp",
+          "filename": "stamina-leaf-charm-xd8aktvf-preview.webp",
+          "loaderHint": "image",
+          "byteSize": 60872,
+          "runtimeUrl": "https://cdn.mint.gg/images/models/stamina-leaf-charm-4f4016920c760a23.webp"
+        }
+      }
+    },
+    "pack-ruins": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "asset_pack",
+        "assetId": "th71vhxgv3429pqxn1mcft00658ajen2"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "asset_pack_item_glb:vd72r6f38b5tdhcfjzrmsnzjks8ak313:0:ks7bj573ad54f49jda7jahy0a58akcje": {
+          "artifactId": "asset_pack_item_glb:vd72r6f38b5tdhcfjzrmsnzjks8ak313:0:ks7bj573ad54f49jda7jahy0a58akcje",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "tall-rune-monolith-a58akcje.glb",
+          "loaderHint": "gltf",
+          "byteSize": 983872,
+          "runtimeUrl": "https://cdn.mint.gg/glb/tall-rune-monolith-7c5837439df881b2.glb",
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": []
+        },
+        "asset_pack_item_glb:vd72r6f38b5tdhcfjzrmsnzjks8ak313:1:ks7annb6xe196rb74k39we3rj98ajq7f": {
+          "artifactId": "asset_pack_item_glb:vd72r6f38b5tdhcfjzrmsnzjks8ak313:1:ks7annb6xe196rb74k39we3rj98ajq7f",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "broken-rune-monolith-j98ajq7f.glb",
+          "loaderHint": "gltf",
+          "byteSize": 856796,
+          "runtimeUrl": "https://cdn.mint.gg/glb/broken-rune-monolith-481f1613f7f4d903.glb",
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": []
+        },
+        "asset_pack_item_glb:vd72r6f38b5tdhcfjzrmsnzjks8ak313:10:ks7cjh71cc0pvwmm45f90xvjas8ajy7e": {
+          "artifactId": "asset_pack_item_glb:vd72r6f38b5tdhcfjzrmsnzjks8ak313:10:ks7cjh71cc0pvwmm45f90xvjas8ajy7e",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "moonwell-shrine-basin-as8ajy7e.glb",
+          "loaderHint": "gltf",
+          "byteSize": 1548720,
+          "runtimeUrl": "https://cdn.mint.gg/glb/moonwell-shrine-basin-c0ab8d21e31e198d.glb",
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": []
+        },
+        "asset_pack_item_glb:vd72r6f38b5tdhcfjzrmsnzjks8ak313:11:ks75xajx0nrdvn7095ht06rtv98akaz1": {
+          "artifactId": "asset_pack_item_glb:vd72r6f38b5tdhcfjzrmsnzjks8ak313:11:ks75xajx0nrdvn7095ht06rtv98akaz1",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "ancient-reward-chest-v98akaz1.glb",
+          "loaderHint": "gltf",
+          "byteSize": 1212252,
+          "runtimeUrl": "https://cdn.mint.gg/glb/ancient-reward-chest-4889f849d3d04ebc.glb",
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": []
+        },
+        "asset_pack_item_glb:vd72r6f38b5tdhcfjzrmsnzjks8ak313:12:ks7a5mb4g08qct051m3a2yc6158akv7d": {
+          "artifactId": "asset_pack_item_glb:vd72r6f38b5tdhcfjzrmsnzjks8ak313:12:ks7a5mb4g08qct051m3a2yc6158akv7d",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "rune-brazier-158akv7d.glb",
+          "loaderHint": "gltf",
+          "byteSize": 977676,
+          "runtimeUrl": "https://cdn.mint.gg/glb/rune-brazier-04f9a5d36cea53d2.glb",
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": []
+        },
+        "asset_pack_item_glb:vd72r6f38b5tdhcfjzrmsnzjks8ak313:13:ks7cs85v2m3th5n1xj9grtrjks8akbfn": {
+          "artifactId": "asset_pack_item_glb:vd72r6f38b5tdhcfjzrmsnzjks8ak313:13:ks7cs85v2m3th5n1xj9grtrjks8akbfn",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "carved-stone-plinth-ks8akbfn.glb",
+          "loaderHint": "gltf",
+          "byteSize": 897928,
+          "runtimeUrl": "https://cdn.mint.gg/glb/carved-stone-plinth-17c9ee472f9433a8.glb",
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": []
+        },
+        "asset_pack_item_glb:vd72r6f38b5tdhcfjzrmsnzjks8ak313:14:ks74xmm28qe8mdn2mhwf7xybyd8akkjw": {
+          "artifactId": "asset_pack_item_glb:vd72r6f38b5tdhcfjzrmsnzjks8ak313:14:ks74xmm28qe8mdn2mhwf7xybyd8akkjw",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "weathered-waystone-yd8akkjw.glb",
+          "loaderHint": "gltf",
+          "byteSize": 979780,
+          "runtimeUrl": "https://cdn.mint.gg/glb/weathered-waystone-86bb57b313aa72c5.glb",
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": []
+        },
+        "asset_pack_item_glb:vd72r6f38b5tdhcfjzrmsnzjks8ak313:15:ks77828nbgvk1mdzhp5ymnb34x8akarc": {
+          "artifactId": "asset_pack_item_glb:vd72r6f38b5tdhcfjzrmsnzjks8ak313:15:ks77828nbgvk1mdzhp5ymnb34x8akarc",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "thornheart-arena-altar-4x8akarc.glb",
+          "loaderHint": "gltf",
+          "byteSize": 1213708,
+          "runtimeUrl": "https://cdn.mint.gg/glb/thornheart-arena-altar-5fa0065e2b763977.glb",
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": []
+        },
+        "asset_pack_item_glb:vd72r6f38b5tdhcfjzrmsnzjks8ak313:2:ks7d3e5yx8f5nw7n0gnwak3vsx8akzdm": {
+          "artifactId": "asset_pack_item_glb:vd72r6f38b5tdhcfjzrmsnzjks8ak313:2:ks7d3e5yx8f5nw7n0gnwak3vsx8akzdm",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "mossy-stone-archway-sx8akzdm.glb",
+          "loaderHint": "gltf",
+          "byteSize": 1306200,
+          "runtimeUrl": "https://cdn.mint.gg/glb/mossy-stone-archway-2ac72a325fcec348.glb",
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": []
+        },
+        "asset_pack_item_glb:vd72r6f38b5tdhcfjzrmsnzjks8ak313:3:ks7c05d8cnjz17x643zx89j8998aj374": {
+          "artifactId": "asset_pack_item_glb:vd72r6f38b5tdhcfjzrmsnzjks8ak313:3:ks7c05d8cnjz17x643zx89j8998aj374",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "collapsed-arch-half-998aj374.glb",
+          "loaderHint": "gltf",
+          "byteSize": 1116700,
+          "runtimeUrl": "https://cdn.mint.gg/glb/collapsed-arch-half-8dc8c46608699f61.glb",
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": []
+        },
+        "asset_pack_item_glb:vd72r6f38b5tdhcfjzrmsnzjks8ak313:4:ks70xbsej7b38n6x0tsajw78cs8akezc": {
+          "artifactId": "asset_pack_item_glb:vd72r6f38b5tdhcfjzrmsnzjks8ak313:4:ks70xbsej7b38n6x0tsajw78cs8akezc",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "intact-square-pillar-cs8akezc.glb",
+          "loaderHint": "gltf",
+          "byteSize": 1127812,
+          "runtimeUrl": "https://cdn.mint.gg/glb/intact-square-pillar-c45e3b288b690c5d.glb",
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": []
+        },
+        "asset_pack_item_glb:vd72r6f38b5tdhcfjzrmsnzjks8ak313:5:ks76pvgnjpxnrjkv2k28g8ftzx8akfgh": {
+          "artifactId": "asset_pack_item_glb:vd72r6f38b5tdhcfjzrmsnzjks8ak313:5:ks76pvgnjpxnrjkv2k28g8ftzx8akfgh",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "broken-pillar-stump-zx8akfgh.glb",
+          "loaderHint": "gltf",
+          "byteSize": 927724,
+          "runtimeUrl": "https://cdn.mint.gg/glb/broken-pillar-stump-7c5f3e87cf97a5f7.glb",
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": []
+        },
+        "asset_pack_item_glb:vd72r6f38b5tdhcfjzrmsnzjks8ak313:6:ks7bdg5e67wwncbw5zfnger8fd8ajkhd": {
+          "artifactId": "asset_pack_item_glb:vd72r6f38b5tdhcfjzrmsnzjks8ak313:6:ks7bdg5e67wwncbw5zfnger8fd8ajkhd",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "low-ruined-wall-fd8ajkhd.glb",
+          "loaderHint": "gltf",
+          "byteSize": 1104036,
+          "runtimeUrl": "https://cdn.mint.gg/glb/low-ruined-wall-c85cd4c4e51f861c.glb",
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": []
+        },
+        "asset_pack_item_glb:vd72r6f38b5tdhcfjzrmsnzjks8ak313:7:ks73ee48qys1adxekr0r4gtw898ajjbs": {
+          "artifactId": "asset_pack_item_glb:vd72r6f38b5tdhcfjzrmsnzjks8ak313:7:ks73ee48qys1adxekr0r4gtw898ajjbs",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "corner-ruined-wall-898ajjbs.glb",
+          "loaderHint": "gltf",
+          "byteSize": 1043336,
+          "runtimeUrl": "https://cdn.mint.gg/glb/corner-ruined-wall-d238b452235ee446.glb",
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": []
+        },
+        "asset_pack_item_glb:vd72r6f38b5tdhcfjzrmsnzjks8ak313:8:ks7df92e8pct9d5q21gzrc25h98aj1y4": {
+          "artifactId": "asset_pack_item_glb:vd72r6f38b5tdhcfjzrmsnzjks8ak313:8:ks7df92e8pct9d5q21gzrc25h98aj1y4",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "stone-stair-flight-h98aj1y4.glb",
+          "loaderHint": "gltf",
+          "byteSize": 1191028,
+          "runtimeUrl": "https://cdn.mint.gg/glb/stone-stair-flight-534e8f3ae6ed2d0e.glb",
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": []
+        },
+        "asset_pack_item_glb:vd72r6f38b5tdhcfjzrmsnzjks8ak313:9:ks75p89pykdz6jkhb2bf85mwg18aja0c": {
+          "artifactId": "asset_pack_item_glb:vd72r6f38b5tdhcfjzrmsnzjks8ak313:9:ks75p89pykdz6jkhb2bf85mwg18aja0c",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "small-stone-footbridge-g18aja0c.glb",
+          "loaderHint": "gltf",
+          "byteSize": 892520,
+          "runtimeUrl": "https://cdn.mint.gg/glb/small-stone-footbridge-6a617bfff19c24ae.glb",
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": []
+        }
+      }
+    },
+    "pack-vegetation": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "asset_pack",
+        "assetId": "th7cw15809fz56hpf6e2tnnvz18aj0s5"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "asset_pack_item_glb:vd74n54f6sdp8ydaqy6gzmedm18ajg2k:0:ks7dd6fpw3v5rgrmmh43zamee58ak9zv": {
+          "artifactId": "asset_pack_item_glb:vd74n54f6sdp8ydaqy6gzmedm18ajg2k:0:ks7dd6fpw3v5rgrmmh43zamee58ak9zv",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "ancient-broad-oak-e58ak9zv.glb",
+          "loaderHint": "gltf",
+          "byteSize": 1122336,
+          "runtimeUrl": "https://cdn.mint.gg/glb/ancient-broad-oak-37c76aaab9e1e562.glb",
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": []
+        },
+        "asset_pack_item_glb:vd74n54f6sdp8ydaqy6gzmedm18ajg2k:1:ks7c6jyg6k0a1wp3sayzesynws8akb59": {
+          "artifactId": "asset_pack_item_glb:vd74n54f6sdp8ydaqy6gzmedm18ajg2k:1:ks7c6jyg6k0a1wp3sayzesynws8akb59",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "twisted-root-tree-ws8akb59.glb",
+          "loaderHint": "gltf",
+          "byteSize": 1189552,
+          "runtimeUrl": "https://cdn.mint.gg/glb/twisted-root-tree-39b858e3ae821fcd.glb",
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": []
+        },
+        "asset_pack_item_glb:vd74n54f6sdp8ydaqy6gzmedm18ajg2k:10:ks7ban5de0wefpah9g1v23qnn18akzw2": {
+          "artifactId": "asset_pack_item_glb:vd74n54f6sdp8ydaqy6gzmedm18ajg2k:10:ks7ban5de0wefpah9g1v23qnn18akzw2",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "orange-wildflower-patch-n18akzw2.glb",
+          "loaderHint": "gltf",
+          "byteSize": 779072,
+          "runtimeUrl": "https://cdn.mint.gg/glb/orange-wildflower-patch-2693642d8e488adf.glb",
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": []
+        },
+        "asset_pack_item_glb:vd74n54f6sdp8ydaqy6gzmedm18ajg2k:11:ks7ey48w71h684wm43ajy71b118aj6fn": {
+          "artifactId": "asset_pack_item_glb:vd74n54f6sdp8ydaqy6gzmedm18ajg2k:11:ks7ey48w71h684wm43ajy71b118aj6fn",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "purple-mushroom-cluster-118aj6fn.glb",
+          "loaderHint": "gltf",
+          "byteSize": 715272,
+          "runtimeUrl": "https://cdn.mint.gg/glb/purple-mushroom-cluster-0f22ad56405f6a0a.glb",
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": []
+        },
+        "asset_pack_item_glb:vd74n54f6sdp8ydaqy6gzmedm18ajg2k:12:ks71sbd0dtzag6am37v2z8wg858ajgd8": {
+          "artifactId": "asset_pack_item_glb:vd74n54f6sdp8ydaqy6gzmedm18ajg2k:12:ks71sbd0dtzag6am37v2z8wg858ajgd8",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "red-mushroom-cluster-858ajgd8.glb",
+          "loaderHint": "gltf",
+          "byteSize": 743440,
+          "runtimeUrl": "https://cdn.mint.gg/glb/red-mushroom-cluster-0a607dcac48e29ca.glb",
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": []
+        },
+        "asset_pack_item_glb:vd74n54f6sdp8ydaqy6gzmedm18ajg2k:13:ks76n0cqm25fachwca5418dmyh8ajtat": {
+          "artifactId": "asset_pack_item_glb:vd74n54f6sdp8ydaqy6gzmedm18ajg2k:13:ks76n0cqm25fachwca5418dmyh8ajtat",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "hanging-vine-curtain-yh8ajtat.glb",
+          "loaderHint": "gltf",
+          "byteSize": 985372,
+          "runtimeUrl": "https://cdn.mint.gg/glb/hanging-vine-curtain-84159bf08566fb41.glb",
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": []
+        },
+        "asset_pack_item_glb:vd74n54f6sdp8ydaqy6gzmedm18ajg2k:14:ks76awg7bpe1k1dt2v9tavqefn8ajyvk": {
+          "artifactId": "asset_pack_item_glb:vd74n54f6sdp8ydaqy6gzmedm18ajg2k:14:ks76awg7bpe1k1dt2v9tavqefn8ajyvk",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "mossy-boulder-cluster-fn8ajyvk.glb",
+          "loaderHint": "gltf",
+          "byteSize": 646668,
+          "runtimeUrl": "https://cdn.mint.gg/glb/mossy-boulder-cluster-9b97e17a7394015a.glb",
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": []
+        },
+        "asset_pack_item_glb:vd74n54f6sdp8ydaqy6gzmedm18ajg2k:15:ks726k110qvc73bphsm2xxctn18ak4aw": {
+          "artifactId": "asset_pack_item_glb:vd74n54f6sdp8ydaqy6gzmedm18ajg2k:15:ks726k110qvc73bphsm2xxctn18ak4aw",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "crystal-flower-cluster-n18ak4aw.glb",
+          "loaderHint": "gltf",
+          "byteSize": 1077272,
+          "runtimeUrl": "https://cdn.mint.gg/glb/crystal-flower-cluster-418c2a553f38a173.glb",
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": []
+        },
+        "asset_pack_item_glb:vd74n54f6sdp8ydaqy6gzmedm18ajg2k:2:ks7e4vrm6r17382cq1sgzp3hjd8akxex": {
+          "artifactId": "asset_pack_item_glb:vd74n54f6sdp8ydaqy6gzmedm18ajg2k:2:ks7e4vrm6r17382cq1sgzp3hjd8akxex",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "young-birch-cluster-jd8akxex.glb",
+          "loaderHint": "gltf",
+          "byteSize": 1025052,
+          "runtimeUrl": "https://cdn.mint.gg/glb/young-birch-cluster-52079d68b25c92ab.glb",
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": []
+        },
+        "asset_pack_item_glb:vd74n54f6sdp8ydaqy6gzmedm18ajg2k:3:ks72xa9afxt5hftjjtbfaxe6zn8ak6w9": {
+          "artifactId": "asset_pack_item_glb:vd74n54f6sdp8ydaqy6gzmedm18ajg2k:3:ks72xa9afxt5hftjjtbfaxe6zn8ak6w9",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "fallen-mossy-log-zn8ak6w9.glb",
+          "loaderHint": "gltf",
+          "byteSize": 938692,
+          "runtimeUrl": "https://cdn.mint.gg/glb/fallen-mossy-log-f9156a0a4c99f526.glb",
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": []
+        },
+        "asset_pack_item_glb:vd74n54f6sdp8ydaqy6gzmedm18ajg2k:4:ks77z19r35e7frzpw0wzgkgtsh8ajat5": {
+          "artifactId": "asset_pack_item_glb:vd74n54f6sdp8ydaqy6gzmedm18ajg2k:4:ks77z19r35e7frzpw0wzgkgtsh8ajat5",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "hollow-stump-sh8ajat5.glb",
+          "loaderHint": "gltf",
+          "byteSize": 600600,
+          "runtimeUrl": "https://cdn.mint.gg/glb/hollow-stump-9f005c982ae58559.glb",
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": []
+        },
+        "asset_pack_item_glb:vd74n54f6sdp8ydaqy6gzmedm18ajg2k:5:ks79jv83fhqhyh927gahhms0nx8ajtgr": {
+          "artifactId": "asset_pack_item_glb:vd74n54f6sdp8ydaqy6gzmedm18ajg2k:5:ks79jv83fhqhyh927gahhms0nx8ajtgr",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "red-berry-bush-nx8ajtgr.glb",
+          "loaderHint": "gltf",
+          "byteSize": 871760,
+          "runtimeUrl": "https://cdn.mint.gg/glb/red-berry-bush-bcba4db8caf328ba.glb",
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": []
+        },
+        "asset_pack_item_glb:vd74n54f6sdp8ydaqy6gzmedm18ajg2k:6:ks71xjsz4hyav34dbcvrvq8vpd8ajfe7": {
+          "artifactId": "asset_pack_item_glb:vd74n54f6sdp8ydaqy6gzmedm18ajg2k:6:ks71xjsz4hyav34dbcvrvq8vpd8ajfe7",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "blue-flower-bush-pd8ajfe7.glb",
+          "loaderHint": "gltf",
+          "byteSize": 838312,
+          "runtimeUrl": "https://cdn.mint.gg/glb/blue-flower-bush-474a67ce200727e1.glb",
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": []
+        },
+        "asset_pack_item_glb:vd74n54f6sdp8ydaqy6gzmedm18ajg2k:7:ks712hzpzhztgf9xsyy90y5jed8ak21m": {
+          "artifactId": "asset_pack_item_glb:vd74n54f6sdp8ydaqy6gzmedm18ajg2k:7:ks712hzpzhztgf9xsyy90y5jed8ak21m",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "fern-clump-ed8ak21m.glb",
+          "loaderHint": "gltf",
+          "byteSize": 833232,
+          "runtimeUrl": "https://cdn.mint.gg/glb/fern-clump-1a732038714e6036.glb",
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": []
+        },
+        "asset_pack_item_glb:vd74n54f6sdp8ydaqy6gzmedm18ajg2k:8:ks761g0dhtavnh5my8whckgbfx8ak047": {
+          "artifactId": "asset_pack_item_glb:vd74n54f6sdp8ydaqy6gzmedm18ajg2k:8:ks761g0dhtavnh5my8whckgbfx8ak047",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "tall-grass-clump-fx8ak047.glb",
+          "loaderHint": "gltf",
+          "byteSize": 677396,
+          "runtimeUrl": "https://cdn.mint.gg/glb/tall-grass-clump-55aa1e49deca3337.glb",
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": []
+        },
+        "asset_pack_item_glb:vd74n54f6sdp8ydaqy6gzmedm18ajg2k:9:ks724f3e6r9m6pdbt70hxjr2e98ajc0k": {
+          "artifactId": "asset_pack_item_glb:vd74n54f6sdp8ydaqy6gzmedm18ajg2k:9:ks724f3e6r9m6pdbt70hxjr2e98ajc0k",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "white-daisy-patch-e98ajc0k.glb",
+          "loaderHint": "gltf",
+          "byteSize": 839980,
+          "runtimeUrl": "https://cdn.mint.gg/glb/white-daisy-patch-bf10e924f6a76ea2.glb",
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": []
+        }
+      }
+    },
+    "draco-runtime": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "runtime",
+        "assetType": "draco_decoder",
+        "assetId": "draco-gltf-three-0.184.0"
+      },
+      "transform": {
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0],
+        "scale": [1, 1, 1]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "decoder_path": {
+          "artifactId": "draco-gltf-three-0.184.0",
+          "role": "runtime_decoder_path",
+          "format": "directory",
+          "contentType": "application/octet-stream",
+          "runtimeUrl": "https://cdn.mint.gg/runtime/draco/gltf/three-0.184.0/",
+          "loaderHint": "draco"
+        }
+      }
+    }
+  }
+}

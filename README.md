@@ -49,6 +49,38 @@ pipeline and
   <p><sub>Three.js · Basketball · Arcade · Game</sub></p>
   <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/mint-hoops">Code</a> · <a href="https://play.mint.gg/mint-hoops">Live demo</a></p>
 </td>
+<td width="50%" valign="top">
+  <a href="https://play.mint.gg/mossbound"><img src="https://play.mint.gg/experience-assets/mossbound/social-card.webp" alt="A rune sword facing corrupted grove creatures among mossy ruins" width="100%"></a>
+  <h3>Mossbound</h3>
+  <p>A first-person fantasy melee run through five escalating waves of corrupted grove creatures, ending in a showdown with the Thornheart.</p>
+  <p><sub>Three.js · Fantasy · First-Person · Action Game</sub></p>
+  <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/mossbound">Code</a> · <a href="https://play.mint.gg/mossbound">Live demo</a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+  <a href="https://play.mint.gg/dynasty-index"><img src="https://play.mint.gg/experience-assets/dynasty-index/social-card.webp" alt="Jalen Quill basketball card displayed in the Dynasty Index collector vault" width="100%"></a>
+  <h3>Dynasty Index</h3>
+  <p>An immersive collector vault for selecting and inspecting six fictional premium sports trading cards.</p>
+  <p><sub>Three.js · Sports Cards · Collector · Interactive</sub></p>
+  <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/dynasty-index">Code</a> · <a href="https://play.mint.gg/dynasty-index">Live demo</a></p>
+</td>
+<td width="50%" valign="top">
+  <a href="https://play.mint.gg/sf-tennis-atlas"><img src="https://play.mint.gg/experience-assets/sf-tennis-atlas/social-card.webp" alt="SF Tennis Atlas showing official public tennis facilities across a stylized 3D map of San Francisco" width="100%"></a>
+  <h3>SF Tennis Atlas</h3>
+  <p>A source-aware 3D atlas for exploring all 64 official San Francisco public tennis facilities.</p>
+  <p><sub>Three.js · Tennis · Civic Data · Interactive Map</sub></p>
+  <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/sf-tennis-atlas">Code</a> · <a href="https://play.mint.gg/sf-tennis-atlas">Live demo</a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+  <a href="https://play.mint.gg/reef-rivals"><img src="https://play.mint.gg/experience-assets/reef-rivals/social-card.webp" alt="Two tube-riding heroes face a three-pirate raft crew in the tropical Reef Rivals arena." width="100%"></a>
+  <h3>Reef Rivals: Treasure Tide</h3>
+  <p>A three-round tropical projectile battler where tube-riding heroes aim, charge, and outshoot an escalating pirate raft crew.</p>
+  <p><sub>Three.js · Turn-Based · Projectile · Game</sub></p>
+  <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/reef-rivals">Code</a> · <a href="https://play.mint.gg/reef-rivals">Live demo</a></p>
+</td>
 <td width="50%"></td>
 </tr>
 </table>

@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#edf8ff" />
+    <meta name="description" content="Explore all 64 official San Francisco public tennis facilities in a source-aware 3D atlas." />
+    <title>SF Tennis Atlas — Public Courts</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#court-results">Skip to court results</a>
+    <div id="app" class="app-shell" data-view="map">
+      <header class="topbar">
+        <a class="wordmark" href="./" aria-label="SF Tennis Atlas home">
+          <span class="wordmark-logo" aria-hidden="true">
+            <span class="wordmark-monogram">SF</span>
+            <svg class="wordmark-ball" viewBox="0 0 40 40" focusable="false">
+              <circle cx="20" cy="20" r="17.5"></circle>
+              <path d="M8.2 7.4c5.7 3.2 9.2 8 10.1 13.7.8 5.2-.7 9.4-3.4 12.8"></path>
+              <path d="M31.8 7.4c-5.7 3.2-9.2 8-10.1 13.7-.8 5.2.7 9.4 3.4 12.8"></path>
+            </svg>
+          </span>
+          <span class="wordmark-name"><strong>TENNIS</strong><small>ATLAS</small></span>
+        </a>
+        <div class="topbar-datum">
+          <span class="eyebrow">SF PUBLIC TENNIS / DIRECTORY</span>
+          <span id="today-label">Official source snapshot</span>
+        </div>
+        <div id="global-status" class="global-status ok" role="status" aria-live="polite">
+          <span class="status-pulse" aria-hidden="true"></span>
+          <span>64 official facilities</span>
+        </div>
+      </header>
+
+      <aside class="control-rail" aria-label="Court search and filters">
+        <div class="rail-heading">
+          <p class="eyebrow">SF TENNIS ATLAS</p>
+          <p id="result-count" class="result-count">Loading directory…</p>
+        </div>
+        <label class="search-field">
+          <span class="sr-only">Search courts</span>
+          <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6"></circle><path d="m16 16 4 4"></path></svg>
+          <input id="court-search" type="search" autocomplete="off" placeholder="Search court or neighborhood" />
+          <kbd>⌘K</kbd>
+        </label>
+        <div class="view-switch" aria-label="SF Tennis Atlas view">
+          <button id="map-view" type="button" aria-pressed="true">Map</button>
+          <button id="list-view" type="button" aria-pressed="false">List</button>
+        </div>
+        <div class="filter-block">
+          <label class="select-label" for="neighborhood-filter">Neighborhood</label>
+          <select id="neighborhood-filter"><option value="">All neighborhoods</option></select>
+        </div>
+        <fieldset class="filter-block">
+          <legend>Show courts</legend>
+          <label class="filter-check"><input id="reservable-filter" type="checkbox" /><span>Reservable courts</span></label>
+          <label class="filter-check"><input id="lights-filter" type="checkbox" /><span>Lights</span></label>
+          <label class="filter-check"><input id="restrooms-filter" type="checkbox" /><span>Restrooms</span></label>
+          <label class="filter-check"><input id="walkup-filter" type="checkbox" /><span>Walk-up courts</span></label>
+        </fieldset>
+        <div class="legend" aria-label="Map legend">
+          <p class="eyebrow">ACCESS KEY</p>
+          <span><i class="legend-dot reservable"></i>Reservable courts</span>
+          <span><i class="legend-dot walkup"></i>Walk-up only</span>
+        </div>
+      </aside>
+
+      <main class="explorer" aria-label="SF Tennis Atlas map and directory">
+        <section id="map-panel" class="map-panel" aria-label="Interactive Three.js map">
+          <canvas id="world" aria-hidden="true"></canvas>
+          <div class="map-chrome map-north" aria-hidden="true"><span>N</span><i></i></div>
+          <div class="map-chrome map-scale" aria-hidden="true"><i></i><span>2 KM</span></div>
+          <div class="map-chrome map-city-layer">CITYWIDE ENU / OFFICIAL SF GEOMETRY</div>
+          <div id="map-caption" class="map-caption" aria-hidden="true">
+            <span class="eyebrow">SELECTED SIGNAL</span><strong>San Francisco</strong>
+          </div>
+          <div class="map-instruction">Drag to orbit · Scroll to zoom · Select a court</div>
+        </section>
+        <section id="list-panel" class="list-panel" aria-label="Court list">
+          <div class="list-heading">
+            <div><p class="eyebrow">ALL FACILITIES</p><h1>Courts across San Francisco</h1></div>
+            <p>Official SF Rec &amp; Park directory snapshot. Availability is not tracked here.</p>
+          </div>
+          <div id="court-results" class="court-results" tabindex="-1"></div>
+        </section>
+      </main>
+
+      <aside id="detail-panel" class="detail-panel" aria-label="Selected court details">
+        <div id="detail-content" class="detail-content">
+          <p class="eyebrow">COURT DIRECTORY</p>
+          <h1>Select a court</h1>
+          <p>Choose a map signal or court in the list to inspect amenities and official sources.</p>
+        </div>
+      </aside>
+
+      <footer class="source-strip">
+        <span>DATA / <a href="https://www.sfrecpark.org/1446/Tennis-Court-Directory" target="_blank" rel="noreferrer">SF REC &amp; PARK</a> · GEOMETRY / <a href="https://data.sfgov.org/Culture-and-Recreation/Recreation-and-Parks-Facilities/ib5c-xgwu" target="_blank" rel="noreferrer">DATASF</a></span>
+        <span id="refresh-time">STATIC DIRECTORY / AVAILABILITY NOT TRACKED</span>
+      </footer>
+    </div>
+    <script type="module" src="/src/client/app.ts"></script>
+  </body>
+</html>

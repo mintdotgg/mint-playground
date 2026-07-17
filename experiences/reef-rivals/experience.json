@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 2,
+  "order": 90,
+  "slug": "reef-rivals",
+  "title": "Reef Rivals: Treasure Tide",
+  "description": "A three-round tropical projectile battler where tube-riding heroes aim, charge, and outshoot an escalating pirate raft crew.",
+  "status": "published",
+  "publishedAt": "2026-07-16",
+  "tags": ["Three.js", "Turn-Based", "Projectile", "Game"],
+  "prompt": {
+    "version": 1,
+    "objective": "Build a tropical aim-and-fire battle between tube heroes and pirates.",
+    "mintAssets": [
+      { "kind": "asset-pack", "brief": "A toy reef arena, two crews, floats, raft, cover, weapons, pickups, and effects." },
+      { "kind": "model-animation", "brief": "Idle, throw, hit, fall, and victory motions for each crew member." },
+      { "kind": "audio", "brief": "Pirate music and launch, splash, impact, bonus, win, and defeat cues." }
+    ],
+    "experience": [
+      "Aim, set power, choose ammo, and trade ballistic shots.",
+      "Break cover, knock out crews, choose upgrades, and clear three rounds."
+    ],
+    "visualDirection": "Bright tropical toy art with bold silhouettes and an arcade HUD."
+  },
+  "thumbnail": {
+    "src": "/experience-assets/reef-rivals/social-card.webp",
+    "alt": "Two tube-riding heroes face a three-pirate raft crew in the tropical Reef Rivals arena."
+  },
+  "social": {
+    "title": "Reef Rivals: Treasure Tide",
+    "description": "A three-round tropical projectile battler where tube-riding heroes aim, charge, and outshoot an escalating pirate raft crew.",
+    "image": {
+      "src": "/experience-assets/reef-rivals/social-card.webp",
+      "alt": "Two tube-riding heroes face a three-pirate raft crew in the tropical Reef Rivals arena.",
+      "width": 1200,
+      "height": 630,
+      "accent": "#F75F58"
+    }
+  },
+  "runtime": {
+    "kind": "bundle",
+    "src": "/_experiences/reef-rivals/index.html",
+    "title": "Reef Rivals: Treasure Tide"
+  }
+}

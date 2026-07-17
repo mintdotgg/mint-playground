@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 2,
+  "order": 80,
+  "slug": "sf-tennis-atlas",
+  "title": "SF Tennis Atlas",
+  "description": "A source-aware 3D atlas for exploring all 64 official San Francisco public tennis facilities.",
+  "status": "published",
+  "publishedAt": "2026-07-16",
+  "tags": ["Three.js", "Tennis", "Civic Data", "Interactive Map"],
+  "prompt": {
+    "version": 1,
+    "objective": "Build a 3D atlas for exploring San Francisco's 64 official public tennis facilities.",
+    "mintAssets": [
+      { "kind": "asset-pack", "brief": "Four coherent packs totaling 64 facility-specific public tennis court markers." }
+    ],
+    "experience": [
+      "Explore all 64 facilities through synchronized 3D map and accessible list views.",
+      "Search, filter, select, and inspect court details, source dates, and official reservation links."
+    ],
+    "visualDirection": "Icy cyan civic cartography, frosted panels, coral signals, and clear public-data typography."
+  },
+  "thumbnail": {
+    "src": "/experience-assets/sf-tennis-atlas/social-card.webp",
+    "alt": "SF Tennis Atlas showing official public tennis facilities across a stylized 3D map of San Francisco"
+  },
+  "social": {
+    "title": "SF Tennis Atlas",
+    "description": "Explore all 64 official San Francisco public tennis facilities in a source-aware 3D atlas.",
+    "image": {
+      "src": "/experience-assets/sf-tennis-atlas/social-card.webp",
+      "alt": "SF Tennis Atlas showing official public tennis facilities across a stylized 3D map of San Francisco",
+      "width": 1200,
+      "height": 630,
+      "accent": "#3A8FAB"
+    }
+  },
+  "runtime": {
+    "kind": "bundle",
+    "src": "/_experiences/sf-tennis-atlas/index.html",
+    "title": "SF Tennis Atlas"
+  }
+}

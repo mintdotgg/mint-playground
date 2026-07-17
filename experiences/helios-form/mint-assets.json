@@ -8,8 +8,7 @@
         "manifestVersion": 1,
         "kind": "asset_pack",
         "assetType": "asset_pack",
-        "assetId": "th7eabwt8wwb4qskka942gk5q58aenws",
-        "mintUrl": "https://mint.gg/chat/ph731tk9v4m3ms7t4re2vj8khx8afvwe"
+        "assetId": "th7eabwt8wwb4qskka942gk5q58aenws"
       },
       "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
       "mode": "remote_url",
@@ -23,7 +22,7 @@
       }
     },
     "selection-sound": {
-      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "audio", "assetId": "xd7114dcf5k49vvpzmz78nedc98aee4c", "mintUrl": "https://mint.gg/chat/ph732pqy6b5y15374wmk7escnh8aew2g" },
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "audio", "assetId": "xd7114dcf5k49vvpzmz78nedc98aee4c" },
       "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
       "mode": "remote_url",
       "artifacts": {
@@ -31,7 +30,7 @@
       }
     },
     "showroom-ambience": {
-      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "audio", "assetId": "xd7ba9ks7jt8ca3dm2q75cb4es8afpmv", "mintUrl": "https://mint.gg/chat/ph7edk556j5njp3cepvqcztdph8aekq6" },
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "audio", "assetId": "xd7ba9ks7jt8ca3dm2q75cb4es8afpmv" },
       "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
       "mode": "remote_url",
       "artifacts": {
@@ -39,37 +38,37 @@
       }
     },
     "asterion-dossier": {
-      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "image", "assetId": "xn71vgq9am6mgpxtnn2c3x0y5s8afaxr", "mintUrl": "https://mint.gg/chat/ph7fw05tdsm2d03w03wq9asew58afm6p" },
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "image", "assetId": "xn71vgq9am6mgpxtnn2c3x0y5s8afaxr" },
       "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
       "mode": "remote_url",
       "artifacts": { "image": { "artifactId": "xn71vgq9am6mgpxtnn2c3x0y5s8afaxr", "role": "reference_image", "format": "png", "contentType": "image/png", "runtimeUrl": "https://cdn.mint.gg/images/xn71vgq9am6mgpxtnn2c3x0y5s8afaxr/asterion-onboard-dossier-a35a63-b3a103319a2d29d5.png", "loaderHint": "image" } }
     },
     "lumen-dossier": {
-      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "image", "assetId": "xn79pt01ezv62rk5pttxyks5718afgdr", "mintUrl": "https://mint.gg/chat/ph7drj7xg729kpyp9bcyfyxmh18aftj7" },
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "image", "assetId": "xn79pt01ezv62rk5pttxyks5718afgdr" },
       "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
       "mode": "remote_url",
       "artifacts": { "image": { "artifactId": "xn79pt01ezv62rk5pttxyks5718afgdr", "role": "reference_image", "format": "png", "contentType": "image/png", "runtimeUrl": "https://cdn.mint.gg/images/xn79pt01ezv62rk5pttxyks5718afgdr/lumen-onboard-dossier-f5a5a9-8cde5f0be0fdc56a.png", "loaderHint": "image" } }
     },
     "vesper-dossier": {
-      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "image", "assetId": "xn7149qz58mq24xkv01bxecw3s8afzg6", "mintUrl": "https://mint.gg/chat/ph7c4q227y3858zze04r8yedp18aed8v" },
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "image", "assetId": "xn7149qz58mq24xkv01bxecw3s8afzg6" },
       "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
       "mode": "remote_url",
       "artifacts": { "image": { "artifactId": "xn7149qz58mq24xkv01bxecw3s8afzg6", "role": "reference_image", "format": "png", "contentType": "image/png", "runtimeUrl": "https://cdn.mint.gg/images/xn7149qz58mq24xkv01bxecw3s8afzg6/vesper-onboard-dossier-aa2162-2f8c71d88e117dd4.png", "loaderHint": "image" } }
     },
     "kestrel-dossier": {
-      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "image", "assetId": "xn745j1vef5m248p4hcqwa7n8n8aeynn", "mintUrl": "https://mint.gg/chat/ph70d6r3r8m57k7pm96r0abb4x8afhny" },
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "image", "assetId": "xn745j1vef5m248p4hcqwa7n8n8aeynn" },
       "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
       "mode": "remote_url",
       "artifacts": { "image": { "artifactId": "xn745j1vef5m248p4hcqwa7n8n8aeynn", "role": "reference_image", "format": "png", "contentType": "image/png", "runtimeUrl": "https://cdn.mint.gg/images/xn745j1vef5m248p4hcqwa7n8n8aeynn/kestrel-onboard-dossier-64a269-a782e27c39caa764.png", "loaderHint": "image" } }
     },
     "helix-dossier": {
-      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "image", "assetId": "xn7daxg5bgy9dzqetq516sgp2h8afqg9", "mintUrl": "https://mint.gg/chat/ph75z9xc10a4pwyxfmwx3w50a18afjcf" },
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "image", "assetId": "xn7daxg5bgy9dzqetq516sgp2h8afqg9" },
       "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
       "mode": "remote_url",
       "artifacts": { "image": { "artifactId": "xn7daxg5bgy9dzqetq516sgp2h8afqg9", "role": "reference_image", "format": "png", "contentType": "image/png", "runtimeUrl": "https://cdn.mint.gg/images/xn7daxg5bgy9dzqetq516sgp2h8afqg9/helix-onboard-dossier-6d1f82-8b1a10186493d73f.png", "loaderHint": "image" } }
     },
     "orison-dossier": {
-      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "image", "assetId": "xn795ab5zzdqz2jyjav6syw2dx8afctr", "mintUrl": "https://mint.gg/chat/ph76vaqjabdgqqw5k75apapd9s8afwd9" },
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "image", "assetId": "xn795ab5zzdqz2jyjav6syw2dx8afctr" },
       "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
       "mode": "remote_url",
       "artifacts": { "image": { "artifactId": "xn795ab5zzdqz2jyjav6syw2dx8afctr", "role": "reference_image", "format": "png", "contentType": "image/png", "runtimeUrl": "https://cdn.mint.gg/images/xn795ab5zzdqz2jyjav6syw2dx8afctr/orison-onboard-dossier-4fcac2-6041bcf8054dc8cb.png", "loaderHint": "image" } }

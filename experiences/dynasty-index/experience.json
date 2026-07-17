@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 2,
+  "order": 70,
+  "slug": "dynasty-index",
+  "title": "Dynasty Index",
+  "description": "An immersive collector vault for selecting and inspecting six fictional premium sports trading cards.",
+  "status": "published",
+  "publishedAt": "2026-07-16",
+  "tags": ["Three.js", "Sports Cards", "Collector", "Interactive"],
+  "prompt": {
+    "version": 1,
+    "objective": "Build a vault for selecting and inspecting six fictional premium sports cards.",
+    "mintAssets": [
+      { "kind": "asset-pack", "brief": "Vault stands, slab details, memorabilia, and light blades." },
+      { "kind": "image", "brief": "Six fictional athlete portraits across six sports." },
+      { "kind": "audio", "brief": "Vault ambience plus selection and foil effects." }
+    ],
+    "experience": [
+      "Select six cards and sync profile, stats, grade, light, and atmosphere.",
+      "Orbit, zoom, flip, inspect, open notes, reset, and support keyboard and touch."
+    ],
+    "visualDirection": "Graphite museum architecture, frosted acrylic, warm light, and vermilion accents."
+  },
+  "thumbnail": {
+    "src": "/experience-assets/dynasty-index/social-card.webp",
+    "alt": "Jalen Quill basketball card displayed in the Dynasty Index collector vault"
+  },
+  "social": {
+    "title": "Dynasty Index",
+    "description": "Select, flip, and inspect six premium fictional sports cards in an atmospheric collector vault.",
+    "image": {
+      "src": "/experience-assets/dynasty-index/social-card.webp",
+      "alt": "Jalen Quill basketball card displayed in the Dynasty Index collector vault",
+      "width": 1200,
+      "height": 630,
+      "accent": "#FF624C"
+    }
+  },
+  "runtime": {
+    "kind": "bundle",
+    "src": "/_experiences/dynasty-index/index.html",
+    "title": "Dynasty Index"
+  }
+}

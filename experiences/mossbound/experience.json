@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 2,
+  "order": 60,
+  "slug": "mossbound",
+  "title": "Mossbound",
+  "description": "A first-person fantasy melee run through five escalating waves of corrupted grove creatures, ending in a showdown with the Thornheart.",
+  "status": "published",
+  "publishedAt": "2026-07-15",
+  "tags": ["Three.js", "Fantasy", "First-Person", "Action Game"],
+  "prompt": {
+    "version": 1,
+    "objective": "Build a first-person fantasy melee game with five waves and a boss finale.",
+    "mintAssets": [
+      {
+        "kind": "asset-pack",
+        "brief": "Grove creatures spanning swarm, armored, ranged, and boss roles."
+      },
+      {
+        "kind": "asset-pack",
+        "brief": "Mossy ruins, vegetation, first-person weapons, rewards, traps, and shrine props."
+      },
+      {
+        "kind": "audio",
+        "brief": "Forest and boss loops with melee, damage, pickup, and level-up effects."
+      }
+    ],
+    "experience": [
+      "Fight five waves with sword attacks, stamina, upgrades, and Grove Blast.",
+      "Keep combat, rewards, wave state, and the boss readable in first person."
+    ],
+    "visualDirection": "Cyan runes and gold rewards in a dark enchanted forest with a fantasy HUD."
+  },
+  "thumbnail": {
+    "src": "/experience-assets/mossbound/social-card.webp",
+    "alt": "A rune sword facing corrupted grove creatures among mossy ruins"
+  },
+  "social": {
+    "title": "Mossbound",
+    "description": "Survive five waves of corrupted grove creatures and confront the Thornheart.",
+    "image": {
+      "src": "/experience-assets/mossbound/social-card.webp",
+      "alt": "A rune sword facing corrupted grove creatures among mossy ruins",
+      "width": 1200,
+      "height": 630,
+      "accent": "#4CECFF"
+    }
+  },
+  "runtime": {
+    "kind": "bundle",
+    "src": "/_experiences/mossbound/index.html",
+    "title": "Mossbound"
+  }
+}
