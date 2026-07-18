@@ -1,0 +1,826 @@
+{
+  "registryVersion": 1,
+  "assetRoot": "public",
+  "delivery": "mint_cdn",
+  "assets": {
+    "track-orbital-decay": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd71wv11bbj2jrjgn3wvxy26b18akts3"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio_file": {
+          "artifactId": "audio_file",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "orbital-decay-92c876-9d99db9d52e9410a.mp3",
+          "loaderHint": "audio",
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd71wv11bbj2jrjgn3wvxy26b18akts3/orbital-decay-92c876-9d99db9d52e9410a.mp3",
+          "byteSize": 1441375,
+          "durationSeconds": 60
+        }
+      }
+    },
+    "track-zero-g-breaker": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd7f1qyk22jabsrnd80bn5hsxn8aj29q"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio_file": {
+          "artifactId": "audio_file",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "zero-g-breaker-fb9704-baea2f3f45b960cf.mp3",
+          "loaderHint": "audio",
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd7f1qyk22jabsrnd80bn5hsxn8aj29q/zero-g-breaker-fb9704-baea2f3f45b960cf.mp3",
+          "byteSize": 1441375,
+          "durationSeconds": 60
+        }
+      }
+    },
+    "track-plasma-wake": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd77tw5x7nx1hrxdgbj88qcevh8akv40"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio_file": {
+          "artifactId": "audio_file",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "plasma-wake-bcdd96-a2a8b1dec8b8feb4.mp3",
+          "loaderHint": "audio",
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd77tw5x7nx1hrxdgbj88qcevh8akv40/plasma-wake-bcdd96-a2a8b1dec8b8feb4.mp3",
+          "byteSize": 1441375,
+          "durationSeconds": 60
+        }
+      }
+    },
+    "track-hull-breach": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd7a7f3sh84qgsz4evb2t2wfg98akx80"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio_file": {
+          "artifactId": "audio_file",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "hull-breach-538089-86fbc0911e762601.mp3",
+          "loaderHint": "audio",
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd7a7f3sh84qgsz4evb2t2wfg98akx80/hull-breach-538089-86fbc0911e762601.mp3",
+          "byteSize": 1441375,
+          "durationSeconds": 60
+        }
+      }
+    },
+    "track-event-horizon": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd76sa43802qk92xrhp20k5hbs8ajct9"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio_file": {
+          "artifactId": "audio_file",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "event-horizon-82046f-143b085c40a2af41.mp3",
+          "loaderHint": "audio",
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd76sa43802qk92xrhp20k5hbs8ajct9/event-horizon-82046f-143b085c40a2af41.mp3",
+          "byteSize": 1441375,
+          "durationSeconds": 60
+        }
+      }
+    },
+    "cover-orbital-decay": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "image",
+        "assetId": "xn74sb17jr6npg4bb8x6smx5qx8agmkt"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "image_file": {
+          "artifactId": "image_file",
+          "role": "image",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "art-orbital-decay-e6268d-8d000f8193186e59.png",
+          "loaderHint": "image",
+          "runtimeUrl": "https://cdn.mint.gg/images/xn74sb17jr6npg4bb8x6smx5qx8agmkt/art-orbital-decay-e6268d-8d000f8193186e59.png",
+          "byteSize": 1758823,
+          "width": 1024,
+          "height": 1024,
+          "aspectRatio": 1
+        }
+      }
+    },
+    "cover-chrome-casket": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "image",
+        "assetId": "xn78ynpw5y6pcwh67fr86rdbfx8ahsyn"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "image_file": {
+          "artifactId": "image_file",
+          "role": "image",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "art-chrome-casket-32cae9-ff408a4a2a040bb3.png",
+          "loaderHint": "image",
+          "runtimeUrl": "https://cdn.mint.gg/images/xn78ynpw5y6pcwh67fr86rdbfx8ahsyn/art-chrome-casket-32cae9-ff408a4a2a040bb3.png",
+          "byteSize": 2667231,
+          "width": 1024,
+          "height": 1024,
+          "aspectRatio": 1
+        }
+      }
+    },
+    "cover-splice-runner": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "image",
+        "assetId": "xn723jkf6kq52pd2y1jy70hy3h8ag3zp"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "image_file": {
+          "artifactId": "image_file",
+          "role": "image",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "art-splice-runner-8a9c03-6c8476e7c734e19d.png",
+          "loaderHint": "image",
+          "runtimeUrl": "https://cdn.mint.gg/images/xn723jkf6kq52pd2y1jy70hy3h8ag3zp/art-splice-runner-8a9c03-6c8476e7c734e19d.png",
+          "byteSize": 1998657,
+          "width": 1024,
+          "height": 1024,
+          "aspectRatio": 1
+        }
+      }
+    },
+    "cover-adrenal-circuit": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "image",
+        "assetId": "xn700z5w52t0e9zx7j5gp13x1s8ahmzx"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "image_file": {
+          "artifactId": "image_file",
+          "role": "image",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "art-adrenal-circuit-f17bc0-b4656f3dca6fb544.png",
+          "loaderHint": "image",
+          "runtimeUrl": "https://cdn.mint.gg/images/xn700z5w52t0e9zx7j5gp13x1s8ahmzx/art-adrenal-circuit-f17bc0-b4656f3dca6fb544.png",
+          "byteSize": 1992929,
+          "width": 1024,
+          "height": 1024,
+          "aspectRatio": 1
+        }
+      }
+    },
+    "cover-neon-bodega": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "image",
+        "assetId": "xn7deb7h22vv3r2jz6z8h59x118ahtgj"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "image_file": {
+          "artifactId": "image_file",
+          "role": "image",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "art-neon-bodega-ca1437-04be21fc91d2e83f.png",
+          "loaderHint": "image",
+          "runtimeUrl": "https://cdn.mint.gg/images/xn7deb7h22vv3r2jz6z8h59x118ahtgj/art-neon-bodega-ca1437-04be21fc91d2e83f.png",
+          "byteSize": 2005375,
+          "width": 1024,
+          "height": 1024,
+          "aspectRatio": 1
+        }
+      }
+    },
+    "texture-holo-foil": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "image",
+        "assetId": "xn79gxx0sgwm3m3w2f9vm4ywex8agymn"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "image_file": {
+          "artifactId": "image_file",
+          "role": "image",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "tex-holo-foil-fb36e9-313a2c4ff0f044f2.png",
+          "loaderHint": "image",
+          "runtimeUrl": "https://cdn.mint.gg/images/xn79gxx0sgwm3m3w2f9vm4ywex8agymn/tex-holo-foil-fb36e9-313a2c4ff0f044f2.png",
+          "byteSize": 1931353,
+          "width": 1408,
+          "height": 768,
+          "aspectRatio": 1.8333333333333333
+        }
+      }
+    },
+    "chassis-acrylic": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "m97bntwq9svv0fyg986qy9f4sh8agmxk"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "original_glb": {
+          "artifactId": "original_glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "acid-acrylic-discframe-normalized-5fd4ce6703013b11.glb",
+          "loaderHint": "gltf",
+          "runtimeUrl": "https://cdn.mint.gg/glb/acid-acrylic-discframe-normalized-5fd4ce6703013b11.glb",
+          "byteSize": 1005528
+        }
+      }
+    },
+    "chassis-monolith": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "m978hc4sejkfvj7v5q4x5rn94n8ag2w6"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "original_glb": {
+          "artifactId": "original_glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "gunmetal-disc-bastion-normalized-06b8c16d2b0f1c6a.glb",
+          "loaderHint": "gltf",
+          "runtimeUrl": "https://cdn.mint.gg/glb/gunmetal-disc-bastion-normalized-06b8c16d2b0f1c6a.glb",
+          "byteSize": 834916
+        }
+      }
+    },
+    "chassis-orbital": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "m9781jddkczxxezbek2p6z5edd8agvdz"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "original_glb": {
+          "artifactId": "original_glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "segmented-orbit-chassis-normalized-bb4b169f7be023e1.glb",
+          "loaderHint": "gltf",
+          "runtimeUrl": "https://cdn.mint.gg/glb/segmented-orbit-chassis-normalized-bb4b169f7be023e1.glb",
+          "byteSize": 1184216
+        }
+      }
+    },
+    "rotary-knob": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks7675fpzpx0f84yzxsbhjckhh8ahqz0"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "original_glb": {
+          "artifactId": "original_glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "black-knurl-dial-normalized-0f6cf3217c71b6f3.glb",
+          "loaderHint": "gltf",
+          "runtimeUrl": "https://cdn.mint.gg/glb/black-knurl-dial-normalized-0f6cf3217c71b6f3.glb",
+          "byteSize": 704688
+        }
+      }
+    },
+    "grip-rail": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks7ah1f74m00ff6njhazxrq0ks8ahz1d"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "original_glb": {
+          "artifactId": "original_glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "black-fin-rail-normalized-780f47cdd508d74f.glb",
+          "loaderHint": "gltf",
+          "runtimeUrl": "https://cdn.mint.gg/glb/black-fin-rail-normalized-780f47cdd508d74f.glb",
+          "byteSize": 866296
+        }
+      }
+    },
+    "dancer-chrome-pulse": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "animation",
+        "assetType": "model_animation_batch",
+        "assetId": "w57bvdq0v2xmjt4c7zr6fzf8as8aj733"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "clip:w976v2dyzt6y4h2j9fneacjtw18ajskp:animation_glb": {
+          "artifactId": "clip:w976v2dyzt6y4h2j9fneacjtw18ajskp:animation_glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "all-night-dance-w18ajskp-glb-ef47fbd0abeaac4f.glb",
+          "loaderHint": "gltf",
+          "byteSize": 6118364,
+          "runtimeUrl": "https://cdn.mint.gg/glb/all-night-dance-w18ajskp-glb-ef47fbd0abeaac4f.glb"
+        }
+      }
+    },
+    "dancer-coral-circuit": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "animation",
+        "assetType": "model_animation_batch",
+        "assetId": "w57aw1j1za5sw6z7wp108a6jp98ajp9j"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "clip:w974h57wa2x8e9c4d3sf8r94bx8ajv92:animation_glb": {
+          "artifactId": "clip:w974h57wa2x8e9c4d3sf8r94bx8ajv92:animation_glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "boom-dance-bx8ajv92-glb-d454661928276cea.glb",
+          "loaderHint": "gltf",
+          "byteSize": 6360948,
+          "runtimeUrl": "https://cdn.mint.gg/glb/boom-dance-bx8ajv92-glb-d454661928276cea.glb"
+        }
+      }
+    },
+    "dancer-neon-night": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "animation",
+        "assetType": "model_animation_batch",
+        "assetId": "w57bqvvf0tv939j37yhc5q3v118ajy9p"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "clip:w97e6mes877q7ppcge54ate07n8aj5ra:animation_glb": {
+          "artifactId": "clip:w97e6mes877q7ppcge54ate07n8aj5ra:animation_glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "hip-hop-dance-7n8aj5ra-glb-d4b3780da0918b76.glb",
+          "loaderHint": "gltf",
+          "byteSize": 4222480,
+          "runtimeUrl": "https://cdn.mint.gg/glb/hip-hop-dance-7n8aj5ra-glb-d4b3780da0918b76.glb"
+        }
+      }
+    },
+    "dancer-signal-runner": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "animation",
+        "assetType": "model_animation_batch",
+        "assetId": "w57893w9gb6p1thtvnmg01vp2d8ajvf7"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "clip:w976yf8rr3ss97m483jeddr2s58akrgm:animation_glb": {
+          "artifactId": "clip:w976yf8rr3ss97m483jeddr2s58akrgm:animation_glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "jazz-danc-s58akrgm-glb-94d0b03546662eb1.glb",
+          "loaderHint": "gltf",
+          "byteSize": 4127480,
+          "runtimeUrl": "https://cdn.mint.gg/glb/jazz-danc-s58akrgm-glb-94d0b03546662eb1.glb"
+        }
+      }
+    },
+    "draco-runtime": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "runtime",
+        "assetType": "draco_decoder",
+        "assetId": "draco-gltf-three-0.184.0"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "decoder_path": {
+          "artifactId": "draco-gltf-three-0.184.0",
+          "role": "runtime_decoder_path",
+          "format": "directory",
+          "contentType": "application/octet-stream",
+          "runtimeUrl": "https://cdn.mint.gg/runtime/draco/gltf/three-0.184.0/",
+          "loaderHint": "draco"
+        }
+      }
+    }
+  }
+}

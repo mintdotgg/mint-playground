@@ -1,0 +1,20 @@
+{
+  "name": "@mint/playground-experience-cdx-2089-music-player",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build --base /_experiences/cdx-2089-music-player/",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "mpg123-decoder": "1.0.3",
+    "three": "0.178.0"
+  },
+  "devDependencies": {
+    "@types/three": "0.178.1",
+    "typescript": "5.9.3",
+    "vite": "7.3.6"
+  }
+}

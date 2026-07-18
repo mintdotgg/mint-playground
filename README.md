@@ -81,6 +81,22 @@ pipeline and
   <p><sub>Three.js · Turn-Based · Projectile · Game</sub></p>
   <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/reef-rivals">Code</a> · <a href="https://play.mint.gg/reef-rivals">Live demo</a></p>
 </td>
+<td width="50%" valign="top">
+  <a href="https://play.mint.gg/cdx-2089-music-player"><img src="https://play.mint.gg/experience-assets/cdx-2089-music-player/social-card.webp" alt="The PRISM skin of the CDX-2089 futuristic music player with its illuminated disc and controls." width="100%"></a>
+  <h3>CDX-2089 Music Player</h3>
+  <p>A skin-adaptive 3D music player with five futuristic disc decks, audio-reactive visuals, and an unfolding dance floor.</p>
+  <p><sub>Three.js · Music · Audio-Reactive · Interactive</sub></p>
+  <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/cdx-2089-music-player">Code</a> · <a href="https://play.mint.gg/cdx-2089-music-player">Live demo</a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+  <a href="https://play.mint.gg/mint-putt"><img src="https://play.mint.gg/experience-assets/mint-putt/social-card.webp" alt="Aerial view of Half Dome Opening, a lime-green putting lane through a rocky Yosemite-inspired landscape" width="100%"></a>
+  <h3>Genesis Grove Putt-Putt</h3>
+  <p>An 18-hole putting round through California-inspired Gaussian splat worlds, with drag-to-aim shots, touch controls, and a running scorecard.</p>
+  <p><sub>React Three Fiber · SparkJS · Mini Golf · Game</sub></p>
+  <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/mint-putt">Code</a> · <a href="https://play.mint.gg/mint-putt">Live demo</a></p>
+</td>
 <td width="50%"></td>
 </tr>
 </table>

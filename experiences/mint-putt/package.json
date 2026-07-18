@@ -1,0 +1,31 @@
+{
+  "name": "@mint/playground-experience-mint-putt",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1 --port 5196",
+    "build": "next build"
+  },
+  "dependencies": {
+    "@react-three/drei": "10.7.7",
+    "@react-three/fiber": "9.6.1",
+    "@sparkjsdev/spark": "2.1.0",
+    "lucide-react": "1.23.0",
+    "next": "16.2.10",
+    "react": "19.2.7",
+    "react-dom": "19.2.7",
+    "three": "0.185.1",
+    "three-mesh-bvh": "0.9.12"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.2",
+    "@types/node": "20.19.37",
+    "@types/react": "19.2.17",
+    "@types/react-dom": "19.2.3",
+    "@types/three": "0.185.0",
+    "postcss": "8.5.19",
+    "tailwindcss": "4.3.2",
+    "typescript": "5.9.3"
+  }
+}

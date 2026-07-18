@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 2,
+  "order": 110,
+  "slug": "mint-putt",
+  "title": "Genesis Grove Putt-Putt",
+  "description": "An 18-hole putting round through California-inspired Gaussian splat worlds, with drag-to-aim shots, touch controls, and a running scorecard.",
+  "status": "published",
+  "publishedAt": "2026-07-18",
+  "tags": ["React Three Fiber", "SparkJS", "Mini Golf", "Game"],
+  "prompt": {
+    "version": 1,
+    "objective": "Build an 18-hole mini-golf tour through California-inspired splat worlds.",
+    "mintAssets": [
+      {
+        "kind": "world",
+        "brief": "California-inspired golf worlds with open greens and landmark scenery."
+      },
+      {
+        "kind": "audio",
+        "brief": "Putter hits, cup drops, completion accents, and gentle applause."
+      }
+    ],
+    "experience": [
+      "Drag to aim and release each shot on pointer or touch.",
+      "Advance through 18 holes with par, strokes, and a running scorecard.",
+      "Keep flyovers, collision, cup capture, audio feedback, and replay readable."
+    ],
+    "visualDirection": "Cinematic California landscapes, mint greens, glass HUD panels, and aerial flyovers."
+  },
+  "thumbnail": {
+    "src": "/experience-assets/mint-putt/social-card.webp",
+    "alt": "Aerial view of Half Dome Opening, a lime-green putting lane through a rocky Yosemite-inspired landscape"
+  },
+  "social": {
+    "title": "Genesis Grove Putt-Putt",
+    "description": "Putt through 18 California-inspired splat worlds and finish the full Genesis Grove scorecard.",
+    "image": {
+      "src": "/experience-assets/mint-putt/social-card.webp",
+      "alt": "Aerial view of Half Dome Opening, a lime-green putting lane through a rocky Yosemite-inspired landscape",
+      "width": 1200,
+      "height": 630,
+      "accent": "#85F7BE"
+    }
+  },
+  "runtime": {
+    "kind": "bundle",
+    "src": "/_experiences/mint-putt/index.html",
+    "title": "Genesis Grove Putt-Putt"
+  }
+}

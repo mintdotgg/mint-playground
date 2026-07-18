@@ -1,0 +1,1999 @@
+{
+  "registryVersion": 1,
+  "assetRoot": "public",
+  "delivery": "mint_cdn",
+  "assets": {
+    "world-hole-01": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "world",
+        "assetId": "j975nn7qfwnbx21fzj6w05415x8ae9r3"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          3.141592653589793,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_stream",
+      "artifacts": {
+        "rad": {
+          "artifactId": "world_runtime_rad",
+          "role": "environment",
+          "kind": "gaussian_splat_world",
+          "renderer": "@sparkjsdev/spark",
+          "format": "rad",
+          "contentType": "application/octet-stream",
+          "byteSize": 36894016,
+          "runtimeUrl": "https://cdn.mint.gg/rad/half-dome-golf-valley-575c9678b303495f-lod.rad",
+          "loaderHint": "spark-rad"
+        },
+        "collider": {
+          "artifactId": "world_collider",
+          "role": "physics_collider",
+          "kind": "triangle_mesh",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/worlds/half-dome-golf-valley-collider-glb-721f51f62cba437e.glb",
+          "visible": false,
+          "requiredForPhysics": true,
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "world-hole-02": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "world",
+        "assetId": "j97agj571twpxmxvtk8143nkjh8aef0a"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          3.141592653589793,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_stream",
+      "artifacts": {
+        "rad": {
+          "artifactId": "world_runtime_rad",
+          "role": "environment",
+          "kind": "gaussian_splat_world",
+          "renderer": "@sparkjsdev/spark",
+          "format": "rad",
+          "contentType": "application/octet-stream",
+          "byteSize": 46178896,
+          "runtimeUrl": "https://cdn.mint.gg/rad/giant-sequoia-passage-7f20b6fb4f49849c-lod.rad",
+          "loaderHint": "spark-rad"
+        },
+        "collider": {
+          "artifactId": "world_collider",
+          "role": "physics_collider",
+          "kind": "triangle_mesh",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/worlds/giant-sequoia-passage-collider-glb-d2ecba09ba669826.glb",
+          "visible": false,
+          "requiredForPhysics": true,
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "world-hole-03": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "world",
+        "assetId": "j9780k9xxww9g11b6hyfg66fqh8ae6j4"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          3.141592653589793,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_stream",
+      "artifacts": {
+        "rad": {
+          "artifactId": "world_runtime_rad",
+          "role": "environment",
+          "kind": "gaussian_splat_world",
+          "renderer": "@sparkjsdev/spark",
+          "format": "rad",
+          "contentType": "application/octet-stream",
+          "byteSize": 31588360,
+          "runtimeUrl": "https://cdn.mint.gg/rad/big-sur-pacific-edge-5aa2fd60be4b1814-lod.rad",
+          "loaderHint": "spark-rad"
+        },
+        "collider": {
+          "artifactId": "world_collider",
+          "role": "physics_collider",
+          "kind": "triangle_mesh",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/worlds/big-sur-coast-golf-collider-glb-62fb331f0f95fa6e.glb",
+          "visible": false,
+          "requiredForPhysics": true,
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "world-hole-04": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "world",
+        "assetId": "j97akj0yaky039kkxqq59a8t1h8afkg6"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          3.141592653589793,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_stream",
+      "artifacts": {
+        "rad": {
+          "artifactId": "world_runtime_rad",
+          "role": "environment",
+          "kind": "gaussian_splat_world",
+          "renderer": "@sparkjsdev/spark",
+          "format": "rad",
+          "contentType": "application/octet-stream",
+          "byteSize": 34794440,
+          "runtimeUrl": "https://cdn.mint.gg/rad/carmel-cypress-coast-07d2bb7f182f30fb-lod.rad",
+          "loaderHint": "spark-rad"
+        },
+        "collider": {
+          "artifactId": "world_collider",
+          "role": "physics_collider",
+          "kind": "triangle_mesh",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/worlds/cypress-coast-golf-hole-collider-glb-c3c248f17236cf74.glb",
+          "visible": false,
+          "requiredForPhysics": true,
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "world-hole-05": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "world",
+        "assetId": "j97cczfjade1axj950yfmrqx098aekq7"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          3.141592653589793,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_stream",
+      "artifacts": {
+        "rad": {
+          "artifactId": "world_runtime_rad",
+          "role": "environment",
+          "kind": "gaussian_splat_world",
+          "renderer": "@sparkjsdev/spark",
+          "format": "rad",
+          "contentType": "application/octet-stream",
+          "byteSize": 39775496,
+          "runtimeUrl": "https://cdn.mint.gg/rad/presidio-fog-gate-1e1d7f0851dd3ad2-lod.rad",
+          "loaderHint": "spark-rad"
+        },
+        "collider": {
+          "artifactId": "world_collider",
+          "role": "physics_collider",
+          "kind": "triangle_mesh",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/worlds/fog-gate-presidio-golf-collider-glb-9faa9c98c0bfa79d.glb",
+          "visible": false,
+          "requiredForPhysics": true,
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "world-hole-06": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "world",
+        "assetId": "j972rrbseaqwbbkadm39dfvabs8aettm"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          3.141592653589793,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_stream",
+      "artifacts": {
+        "rad": {
+          "artifactId": "world_runtime_rad",
+          "role": "environment",
+          "kind": "gaussian_splat_world",
+          "renderer": "@sparkjsdev/spark",
+          "format": "rad",
+          "contentType": "application/octet-stream",
+          "byteSize": 36990976,
+          "runtimeUrl": "https://cdn.mint.gg/rad/del-mar-bluff-drop-110288e574544a2c-lod.rad",
+          "loaderHint": "spark-rad"
+        },
+        "collider": {
+          "artifactId": "world_collider",
+          "role": "physics_collider",
+          "kind": "triangle_mesh",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/worlds/del-mar-coastal-bluffs-collider-glb-48dca7af3da83179.glb",
+          "visible": false,
+          "requiredForPhysics": true,
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "world-hole-07": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "world",
+        "assetId": "j974v79psptcsa8czkecgycbnx8aek3x"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          3.141592653589793,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_stream",
+      "artifacts": {
+        "rad": {
+          "artifactId": "world_runtime_rad",
+          "role": "environment",
+          "kind": "gaussian_splat_world",
+          "renderer": "@sparkjsdev/spark",
+          "format": "rad",
+          "contentType": "application/octet-stream",
+          "byteSize": 35815392,
+          "runtimeUrl": "https://cdn.mint.gg/rad/tahoe-blue-mini-golf-07745f35cece4853-lod.rad",
+          "loaderHint": "spark-rad"
+        },
+        "collider": {
+          "artifactId": "world_collider",
+          "role": "physics_collider",
+          "kind": "triangle_mesh",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/worlds/tahoe-blue-mini-golf-collider-glb-ccebb52d00b10c92.glb",
+          "visible": false,
+          "requiredForPhysics": true,
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "world-hole-08": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "world",
+        "assetId": "j976gq8e2m4jg57fsz7sycwzcd8aesak"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          3.141592653589793,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_stream",
+      "artifacts": {
+        "rad": {
+          "artifactId": "world_runtime_rad",
+          "role": "environment",
+          "kind": "gaussian_splat_world",
+          "renderer": "@sparkjsdev/spark",
+          "format": "rad",
+          "contentType": "application/octet-stream",
+          "byteSize": 32695440,
+          "runtimeUrl": "https://cdn.mint.gg/rad/joshua-tree-golf-hole-85edfc832da311c3-lod.rad",
+          "loaderHint": "spark-rad"
+        },
+        "collider": {
+          "artifactId": "world_collider",
+          "role": "physics_collider",
+          "kind": "triangle_mesh",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/worlds/joshua-tree-desert-golf-collider-glb-093a04380475527f.glb",
+          "visible": false,
+          "requiredForPhysics": true,
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "world-hole-09": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "world",
+        "assetId": "j972xvjp4natf572jk89xj3a598aefgn"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          3.141592653589793,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_stream",
+      "artifacts": {
+        "rad": {
+          "artifactId": "world_runtime_rad",
+          "role": "environment",
+          "kind": "gaussian_splat_world",
+          "renderer": "@sparkjsdev/spark",
+          "format": "rad",
+          "contentType": "application/octet-stream",
+          "byteSize": 33776072,
+          "runtimeUrl": "https://cdn.mint.gg/rad/napa-valley-vineyard-handoff-2f4ff891c088555e-lod.rad",
+          "loaderHint": "spark-rad"
+        },
+        "collider": {
+          "artifactId": "world_collider",
+          "role": "physics_collider",
+          "kind": "triangle_mesh",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/worlds/napa-vineyard-handoff-collider-glb-4078c0468e1cf91c.glb",
+          "visible": false,
+          "requiredForPhysics": true,
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "world-hole-10": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "world",
+        "assetId": "j97951fb1hcwwpw12yvcg2203x8afs0y"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          3.141592653589793,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_stream",
+      "artifacts": {
+        "rad": {
+          "artifactId": "world_runtime_rad",
+          "role": "environment",
+          "kind": "gaussian_splat_world",
+          "renderer": "@sparkjsdev/spark",
+          "format": "rad",
+          "contentType": "application/octet-stream",
+          "byteSize": 33579920,
+          "runtimeUrl": "https://cdn.mint.gg/rad/malibu-ocean-canyon-golf-5b33dba5236e027c-lod.rad",
+          "loaderHint": "spark-rad"
+        },
+        "collider": {
+          "artifactId": "world_collider",
+          "role": "physics_collider",
+          "kind": "triangle_mesh",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/worlds/malibu-ocean-traverse-collider-glb-4831825e201ba598.glb",
+          "visible": false,
+          "requiredForPhysics": true,
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "world-hole-11": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "world",
+        "assetId": "j97an4fc5bsnw2d4c66xnfe7z98aev18"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          3.141592653589793,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_stream",
+      "artifacts": {
+        "rad": {
+          "artifactId": "world_runtime_rad",
+          "role": "environment",
+          "kind": "gaussian_splat_world",
+          "renderer": "@sparkjsdev/spark",
+          "format": "rad",
+          "contentType": "application/octet-stream",
+          "byteSize": 45306896,
+          "runtimeUrl": "https://cdn.mint.gg/rad/redwood-coast-corridor-ad27de2be6d63f79-lod.rad",
+          "loaderHint": "spark-rad"
+        },
+        "collider": {
+          "artifactId": "world_collider",
+          "role": "physics_collider",
+          "kind": "triangle_mesh",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/worlds/redwood-coast-corridor-collider-glb-57b0802a3a06d15d.glb",
+          "visible": false,
+          "requiredForPhysics": true,
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "world-hole-12": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "world",
+        "assetId": "j979qt1v246wz98a009hqwkg9s8ae3zg"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          3.141592653589793,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_stream",
+      "artifacts": {
+        "rad": {
+          "artifactId": "world_runtime_rad",
+          "role": "environment",
+          "kind": "gaussian_splat_world",
+          "renderer": "@sparkjsdev/spark",
+          "format": "rad",
+          "contentType": "application/octet-stream",
+          "byteSize": 31209896,
+          "runtimeUrl": "https://cdn.mint.gg/rad/death-valley-salt-flats-2e08165eae38f074-lod.rad",
+          "loaderHint": "spark-rad"
+        },
+        "collider": {
+          "artifactId": "world_collider",
+          "role": "physics_collider",
+          "kind": "triangle_mesh",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/worlds/death-valley-mini-golf-collider-glb-3dae93020498db79.glb",
+          "visible": false,
+          "requiredForPhysics": true,
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "world-hole-13": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "world",
+        "assetId": "j979hrgrws0x4f92rfjpbt771h8afa8w"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          3.141592653589793,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_stream",
+      "artifacts": {
+        "rad": {
+          "artifactId": "world_runtime_rad",
+          "role": "environment",
+          "kind": "gaussian_splat_world",
+          "renderer": "@sparkjsdev/spark",
+          "format": "rad",
+          "contentType": "application/octet-stream",
+          "byteSize": 36053648,
+          "runtimeUrl": "https://cdn.mint.gg/rad/palm-springs-mini-golf-78d5fb4c6dde0b7f-lod.rad",
+          "loaderHint": "spark-rad"
+        },
+        "collider": {
+          "artifactId": "world_collider",
+          "role": "physics_collider",
+          "kind": "triangle_mesh",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/worlds/palm-springs-mini-golf-collider-glb-e3db938a510cd0d3.glb",
+          "visible": false,
+          "requiredForPhysics": true,
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "world-hole-14": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "world",
+        "assetId": "j97agg9f7y35pq6zq4k8g045hd8afg94"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          3.141592653589793,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_stream",
+      "artifacts": {
+        "rad": {
+          "artifactId": "world_runtime_rad",
+          "role": "environment",
+          "kind": "gaussian_splat_world",
+          "renderer": "@sparkjsdev/spark",
+          "format": "rad",
+          "contentType": "application/octet-stream",
+          "byteSize": 33793568,
+          "runtimeUrl": "https://cdn.mint.gg/rad/santa-barbara-riviera-golf-55f68324d0b450e1-lod.rad",
+          "loaderHint": "spark-rad"
+        },
+        "collider": {
+          "artifactId": "world_collider",
+          "role": "physics_collider",
+          "kind": "triangle_mesh",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/worlds/santa-barbara-riviera-golf-collider-glb-e4e8241b9748cf93.glb",
+          "visible": false,
+          "requiredForPhysics": true,
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "world-hole-15": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "world",
+        "assetId": "j977j0y4qqb1ee0f3kzbt9jmfn8afnj8"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          3.141592653589793,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_stream",
+      "artifacts": {
+        "rad": {
+          "artifactId": "world_runtime_rad",
+          "role": "environment",
+          "kind": "gaussian_splat_world",
+          "renderer": "@sparkjsdev/spark",
+          "format": "rad",
+          "contentType": "application/octet-stream",
+          "byteSize": 32427056,
+          "runtimeUrl": "https://cdn.mint.gg/rad/mendocino-headlands-golf-hole-97b2de93a0fb0d82-lod.rad",
+          "loaderHint": "spark-rad"
+        },
+        "collider": {
+          "artifactId": "world_collider",
+          "role": "physics_collider",
+          "kind": "triangle_mesh",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/worlds/mendocino-headlands-golf-hole-collider-glb-89230bf5ea942651.glb",
+          "visible": false,
+          "requiredForPhysics": true,
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "world-hole-16": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "world",
+        "assetId": "j97brg7bwf5zyf83jteng3sgcd8afp6f"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          3.141592653589793,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_stream",
+      "artifacts": {
+        "rad": {
+          "artifactId": "world_runtime_rad",
+          "role": "environment",
+          "kind": "gaussian_splat_world",
+          "renderer": "@sparkjsdev/spark",
+          "format": "rad",
+          "contentType": "application/octet-stream",
+          "byteSize": 33674488,
+          "runtimeUrl": "https://cdn.mint.gg/rad/laguna-cove-mini-golf-e8cb1eba6483f572-lod.rad",
+          "loaderHint": "spark-rad"
+        },
+        "collider": {
+          "artifactId": "world_collider",
+          "role": "physics_collider",
+          "kind": "triangle_mesh",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/worlds/laguna-beach-coves-golf-hole-collider-glb-4b029bdab0897737.glb",
+          "visible": false,
+          "requiredForPhysics": true,
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "world-hole-17": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "world",
+        "assetId": "j97azbpfk7fnbwz33kk353n9an8aesj5"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          3.141592653589793,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_stream",
+      "artifacts": {
+        "rad": {
+          "artifactId": "world_runtime_rad",
+          "role": "environment",
+          "kind": "gaussian_splat_world",
+          "renderer": "@sparkjsdev/spark",
+          "format": "rad",
+          "contentType": "application/octet-stream",
+          "byteSize": 33837608,
+          "runtimeUrl": "https://cdn.mint.gg/rad/mount-shasta-mini-golf-aeb70868b131f7bf-lod.rad",
+          "loaderHint": "spark-rad"
+        },
+        "collider": {
+          "artifactId": "world_collider",
+          "role": "physics_collider",
+          "kind": "triangle_mesh",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/worlds/mount-shasta-mini-golf-collider-glb-c73c9256ee2016bc.glb",
+          "visible": false,
+          "requiredForPhysics": true,
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "world-hole-18": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "world",
+        "assetId": "j977hwe7qvkxtvzb9517nx54718afe5t"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          3.141592653589793,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_stream",
+      "artifacts": {
+        "rad": {
+          "artifactId": "world_runtime_rad",
+          "role": "environment",
+          "kind": "gaussian_splat_world",
+          "renderer": "@sparkjsdev/spark",
+          "format": "rad",
+          "contentType": "application/octet-stream",
+          "byteSize": 31857864,
+          "runtimeUrl": "https://cdn.mint.gg/rad/catalina-harbor-golf-hole-1d0e9b83daca8b4d-lod.rad",
+          "loaderHint": "spark-rad"
+        },
+        "collider": {
+          "artifactId": "world_collider",
+          "role": "physics_collider",
+          "kind": "triangle_mesh",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/worlds/catalina-harbor-golf-hole-collider-glb-52ca609352795ea7.glb",
+          "visible": false,
+          "requiredForPhysics": true,
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "audio-cup-drop-01": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd7atme1h86carc9aewc6d0fnx8anxsy"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio_file": {
+          "artifactId": "audio_file",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "GG26-SFX-Cup-Drop-01-1418a7.mp3",
+          "loaderHint": "audio",
+          "byteSize": 33062,
+          "durationSeconds": 2,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd7atme1h86carc9aewc6d0fnx8anxsy/gg26-sfx-cup-drop-01-1418a7-cd59881f60925090.mp3"
+        }
+      }
+    },
+    "audio-cup-drop-02": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd76kvd1khxtx6brr8aw8p0jxd8anw4q"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio_file": {
+          "artifactId": "audio_file",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "GG26-SFX-Cup-Drop-02-db4d7d.mp3",
+          "loaderHint": "audio",
+          "byteSize": 33062,
+          "durationSeconds": 2,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd76kvd1khxtx6brr8aw8p0jxd8anw4q/gg26-sfx-cup-drop-02-db4d7d-a675d80852d1a8f9.mp3"
+        }
+      }
+    },
+    "audio-cup-drop-03": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd70s36n1ss6a5tc545an9pcqn8anx5y"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio_file": {
+          "artifactId": "audio_file",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "GG26-SFX-Cup-Drop-03-32d94d.mp3",
+          "loaderHint": "audio",
+          "byteSize": 33062,
+          "durationSeconds": 2,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd70s36n1ss6a5tc545an9pcqn8anx5y/gg26-sfx-cup-drop-03-32d94d-22decb62fbd95789.mp3"
+        }
+      }
+    },
+    "audio-hole-01": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd76c4h34vhhp6fm38wmf71ees8anpee"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio_file": {
+          "artifactId": "audio_file",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "GG26-SFX-Hole-01-Complete-4febd9.mp3",
+          "loaderHint": "audio",
+          "byteSize": 24703,
+          "durationSeconds": 1.5,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd76c4h34vhhp6fm38wmf71ees8anpee/gg26-sfx-hole-01-complete-4febd9-bc590c4c931e4117.mp3"
+        }
+      }
+    },
+    "audio-hole-02": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd7936wyamky5eay8bf05xbyrn8ank38"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio_file": {
+          "artifactId": "audio_file",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "GG26-SFX-Hole-02-Complete-292c1f.mp3",
+          "loaderHint": "audio",
+          "byteSize": 24703,
+          "durationSeconds": 1.5,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd7936wyamky5eay8bf05xbyrn8ank38/gg26-sfx-hole-02-complete-292c1f-27b54984ffbfd384.mp3"
+        }
+      }
+    },
+    "audio-hole-03": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd7cppfgcfpr39w280jsbga8x98ambqf"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio_file": {
+          "artifactId": "audio_file",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "GG26-SFX-Hole-03-Complete-46c5b8.mp3",
+          "loaderHint": "audio",
+          "byteSize": 24703,
+          "durationSeconds": 1.5,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd7cppfgcfpr39w280jsbga8x98ambqf/gg26-sfx-hole-03-complete-46c5b8-998127ef6aa4aa6e.mp3"
+        }
+      }
+    },
+    "audio-hole-04": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd7dq821vvb481x3m4184e63858anwq0"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio_file": {
+          "artifactId": "audio_file",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "GG26-SFX-Hole-04-Complete-1fca83.mp3",
+          "loaderHint": "audio",
+          "byteSize": 24703,
+          "durationSeconds": 1.5,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd7dq821vvb481x3m4184e63858anwq0/gg26-sfx-hole-04-complete-1fca83-496892fadf47c76a.mp3"
+        }
+      }
+    },
+    "audio-hole-05": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd7c9pw606xkz3781ryg3tmge58anzpk"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio_file": {
+          "artifactId": "audio_file",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "GG26-SFX-Hole-05-Complete-d3b273.mp3",
+          "loaderHint": "audio",
+          "byteSize": 24703,
+          "durationSeconds": 1.5,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd7c9pw606xkz3781ryg3tmge58anzpk/gg26-sfx-hole-05-complete-d3b273-9d7495de02ed1c36.mp3"
+        }
+      }
+    },
+    "audio-hole-06": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd74azc804wmadwyqk68406p7x8anw0a"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio_file": {
+          "artifactId": "audio_file",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "GG26-SFX-Hole-06-Complete-5555dc.mp3",
+          "loaderHint": "audio",
+          "byteSize": 24703,
+          "durationSeconds": 1.5,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd74azc804wmadwyqk68406p7x8anw0a/gg26-sfx-hole-06-complete-5555dc-85db5905726df21a.mp3"
+        }
+      }
+    },
+    "audio-hole-07": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd794px08x797stt09be2wkyds8ang13"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio_file": {
+          "artifactId": "audio_file",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "GG26-SFX-Hole-07-Complete-dd3c75.mp3",
+          "loaderHint": "audio",
+          "byteSize": 24703,
+          "durationSeconds": 1.5,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd794px08x797stt09be2wkyds8ang13/gg26-sfx-hole-07-complete-dd3c75-a5a2eafe6ee86c1f.mp3"
+        }
+      }
+    },
+    "audio-hole-08": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd7c8bgnvrxhf6dmddzn0182cx8amqvj"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio_file": {
+          "artifactId": "audio_file",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "GG26-SFX-Hole-08-Complete-99048a.mp3",
+          "loaderHint": "audio",
+          "byteSize": 24703,
+          "durationSeconds": 1.5,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd7c8bgnvrxhf6dmddzn0182cx8amqvj/gg26-sfx-hole-08-complete-99048a-b00112dfc4e7b80b.mp3"
+        }
+      }
+    },
+    "audio-hole-09": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd75h5gz185fkbbh31n2kfym7h8ansdx"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio_file": {
+          "artifactId": "audio_file",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "GG26-SFX-Hole-09-Complete-b9dd33.mp3",
+          "loaderHint": "audio",
+          "byteSize": 24703,
+          "durationSeconds": 1.5,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd75h5gz185fkbbh31n2kfym7h8ansdx/gg26-sfx-hole-09-complete-b9dd33-14c158bba3b4fd4f.mp3"
+        }
+      }
+    },
+    "audio-hole-10": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd7asp3py71yakqtg5gcje7z558am66n"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio_file": {
+          "artifactId": "audio_file",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "GG26-SFX-Hole-10-Complete-b3862d.mp3",
+          "loaderHint": "audio",
+          "byteSize": 24703,
+          "durationSeconds": 1.5,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd7asp3py71yakqtg5gcje7z558am66n/gg26-sfx-hole-10-complete-b3862d-8eb7200789c471bc.mp3"
+        }
+      }
+    },
+    "audio-hole-11": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd72mjmpyvqeg2wp98jsrfbnmn8am339"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio_file": {
+          "artifactId": "audio_file",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "GG26-SFX-Hole-11-Complete-6b180a.mp3",
+          "loaderHint": "audio",
+          "byteSize": 24703,
+          "durationSeconds": 1.5,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd72mjmpyvqeg2wp98jsrfbnmn8am339/gg26-sfx-hole-11-complete-6b180a-dc2bfd685a0270cb.mp3"
+        }
+      }
+    },
+    "audio-hole-12": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd7dj2b1gc5dfcnws0yhg24ftn8anmdd"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio_file": {
+          "artifactId": "audio_file",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "GG26-SFX-Hole-12-Complete-4091d6.mp3",
+          "loaderHint": "audio",
+          "byteSize": 24703,
+          "durationSeconds": 1.5,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd7dj2b1gc5dfcnws0yhg24ftn8anmdd/gg26-sfx-hole-12-complete-4091d6-bd96969de8b9355e.mp3"
+        }
+      }
+    },
+    "audio-hole-13": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd7eyfzcgsy2vsbnnrv0ktesqh8amgb8"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio_file": {
+          "artifactId": "audio_file",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "GG26-SFX-Hole-13-Complete-90fb4d.mp3",
+          "loaderHint": "audio",
+          "byteSize": 24703,
+          "durationSeconds": 1.5,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd7eyfzcgsy2vsbnnrv0ktesqh8amgb8/gg26-sfx-hole-13-complete-90fb4d-e0d2fac45066d68c.mp3"
+        }
+      }
+    },
+    "audio-hole-14": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd79pj1y2vv1kyqjat90mxk5fs8anc4f"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio_file": {
+          "artifactId": "audio_file",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "GG26-SFX-Hole-14-Complete-f0ba27.mp3",
+          "loaderHint": "audio",
+          "byteSize": 24703,
+          "durationSeconds": 1.5,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd79pj1y2vv1kyqjat90mxk5fs8anc4f/gg26-sfx-hole-14-complete-f0ba27-cda93d92b13fbd4d.mp3"
+        }
+      }
+    },
+    "audio-hole-15": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd7ey8kpsn78tn78g1n3wfmzjx8amep1"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio_file": {
+          "artifactId": "audio_file",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "GG26-SFX-Hole-15-Complete-3873a2.mp3",
+          "loaderHint": "audio",
+          "byteSize": 24703,
+          "durationSeconds": 1.5,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd7ey8kpsn78tn78g1n3wfmzjx8amep1/gg26-sfx-hole-15-complete-3873a2-fad314047a33e0cf.mp3"
+        }
+      }
+    },
+    "audio-hole-16": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd75n726hre9q4jt95yjsc8d4s8amxks"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio_file": {
+          "artifactId": "audio_file",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "GG26-SFX-Hole-16-Complete-690d5b.mp3",
+          "loaderHint": "audio",
+          "byteSize": 24703,
+          "durationSeconds": 1.5,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd75n726hre9q4jt95yjsc8d4s8amxks/gg26-sfx-hole-16-complete-690d5b-dc8661534da3828b.mp3"
+        }
+      }
+    },
+    "audio-hole-17": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd791w4zyz761vmzx87ny34zx18anvts"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio_file": {
+          "artifactId": "audio_file",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "GG26-SFX-Hole-17-Complete-3f1315.mp3",
+          "loaderHint": "audio",
+          "byteSize": 24703,
+          "durationSeconds": 1.5,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd791w4zyz761vmzx87ny34zx18anvts/gg26-sfx-hole-17-complete-3f1315-2286d1e89aca6eb2.mp3"
+        }
+      }
+    },
+    "audio-hole-18": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd70dn1r12px7akdnas3d3255s8amxdm"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio_file": {
+          "artifactId": "audio_file",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "GG26-SFX-Hole-18-Complete-5febff.mp3",
+          "loaderHint": "audio",
+          "byteSize": 24703,
+          "durationSeconds": 1.5,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd70dn1r12px7akdnas3d3255s8amxdm/gg26-sfx-hole-18-complete-5febff-a059f24fac45e956.mp3"
+        }
+      }
+    },
+    "audio-putt-hard-01": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd7etkzqm5x4vh86mrhcdkrgsx8annc7"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio_file": {
+          "artifactId": "audio_file",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "GG26-SFX-Putt-hard-01-519583.mp3",
+          "loaderHint": "audio",
+          "byteSize": 17180,
+          "durationSeconds": 1,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd7etkzqm5x4vh86mrhcdkrgsx8annc7/gg26-sfx-putt-hard-01-519583-243664699b72185f.mp3"
+        }
+      }
+    },
+    "audio-putt-hard-02": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd758ygw6t0t2shnzxe346bw6d8ams98"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio_file": {
+          "artifactId": "audio_file",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "GG26-SFX-Putt-hard-02-91c3e5.mp3",
+          "loaderHint": "audio",
+          "byteSize": 17180,
+          "durationSeconds": 1,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd758ygw6t0t2shnzxe346bw6d8ams98/gg26-sfx-putt-hard-02-91c3e5-5c5d348af9f4a451.mp3"
+        }
+      }
+    },
+    "audio-putt-medium-01": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd7f2xjnqmde0x42j6c5qdb8qx8anz31"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio_file": {
+          "artifactId": "audio_file",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "GG26-SFX-Putt-medium-01-d3de99.mp3",
+          "loaderHint": "audio",
+          "byteSize": 17180,
+          "durationSeconds": 1,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd7f2xjnqmde0x42j6c5qdb8qx8anz31/gg26-sfx-putt-medium-01-d3de99-caed1cad8435e917.mp3"
+        }
+      }
+    },
+    "audio-putt-medium-02": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd79dx53fv5hec3364f9xvg1kx8ankkb"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio_file": {
+          "artifactId": "audio_file",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "GG26-SFX-Putt-medium-02-1162d2.mp3",
+          "loaderHint": "audio",
+          "byteSize": 17180,
+          "durationSeconds": 1,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd79dx53fv5hec3364f9xvg1kx8ankkb/gg26-sfx-putt-medium-02-1162d2-151daf440f18f9d7.mp3"
+        }
+      }
+    },
+    "audio-putt-soft-01": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd76de6ckpa14n8wwd7htmqg6h8an5hg"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio_file": {
+          "artifactId": "audio_file",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "GG26-SFX-Putt-soft-01-4a9807.mp3",
+          "loaderHint": "audio",
+          "byteSize": 17180,
+          "durationSeconds": 1,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd76de6ckpa14n8wwd7htmqg6h8an5hg/gg26-sfx-putt-soft-01-4a9807-f240579c3bd0bbca.mp3"
+        }
+      }
+    },
+    "audio-putt-soft-02": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd77nbaf4bbm7rzcbcp3psks098amnt2"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio_file": {
+          "artifactId": "audio_file",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "GG26-SFX-Putt-soft-02-0ee40d.mp3",
+          "loaderHint": "audio",
+          "byteSize": 17180,
+          "durationSeconds": 1,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd77nbaf4bbm7rzcbcp3psks098amnt2/gg26-sfx-putt-soft-02-0ee40d-99ea5f44414189b1.mp3"
+        }
+      }
+    },
+    "audio-score-applause": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd7c7n12b0a4ta2ahjyccx91jx8arn0k"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio_file": {
+          "artifactId": "audio_file",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "Genesis-Grove-Putt-Putt-Score-Applause-6438d4.mp3",
+          "loaderHint": "audio",
+          "byteSize": 65245,
+          "durationSeconds": 4,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd7c7n12b0a4ta2ahjyccx91jx8arn0k/genesis-grove-putt-putt-score-applause-6438d4-e5bd2fc71c335fa9.mp3"
+        }
+      }
+    }
+  }
+}

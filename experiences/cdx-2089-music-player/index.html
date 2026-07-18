@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#050506" />
+    <title>CDX-2089 // CONCEPTUAL DISC SYSTEM</title>
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <!-- Semantic fallback for the world-space portal control. -->
+    <button id="portal-enter" type="button">Enter dance floor mode</button>
+
+    <!-- power-on gate: unlocks AudioContext on first gesture -->
+    <div id="gate">
+      <div class="gate-frame">
+        <div class="gate-kicker">CONCEPTUAL DISC SYSTEM · EST. 2089</div>
+        <div class="gate-logo">CDX‑2089</div>
+        <div class="gate-sub">COMPACT DISC MEMORY MODULE // SKIN‑ADAPTIVE PLAYBACK UNIT</div>
+        <button id="gate-btn" type="button">
+          <span class="gate-btn-dot"></span>
+          POWER ON
+        </button>
+        <div class="gate-foot">AUDIO OUTPUT REQUIRED · 5 TRACKS LOADED · 5 SKINS INSTALLED</div>
+      </div>
+    </div>
+
+    <!-- skin dock -->
+    <div id="dock" aria-label="skin selector">
+      <div id="dock-chips"></div>
+      <button id="view-reset" type="button" aria-label="Reset camera view" title="Reset camera view">↺</button>
+    </div>
+
+    <div id="floor-controls" role="group" aria-label="Dance floor music controls">
+      <button id="floor-play" type="button" aria-label="Play music">PLAY</button>
+      <button id="floor-next" type="button" aria-label="Play next track">NEXT</button>
+    </div>
+    <button id="dance-exit" type="button" aria-label="Exit dance floor mode">EXIT DANCE FLOOR</button>
+
+    <div id="hint">DRAG orbit · SHIFT / RIGHT DRAG pan · WHEEL zoom · E portal · R reset · SPACE play/pause · ← → track · 1–5 skin</div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

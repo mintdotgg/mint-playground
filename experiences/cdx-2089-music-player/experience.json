@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 2,
+  "order": 100,
+  "slug": "cdx-2089-music-player",
+  "title": "CDX-2089 Music Player",
+  "description": "A skin-adaptive 3D music player with five futuristic disc decks, audio-reactive visuals, and an unfolding dance floor.",
+  "status": "published",
+  "publishedAt": "2026-07-17",
+  "tags": ["Three.js", "Music", "Audio-Reactive", "Interactive"],
+  "prompt": {
+    "version": 1,
+    "objective": "Build a futuristic 3D music player with swappable skins and a dance floor.",
+    "mintAssets": [
+      {
+        "kind": "asset-pack",
+        "brief": "Five futuristic CD-player skins and controls."
+      },
+      {
+        "kind": "audio",
+        "brief": "Five electronic tracks for reactive playback."
+      },
+      {
+        "kind": "image",
+        "brief": "Five neon square album covers."
+      },
+      {
+        "kind": "model-animation",
+        "brief": "Four rigged club dancers with looping dance sets."
+      }
+    ],
+    "experience": [
+      "Switch tracks and skins, seek, orbit, and reset the player.",
+      "Turn the player into an audio-reactive dance floor."
+    ],
+    "visualDirection": "Industrial 2089 hardware with orbital UI, Y2K acrylic, and neon."
+  },
+  "thumbnail": {
+    "src": "/experience-assets/cdx-2089-music-player/social-card.webp",
+    "alt": "The PRISM skin of the CDX-2089 futuristic music player with its illuminated disc and controls."
+  },
+  "social": {
+    "title": "CDX-2089 Music Player",
+    "description": "A skin-adaptive 3D music player with five futuristic disc decks, audio-reactive visuals, and an unfolding dance floor.",
+    "image": {
+      "src": "/experience-assets/cdx-2089-music-player/social-card.webp",
+      "alt": "The PRISM skin of the CDX-2089 futuristic music player with its illuminated disc and controls.",
+      "width": 1200,
+      "height": 630,
+      "accent": "#B6FF2E"
+    }
+  },
+  "runtime": {
+    "kind": "bundle",
+    "src": "/_experiences/cdx-2089-music-player/index.html",
+    "title": "CDX-2089 Music Player"
+  }
+}
