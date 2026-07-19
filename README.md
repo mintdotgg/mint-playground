@@ -97,7 +97,13 @@ pipeline and
   <p><sub>React Three Fiber · SparkJS · Mini Golf · Game</sub></p>
   <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/mint-putt">Code</a> · <a href="https://play.mint.gg/mint-putt">Live demo</a></p>
 </td>
-<td width="50%"></td>
+<td width="50%" valign="top">
+  <a href="https://play.mint.gg/boulder-cove"><img src="https://play.mint.gg/experience-assets/boulder-cove/social-card.webp" alt="A cave kid explores a pastel prehistoric village with stone huts, a bone bridge, trees, tools, and a life-sim HUD." width="100%"></a>
+  <h3>Boulder Cove</h3>
+  <p>A cozy prehistoric island life game where you gather, fish, catch bugs, plant trees, and help dinosaur neighbors earn your own boulder hut.</p>
+  <p><sub>Three.js · SparkJS · Life Sim · Game</sub></p>
+  <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/boulder-cove">Code</a> · <a href="https://play.mint.gg/boulder-cove">Live demo</a></p>
+</td>
 </tr>
 </table>
 

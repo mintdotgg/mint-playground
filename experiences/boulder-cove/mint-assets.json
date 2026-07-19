@@ -1,0 +1,735 @@
+{
+  "registryVersion": 1,
+  "assetRoot": "public",
+  "delivery": "mint_cdn",
+  "assets": {
+    "cave-kid-animation": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks763885p2h6avbazxnse9ysy18arvmw"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "rigged-character": {
+          "artifactId": "glb/cave-kid-rigged-character-glb-89168844eb5d06c4.glb",
+          "role": "rigged_character",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/cave-kid-rigged-character-glb-89168844eb5d06c4.glb",
+          "loaderHint": "gltf"
+        },
+        "idle": {
+          "artifactId": "glb/idle-glb-843b9e97a47c4339.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/idle-glb-843b9e97a47c4339.glb",
+          "loaderHint": "gltf"
+        },
+        "run": {
+          "artifactId": "glb/run-fast-3-inplace-glb-c51b8f704c1036c7.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/run-fast-3-inplace-glb-c51b8f704c1036c7.glb",
+          "loaderHint": "gltf"
+        },
+        "carry": {
+          "artifactId": "glb/carry-heavy-object-walk-inplace-glb-8c594bf752b357f6.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/carry-heavy-object-walk-inplace-glb-8c594bf752b357f6.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "triceratops-animation": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks77dz418nexdrwdkds6vg2n8h8as5ge"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "rigged-character": {
+          "artifactId": "glb/triceratops-villager-rigged-character-glb-380aef057fe7d553.glb",
+          "role": "rigged_character",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/triceratops-villager-rigged-character-glb-380aef057fe7d553.glb",
+          "loaderHint": "gltf"
+        },
+        "stand-and-chat": {
+          "artifactId": "glb/stand-and-chat-glb-a63209f21ed205fc.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/stand-and-chat-glb-a63209f21ed205fc.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "stegosaurus-animation": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks7558emyd8qdj03v4drfax9s58ask72"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "rigged-character": {
+          "artifactId": "glb/stegosaurus-villager-rigged-character-glb-3bdd3e438abad05f.glb",
+          "role": "rigged_character",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/stegosaurus-villager-rigged-character-glb-3bdd3e438abad05f.glb",
+          "loaderHint": "gltf"
+        },
+        "listening-gesture": {
+          "artifactId": "glb/listening-gesture-glb-b61c5e470c18ef3b.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/listening-gesture-glb-b61c5e470c18ef3b.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "trex-animation": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks7fnsvtrdh40p1hz0m37wzxbd8askx1"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "rigged-character": {
+          "artifactId": "rigged:w57eh9406p85s4581ccx4bh8hd8arsvf",
+          "role": "rigged_character",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/teal-vest-dino-kid-rigged-character-glb-46c95396ba7a2353.glb",
+          "loaderHint": "gltf"
+        },
+        "wave-one-hand": {
+          "artifactId": "animation:w9713wza46e07ywc6hvybsaxd98as7ds",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/wave-one-hand-glb-1a71c54a7dcba6ca.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "ankylosaurus-animation": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks79fwks0xza1nf99kvcqknsms8ar1sg"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "rigged-character": {
+          "artifactId": "rigged:w57d2xm6z4gabwzw2451pw4zgh8arvpr",
+          "role": "rigged_character",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/leaf-apron-ankylosaur-rigged-character-glb-46fb29d7e2433a82.glb",
+          "loaderHint": "gltf"
+        },
+        "agree-gesture": {
+          "artifactId": "animation:w972j4gbgyj5aj39vx74x5k8j58asbbr",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/agree-gesture-glb-6843fa77e80a6197.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "boulder-cove-buildings": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "asset_pack",
+        "assetId": "th70mejsv0ay1ggehmvh75e4sn8arnd7"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "player-boulder-hut": {
+          "artifactId": "glb/player-boulder-hut-normalized-2e14e3ef26727ae1.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/player-boulder-hut-normalized-2e14e3ef26727ae1.glb",
+          "loaderHint": "gltf"
+        },
+        "yellow-boulder-hut": {
+          "artifactId": "glb/yellow-boulder-hut-normalized-05a9c1b68062dad1.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/yellow-boulder-hut-normalized-05a9c1b68062dad1.glb",
+          "loaderHint": "gltf"
+        },
+        "coral-boulder-hut": {
+          "artifactId": "glb/coral-boulder-hut-normalized-2b71e52743af6dd0.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/coral-boulder-hut-normalized-2b71e52743af6dd0.glb",
+          "loaderHint": "gltf"
+        },
+        "stone-age-shop": {
+          "artifactId": "glb/stone-age-shop-normalized-2321da55852f9f3e.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/stone-age-shop-normalized-2321da55852f9f3e.glb",
+          "loaderHint": "gltf"
+        },
+        "bone-museum": {
+          "artifactId": "glb/bone-museum-normalized-c52469bcdd51774a.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/bone-museum-normalized-c52469bcdd51774a.glb",
+          "loaderHint": "gltf"
+        },
+        "bone-bridge": {
+          "artifactId": "glb/bone-bridge-normalized-11de181908a6594f.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/bone-bridge-normalized-11de181908a6594f.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "boulder-cove-props": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "asset_pack",
+        "assetId": "th730pf3406d8bmq9r2ztpdgs98arwp6"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "boulderberry-tree": {
+          "artifactId": "glb/boulderberry-tree-normalized-f06dc4072f533f2d.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/boulderberry-tree-normalized-f06dc4072f533f2d.glb",
+          "loaderHint": "gltf"
+        },
+        "spikefruit-tree": {
+          "artifactId": "glb/spikefruit-tree-normalized-41e593e1ef3b875d.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/spikefruit-tree-normalized-41e593e1ef3b875d.glb",
+          "loaderHint": "gltf"
+        },
+        "primeval-conifer": {
+          "artifactId": "glb/primeval-conifer-normalized-98190b48bd5ff5ff.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/primeval-conifer-normalized-98190b48bd5ff5ff.glb",
+          "loaderHint": "gltf"
+        },
+        "giant-fern": {
+          "artifactId": "glb/giant-fern-normalized-148d685645f74060.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/giant-fern-normalized-148d685645f74060.glb",
+          "loaderHint": "gltf"
+        },
+        "fern-flower-patch": {
+          "artifactId": "glb/fern-flower-patch-normalized-750031b413834c13.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/fern-flower-patch-normalized-750031b413834c13.glb",
+          "loaderHint": "gltf"
+        },
+        "bone-fence": {
+          "artifactId": "glb/bone-fence-normalized-93ae4d7f62ea1127.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/bone-fence-normalized-93ae4d7f62ea1127.glb",
+          "loaderHint": "gltf"
+        },
+        "bone-mailbox": {
+          "artifactId": "glb/bone-mailbox-normalized-bce708cb6d72c034.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/bone-mailbox-normalized-bce708cb6d72c034.glb",
+          "loaderHint": "gltf"
+        },
+        "ammonite-shell": {
+          "artifactId": "glb/ammonite-shell-normalized-1fbb6147e652cc89.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/ammonite-shell-normalized-1fbb6147e652cc89.glb",
+          "loaderHint": "gltf"
+        },
+        "dino-egg": {
+          "artifactId": "glb/dino-egg-normalized-eaea9dbd986b886c.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/dino-egg-normalized-eaea9dbd986b886c.glb",
+          "loaderHint": "gltf"
+        },
+        "bone-signpost": {
+          "artifactId": "glb/bone-signpost-normalized-b62bf806bf9a8a2e.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/bone-signpost-normalized-b62bf806bf9a8a2e.glb",
+          "loaderHint": "gltf"
+        },
+        "stone-bench": {
+          "artifactId": "glb/stone-bench-normalized-524137c1e1cf7099.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/stone-bench-normalized-524137c1e1cf7099.glb",
+          "loaderHint": "gltf"
+        },
+        "stone-torch": {
+          "artifactId": "glb/stone-torch-normalized-e3d84de35e503a5a.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/stone-torch-normalized-e3d84de35e503a5a.glb",
+          "loaderHint": "gltf"
+        },
+        "hot-spring-well": {
+          "artifactId": "glb/hot-spring-well-normalized-57dc1e93da43d8fb.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/hot-spring-well-normalized-57dc1e93da43d8fb.glb",
+          "loaderHint": "gltf"
+        },
+        "boulderberry": {
+          "artifactId": "glb/boulderberry-normalized-007e17201a93197b.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/boulderberry-normalized-007e17201a93197b.glb",
+          "loaderHint": "gltf"
+        },
+        "spikefruit": {
+          "artifactId": "glb/spikefruit-normalized-f5b59687c1f9bf89.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/spikefruit-normalized-f5b59687c1f9bf89.glb",
+          "loaderHint": "gltf"
+        },
+        "prehistoric-fish": {
+          "artifactId": "glb/prehistoric-fish-normalized-bcdcfe5a2bc272c8.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/prehistoric-fish-normalized-bcdcfe5a2bc272c8.glb",
+          "loaderHint": "gltf"
+        },
+        "giant-dragonfly": {
+          "artifactId": "glb/giant-dragonfly-normalized-de5d7cdc66dfc3d9.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/giant-dragonfly-normalized-de5d7cdc66dfc3d9.glb",
+          "loaderHint": "gltf"
+        },
+        "fruit-sapling": {
+          "artifactId": "glb/fruit-sapling-normalized-7648ee7527db74b0.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/fruit-sapling-normalized-7648ee7527db74b0.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "bone-hook-pole": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks7bpp1d6h6ssf53z65h5kx7fx8atc0h"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "model": {
+          "artifactId": "glb/bone-hook-pole-normalized-8e95a5462ce66a22.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/bone-hook-pole-normalized-8e95a5462ce66a22.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "woodland-web-net": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks79m1meqvh73cqhkmbqfs3k698atzr4"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "model": {
+          "artifactId": "glb/woodland-web-net-normalized-7774433cebe327ed.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/woodland-web-net-normalized-7774433cebe327ed.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "boulder-cove-title": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "image",
+        "assetId": "xn7d8b18k6hsxchesbhkyyq3ms8ar26c"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "image": {
+          "artifactId": "images/xn7d8b18k6hsxchesbhkyyq3ms8ar26c/boulder-cove-title-462403-da2ebd30588a40ce.png",
+          "role": "image",
+          "format": "png",
+          "contentType": "image/png",
+          "runtimeUrl": "https://cdn.mint.gg/images/xn7d8b18k6hsxchesbhkyyq3ms8ar26c/boulder-cove-title-462403-da2ebd30588a40ce.png",
+          "loaderHint": "image"
+        }
+      }
+    },
+    "boulder-cove-music": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd7341ka61gpqtv3jwg7dmeess8asewq"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio": {
+          "artifactId": "audio/xd7341ka61gpqtv3jwg7dmeess8asewq/boulder-cove-bgm-afa63e-b6fa874da596718b.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd7341ka61gpqtv3jwg7dmeess8asewq/boulder-cove-bgm-afa63e-b6fa874da596718b.mp3",
+          "loaderHint": "audio"
+        }
+      }
+    },
+    "shore-ambience": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd74vxgmnp0yk6vjrsgassapk18apn5a"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio": {
+          "artifactId": "audio/xd74vxgmnp0yk6vjrsgassapk18apn5a/shore-ambience-0e3213-7cae409ce44a1d17.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd74vxgmnp0yk6vjrsgassapk18apn5a/shore-ambience-0e3213-7cae409ce44a1d17.mp3",
+          "loaderHint": "audio"
+        }
+      }
+    },
+    "pickup-pop": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd790f41pfcm8kan8672mr2b558aqg1c"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio": {
+          "artifactId": "audio/xd790f41pfcm8kan8672mr2b558aqg1c/pickup-pop-bf86f0-3c07a5bcefa4d970.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd790f41pfcm8kan8672mr2b558aqg1c/pickup-pop-bf86f0-3c07a5bcefa4d970.mp3",
+          "loaderHint": "audio"
+        }
+      }
+    },
+    "villager-babble": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd78xpcjksmmjs3ajwdxfvm71d8apn5b"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio": {
+          "artifactId": "audio/xd78xpcjksmmjs3ajwdxfvm71d8apn5b/villager-babble-66c3d8-8a061353e3a34c48.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd78xpcjksmmjs3ajwdxfvm71d8apn5b/villager-babble-66c3d8-8a061353e3a34c48.mp3",
+          "loaderHint": "audio"
+        }
+      }
+    },
+    "grass-footsteps": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd7awtvxyy0e79zsmbthpm5nqx8apemk"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio": {
+          "artifactId": "audio/xd7awtvxyy0e79zsmbthpm5nqx8apemk/grass-footsteps-36aef3-b4b1babc0648e1bf.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd7awtvxyy0e79zsmbthpm5nqx8apemk/grass-footsteps-36aef3-b4b1babc0648e1bf.mp3",
+          "loaderHint": "audio"
+        }
+      }
+    },
+    "success-jingle": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd74ytfrz861cjmqs8eadshhdd8aqvw8"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio": {
+          "artifactId": "audio/xd74ytfrz861cjmqs8eadshhdd8aqvw8/success-jingle-8f7791-153a215e868275de.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd74ytfrz861cjmqs8eadshhdd8aqvw8/success-jingle-8f7791-153a215e868275de.mp3",
+          "loaderHint": "audio"
+        }
+      }
+    },
+    "coin-chime": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd75sjk9f2yntqk92zvdzwh9y98ap5c3"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio": {
+          "artifactId": "audio/xd75sjk9f2yntqk92zvdzwh9y98ap5c3/coin-chime-8a0fbd-1fd675b9385b9b39.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd75sjk9f2yntqk92zvdzwh9y98ap5c3/coin-chime-8a0fbd-1fd675b9385b9b39.mp3",
+          "loaderHint": "audio"
+        }
+      }
+    },
+    "fishing-splash": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd7erfpve9dkcpcpvn0y7s21418arwjn"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio": {
+          "artifactId": "audio/xd7erfpve9dkcpcpvn0y7s21418arwjn/fishing-splash-666568-e016b0bff86fe9cb.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd7erfpve9dkcpcpvn0y7s21418arwjn/fishing-splash-666568-e016b0bff86fe9cb.mp3",
+          "loaderHint": "audio"
+        }
+      }
+    },
+    "net-swoosh": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd79jmpj6ncjyekvywt0n2nb4n8asww0"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio": {
+          "artifactId": "audio/xd79jmpj6ncjyekvywt0n2nb4n8asww0/net-swoosh-57ae9f-eba66b9c61119561.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd79jmpj6ncjyekvywt0n2nb4n8asww0/net-swoosh-57ae9f-eba66b9c61119561.mp3",
+          "loaderHint": "audio"
+        }
+      }
+    },
+    "player-hut-world": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "world",
+        "assetId": "j977zrhg7746far5nk1486q5hx8ash92"
+      },
+      "mode": "remote_stream",
+      "artifacts": {
+        "world-runtime": {
+          "artifactId": "rad/prehistoric-cave-home-68a2597309f7e409-lod.rad",
+          "role": "world_runtime",
+          "format": "rad",
+          "contentType": "application/vnd.mint.rad",
+          "runtimeUrl": "https://cdn.mint.gg/rad/prehistoric-cave-home-68a2597309f7e409-lod.rad",
+          "loaderHint": "spark_rad"
+        },
+        "world-collider": {
+          "artifactId": "worlds/flintstones-cave-home-collider-glb-362780d9a0eca593.glb",
+          "role": "world_collider",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/worlds/flintstones-cave-home-collider-glb-362780d9a0eca593.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "triceratops-hut-world": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "world",
+        "assetId": "j97fvypcsqenw8ey45y036b9ed8asedf"
+      },
+      "mode": "remote_stream",
+      "artifacts": {
+        "world-runtime": {
+          "artifactId": "rad/triceratops-cave-home-3bddffa781b1c3b4-lod.rad",
+          "role": "world_runtime",
+          "format": "rad",
+          "contentType": "application/vnd.mint.rad",
+          "runtimeUrl": "https://cdn.mint.gg/rad/triceratops-cave-home-3bddffa781b1c3b4-lod.rad",
+          "loaderHint": "spark_rad"
+        },
+        "world-collider": {
+          "artifactId": "worlds/triceratops-cave-home-collider-glb-588b89d56e56177f.glb",
+          "role": "world_collider",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/worlds/triceratops-cave-home-collider-glb-588b89d56e56177f.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "stegosaurus-hut-world": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "world",
+        "assetId": "j978fs4zvy1qx92wz6x0nyjzhs8artq3"
+      },
+      "mode": "remote_stream",
+      "artifacts": {
+        "world-runtime": {
+          "artifactId": "rad/flintstones-stegosaurus-home-8d12bd231db84843-lod.rad",
+          "role": "world_runtime",
+          "format": "rad",
+          "contentType": "application/vnd.mint.rad",
+          "runtimeUrl": "https://cdn.mint.gg/rad/flintstones-stegosaurus-home-8d12bd231db84843-lod.rad",
+          "loaderHint": "spark_rad"
+        },
+        "world-collider": {
+          "artifactId": "worlds/flintstones-cave-home-collider-glb-58f1004e5e48a3e5.glb",
+          "role": "world_collider",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/worlds/flintstones-cave-home-collider-glb-58f1004e5e48a3e5.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "general-store-world": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "world",
+        "assetId": "j97b6x5fszekm5pxs4xr3qftpn8as74d"
+      },
+      "mode": "remote_stream",
+      "artifacts": {
+        "world-runtime": {
+          "artifactId": "rad/stone-age-general-store-f19af1bb663ca7bf-lod.rad",
+          "role": "world_runtime",
+          "format": "rad",
+          "contentType": "application/vnd.mint.rad",
+          "runtimeUrl": "https://cdn.mint.gg/rad/stone-age-general-store-f19af1bb663ca7bf-lod.rad",
+          "loaderHint": "spark_rad"
+        },
+        "world-collider": {
+          "artifactId": "worlds/stone-age-general-store-collider-glb-f5b8a3436a3d3deb.glb",
+          "role": "world_collider",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/worlds/stone-age-general-store-collider-glb-f5b8a3436a3d3deb.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "fossil-hall-world": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "world",
+        "assetId": "j972dqzmpzsbrp894nwxp1m7f98ar72a"
+      },
+      "mode": "remote_stream",
+      "artifacts": {
+        "world-runtime": {
+          "artifactId": "rad/flintstones-fossil-hall-4c7a9bff29991c17-lod.rad",
+          "role": "world_runtime",
+          "format": "rad",
+          "contentType": "application/vnd.mint.rad",
+          "runtimeUrl": "https://cdn.mint.gg/rad/flintstones-fossil-hall-4c7a9bff29991c17-lod.rad",
+          "loaderHint": "spark_rad"
+        },
+        "world-collider": {
+          "artifactId": "worlds/flintstones-fossil-hall-collider-glb-4d7a371579074853.glb",
+          "role": "world_collider",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/worlds/flintstones-fossil-hall-collider-glb-4d7a371579074853.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    }
+  }
+}

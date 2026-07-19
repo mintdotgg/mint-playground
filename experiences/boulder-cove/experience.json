@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 2,
+  "order": 120,
+  "slug": "boulder-cove",
+  "title": "Boulder Cove",
+  "description": "A cozy prehistoric island life game where you gather, fish, catch bugs, plant trees, and help dinosaur neighbors earn your own boulder hut.",
+  "status": "published",
+  "publishedAt": "2026-07-19",
+  "tags": ["Three.js", "SparkJS", "Life Sim", "Game"],
+  "prompt": {
+    "version": 1,
+    "objective": "Build a prehistoric island life game where a cave kid earns a boulder hut.",
+    "mintAssets": [
+      {
+        "kind": "asset-pack",
+        "brief": "Cave kid, dinosaurs, stone huts, trees, tools, fish, bugs, and fruit."
+      },
+      {
+        "kind": "model-animation",
+        "brief": "Rig characters for travel, social, fishing, and net motions."
+      },
+      {
+        "kind": "audio",
+        "brief": "Village music, shore ambience, action cues, and chimes."
+      },
+      {
+        "kind": "image",
+        "brief": "Stone-and-leaf Boulder Cove title with a spotted egg."
+      }
+    ],
+    "experience": [
+      "Gather, fish, catch bugs, plant trees, and grant wishes.",
+      "Earn coins, build a hut, and explore splat interiors."
+    ],
+    "visualDirection": "Pastel prehistoric toy diorama with friendly dinosaurs and clear UI."
+  },
+  "thumbnail": {
+    "src": "/experience-assets/boulder-cove/social-card.webp",
+    "alt": "A cave kid explores a pastel prehistoric village with stone huts, a bone bridge, trees, tools, and a life-sim HUD."
+  },
+  "social": {
+    "title": "Boulder Cove",
+    "description": "Gather, fish, catch bugs, and help dinosaur neighbors build your boulder hut.",
+    "image": {
+      "src": "/experience-assets/boulder-cove/social-card.webp",
+      "alt": "A cave kid explores a pastel prehistoric village with stone huts, a bone bridge, trees, tools, and a life-sim HUD.",
+      "width": 1200,
+      "height": 630,
+      "accent": "#8FB86B"
+    }
+  },
+  "runtime": {
+    "kind": "bundle",
+    "src": "/_experiences/boulder-cove/index.html",
+    "title": "Boulder Cove"
+  }
+}
