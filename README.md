@@ -91,12 +91,21 @@ pipeline and
 </tr>
 <tr>
 <td width="50%" valign="top">
+  <a href="https://play.mint.gg/final-whistle"><img src="https://play.mint.gg/experience-assets/final-whistle/social-card.webp" alt="Spain celebrates a 2-1 championship victory in a packed open-top stadium." width="100%"></a>
+  <h3>Final Whistle: Spain vs Argentina</h3>
+  <p>Lead Spain through a 150-second 3D arcade football final against Argentina with passing, tackles, charged shots, and golden-goal drama.</p>
+  <p><sub>Three.js · Football · Arcade · Sports Game</sub></p>
+  <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/final-whistle">Code</a> · <a href="https://play.mint.gg/final-whistle">Live demo</a></p>
+</td>
+<td width="50%" valign="top">
   <a href="https://play.mint.gg/mint-putt"><img src="https://play.mint.gg/experience-assets/mint-putt/social-card.webp" alt="Aerial view of Half Dome Opening, a lime-green putting lane through a rocky Yosemite-inspired landscape" width="100%"></a>
   <h3>Genesis Grove Putt-Putt</h3>
   <p>An 18-hole putting round through California-inspired Gaussian splat worlds, with drag-to-aim shots, touch controls, and a running scorecard.</p>
   <p><sub>React Three Fiber · SparkJS · Mini Golf · Game</sub></p>
   <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/mint-putt">Code</a> · <a href="https://play.mint.gg/mint-putt">Live demo</a></p>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
   <a href="https://play.mint.gg/boulder-cove"><img src="https://play.mint.gg/experience-assets/boulder-cove/social-card.webp" alt="A cave kid explores a pastel prehistoric village with stone huts, a bone bridge, trees, tools, and a life-sim HUD." width="100%"></a>
   <h3>Boulder Cove</h3>
@@ -104,6 +113,23 @@ pipeline and
   <p><sub>Three.js · SparkJS · Life Sim · Game</sub></p>
   <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/boulder-cove">Code</a> · <a href="https://play.mint.gg/boulder-cove">Live demo</a></p>
 </td>
+<td width="50%" valign="top">
+  <a href="https://play.mint.gg/orbit-week"><img src="https://play.mint.gg/experience-assets/orbit-week/social-card.webp" alt="A glowing Sun and dark Mercury frame the Monday mission planner against a deep-space star field." width="100%"></a>
+  <h3>Orbit Week</h3>
+  <p>A cinematic 3D weekly planner where each day is a planet and every task becomes a mission you can add, complete, and carry through the week.</p>
+  <p><sub>Three.js · React · Productivity · 3D Planner</sub></p>
+  <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/orbit-week">Code</a> · <a href="https://play.mint.gg/orbit-week">Live demo</a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+  <a href="https://play.mint.gg/jimothys-backyard-dash"><img src="https://play.mint.gg/experience-assets/jimothys-backyard-dash/social-card.webp" alt="Jimothy’s Backyard Dash menu showing three racers at the start of a three-lane backyard course." width="100%"></a>
+  <h3>Jimothy’s Backyard Dash</h3>
+  <p>Guide Jimothy through a fast three-lane backyard race, dodging obstacles, collecting Moon Tokens, and battling two rivals across five streamed worlds.</p>
+  <p><sub>Three.js · SparkJS · Arcade · Racing Game</sub></p>
+  <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/jimothys-backyard-dash">Code</a> · <a href="https://play.mint.gg/jimothys-backyard-dash">Live demo</a></p>
+</td>
+<td width="50%"></td>
 </tr>
 </table>
 

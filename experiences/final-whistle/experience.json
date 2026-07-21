@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 2,
+  "order": 100,
+  "slug": "final-whistle",
+  "title": "Final Whistle: Spain vs Argentina",
+  "description": "Lead Spain through a 150-second 3D arcade football final against Argentina with passing, tackles, charged shots, and golden-goal drama.",
+  "status": "published",
+  "publishedAt": "2026-07-20",
+  "tags": ["Three.js", "Football", "Arcade", "Sports Game"],
+  "prompt": {
+    "version": 1,
+    "objective": "Build a fast arcade football final with assisted team play and golden goal.",
+    "mintAssets": [
+      {
+        "kind": "asset-pack",
+        "brief": "Stadium, pitch, goals, ball, props, players, staff, trophy, and confetti."
+      },
+      {
+        "kind": "model-animation",
+        "brief": "Curated football, goalkeeper, cheer, and sideline motions for the cast."
+      },
+      {
+        "kind": "audio",
+        "brief": "Crowd, whistle, kick, save, goal, and victory sounds."
+      }
+    ],
+    "experience": [
+      "Move, sprint, pass, tackle, switch players, and charge shots.",
+      "Play 150 seconds with restarts, stamina, AI, and golden goal."
+    ],
+    "visualDirection": "Candy-gloss miniature stadium, night lighting, and an arcade HUD."
+  },
+  "thumbnail": {
+    "src": "/experience-assets/final-whistle/social-card.webp",
+    "alt": "Spain celebrates a 2-1 championship victory in a packed open-top stadium."
+  },
+  "social": {
+    "title": "Final Whistle: Spain vs Argentina",
+    "description": "Lead Spain through a fast arcade football final against Argentina.",
+    "image": {
+      "src": "/experience-assets/final-whistle/social-card.webp",
+      "alt": "Spain celebrates a 2-1 championship victory in a packed open-top stadium.",
+      "width": 1200,
+      "height": 630,
+      "accent": "#F2B94E"
+    }
+  },
+  "runtime": {
+    "kind": "bundle",
+    "src": "/_experiences/final-whistle/index.html",
+    "title": "Final Whistle: Spain vs Argentina"
+  }
+}

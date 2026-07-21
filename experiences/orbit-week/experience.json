@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 2,
+  "order": 130,
+  "slug": "orbit-week",
+  "title": "Orbit Week",
+  "description": "A cinematic 3D weekly planner where each day is a planet and every task becomes a mission you can add, complete, and carry through the week.",
+  "status": "published",
+  "publishedAt": "2026-07-20",
+  "tags": ["Three.js", "React", "Productivity", "3D Planner"],
+  "prompt": {
+    "version": 1,
+    "objective": "Create a planetary weekly planner with mission tasks.",
+    "mintAssets": [
+      {
+        "kind": "asset-pack",
+        "brief": "Sun, seven planets, Saturn rings, four flybys, an orbital station, and a UFO."
+      },
+      {
+        "kind": "material-pack",
+        "brief": "Venus clouds, a boiling Sun, Jupiter, and Neptune PBR maps."
+      },
+      {
+        "kind": "image",
+        "brief": "Sparse deep-space backdrop with blue-violet nebula haze."
+      }
+    ],
+    "experience": [
+      "Glide between planetary days with scrolling, the day rail, eased camera travel, and rare station or UFO flybys.",
+      "Manage persistent missions with live day and week progress."
+    ],
+    "visualDirection": "Ink-black observatory with realistic planets, gold accents, and mission-control type."
+  },
+  "thumbnail": {
+    "src": "/experience-assets/orbit-week/social-card.webp",
+    "alt": "A glowing Sun and dark Mercury frame the Monday mission planner against a deep-space star field."
+  },
+  "social": {
+    "title": "Orbit Week",
+    "description": "A cinematic 3D weekly planner where each day is a planet and every task becomes a mission you can add, complete, and carry through the week.",
+    "image": {
+      "src": "/experience-assets/orbit-week/social-card.webp",
+      "alt": "A glowing Sun and dark Mercury frame the Monday mission planner against a deep-space star field.",
+      "width": 1200,
+      "height": 630,
+      "accent": "#F4C75C"
+    }
+  },
+  "runtime": {
+    "kind": "bundle",
+    "src": "/_experiences/orbit-week/index.html",
+    "title": "Orbit Week"
+  }
+}

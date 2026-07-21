@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 2,
+  "order": 140,
+  "slug": "jimothys-backyard-dash",
+  "title": "Jimothy’s Backyard Dash",
+  "description": "Guide Jimothy through a fast three-lane backyard race, dodging obstacles, collecting Moon Tokens, and battling two rivals across five streamed worlds.",
+  "status": "published",
+  "publishedAt": "2026-07-21",
+  "tags": [
+    "Three.js",
+    "SparkJS",
+    "Arcade",
+    "Racing Game"
+  ],
+  "prompt": {
+    "version": 1,
+    "objective": "Build a three-lane backyard race starring a nimble raccoon.",
+    "mintAssets": [
+      {
+        "kind": "asset-pack",
+        "brief": "Raccoon racers, backyard hazards, rewards, power-ups, and a finish gate."
+      },
+      {
+        "kind": "world",
+        "brief": "Five distinct backyard race worlds with RAD streams and colliders."
+      },
+      {
+        "kind": "audio",
+        "brief": "Music, ambience, movement, pickup, impact, boost, and race cues."
+      }
+    ],
+    "experience": [
+      "Lane-switch, jump, scuttle, collect tokens, and spend a boost.",
+      "Race two rivals through five sections or loop in Endless Run."
+    ],
+    "visualDirection": "Rounded backyard diorama, golden-hour light, moon motifs, and a crisp arcade HUD."
+  },
+  "thumbnail": {
+    "src": "/experience-assets/jimothys-backyard-dash/social-card.webp",
+    "alt": "Jimothy’s Backyard Dash menu showing three racers at the start of a three-lane backyard course."
+  },
+  "social": {
+    "title": "Jimothy’s Backyard Dash",
+    "description": "Race Jimothy through five backyard sections with rivals, shortcuts, power-ups, and Endless Run.",
+    "image": {
+      "src": "/experience-assets/jimothys-backyard-dash/social-card.webp",
+      "alt": "Jimothy’s Backyard Dash menu showing three racers at the start of a three-lane backyard course.",
+      "width": 1200,
+      "height": 630,
+      "accent": "#F4CA5D"
+    }
+  },
+  "runtime": {
+    "kind": "bundle",
+    "src": "/_experiences/jimothys-backyard-dash/index.html",
+    "title": "Jimothy’s Backyard Dash"
+  }
+}

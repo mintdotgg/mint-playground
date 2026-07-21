@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no" />
+    <meta name="theme-color" content="#233b31" />
+    <title>Jimothy’s Backyard Dash</title>
+    <meta name="application-name" content="Jimothy’s Backyard Dash" />
+    <meta name="apple-mobile-web-app-title" content="Jimothy’s Backyard Dash" />
+    <meta name="description" content="Race Jimothy through five increasingly fast backyard courses." />
+    <meta property="og:title" content="Jimothy’s Backyard Dash" />
+    <meta property="og:description" content="Three racers. Five backyards. One very quick raccoon." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Jimothy’s Backyard Dash" />
+  </head>
+  <body>
+    <main id="app">
+      <canvas id="game-canvas" tabindex="0" aria-label="Jimothy’s Backyard Dash race course"></canvas>
+
+      <section id="loading-screen" class="screen is-visible" aria-live="polite">
+        <div class="loading-mark" aria-hidden="true"><span></span><span></span><span></span></div>
+        <p class="eyebrow">Jimothy’s Backyard Dash</p>
+        <h1>Waking the garden…</h1>
+        <div class="loading-track"><span id="loading-fill"></span></div>
+        <p id="loading-label">Preparing Jimothy’s Backyard Dash · 0%</p>
+        <div id="load-error" class="load-error" hidden>
+          <strong>Something got caught in the hedge.</strong>
+          <span id="load-error-message">A required race asset could not be loaded.</span>
+          <button id="reload-button" type="button">Try loading again</button>
+        </div>
+      </section>
+
+      <section id="main-menu" class="screen menu-screen" aria-labelledby="game-title">
+        <div class="menu-copy">
+          <p class="eyebrow">Three racers · Five backyards</p>
+          <h1 id="game-title"><span>Jimothy’s</span> Backyard Dash</h1>
+          <p class="menu-subtitle">Three lanes. Five backyards. One very quick raccoon.</p>
+          <div class="menu-actions">
+            <button id="start-button" class="primary-button" type="button">Race to the Finish</button>
+            <button id="endless-button" class="quiet-button" type="button">Endless Run</button>
+            <button id="help-button" class="quiet-button" type="button">How to race</button>
+            <button id="settings-button" class="icon-text-button" type="button"><span aria-hidden="true">⚙</span> Settings</button>
+          </div>
+          <p class="menu-record" id="menu-record">Best time — · Best tokens —</p>
+        </div>
+        <div class="cup-stamp" aria-hidden="true"><span>5</span><small>BACKYARDS</small></div>
+      </section>
+
+      <section id="hud" aria-live="polite">
+        <div class="position-cluster">
+          <span class="hud-kicker">Position</span>
+          <strong id="position-value">3rd</strong>
+        </div>
+        <div class="race-progress-cluster">
+          <div class="progress-heading"><span id="section-value">Dewy Lawn</span><strong id="timer-value">00:00.0</strong></div>
+          <div class="course-progress"><span id="course-progress-fill"></span><i class="finish-flag" aria-hidden="true">◆</i></div>
+        </div>
+        <div id="pace-counter" class="pace-counter" aria-label="Current race speed">
+          <span>Speed</span><strong id="speed-value">37</strong><small>km/h</small><i aria-hidden="true">↗</i>
+        </div>
+        <div class="pickup-cluster">
+          <span class="moon-icon" aria-hidden="true">◒</span>
+          <strong id="token-value">0</strong>
+          <span id="combo-value">×1</span>
+        </div>
+        <div class="badge-cluster" aria-label="Acorn badges remaining">
+          <span class="acorn is-full">♠</span><span class="acorn is-full">♠</span><span class="acorn is-full">♠</span>
+        </div>
+        <button id="pause-button" class="round-button" type="button" aria-label="Pause race">Ⅱ</button>
+        <div class="mischief-cluster">
+          <div class="meter-label"><span>Mischief</span><strong id="mischief-label">Gather Moon Tokens</strong></div>
+          <div class="mischief-track"><span id="mischief-fill"></span></div>
+        </div>
+        <div id="power-status" class="power-status" hidden></div>
+      </section>
+
+      <div id="start-intro" class="start-intro" aria-live="polite">
+        <div class="intro-copy">
+          <span class="intro-kicker">Jimothy’s highly scientific</span>
+          <strong><small>STARTING-LINE</small> SHIMMY</strong>
+          <p>Three lanes. Tiny paws. Absolutely no sensible braking.</p>
+          <div class="intro-controls intro-controls-desktop" aria-label="Race controls">
+            <span><kbd>←</kbd> LEFT</span><span><kbd>→</kbd> RIGHT</span><span><kbd>↑</kbd> JUMP</span><span><kbd>↓</kbd> SCUTTLE</span>
+          </div>
+          <div class="intro-controls intro-controls-touch">SWIPE WHERE YOU WANT JIMOTHY TO GO</div>
+        </div>
+        <div class="intro-route-lock"><i aria-hidden="true">◆</i><span>ROUTE CLEAR</span><small>MOON TOKENS AHEAD</small></div>
+      </div>
+
+      <button id="boost-button" type="button" aria-label="Activate Mischief boost" disabled>
+        <span aria-hidden="true">✦</span><strong>BOOST</strong>
+      </button>
+
+      <div id="countdown" class="countdown" aria-live="assertive"></div>
+      <div id="section-banner" class="section-banner" aria-live="polite"><small>Entering</small><strong>DEWY LAWN</strong></div>
+      <div id="world-stream-status" class="world-stream-status" aria-live="polite" hidden>
+        <span class="world-stream-paw" aria-hidden="true">●</span><strong id="world-stream-label">Growing Dewy Lawn…</strong>
+      </div>
+      <div id="feedback-flash" aria-hidden="true"></div>
+
+      <section id="pause-panel" class="overlay" aria-labelledby="pause-title">
+        <div class="paper-panel compact-panel">
+          <p class="eyebrow">Race paused</p>
+          <h2 id="pause-title">Catch your breath.</h2>
+          <button id="resume-button" class="primary-button" type="button">Back to the race</button>
+          <button id="pause-settings-button" class="quiet-button" type="button">Settings</button>
+          <button id="restart-button" class="quiet-button" type="button">Restart Dash</button>
+          <button id="menu-button" class="text-button" type="button">Return to menu</button>
+        </div>
+      </section>
+
+      <section id="help-panel" class="overlay" aria-labelledby="help-title">
+        <div class="paper-panel help-panel">
+          <button class="close-button" data-close-panel type="button" aria-label="Close help">×</button>
+          <p class="eyebrow">Racer's field guide</p>
+          <h2 id="help-title">Fast paws, clear choices.</h2>
+          <div class="control-grid">
+            <div><kbd>←</kbd><kbd>→</kbd><span>Change lanes</span></div>
+            <div><kbd>↑</kbd><kbd>W</kbd><span>Jump low hazards</span></div>
+            <div><kbd>↓</kbd><kbd>S</kbd><span>Tuck Scuttle under gates</span></div>
+            <div><kbd>⇧</kbd><span>Boost when Mischief is full</span></div>
+          </div>
+          <p>On touch screens, swipe in the direction you want to move. Choose safe lanes, or follow Moon Tokens into quicker, trickier shortcuts. Endless Run loops the backyards and keeps accelerating until your badges run out.</p>
+          <button class="primary-button" data-close-panel type="button">Got it</button>
+        </div>
+      </section>
+
+      <section id="settings-panel" class="overlay" aria-labelledby="settings-title">
+        <div class="paper-panel settings-panel">
+          <button class="close-button" data-close-panel type="button" aria-label="Close settings">×</button>
+          <p class="eyebrow">Race settings</p>
+          <h2 id="settings-title">Make the dash comfortable.</h2>
+          <label><span>Master volume</span><input id="master-volume" type="range" min="0" max="1" step="0.05" /></label>
+          <label><span>Music</span><input id="music-volume" type="range" min="0" max="1" step="0.05" /></label>
+          <label><span>Effects</span><input id="effects-volume" type="range" min="0" max="1" step="0.05" /></label>
+          <label class="toggle-row"><span>Mute all audio</span><input id="mute-toggle" type="checkbox" /></label>
+          <label class="toggle-row"><span>Reduce motion</span><input id="motion-toggle" type="checkbox" /></label>
+          <button class="primary-button" data-close-panel type="button">Done</button>
+        </div>
+      </section>
+
+      <section id="results-panel" class="overlay" aria-labelledby="results-title">
+        <div class="paper-panel results-panel">
+          <p class="eyebrow">Backyard Dash complete</p>
+          <div class="place-medallion"><span id="result-place">1st</span><small>PLACE</small></div>
+          <h2 id="results-title">That was quick work.</h2>
+          <div class="result-stats">
+            <div><span>Finish time</span><strong id="result-time">00:00.0</strong></div>
+            <div><span>Moon Tokens</span><strong id="result-tokens">0</strong></div>
+            <div><span>Best time</span><strong id="result-best">—</strong></div>
+            <div><span>Pickup record</span><strong id="result-record">0</strong></div>
+          </div>
+          <div id="split-list" class="split-list"></div>
+          <button id="retry-button" class="primary-button" type="button">Race again</button>
+          <button id="results-menu-button" class="text-button" type="button">Return to menu</button>
+        </div>
+      </section>
+
+      <section id="failed-panel" class="overlay" aria-labelledby="failed-title">
+        <div class="paper-panel compact-panel">
+          <p class="eyebrow">Race over</p>
+          <h2 id="failed-title">A soft landing in the leaves.</h2>
+          <p id="failed-summary">Jimothy is already ready for another dash.</p>
+          <button id="failed-retry-button" class="primary-button" type="button">Retry now</button>
+          <button id="failed-menu-button" class="text-button" type="button">Return to menu</button>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

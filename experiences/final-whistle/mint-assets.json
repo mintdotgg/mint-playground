@@ -1,0 +1,938 @@
+{
+  "registryVersion": 1,
+  "assetRoot": "public",
+  "delivery": "mint_cdn",
+  "assets": {
+    "crimson-bowl-stadium": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks7esmfkwv9s4tsq7rt0zjyrex8at8a7"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "models-world-cup-final-integrated-stadium": {
+          "artifactId": "glb/crimson-bowl-stadium-normalized-6d6fdf1221f794fe.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/crimson-bowl-stadium-normalized-6d6fdf1221f794fe.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "football-pitch": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks77y28mf5prer133kse4amsf18as7wp"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "models-world-cup-final-pitch": {
+          "artifactId": "glb/football-pitch-normalized-c232630952b876f7.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/football-pitch-normalized-c232630952b876f7.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "candy-turf-apron": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks72hsvm1b659cmzzf9v0fgse18atb6r"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "models-world-cup-final-technical-area-grass-apron": {
+          "artifactId": "glb/candy-turf-apron-normalized-13cfbf09dd4cfd61.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/candy-turf-apron-normalized-13cfbf09dd4cfd61.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "controlled-player-selection-ring": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks79j7v6vkqmsg5escbn0q964d8ats3s"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "models-world-cup-final-player-selection-ring": {
+          "artifactId": "glb/controlled-player-selection-ring-normalized-4a3167ff1c07e75f.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/controlled-player-selection-ring-normalized-4a3167ff1c07e75f.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "ball-locator-target": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks7etx5pwzp3rk8x0xybvkkdhh8av07n"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "models-world-cup-final-ball-locator": {
+          "artifactId": "glb/ball-locator-target-normalized-7a8ac03d7a093507.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/ball-locator-target-normalized-7a8ac03d7a093507.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "football-goal": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks79rg1962n2eg44xam3mdxfpd8ar5xs"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "models-world-cup-final-goal": {
+          "artifactId": "glb/football-goal-normalized-ffea7e02e878638a.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/football-goal-normalized-ffea7e02e878638a.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "candy-gloss-matchball": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks7653yrkpbfjj0ffkxf3vb7g58arw0e"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "models-world-cup-final-football": {
+          "artifactId": "glb/candy-gloss-matchball-normalized-3b91588491f9ca09.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/candy-gloss-matchball-normalized-3b91588491f9ca09.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "corner-flag": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks70szhgh4d498jeschmk8nez18ary6g"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "models-world-cup-final-corner-flag": {
+          "artifactId": "glb/corner-flag-normalized-267d8ebca5b65f8e.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/corner-flag-normalized-267d8ebca5b65f8e.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "championship-trophy": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks70v9s78aa7ejb46eyyag4y2n8as19e"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "models-world-cup-final-trophy": {
+          "artifactId": "glb/championship-trophy-normalized-fc3b00eae25f1eda.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/championship-trophy-normalized-fc3b00eae25f1eda.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "celebration-burst": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks7em9djxk824hsrfzt2xfqhv58arbya"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "models-world-cup-final-confetti": {
+          "artifactId": "glb/celebration-burst-normalized-46f02f1ad721781c.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/celebration-burst-normalized-46f02f1ad721781c.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "spain-open-team-bench": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks7brgr85dwzdpag67p8g3dpr98avqfp"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "models-world-cup-final-spain-team-bench": {
+          "artifactId": "glb/spain-open-team-bench-normalized-09d9f2245fcf6b7b.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/spain-open-team-bench-normalized-09d9f2245fcf6b7b.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "argentina-open-team-bench": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks7egfcqhawrk66nk9pbvfkjkd8atv3b"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "models-world-cup-final-argentina-team-bench": {
+          "artifactId": "glb/argentina-open-team-bench-normalized-5db98e1a8f66ac07.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/argentina-open-team-bench-normalized-5db98e1a8f66ac07.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "sideline-equipment-station": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks7fxyhbgdmjq1edje4x80n1qh8asgtt"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "models-world-cup-final-equipment-station": {
+          "artifactId": "glb/sideline-equipment-station-normalized-fa779b9dd440abc2.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/sideline-equipment-station-normalized-fa779b9dd440abc2.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "spain-outfield-hero": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks79jnz2qb6yc1x9ywrc4tj3a18asfb4"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "models-world-cup-final-players-spain-outfield": {
+          "artifactId": "glb/spain-outfield-hero-rigged-character-glb-f828899ade34f046.glb",
+          "role": "rigged_character",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/spain-outfield-hero-rigged-character-glb-f828899ade34f046.glb",
+          "loaderHint": "gltf"
+        },
+        "animations-world-cup-final-spain-outfield-idle": {
+          "artifactId": "glb/idle-glb-65a6d380688b5e25.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/idle-glb-65a6d380688b5e25.glb",
+          "loaderHint": "gltf"
+        },
+        "animations-world-cup-final-spain-outfield-run": {
+          "artifactId": "glb/run-02-glb-1b04fa2931966b61.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/run-02-glb-1b04fa2931966b61.glb",
+          "loaderHint": "gltf"
+        },
+        "animations-world-cup-final-spain-outfield-kick": {
+          "artifactId": "glb/kick-a-soccer-ball-glb-de9b5136c8607ae1.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/kick-a-soccer-ball-glb-de9b5136c8607ae1.glb",
+          "loaderHint": "gltf"
+        },
+        "animations-world-cup-final-spain-outfield-tackle": {
+          "artifactId": "glb/slide-light-glb-16299a55b83cc300.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/slide-light-glb-16299a55b83cc300.glb",
+          "loaderHint": "gltf"
+        },
+        "animations-world-cup-final-spain-outfield-hit": {
+          "artifactId": "glb/hit-reaction-glb-f736c0956e8d8b49.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/hit-reaction-glb-f736c0956e8d8b49.glb",
+          "loaderHint": "gltf"
+        },
+        "animations-world-cup-final-spain-outfield-victory": {
+          "artifactId": "glb/victory-cheer-glb-27333e1ad273b3dd.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/victory-cheer-glb-27333e1ad273b3dd.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "argentina-outfield-rival": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks76xm6916ckwptdf1gtr703918arrrh"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "models-world-cup-final-players-argentina-outfield": {
+          "artifactId": "glb/argentina-outfield-rival-rigged-character-glb-6f41eaa6352e05a0.glb",
+          "role": "rigged_character",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/argentina-outfield-rival-rigged-character-glb-6f41eaa6352e05a0.glb",
+          "loaderHint": "gltf"
+        },
+        "animations-world-cup-final-argentina-outfield-idle": {
+          "artifactId": "glb/idle-glb-037aec254ee2ab22.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/idle-glb-037aec254ee2ab22.glb",
+          "loaderHint": "gltf"
+        },
+        "animations-world-cup-final-argentina-outfield-run": {
+          "artifactId": "glb/run-02-glb-837aa1fc9f5890b6.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/run-02-glb-837aa1fc9f5890b6.glb",
+          "loaderHint": "gltf"
+        },
+        "animations-world-cup-final-argentina-outfield-kick": {
+          "artifactId": "glb/kick-a-soccer-ball-glb-5830f818dd0302a1.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/kick-a-soccer-ball-glb-5830f818dd0302a1.glb",
+          "loaderHint": "gltf"
+        },
+        "animations-world-cup-final-argentina-outfield-tackle": {
+          "artifactId": "glb/slide-light-glb-0931e00923bb36b4.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/slide-light-glb-0931e00923bb36b4.glb",
+          "loaderHint": "gltf"
+        },
+        "animations-world-cup-final-argentina-outfield-hit": {
+          "artifactId": "glb/hit-reaction-glb-83539fecc8593048.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/hit-reaction-glb-83539fecc8593048.glb",
+          "loaderHint": "gltf"
+        },
+        "animations-world-cup-final-argentina-outfield-victory": {
+          "artifactId": "glb/victory-cheer-glb-f8a20d5634418625.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/victory-cheer-glb-f8a20d5634418625.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "spain-goalkeeper": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks7e4wdkfpcp9xyfkht2gagcb58asxf6"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "models-world-cup-final-players-spain-goalkeeper": {
+          "artifactId": "glb/spain-goalkeeper-rigged-character-glb-234d2c577f985a8f.glb",
+          "role": "rigged_character",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/spain-goalkeeper-rigged-character-glb-234d2c577f985a8f.glb",
+          "loaderHint": "gltf"
+        },
+        "animations-world-cup-final-spain-goalkeeper-idle": {
+          "artifactId": "glb/idle-glb-c061c6d48c58572a.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/idle-glb-c061c6d48c58572a.glb",
+          "loaderHint": "gltf"
+        },
+        "animations-world-cup-final-spain-goalkeeper-run": {
+          "artifactId": "glb/run-02-glb-0daeb8a10d94de23.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/run-02-glb-0daeb8a10d94de23.glb",
+          "loaderHint": "gltf"
+        },
+        "animations-world-cup-final-spain-goalkeeper-kick": {
+          "artifactId": "glb/kick-a-soccer-ball-glb-0f8dbbe89208160c.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/kick-a-soccer-ball-glb-0f8dbbe89208160c.glb",
+          "loaderHint": "gltf"
+        },
+        "animations-world-cup-final-spain-goalkeeper-save": {
+          "artifactId": "glb/leap-right-and-catch-glb-1063987b21ca1b19.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/leap-right-and-catch-glb-1063987b21ca1b19.glb",
+          "loaderHint": "gltf"
+        },
+        "animations-world-cup-final-spain-goalkeeper-hit": {
+          "artifactId": "glb/hit-reaction-glb-b723cd4f03da4d4c.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/hit-reaction-glb-b723cd4f03da4d4c.glb",
+          "loaderHint": "gltf"
+        },
+        "animations-world-cup-final-spain-goalkeeper-victory": {
+          "artifactId": "glb/victory-cheer-glb-dd92ee47ce0c6425.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/victory-cheer-glb-dd92ee47ce0c6425.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "argentina-goalkeeper": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks71ntcrqp13gkdz1mzw8tv3a18ard2b"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "models-world-cup-final-players-argentina-goalkeeper": {
+          "artifactId": "glb/argentina-goalkeeper-rigged-character-glb-7ce33d5740d073e2.glb",
+          "role": "rigged_character",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/argentina-goalkeeper-rigged-character-glb-7ce33d5740d073e2.glb",
+          "loaderHint": "gltf"
+        },
+        "animations-world-cup-final-argentina-goalkeeper-idle": {
+          "artifactId": "glb/idle-glb-08adf4595e6e72f9.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/idle-glb-08adf4595e6e72f9.glb",
+          "loaderHint": "gltf"
+        },
+        "animations-world-cup-final-argentina-goalkeeper-run": {
+          "artifactId": "glb/run-02-glb-f1521d9b0eb3b7a7.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/run-02-glb-f1521d9b0eb3b7a7.glb",
+          "loaderHint": "gltf"
+        },
+        "animations-world-cup-final-argentina-goalkeeper-kick": {
+          "artifactId": "glb/kick-a-soccer-ball-glb-1fdc5f885186f7b9.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/kick-a-soccer-ball-glb-1fdc5f885186f7b9.glb",
+          "loaderHint": "gltf"
+        },
+        "animations-world-cup-final-argentina-goalkeeper-save": {
+          "artifactId": "glb/leap-right-and-catch-glb-16e3c46181ec61be.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/leap-right-and-catch-glb-16e3c46181ec61be.glb",
+          "loaderHint": "gltf"
+        },
+        "animations-world-cup-final-argentina-goalkeeper-hit": {
+          "artifactId": "glb/hit-reaction-glb-57a539531adfd1c5.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/hit-reaction-glb-57a539531adfd1c5.glb",
+          "loaderHint": "gltf"
+        },
+        "animations-world-cup-final-argentina-goalkeeper-victory": {
+          "artifactId": "glb/victory-cheer-glb-f19f584c6d75a4b9.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/victory-cheer-glb-f19f584c6d75a4b9.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "red-scarf-fan": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks78g83066wq0p68djjhmt75118astpt"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "models-world-cup-final-fans-red-scarf": {
+          "artifactId": "glb/red-scarf-fan-rigged-character-glb-c4140aa6c89e915d.glb",
+          "role": "rigged_character",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/red-scarf-fan-rigged-character-glb-c4140aa6c89e915d.glb",
+          "loaderHint": "gltf"
+        },
+        "animations-world-cup-final-fans-red-scarf-idle": {
+          "artifactId": "glb/chair-sit-idle-m-glb-06dc3342de9e9248.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/chair-sit-idle-m-glb-06dc3342de9e9248.glb",
+          "loaderHint": "gltf"
+        },
+        "animations-world-cup-final-fans-red-scarf-cheer": {
+          "artifactId": "glb/seated-fist-pump-glb-de7dcaf006dd4e1f.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/seated-fist-pump-glb-de7dcaf006dd4e1f.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "sky-jacket-fan": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks7bq3r1p40hcyzdwv133a9jd18arzy4"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "models-world-cup-final-fans-sky-jacket": {
+          "artifactId": "glb/sky-jacket-fan-rigged-character-glb-37af88e9ebe8b4dc.glb",
+          "role": "rigged_character",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/sky-jacket-fan-rigged-character-glb-37af88e9ebe8b4dc.glb",
+          "loaderHint": "gltf"
+        },
+        "animations-world-cup-final-fans-sky-jacket-idle": {
+          "artifactId": "glb/chair-sit-idle-m-glb-649bade46e1429e8.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/chair-sit-idle-m-glb-649bade46e1429e8.glb",
+          "loaderHint": "gltf"
+        },
+        "animations-world-cup-final-fans-sky-jacket-cheer": {
+          "artifactId": "glb/sitting-clap-glb-b10dea5cc99b3291.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/sitting-clap-glb-b10dea5cc99b3291.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "yellow-cap-fan": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks70f1wq1y0ztvwxgkqxmx0ng18asz4q"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "models-world-cup-final-fans-yellow-cap": {
+          "artifactId": "glb/yellow-cap-fan-rigged-character-glb-4da7e22831965387.glb",
+          "role": "rigged_character",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/yellow-cap-fan-rigged-character-glb-4da7e22831965387.glb",
+          "loaderHint": "gltf"
+        },
+        "animations-world-cup-final-fans-yellow-cap-idle": {
+          "artifactId": "glb/chair-sit-idle-m-glb-962ff07968e0db60.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/chair-sit-idle-m-glb-962ff07968e0db60.glb",
+          "loaderHint": "gltf"
+        },
+        "animations-world-cup-final-fans-yellow-cap-cheer": {
+          "artifactId": "glb/sit-shout-hands-on-mouth-glb-25f10f9475e31721.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/sit-shout-hands-on-mouth-glb-25f10f9475e31721.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "blue-scarf-fan": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks7aj9amwj3ts48dbkk6a2k8e58arj81"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "models-world-cup-final-fans-blue-scarf": {
+          "artifactId": "glb/blue-scarf-fan-rigged-character-glb-5c2d7e6e671ba4bd.glb",
+          "role": "rigged_character",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/blue-scarf-fan-rigged-character-glb-5c2d7e6e671ba4bd.glb",
+          "loaderHint": "gltf"
+        },
+        "animations-world-cup-final-fans-blue-scarf-idle": {
+          "artifactId": "glb/chair-sit-idle-m-glb-0ce6f12bd6e6e9d7.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/chair-sit-idle-m-glb-0ce6f12bd6e6e9d7.glb",
+          "loaderHint": "gltf"
+        },
+        "animations-world-cup-final-fans-blue-scarf-cheer": {
+          "artifactId": "glb/sitting-clap-glb-34dbcc7071de2c14.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/sitting-clap-glb-34dbcc7071de2c14.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "spain-head-coach": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks70rzr1ztrjkr9rsggcayab6n8at44k"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "models-world-cup-final-staff-spain-coach": {
+          "artifactId": "glb/spain-head-coach-rigged-character-glb-bd3a4739421434b4.glb",
+          "role": "rigged_character",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/spain-head-coach-rigged-character-glb-bd3a4739421434b4.glb",
+          "loaderHint": "gltf"
+        },
+        "animations-world-cup-final-staff-spain-coach-idle": {
+          "artifactId": "glb/stand-and-chat-glb-52f4cb9201fca138.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/stand-and-chat-glb-52f4cb9201fca138.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "argentina-head-coach": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks7360j9vsjjfy1w94s3h5xsq58avgap"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "models-world-cup-final-staff-argentina-coach": {
+          "artifactId": "glb/argentina-head-coach-rigged-character-glb-5b86cd17585721d2.glb",
+          "role": "rigged_character",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/argentina-head-coach-rigged-character-glb-5b86cd17585721d2.glb",
+          "loaderHint": "gltf"
+        },
+        "animations-world-cup-final-staff-argentina-coach-idle": {
+          "artifactId": "glb/stand-and-chat-glb-e2d66b655851e350.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/stand-and-chat-glb-e2d66b655851e350.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "spain-substitute": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks7e5mpfjdskyzcmbnj58hw90d8avah9"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "models-world-cup-final-staff-spain-substitute": {
+          "artifactId": "glb/spain-substitute-rigged-character-glb-63a4cd7d5a0a0ff0.glb",
+          "role": "rigged_character",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/spain-substitute-rigged-character-glb-63a4cd7d5a0a0ff0.glb",
+          "loaderHint": "gltf"
+        },
+        "animations-world-cup-final-staff-spain-substitute-idle": {
+          "artifactId": "glb/chair-sit-idle-m-glb-a2c497de36c63010.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/chair-sit-idle-m-glb-a2c497de36c63010.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "argentina-substitute": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks783zdnxv1y9166mhkn0rmwjx8avtvm"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "models-world-cup-final-staff-argentina-substitute": {
+          "artifactId": "glb/argentina-substitute-rigged-character-glb-2c3d815760626232.glb",
+          "role": "rigged_character",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/argentina-substitute-rigged-character-glb-2c3d815760626232.glb",
+          "loaderHint": "gltf"
+        },
+        "animations-world-cup-final-staff-argentina-substitute-idle": {
+          "artifactId": "glb/chair-sit-idle-m-glb-461ac7e671cf617f.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/chair-sit-idle-m-glb-461ac7e671cf617f.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "match-medic": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks790w7byv9smjk5aftb5x7zfh8atkgp"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "models-world-cup-final-staff-match-medic": {
+          "artifactId": "glb/match-medic-rigged-character-glb-005b4d7f3414f24a.glb",
+          "role": "rigged_character",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/match-medic-rigged-character-glb-005b4d7f3414f24a.glb",
+          "loaderHint": "gltf"
+        },
+        "animations-world-cup-final-staff-match-medic-idle": {
+          "artifactId": "glb/idle-glb-f7aeee77eda1da30.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/idle-glb-f7aeee77eda1da30.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "fourth-official": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks7da4dh1wfdsascadgt8k398s8avcvp"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "models-world-cup-final-staff-fourth-official": {
+          "artifactId": "glb/fourth-official-rigged-character-glb-3da4500088f7b43c.glb",
+          "role": "rigged_character",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/fourth-official-rigged-character-glb-3da4500088f7b43c.glb",
+          "loaderHint": "gltf"
+        },
+        "animations-world-cup-final-staff-fourth-official-idle": {
+          "artifactId": "glb/idle-glb-af369e6c21a558e2.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/idle-glb-af369e6c21a558e2.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "final-whistle-crowd-ambience": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd785n9bs3qd9bk11894j0kw4d8arnkx"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio-world-cup-final-crowd-ambience": {
+          "artifactId": "audio/xd785n9bs3qd9bk11894j0kw4d8arnkx/final-whistle-crowd-ambience-4ae897-1792c4818ceb9202.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd785n9bs3qd9bk11894j0kw4d8arnkx/final-whistle-crowd-ambience-4ae897-1792c4818ceb9202.mp3",
+          "loaderHint": "audio"
+        }
+      }
+    },
+    "final-whistle-referee-whistle": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd75nn4096h66rv83trxjjqz6h8ar887"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio-world-cup-final-referee-whistle": {
+          "artifactId": "audio/xd75nn4096h66rv83trxjjqz6h8ar887/final-whistle-referee-whistle-477585-9e7064c8fa3e028d.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd75nn4096h66rv83trxjjqz6h8ar887/final-whistle-referee-whistle-477585-9e7064c8fa3e028d.mp3",
+          "loaderHint": "audio"
+        }
+      }
+    },
+    "final-whistle-ball-kick": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd7dp6tfbrq2q9v4cdx65kpyad8aryms"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio-world-cup-final-ball-kick": {
+          "artifactId": "audio/xd7dp6tfbrq2q9v4cdx65kpyad8aryms/final-whistle-ball-kick-c07be1-533254401a248b2f.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd7dp6tfbrq2q9v4cdx65kpyad8aryms/final-whistle-ball-kick-c07be1-533254401a248b2f.mp3",
+          "loaderHint": "audio"
+        }
+      }
+    },
+    "final-whistle-goal-roar": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd732br8xwzbhjg11bxbp7dy358ar03x"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio-world-cup-final-goal-roar": {
+          "artifactId": "audio/xd732br8xwzbhjg11bxbp7dy358ar03x/final-whistle-goal-roar-503503-f72e5a8ef60f023a.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd732br8xwzbhjg11bxbp7dy358ar03x/final-whistle-goal-roar-503503-f72e5a8ef60f023a.mp3",
+          "loaderHint": "audio"
+        }
+      }
+    },
+    "final-whistle-save-impact": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd7bcwr3v06081jvkh4z3j3kp18artxk"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio-world-cup-final-save-impact": {
+          "artifactId": "audio/xd7bcwr3v06081jvkh4z3j3kp18artxk/final-whistle-save-impact-0488be-025a207fa2212779.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd7bcwr3v06081jvkh4z3j3kp18artxk/final-whistle-save-impact-0488be-025a207fa2212779.mp3",
+          "loaderHint": "audio"
+        }
+      }
+    },
+    "final-whistle-victory-sting": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd7bs9vhpkkektnknjnjjsattx8arfzy"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio-world-cup-final-victory-sting": {
+          "artifactId": "audio/xd7bs9vhpkkektnknjnjjsattx8arfzy/final-whistle-victory-sting-1dd85c-5a419018c53e52bf.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd7bs9vhpkkektnknjnjjsattx8arfzy/final-whistle-victory-sting-1dd85c-5a419018c53e52bf.mp3",
+          "loaderHint": "audio"
+        }
+      }
+    }
+  }
+}

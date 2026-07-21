@@ -1,0 +1,341 @@
+{
+  "registryVersion": 1,
+  "assetRoot": "public",
+  "delivery": "mint_cdn",
+  "assets": {
+    "realistic-celestial-bodies": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "asset_pack",
+        "assetId": "th78adzf6v8qcmbg3w8wqfrb2s8avrre"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "mercury": {
+          "artifactId": "glb/realistic-mercury-normalized-89cfc45bed88314a.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/realistic-mercury-normalized-89cfc45bed88314a.glb",
+          "loaderHint": "gltf"
+        },
+        "mars": {
+          "artifactId": "glb/realistic-mars-normalized-0ed719c3bf6d9b08.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/realistic-mars-normalized-0ed719c3bf6d9b08.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "smooth-celestial-bodies": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "asset_pack",
+        "assetId": "th756x8n116pjrr3e2axed7da58atvjw"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "sun": {
+          "artifactId": "glb/photoreal-smooth-sun-normalized-4924b967f1ace14a.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/photoreal-smooth-sun-normalized-4924b967f1ace14a.glb",
+          "loaderHint": "gltf"
+        },
+        "venus": {
+          "artifactId": "glb/photoreal-smooth-venus-normalized-f931f705beefd5ed.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/photoreal-smooth-venus-normalized-f931f705beefd5ed.glb",
+          "loaderHint": "gltf"
+        },
+        "earth": {
+          "artifactId": "glb/photoreal-smooth-earth-normalized-c8ce8fc16d15eed5.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/photoreal-smooth-earth-normalized-c8ce8fc16d15eed5.glb",
+          "loaderHint": "gltf"
+        },
+        "jupiter": {
+          "artifactId": "glb/photoreal-smooth-jupiter-normalized-2b43e1963b6e80d6.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/photoreal-smooth-jupiter-normalized-2b43e1963b6e80d6.glb",
+          "loaderHint": "gltf"
+        },
+        "neptune": {
+          "artifactId": "glb/photoreal-smooth-neptune-normalized-a51b555dd630632b.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/photoreal-smooth-neptune-normalized-a51b555dd630632b.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "saturn-components": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "asset_pack",
+        "assetId": "th7ctm4bs45nj0dcjsm43rnbms8aw51p"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "body": {
+          "artifactId": "glb/saturn-atmospheric-body-normalized-d8431de09dede68c.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/saturn-atmospheric-body-normalized-d8431de09dede68c.glb",
+          "loaderHint": "gltf"
+        },
+        "rings": {
+          "artifactId": "glb/saturn-broad-ring-system-normalized-965917a97de82dea.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/saturn-broad-ring-system-normalized-965917a97de82dea.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "celestial-flybys": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "asset_pack",
+        "assetId": "th75pyw5smcx64jddzmszseg418atqj7"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "blue-ice-comet": {
+          "artifactId": "glb/blue-ice-comet-normalized-1490e4f56538d916.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/blue-ice-comet-normalized-1490e4f56538d916.glb",
+          "loaderHint": "gltf"
+        },
+        "gold-dust-comet": {
+          "artifactId": "glb/gold-dust-comet-normalized-8de2a2dfaf0a6634.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/gold-dust-comet-normalized-8de2a2dfaf0a6634.glb",
+          "loaderHint": "gltf"
+        },
+        "ember-meteor": {
+          "artifactId": "glb/ember-meteor-normalized-4c3c291ba1106af0.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/ember-meteor-normalized-4c3c291ba1106af0.glb",
+          "loaderHint": "gltf"
+        },
+        "cold-stone-meteor": {
+          "artifactId": "glb/cold-stone-meteor-normalized-60d59788f6f4c1b1.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/cold-stone-meteor-normalized-60d59788f6f4c1b1.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "living-celestial-materials": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "material_pack",
+        "assetId": "x576nh4nsfnq7nthfk2fmh9yk18ax7pm"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "jupiter-basecolor": {
+          "artifactId": "materials/w1738wtyw0asanfq7zj2webc7d8awe77/jupiter-turbulent-atmosphere-basecolor-af0964-718dace93382b788.png",
+          "role": "material_basecolor",
+          "format": "png",
+          "contentType": "image/png",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w1738wtyw0asanfq7zj2webc7d8awe77/jupiter-turbulent-atmosphere-basecolor-af0964-718dace93382b788.png",
+          "loaderHint": "texture"
+        },
+        "jupiter-normal": {
+          "artifactId": "materials/w1738wtyw0asanfq7zj2webc7d8awe77/jupiter-turbulent-atmosphere-normal-4e7a90-739af99fc6b85b69.png",
+          "role": "material_normal",
+          "format": "png",
+          "contentType": "image/png",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w1738wtyw0asanfq7zj2webc7d8awe77/jupiter-turbulent-atmosphere-normal-4e7a90-739af99fc6b85b69.png",
+          "loaderHint": "texture"
+        },
+        "jupiter-roughness": {
+          "artifactId": "materials/w1738wtyw0asanfq7zj2webc7d8awe77/jupiter-turbulent-atmosphere-roughness-b9d19e-429d6d842599e606.png",
+          "role": "material_roughness",
+          "format": "png",
+          "contentType": "image/png",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w1738wtyw0asanfq7zj2webc7d8awe77/jupiter-turbulent-atmosphere-roughness-b9d19e-429d6d842599e606.png",
+          "loaderHint": "texture"
+        },
+        "neptune-basecolor": {
+          "artifactId": "materials/w1702d7zrmhc11qvc1s5ehczgs8aw6y1/neptune-methane-atmosphere-basecolor-fde0c0-1abb840ff9a11518.png",
+          "role": "material_basecolor",
+          "format": "png",
+          "contentType": "image/png",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w1702d7zrmhc11qvc1s5ehczgs8aw6y1/neptune-methane-atmosphere-basecolor-fde0c0-1abb840ff9a11518.png",
+          "loaderHint": "texture"
+        },
+        "neptune-normal": {
+          "artifactId": "materials/w1702d7zrmhc11qvc1s5ehczgs8aw6y1/neptune-methane-atmosphere-normal-adafd5-64f7b3d353a3d31c.png",
+          "role": "material_normal",
+          "format": "png",
+          "contentType": "image/png",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w1702d7zrmhc11qvc1s5ehczgs8aw6y1/neptune-methane-atmosphere-normal-adafd5-64f7b3d353a3d31c.png",
+          "loaderHint": "texture"
+        },
+        "neptune-roughness": {
+          "artifactId": "materials/w1702d7zrmhc11qvc1s5ehczgs8aw6y1/neptune-methane-atmosphere-roughness-5fd42e-100508bfb4f03a7a.png",
+          "role": "material_roughness",
+          "format": "png",
+          "contentType": "image/png",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w1702d7zrmhc11qvc1s5ehczgs8aw6y1/neptune-methane-atmosphere-roughness-5fd42e-100508bfb4f03a7a.png",
+          "loaderHint": "texture"
+        }
+      }
+    },
+    "venus-atmosphere-material": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "material",
+        "assetId": "w17a72dv838mxtecx133q7j2hn8azznb"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "basecolor": {
+          "artifactId": "materials/w17a72dv838mxtecx133q7j2hn8azznb/orbit-week-v6-realistic-venus-atmosphere-basecolor-f3cdf8-e1b552433d469f95.png",
+          "role": "material_basecolor",
+          "format": "png",
+          "contentType": "image/png",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w17a72dv838mxtecx133q7j2hn8azznb/orbit-week-v6-realistic-venus-atmosphere-basecolor-f3cdf8-e1b552433d469f95.png",
+          "loaderHint": "texture"
+        },
+        "normal": {
+          "artifactId": "materials/w17a72dv838mxtecx133q7j2hn8azznb/orbit-week-v6-realistic-venus-atmosphere-normal-1651ee-dce3aa1ad050a8c3.png",
+          "role": "material_normal",
+          "format": "png",
+          "contentType": "image/png",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w17a72dv838mxtecx133q7j2hn8azznb/orbit-week-v6-realistic-venus-atmosphere-normal-1651ee-dce3aa1ad050a8c3.png",
+          "loaderHint": "texture"
+        },
+        "roughness": {
+          "artifactId": "materials/w17a72dv838mxtecx133q7j2hn8azznb/orbit-week-v6-realistic-venus-atmosphere-roughness-59f5e7-b55bb704c5c65161.png",
+          "role": "material_roughness",
+          "format": "png",
+          "contentType": "image/png",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w17a72dv838mxtecx133q7j2hn8azznb/orbit-week-v6-realistic-venus-atmosphere-roughness-59f5e7-b55bb704c5c65161.png",
+          "loaderHint": "texture"
+        }
+      }
+    },
+    "boiling-solar-material": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "material",
+        "assetId": "w17etkrepj2xn28j8xym1d5cfx8ay200"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "basecolor": {
+          "artifactId": "materials/w17etkrepj2xn28j8xym1d5cfx8ay200/orbit-week-v6-natural-boiling-solar-surface-basecolor-d81e84-188fcb6bba997828.png",
+          "role": "material_basecolor",
+          "format": "png",
+          "contentType": "image/png",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w17etkrepj2xn28j8xym1d5cfx8ay200/orbit-week-v6-natural-boiling-solar-surface-basecolor-d81e84-188fcb6bba997828.png",
+          "loaderHint": "texture"
+        },
+        "normal": {
+          "artifactId": "materials/w17etkrepj2xn28j8xym1d5cfx8ay200/orbit-week-v6-natural-boiling-solar-surface-normal-539e87-627202659f8d9cf3.png",
+          "role": "material_normal",
+          "format": "png",
+          "contentType": "image/png",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w17etkrepj2xn28j8xym1d5cfx8ay200/orbit-week-v6-natural-boiling-solar-surface-normal-539e87-627202659f8d9cf3.png",
+          "loaderHint": "texture"
+        },
+        "roughness": {
+          "artifactId": "materials/w17etkrepj2xn28j8xym1d5cfx8ay200/orbit-week-v6-natural-boiling-solar-surface-roughness-c994aa-c5283b3f1c81dd01.png",
+          "role": "material_roughness",
+          "format": "png",
+          "contentType": "image/png",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w17etkrepj2xn28j8xym1d5cfx8ay200/orbit-week-v6-natural-boiling-solar-surface-roughness-c994aa-c5283b3f1c81dd01.png",
+          "loaderHint": "texture"
+        }
+      }
+    },
+    "orbital-research-station": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks70kjr4qg28dh9zfw9es23rvx8ayteg"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "model": {
+          "artifactId": "glb/human-orbital-research-station-normalized-e1f96745c1a02ca7.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/human-orbital-research-station-normalized-e1f96745c1a02ca7.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "outer-system-ufo": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks75qf8ycayw7v557mz92d7a4x8azsax"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "model": {
+          "artifactId": "glb/outer-system-ufo-normalized-4666158dcf26a941.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/outer-system-ufo-normalized-4666158dcf26a941.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "deep-space-background": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "image",
+        "assetId": "xn79pd38zsyxzcm24a4sqs4pe98atbr1"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "image": {
+          "artifactId": "images/xn79pd38zsyxzcm24a4sqs4pe98atbr1/orbit-week-deep-space-d44948-2f28b6d70d5b2089.png",
+          "role": "image",
+          "format": "png",
+          "contentType": "image/png",
+          "runtimeUrl": "https://cdn.mint.gg/images/xn79pd38zsyxzcm24a4sqs4pe98atbr1/orbit-week-deep-space-d44948-2f28b6d70d5b2089.png",
+          "loaderHint": "image"
+        }
+      }
+    }
+  }
+}

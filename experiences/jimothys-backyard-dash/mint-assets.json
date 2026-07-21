@@ -1,0 +1,907 @@
+{
+  "registryVersion": 1,
+  "assetRoot": "public",
+  "delivery": "mint_cdn",
+  "assets": {
+    "hero-jimothy": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks76cdex13se2y52c326sbdkn58asvg0"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "hero-jimothy-desktop": {
+          "artifactId": "playground/jimothys-backyard-dash/models/desktop/hero-jimothy-desktop-1cd34b2313ec63f5.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "hero-jimothy-desktop-1cd34b2313ec63f5.glb",
+          "byteSize": 278148,
+          "qualityTier": "desktop",
+          "runtimeUrl": "https://cdn.mint.gg/playground/jimothys-backyard-dash/models/desktop/hero-jimothy-desktop-1cd34b2313ec63f5.glb",
+          "loaderHint": "gltf"
+        },
+        "hero-jimothy-mobile": {
+          "artifactId": "playground/jimothys-backyard-dash/models/mobile/hero-jimothy-mobile-5b111c9956f01a9e.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "hero-jimothy-mobile-5b111c9956f01a9e.glb",
+          "byteSize": 66792,
+          "qualityTier": "mobile",
+          "runtimeUrl": "https://cdn.mint.gg/playground/jimothys-backyard-dash/models/mobile/hero-jimothy-mobile-5b111c9956f01a9e.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "rival-roster": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "asset_pack",
+        "assetId": "th7ayc4eqabvns8stn3vvcxtvd8asd9w"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "rival-maple-desktop": {
+          "artifactId": "playground/jimothys-backyard-dash/models/desktop/rival-maple-desktop-91a4b5b252c45f38.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "rival-maple-desktop-91a4b5b252c45f38.glb",
+          "byteSize": 140580,
+          "qualityTier": "desktop",
+          "runtimeUrl": "https://cdn.mint.gg/playground/jimothys-backyard-dash/models/desktop/rival-maple-desktop-91a4b5b252c45f38.glb",
+          "loaderHint": "gltf"
+        },
+        "rival-maple-mobile": {
+          "artifactId": "playground/jimothys-backyard-dash/models/mobile/rival-maple-mobile-c324466f512a9c96.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "rival-maple-mobile-c324466f512a9c96.glb",
+          "byteSize": 51068,
+          "qualityTier": "mobile",
+          "runtimeUrl": "https://cdn.mint.gg/playground/jimothys-backyard-dash/models/mobile/rival-maple-mobile-c324466f512a9c96.glb",
+          "loaderHint": "gltf"
+        },
+        "rival-tank-desktop": {
+          "artifactId": "playground/jimothys-backyard-dash/models/desktop/rival-tank-desktop-4b259d6f512b80f0.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "rival-tank-desktop-4b259d6f512b80f0.glb",
+          "byteSize": 113096,
+          "qualityTier": "desktop",
+          "runtimeUrl": "https://cdn.mint.gg/playground/jimothys-backyard-dash/models/desktop/rival-tank-desktop-4b259d6f512b80f0.glb",
+          "loaderHint": "gltf"
+        },
+        "rival-tank-mobile": {
+          "artifactId": "playground/jimothys-backyard-dash/models/mobile/rival-tank-mobile-311939f7a7421672.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "rival-tank-mobile-311939f7a7421672.glb",
+          "byteSize": 39120,
+          "qualityTier": "mobile",
+          "runtimeUrl": "https://cdn.mint.gg/playground/jimothys-backyard-dash/models/mobile/rival-tank-mobile-311939f7a7421672.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "backyard-obstacles": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "asset_pack",
+        "assetId": "th70pt4twgkj8r2fw9kkayt01d8arkdr"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "coiled-hose-desktop": {
+          "artifactId": "playground/jimothys-backyard-dash/models/desktop/coiled-hose-desktop-94a2d5a63f669aa7.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "coiled-hose-desktop-94a2d5a63f669aa7.glb",
+          "byteSize": 196816,
+          "qualityTier": "desktop",
+          "runtimeUrl": "https://cdn.mint.gg/playground/jimothys-backyard-dash/models/desktop/coiled-hose-desktop-94a2d5a63f669aa7.glb",
+          "loaderHint": "gltf"
+        },
+        "coiled-hose-mobile": {
+          "artifactId": "playground/jimothys-backyard-dash/models/mobile/coiled-hose-mobile-63230e253dedd011.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "coiled-hose-mobile-63230e253dedd011.glb",
+          "byteSize": 54452,
+          "qualityTier": "mobile",
+          "runtimeUrl": "https://cdn.mint.gg/playground/jimothys-backyard-dash/models/mobile/coiled-hose-mobile-63230e253dedd011.glb",
+          "loaderHint": "gltf"
+        },
+        "watering-can-desktop": {
+          "artifactId": "playground/jimothys-backyard-dash/models/desktop/watering-can-desktop-72696d42464a3ac9.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "watering-can-desktop-72696d42464a3ac9.glb",
+          "byteSize": 157532,
+          "qualityTier": "desktop",
+          "runtimeUrl": "https://cdn.mint.gg/playground/jimothys-backyard-dash/models/desktop/watering-can-desktop-72696d42464a3ac9.glb",
+          "loaderHint": "gltf"
+        },
+        "watering-can-mobile": {
+          "artifactId": "playground/jimothys-backyard-dash/models/mobile/watering-can-mobile-75711c93d2831ac6.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "watering-can-mobile-75711c93d2831ac6.glb",
+          "byteSize": 41644,
+          "qualityTier": "mobile",
+          "runtimeUrl": "https://cdn.mint.gg/playground/jimothys-backyard-dash/models/mobile/watering-can-mobile-75711c93d2831ac6.glb",
+          "loaderHint": "gltf"
+        },
+        "raised-planter-desktop": {
+          "artifactId": "playground/jimothys-backyard-dash/models/desktop/raised-planter-desktop-17df68c65b43c635.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "raised-planter-desktop-17df68c65b43c635.glb",
+          "byteSize": 145884,
+          "qualityTier": "desktop",
+          "runtimeUrl": "https://cdn.mint.gg/playground/jimothys-backyard-dash/models/desktop/raised-planter-desktop-17df68c65b43c635.glb",
+          "loaderHint": "gltf"
+        },
+        "raised-planter-mobile": {
+          "artifactId": "playground/jimothys-backyard-dash/models/mobile/raised-planter-mobile-db23d2d03a2c653d.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "raised-planter-mobile-db23d2d03a2c653d.glb",
+          "byteSize": 60136,
+          "qualityTier": "mobile",
+          "runtimeUrl": "https://cdn.mint.gg/playground/jimothys-backyard-dash/models/mobile/raised-planter-mobile-db23d2d03a2c653d.glb",
+          "loaderHint": "gltf"
+        },
+        "tomato-cage-desktop": {
+          "artifactId": "playground/jimothys-backyard-dash/models/desktop/tomato-cage-desktop-e7e5026e2356ba93.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "tomato-cage-desktop-e7e5026e2356ba93.glb",
+          "byteSize": 129296,
+          "qualityTier": "desktop",
+          "runtimeUrl": "https://cdn.mint.gg/playground/jimothys-backyard-dash/models/desktop/tomato-cage-desktop-e7e5026e2356ba93.glb",
+          "loaderHint": "gltf"
+        },
+        "tomato-cage-mobile": {
+          "artifactId": "playground/jimothys-backyard-dash/models/mobile/tomato-cage-mobile-d71023cb4c7fe5de.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "tomato-cage-mobile-d71023cb4c7fe5de.glb",
+          "byteSize": 54344,
+          "qualityTier": "mobile",
+          "runtimeUrl": "https://cdn.mint.gg/playground/jimothys-backyard-dash/models/mobile/tomato-cage-mobile-d71023cb4c7fe5de.glb",
+          "loaderHint": "gltf"
+        },
+        "patio-chair-desktop": {
+          "artifactId": "playground/jimothys-backyard-dash/models/desktop/patio-chair-desktop-f7be9f9ac7df25b5.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "patio-chair-desktop-f7be9f9ac7df25b5.glb",
+          "byteSize": 111736,
+          "qualityTier": "desktop",
+          "runtimeUrl": "https://cdn.mint.gg/playground/jimothys-backyard-dash/models/desktop/patio-chair-desktop-f7be9f9ac7df25b5.glb",
+          "loaderHint": "gltf"
+        },
+        "patio-chair-mobile": {
+          "artifactId": "playground/jimothys-backyard-dash/models/mobile/patio-chair-mobile-73086532cc251828.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "patio-chair-mobile-73086532cc251828.glb",
+          "byteSize": 46552,
+          "qualityTier": "mobile",
+          "runtimeUrl": "https://cdn.mint.gg/playground/jimothys-backyard-dash/models/mobile/patio-chair-mobile-73086532cc251828.glb",
+          "loaderHint": "gltf"
+        },
+        "wheelbarrow-desktop": {
+          "artifactId": "playground/jimothys-backyard-dash/models/desktop/wheelbarrow-desktop-afa1d0ed5df299f4.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "wheelbarrow-desktop-afa1d0ed5df299f4.glb",
+          "byteSize": 107336,
+          "qualityTier": "desktop",
+          "runtimeUrl": "https://cdn.mint.gg/playground/jimothys-backyard-dash/models/desktop/wheelbarrow-desktop-afa1d0ed5df299f4.glb",
+          "loaderHint": "gltf"
+        },
+        "wheelbarrow-mobile": {
+          "artifactId": "playground/jimothys-backyard-dash/models/mobile/wheelbarrow-mobile-9788ed13e0c9a792.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "wheelbarrow-mobile-9788ed13e0c9a792.glb",
+          "byteSize": 42040,
+          "qualityTier": "mobile",
+          "runtimeUrl": "https://cdn.mint.gg/playground/jimothys-backyard-dash/models/mobile/wheelbarrow-mobile-9788ed13e0c9a792.glb",
+          "loaderHint": "gltf"
+        },
+        "pool-toy-desktop": {
+          "artifactId": "playground/jimothys-backyard-dash/models/desktop/pool-toy-desktop-91b0569e5b946c89.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "pool-toy-desktop-91b0569e5b946c89.glb",
+          "byteSize": 139264,
+          "qualityTier": "desktop",
+          "runtimeUrl": "https://cdn.mint.gg/playground/jimothys-backyard-dash/models/desktop/pool-toy-desktop-91b0569e5b946c89.glb",
+          "loaderHint": "gltf"
+        },
+        "pool-toy-mobile": {
+          "artifactId": "playground/jimothys-backyard-dash/models/mobile/pool-toy-mobile-b09e56133603f0b0.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "pool-toy-mobile-b09e56133603f0b0.glb",
+          "byteSize": 46996,
+          "qualityTier": "mobile",
+          "runtimeUrl": "https://cdn.mint.gg/playground/jimothys-backyard-dash/models/mobile/pool-toy-mobile-b09e56133603f0b0.glb",
+          "loaderHint": "gltf"
+        },
+        "folded-umbrella-desktop": {
+          "artifactId": "playground/jimothys-backyard-dash/models/desktop/folded-umbrella-desktop-38573972b66620b1.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "folded-umbrella-desktop-38573972b66620b1.glb",
+          "byteSize": 179672,
+          "qualityTier": "desktop",
+          "runtimeUrl": "https://cdn.mint.gg/playground/jimothys-backyard-dash/models/desktop/folded-umbrella-desktop-38573972b66620b1.glb",
+          "loaderHint": "gltf"
+        },
+        "folded-umbrella-mobile": {
+          "artifactId": "playground/jimothys-backyard-dash/models/mobile/folded-umbrella-mobile-b1ed31ab7f859a1f.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "folded-umbrella-mobile-b1ed31ab7f859a1f.glb",
+          "byteSize": 61736,
+          "qualityTier": "mobile",
+          "runtimeUrl": "https://cdn.mint.gg/playground/jimothys-backyard-dash/models/mobile/folded-umbrella-mobile-b1ed31ab7f859a1f.glb",
+          "loaderHint": "gltf"
+        },
+        "recycle-bin-desktop": {
+          "artifactId": "playground/jimothys-backyard-dash/models/desktop/recycle-bin-desktop-d5195c053163b71d.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "recycle-bin-desktop-d5195c053163b71d.glb",
+          "byteSize": 87664,
+          "qualityTier": "desktop",
+          "runtimeUrl": "https://cdn.mint.gg/playground/jimothys-backyard-dash/models/desktop/recycle-bin-desktop-d5195c053163b71d.glb",
+          "loaderHint": "gltf"
+        },
+        "recycle-bin-mobile": {
+          "artifactId": "playground/jimothys-backyard-dash/models/mobile/recycle-bin-mobile-6f1e9926a514018f.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "recycle-bin-mobile-6f1e9926a514018f.glb",
+          "byteSize": 42284,
+          "qualityTier": "mobile",
+          "runtimeUrl": "https://cdn.mint.gg/playground/jimothys-backyard-dash/models/mobile/recycle-bin-mobile-6f1e9926a514018f.glb",
+          "loaderHint": "gltf"
+        },
+        "garden-gate-desktop": {
+          "artifactId": "playground/jimothys-backyard-dash/models/desktop/garden-gate-desktop-78c5ac86cd231fdc.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "garden-gate-desktop-78c5ac86cd231fdc.glb",
+          "byteSize": 119168,
+          "qualityTier": "desktop",
+          "runtimeUrl": "https://cdn.mint.gg/playground/jimothys-backyard-dash/models/desktop/garden-gate-desktop-78c5ac86cd231fdc.glb",
+          "loaderHint": "gltf"
+        },
+        "garden-gate-mobile": {
+          "artifactId": "playground/jimothys-backyard-dash/models/mobile/garden-gate-mobile-53c67dbe0cff7be9.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "garden-gate-mobile-53c67dbe0cff7be9.glb",
+          "byteSize": 46560,
+          "qualityTier": "mobile",
+          "runtimeUrl": "https://cdn.mint.gg/playground/jimothys-backyard-dash/models/mobile/garden-gate-mobile-53c67dbe0cff7be9.glb",
+          "loaderHint": "gltf"
+        },
+        "sprinkler-head-desktop": {
+          "artifactId": "playground/jimothys-backyard-dash/models/desktop/sprinkler-head-desktop-344be4eaa1a1cd09.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "sprinkler-head-desktop-344be4eaa1a1cd09.glb",
+          "byteSize": 133560,
+          "qualityTier": "desktop",
+          "runtimeUrl": "https://cdn.mint.gg/playground/jimothys-backyard-dash/models/desktop/sprinkler-head-desktop-344be4eaa1a1cd09.glb",
+          "loaderHint": "gltf"
+        },
+        "sprinkler-head-mobile": {
+          "artifactId": "playground/jimothys-backyard-dash/models/mobile/sprinkler-head-mobile-c738f5732e5c8435.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "sprinkler-head-mobile-c738f5732e5c8435.glb",
+          "byteSize": 40944,
+          "qualityTier": "mobile",
+          "runtimeUrl": "https://cdn.mint.gg/playground/jimothys-backyard-dash/models/mobile/sprinkler-head-mobile-c738f5732e5c8435.glb",
+          "loaderHint": "gltf"
+        },
+        "laundry-basket-desktop": {
+          "artifactId": "playground/jimothys-backyard-dash/models/desktop/laundry-basket-desktop-607a4780b364dad4.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "laundry-basket-desktop-607a4780b364dad4.glb",
+          "byteSize": 165568,
+          "qualityTier": "desktop",
+          "runtimeUrl": "https://cdn.mint.gg/playground/jimothys-backyard-dash/models/desktop/laundry-basket-desktop-607a4780b364dad4.glb",
+          "loaderHint": "gltf"
+        },
+        "laundry-basket-mobile": {
+          "artifactId": "playground/jimothys-backyard-dash/models/mobile/laundry-basket-mobile-18e128daa0d2fadb.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "laundry-basket-mobile-18e128daa0d2fadb.glb",
+          "byteSize": 51552,
+          "qualityTier": "mobile",
+          "runtimeUrl": "https://cdn.mint.gg/playground/jimothys-backyard-dash/models/mobile/laundry-basket-mobile-18e128daa0d2fadb.glb",
+          "loaderHint": "gltf"
+        },
+        "garden-shed-desktop": {
+          "artifactId": "playground/jimothys-backyard-dash/models/desktop/garden-shed-desktop-7aa85f073e49e0c2.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "garden-shed-desktop-7aa85f073e49e0c2.glb",
+          "byteSize": 189780,
+          "qualityTier": "desktop",
+          "runtimeUrl": "https://cdn.mint.gg/playground/jimothys-backyard-dash/models/desktop/garden-shed-desktop-7aa85f073e49e0c2.glb",
+          "loaderHint": "gltf"
+        },
+        "garden-shed-mobile": {
+          "artifactId": "playground/jimothys-backyard-dash/models/mobile/garden-shed-mobile-aaeca17df87d8fe7.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "garden-shed-mobile-aaeca17df87d8fe7.glb",
+          "byteSize": 66264,
+          "qualityTier": "mobile",
+          "runtimeUrl": "https://cdn.mint.gg/playground/jimothys-backyard-dash/models/mobile/garden-shed-mobile-aaeca17df87d8fe7.glb",
+          "loaderHint": "gltf"
+        },
+        "finish-line-desktop": {
+          "artifactId": "playground/jimothys-backyard-dash/models/desktop/finish-line-desktop-beb6abff2f23d4da.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "finish-line-desktop-beb6abff2f23d4da.glb",
+          "byteSize": 115532,
+          "qualityTier": "desktop",
+          "runtimeUrl": "https://cdn.mint.gg/playground/jimothys-backyard-dash/models/desktop/finish-line-desktop-beb6abff2f23d4da.glb",
+          "loaderHint": "gltf"
+        },
+        "finish-line-mobile": {
+          "artifactId": "playground/jimothys-backyard-dash/models/mobile/finish-line-mobile-e486bdfad5363cd7.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "finish-line-mobile-e486bdfad5363cd7.glb",
+          "byteSize": 52152,
+          "qualityTier": "mobile",
+          "runtimeUrl": "https://cdn.mint.gg/playground/jimothys-backyard-dash/models/mobile/finish-line-mobile-e486bdfad5363cd7.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "backyard-rewards": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "asset_pack",
+        "assetId": "th78jfhrkn7hzfxk67jcjj2kjh8as9th"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "moon-token-desktop": {
+          "artifactId": "playground/jimothys-backyard-dash/models/desktop/moon-token-desktop-d3274e87db16c0b6.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "moon-token-desktop-d3274e87db16c0b6.glb",
+          "byteSize": 75408,
+          "qualityTier": "desktop",
+          "runtimeUrl": "https://cdn.mint.gg/playground/jimothys-backyard-dash/models/desktop/moon-token-desktop-d3274e87db16c0b6.glb",
+          "loaderHint": "gltf"
+        },
+        "moon-token-mobile": {
+          "artifactId": "playground/jimothys-backyard-dash/models/mobile/moon-token-mobile-94d89a664e9cc997.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "moon-token-mobile-94d89a664e9cc997.glb",
+          "byteSize": 30208,
+          "qualityTier": "mobile",
+          "runtimeUrl": "https://cdn.mint.gg/playground/jimothys-backyard-dash/models/mobile/moon-token-mobile-94d89a664e9cc997.glb",
+          "loaderHint": "gltf"
+        },
+        "cardboard-shield-desktop": {
+          "artifactId": "playground/jimothys-backyard-dash/models/desktop/cardboard-shield-desktop-bdabf6ffa01bd280.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "cardboard-shield-desktop-bdabf6ffa01bd280.glb",
+          "byteSize": 130084,
+          "qualityTier": "desktop",
+          "runtimeUrl": "https://cdn.mint.gg/playground/jimothys-backyard-dash/models/desktop/cardboard-shield-desktop-bdabf6ffa01bd280.glb",
+          "loaderHint": "gltf"
+        },
+        "cardboard-shield-mobile": {
+          "artifactId": "playground/jimothys-backyard-dash/models/mobile/cardboard-shield-mobile-2c337121a43a7cc6.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "cardboard-shield-mobile-2c337121a43a7cc6.glb",
+          "byteSize": 27104,
+          "qualityTier": "mobile",
+          "runtimeUrl": "https://cdn.mint.gg/playground/jimothys-backyard-dash/models/mobile/cardboard-shield-mobile-2c337121a43a7cc6.glb",
+          "loaderHint": "gltf"
+        },
+        "garden-glove-magnet-desktop": {
+          "artifactId": "playground/jimothys-backyard-dash/models/desktop/garden-glove-magnet-desktop-012d01cf6315330d.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "garden-glove-magnet-desktop-012d01cf6315330d.glb",
+          "byteSize": 138524,
+          "qualityTier": "desktop",
+          "runtimeUrl": "https://cdn.mint.gg/playground/jimothys-backyard-dash/models/desktop/garden-glove-magnet-desktop-012d01cf6315330d.glb",
+          "loaderHint": "gltf"
+        },
+        "garden-glove-magnet-mobile": {
+          "artifactId": "playground/jimothys-backyard-dash/models/mobile/garden-glove-magnet-mobile-2298dc0eb5a0a403.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "garden-glove-magnet-mobile-2298dc0eb5a0a403.glb",
+          "byteSize": 39340,
+          "qualityTier": "mobile",
+          "runtimeUrl": "https://cdn.mint.gg/playground/jimothys-backyard-dash/models/mobile/garden-glove-magnet-mobile-2298dc0eb5a0a403.glb",
+          "loaderHint": "gltf"
+        },
+        "dew-drop-boost-desktop": {
+          "artifactId": "playground/jimothys-backyard-dash/models/desktop/dew-drop-boost-desktop-f2bf30cf2c27b892.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "dew-drop-boost-desktop-f2bf30cf2c27b892.glb",
+          "byteSize": 104628,
+          "qualityTier": "desktop",
+          "runtimeUrl": "https://cdn.mint.gg/playground/jimothys-backyard-dash/models/desktop/dew-drop-boost-desktop-f2bf30cf2c27b892.glb",
+          "loaderHint": "gltf"
+        },
+        "dew-drop-boost-mobile": {
+          "artifactId": "playground/jimothys-backyard-dash/models/mobile/dew-drop-boost-mobile-fb98690f7f538e0f.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "dew-drop-boost-mobile-fb98690f7f538e0f.glb",
+          "byteSize": 31300,
+          "qualityTier": "mobile",
+          "runtimeUrl": "https://cdn.mint.gg/playground/jimothys-backyard-dash/models/mobile/dew-drop-boost-mobile-fb98690f7f538e0f.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "finish-sound": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd7dzhesw4yvr34g7brxjz2pdn8arty6"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio": {
+          "artifactId": "audio/xd7dzhesw4yvr34g7brxjz2pdn8arty6/backyard-cup-finish-fanfare-2dfd30-15852bf594abf40f.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "backyard-cup-finish-fanfare-2dfd30-15852bf594abf40f.mp3",
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd7dzhesw4yvr34g7brxjz2pdn8arty6/backyard-cup-finish-fanfare-2dfd30-15852bf594abf40f.mp3",
+          "loaderHint": "audio"
+        }
+      }
+    },
+    "boost-sound": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd7b12a1sc3a7jvy13earym0w98asp6x"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio": {
+          "artifactId": "audio/xd7b12a1sc3a7jvy13earym0w98asp6x/mischief-boost-activation-321cc2-ce61fbeaeef05e4f.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "mischief-boost-activation-321cc2-ce61fbeaeef05e4f.mp3",
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd7b12a1sc3a7jvy13earym0w98asp6x/mischief-boost-activation-321cc2-ce61fbeaeef05e4f.mp3",
+          "loaderHint": "audio"
+        }
+      }
+    },
+    "backyard-ambience": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd78yhz1sswcj3pa66gf4kxqn18arh5s"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio": {
+          "artifactId": "audio/xd78yhz1sswcj3pa66gf4kxqn18arh5s/golden-hour-backyard-ambience-4da078-ae0cfd8f536e0b9f.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "golden-hour-backyard-ambience-4da078-ae0cfd8f536e0b9f.mp3",
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd78yhz1sswcj3pa66gf4kxqn18arh5s/golden-hour-backyard-ambience-4da078-ae0cfd8f536e0b9f.mp3",
+          "loaderHint": "audio"
+        }
+      }
+    },
+    "powerup-sound": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd78czynwj38307m1zt7ak7yd58as683"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio": {
+          "artifactId": "audio/xd78czynwj38307m1zt7ak7yd58as683/backyard-power-up-f6ed5f-6980b48af9dc49a4.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "backyard-power-up-f6ed5f-6980b48af9dc49a4.mp3",
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd78czynwj38307m1zt7ak7yd58as683/backyard-power-up-f6ed5f-6980b48af9dc49a4.mp3",
+          "loaderHint": "audio"
+        }
+      }
+    },
+    "backyard-music": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd7ew9k2eg65nknvhmssrdnd018arkcy"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio": {
+          "artifactId": "audio/xd7ew9k2eg65nknvhmssrdnd018arkcy/backyard-cup-race-music-2ac07e-f9190db5dbe2770f.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "backyard-cup-race-music-2ac07e-f9190db5dbe2770f.mp3",
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd7ew9k2eg65nknvhmssrdnd018arkcy/backyard-cup-race-music-2ac07e-f9190db5dbe2770f.mp3",
+          "loaderHint": "audio"
+        }
+      }
+    },
+    "paw-step-sound": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd73htmd24m4afynzrgttxnmz18ars3y"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio": {
+          "artifactId": "audio/xd73htmd24m4afynzrgttxnmz18ars3y/jimothy-grass-scuttle-929d85-3a42dae985d24642.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "jimothy-grass-scuttle-929d85-3a42dae985d24642.mp3",
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd73htmd24m4afynzrgttxnmz18ars3y/jimothy-grass-scuttle-929d85-3a42dae985d24642.mp3",
+          "loaderHint": "audio"
+        }
+      }
+    },
+    "pickup-sound": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd718k7wzrgfpds952btfe5sw98asgxf"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio": {
+          "artifactId": "audio/xd718k7wzrgfpds952btfe5sw98asgxf/moon-token-pickup-6d2d6f-b17d0f01ae36ca12.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "moon-token-pickup-6d2d6f-b17d0f01ae36ca12.mp3",
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd718k7wzrgfpds952btfe5sw98asgxf/moon-token-pickup-6d2d6f-b17d0f01ae36ca12.mp3",
+          "loaderHint": "audio"
+        }
+      }
+    },
+    "collision-sound": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd72tq31abqx27hdr0r9a24c6x8ask37"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio": {
+          "artifactId": "audio/xd72tq31abqx27hdr0r9a24c6x8ask37/harmless-leaf-stumble-5e80b5-9f3a166d593f2e17.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "harmless-leaf-stumble-5e80b5-9f3a166d593f2e17.mp3",
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd72tq31abqx27hdr0r9a24c6x8ask37/harmless-leaf-stumble-5e80b5-9f3a166d593f2e17.mp3",
+          "loaderHint": "audio"
+        }
+      }
+    },
+    "start-sound": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd7fr1mw7e9wmgvfjvht4y3qf18as7r5"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio": {
+          "artifactId": "audio/xd7fr1mw7e9wmgvfjvht4y3qf18as7r5/backyard-cup-start-signal-5a6f23-17ccadb8788150fc.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "backyard-cup-start-signal-5a6f23-17ccadb8788150fc.mp3",
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd7fr1mw7e9wmgvfjvht4y3qf18as7r5/backyard-cup-start-signal-5a6f23-17ccadb8788150fc.mp3",
+          "loaderHint": "audio"
+        }
+      }
+    },
+    "results-sound": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd7677ffa8yzt896q4h095bdnn8as1bc"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio": {
+          "artifactId": "audio/xd7677ffa8yzt896q4h095bdnn8as1bc/backyard-cup-results-sting-e0cf32-ec69258de21501fe.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "backyard-cup-results-sting-e0cf32-ec69258de21501fe.mp3",
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd7677ffa8yzt896q4h095bdnn8as1bc/backyard-cup-results-sting-e0cf32-ec69258de21501fe.mp3",
+          "loaderHint": "audio"
+        }
+      }
+    },
+    "final-section-sound": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd7fw88dmsvctwe2amtt4aej5d8askr3"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio": {
+          "artifactId": "audio/xd7fw88dmsvctwe2amtt4aej5d8askr3/cedar-finale-cue-ea7eae-c7a3f39e763225a7.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "cedar-finale-cue-ea7eae-c7a3f39e763225a7.mp3",
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd7fw88dmsvctwe2amtt4aej5d8askr3/cedar-finale-cue-ea7eae-c7a3f39e763225a7.mp3",
+          "loaderHint": "audio"
+        }
+      }
+    },
+    "countdown-sound": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd7d3bh573wvw32yebr7y0wv6d8ass7a"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio": {
+          "artifactId": "audio/xd7d3bh573wvw32yebr7y0wv6d8ass7a/backyard-cup-countdown-tick-307267-2cb9993f7f4080a3.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "backyard-cup-countdown-tick-307267-2cb9993f7f4080a3.mp3",
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd7d3bh573wvw32yebr7y0wv6d8ass7a/backyard-cup-countdown-tick-307267-2cb9993f7f4080a3.mp3",
+          "loaderHint": "audio"
+        }
+      }
+    },
+    "dewy-lawn-world": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "world",
+        "assetId": "j970e9bzj9khfr2zg8cdp2gsd98avpac"
+      },
+      "mode": "remote_stream",
+      "artifacts": {
+        "runtime": {
+          "artifactId": "rad/dewy-lawn-dash-764790016f312561-lod.rad",
+          "role": "world_runtime",
+          "format": "rad",
+          "contentType": "application/vnd.mint.rad",
+          "runtimeUrl": "https://cdn.mint.gg/rad/dewy-lawn-dash-764790016f312561-lod.rad",
+          "loaderHint": "spark_rad"
+        },
+        "collider": {
+          "artifactId": "worlds/dewy-lawn-dash-collider-glb-74609ed284387d1b.glb",
+          "role": "world_collider",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/worlds/dewy-lawn-dash-collider-glb-74609ed284387d1b.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "vegetable-garden-world": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "world",
+        "assetId": "j971a8zc43j8vxghyj8y86nxgh8atqc9"
+      },
+      "mode": "remote_stream",
+      "artifacts": {
+        "runtime": {
+          "artifactId": "rad/jimothys-garden-dash-922603666f199d1f-lod.rad",
+          "role": "world_runtime",
+          "format": "rad",
+          "contentType": "application/vnd.mint.rad",
+          "runtimeUrl": "https://cdn.mint.gg/rad/jimothys-garden-dash-922603666f199d1f-lod.rad",
+          "loaderHint": "spark_rad"
+        },
+        "collider": {
+          "artifactId": "worlds/jimothys-garden-dash-collider-glb-42bb29cce02ffdbf.glb",
+          "role": "world_collider",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/worlds/jimothys-garden-dash-collider-glb-42bb29cce02ffdbf.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "sprinkler-sprint-world": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "world",
+        "assetId": "j9754g1r81vsbr1nexzbp4tygs8avbvw"
+      },
+      "mode": "remote_stream",
+      "artifacts": {
+        "runtime": {
+          "artifactId": "rad/sprinkler-sprint-backyard-05e24dfcbdb13644-lod.rad",
+          "role": "world_runtime",
+          "format": "rad",
+          "contentType": "application/vnd.mint.rad",
+          "runtimeUrl": "https://cdn.mint.gg/rad/sprinkler-sprint-backyard-05e24dfcbdb13644-lod.rad",
+          "loaderHint": "spark_rad"
+        },
+        "collider": {
+          "artifactId": "worlds/sprinkler-sprint-backyard-collider-glb-a32b2816117a7dc1.glb",
+          "role": "world_collider",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/worlds/sprinkler-sprint-backyard-collider-glb-a32b2816117a7dc1.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "patio-panic-world": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "world",
+        "assetId": "j97at5qx0jhedsgj4de6tqsq8d8avsn5"
+      },
+      "mode": "remote_stream",
+      "artifacts": {
+        "runtime": {
+          "artifactId": "rad/patio-panic-course-39096aa250a70c07-lod.rad",
+          "role": "world_runtime",
+          "format": "rad",
+          "contentType": "application/vnd.mint.rad",
+          "runtimeUrl": "https://cdn.mint.gg/rad/patio-panic-course-39096aa250a70c07-lod.rad",
+          "loaderHint": "spark_rad"
+        },
+        "collider": {
+          "artifactId": "worlds/patio-panic-course-collider-glb-4b7e8f54c2147d3c.glb",
+          "role": "world_collider",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/worlds/patio-panic-course-collider-glb-4b7e8f54c2147d3c.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "fence-finale-world": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "world",
+        "assetId": "j97cgxcjc2m78bmjvzhk02yx518avthg"
+      },
+      "mode": "remote_stream",
+      "artifacts": {
+        "runtime": {
+          "artifactId": "rad/jimothys-backyard-finale-70d1f8e9c4c1ce8b-lod.rad",
+          "role": "world_runtime",
+          "format": "rad",
+          "contentType": "application/vnd.mint.rad",
+          "runtimeUrl": "https://cdn.mint.gg/rad/jimothys-backyard-finale-70d1f8e9c4c1ce8b-lod.rad",
+          "loaderHint": "spark_rad"
+        },
+        "collider": {
+          "artifactId": "worlds/jimothys-backyard-finale-collider-glb-caee2e252cac6b46.glb",
+          "role": "world_collider",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/worlds/jimothys-backyard-finale-collider-glb-caee2e252cac6b46.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "draco-runtime": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "runtime",
+        "assetType": "draco_decoder",
+        "assetId": "draco-gltf-three-0.184.0"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "decoder-path": {
+          "artifactId": "draco-gltf-three-0.184.0",
+          "role": "runtime_decoder_path",
+          "format": "directory",
+          "contentType": "application/octet-stream",
+          "runtimeUrl": "https://cdn.mint.gg/runtime/draco/gltf/three-0.184.0/",
+          "loaderHint": "draco"
+        }
+      }
+    }
+  }
+}

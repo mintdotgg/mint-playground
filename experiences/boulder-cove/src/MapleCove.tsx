@@ -6,6 +6,15 @@ import { clone as cloneSkeleton } from "three/addons/utils/SkeletonUtils.js";
 import { MAPLE_MINT_ASSETS as ASSETS } from "./mapleMintAssets";
 
 type Phase = "loading" | "ready" | "playing" | "celebrating" | "won" | "error";
+
+type SparkSplatObject = THREE.Object3D & {
+  initialized?: Promise<unknown>;
+};
+
+type SparkRuntimeModule = {
+  SparkRenderer: new (options: { renderer: THREE.WebGLRenderer }) => THREE.Object3D;
+  SplatMesh: new (options: { url: string }) => SparkSplatObject;
+};
 type Direction = "forward" | "back" | "left" | "right";
 // "apple" = Boulderberry, "orange" = Spikefruit, "parcel" = lost Dino Egg.
 type ItemType = "apple" | "orange" | "shell" | "parcel" | "fish" | "bug";
@@ -1142,10 +1151,14 @@ export default function MapleCove() {
           return room;
         };
         const interiorSplats = new Map<string, THREE.Object3D>();
-        let sparkModule: Promise<typeof import("@sparkjsdev/spark") | null> | null = null;
+        // Spark 2.1's emitted declarations use an older Three object shape.
+        // Adapt its runtime constructors once so clean installs share this app's
+        // exact Object3D and WebGLRenderer types without weakening scene code.
+        let sparkModule: Promise<SparkRuntimeModule | null> | null = null;
         const loadSpark = () => {
           sparkModule ??= import("@sparkjsdev/spark")
-            .then((mod) => {
+            .then((spark) => {
+              const mod = spark as unknown as SparkRuntimeModule;
               scene.add(new mod.SparkRenderer({ renderer }));
               return mod;
             })
@@ -1181,7 +1194,7 @@ export default function MapleCove() {
             roomFor(key).add(splat);
             // Keep the placeholder floor + light until the stream arrives, so
             // first entry is a cozy candle-lit wait instead of a black void.
-            void (splat as unknown as { initialized: Promise<unknown> }).initialized?.then?.(() => {
+            void splat.initialized?.then(() => {
               if (!disposed) interiorFloor.visible = false;
             });
             if (new URLSearchParams(location.search).has("qa")) {
