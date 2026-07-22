@@ -1,0 +1,90 @@
+.model,
+.canvasShell {
+	position: absolute;
+	inset: 0;
+}
+
+.model {
+	isolation: isolate;
+	overflow: hidden;
+	background:
+		radial-gradient(circle at 62% 32%, oklch(96% 0.012 78), transparent 34%),
+		linear-gradient(145deg, oklch(91% 0.018 78), oklch(83% 0.025 66));
+}
+
+.model::after {
+	position: absolute;
+	z-index: 1;
+	inset: 0;
+	background:
+		linear-gradient(180deg, transparent 68%, oklch(16% 0.012 52 / 0.28)),
+		linear-gradient(90deg, oklch(100% 0 0 / 0.08), transparent 38%);
+	content: "";
+	pointer-events: none;
+}
+
+.canvasShell canvas {
+	display: block;
+	width: 100%;
+	height: 100%;
+	touch-action: pan-y;
+}
+
+.status,
+.hint {
+	position: absolute;
+	z-index: 2;
+	display: inline-flex;
+	align-items: center;
+	gap: 0.45rem;
+	color: oklch(25% 0.016 55 / 0.66);
+	font-size: 0.62rem;
+	font-weight: 650;
+	letter-spacing: 0.09em;
+	text-transform: uppercase;
+	pointer-events: none;
+}
+
+.status {
+	top: 1rem;
+	left: 1rem;
+}
+
+.hint {
+	bottom: 1rem;
+	left: 1rem;
+	color: oklch(94% 0.015 78 / 0.82);
+	letter-spacing: 0.04em;
+	text-transform: none;
+}
+
+.hint svg {
+	width: 0.85rem;
+	height: 0.85rem;
+}
+
+.statusDot,
+.readyDot {
+	width: 0.4rem;
+	height: 0.4rem;
+	border-radius: 50%;
+	background: oklch(58% 0.13 35);
+}
+
+.readyDot {
+	background: oklch(58% 0.11 145);
+}
+
+.touchHint {
+	display: none;
+}
+
+@media (pointer: coarse) {
+	.pointerHint {
+		display: none;
+	}
+
+	.touchHint {
+		display: inline;
+	}
+}

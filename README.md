@@ -129,6 +129,38 @@ pipeline and
   <p><sub>Three.js · SparkJS · Arcade · Racing Game</sub></p>
   <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/jimothys-backyard-dash">Code</a> · <a href="https://play.mint.gg/jimothys-backyard-dash">Live demo</a></p>
 </td>
+<td width="50%" valign="top">
+  <a href="https://play.mint.gg/common-form"><img src="https://play.mint.gg/experience-assets/common-form/social-card.webp" alt="Common Form showroom with the Everyday Tote and five everyday objects staged beneath warm sculptural lighting." width="100%"></a>
+  <h3>Common Form</h3>
+  <p>Explore six considered everyday objects in a warm interactive showroom, inspect them in 3D, and build a persistent demo cart.</p>
+  <p><sub>Three.js · Next.js · E-commerce · 3D Showroom</sub></p>
+  <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/common-form">Code</a> · <a href="https://play.mint.gg/common-form">Live demo</a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+  <a href="https://play.mint.gg/room-ritual"><img src="https://play.mint.gg/experience-assets/room-ritual/social-card.webp" alt="Room Ritual apartment configurator with a furniture catalog, measured 3D room plan, and product inspector." width="100%"></a>
+  <h3>Room Ritual</h3>
+  <p>Arrange six statement furniture pieces in a soft-brutalist loft, customize finishes and lighting, and save, compare, or cart room plans.</p>
+  <p><sub>Three.js · React · Configurator · Interior Design</sub></p>
+  <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/room-ritual">Code</a> · <a href="https://play.mint.gg/room-ritual">Live demo</a></p>
+</td>
+<td width="50%" valign="top">
+  <a href="https://play.mint.gg/sole-archive"><img src="https://play.mint.gg/experience-assets/sole-archive/social-card.webp" alt="Sole Archive showing the Sublevel Zero sneaker in a dark acid-green configurator with product controls." width="100%"></a>
+  <h3>Sole Archive</h3>
+  <p>Inspect and configure six fictional sneakers in an underground boutique with exploded materials, comparison, wishlist, sizing, and a persistent demo cart.</p>
+  <p><sub>Three.js · Next.js · Configurator · E-commerce</sub></p>
+  <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/sole-archive">Code</a> · <a href="https://play.mint.gg/sole-archive">Live demo</a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+  <a href="https://play.mint.gg/seatline-nyc"><img src="https://play.mint.gg/experience-assets/seatline-nyc/social-card.webp" alt="Seatline NYC showing a selected seat beside the 3D auditorium sightline and booking controls." width="100%"></a>
+  <h3>Seatline NYC</h3>
+  <p>Choose a New York theater, showtime, and seat, then preview the 3D screen angle and sightline before opening the venue’s live listing.</p>
+  <p><sub>Three.js · Next.js · Seat Preview · Ticketing</sub></p>
+  <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/seatline-nyc">Code</a> · <a href="https://play.mint.gg/seatline-nyc">Live demo</a></p>
+</td>
 <td width="50%"></td>
 </tr>
 </table>

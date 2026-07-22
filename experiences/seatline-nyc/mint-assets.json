@@ -1,0 +1,33 @@
+{
+  "registryVersion": 1,
+  "assetRoot": "public",
+  "delivery": "mint_cdn",
+  "assets": {
+    "seatline-venue-pack": {
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "asset_pack", "assetId": "th725r7mekcfsc0e0z681crxz18aye6t" },
+      "mode": "remote_url",
+      "artifacts": {
+        "lincoln-auditorium": { "artifactId": "glb/lincoln-monument-imax-auditorium-normalized-8622b0c796ab53c0.glb", "role": "canonical_model", "format": "glb", "contentType": "model/gltf-binary", "runtimeUrl": "https://cdn.mint.gg/glb/lincoln-monument-imax-auditorium-normalized-8622b0c796ab53c0.glb", "loaderHint": "gltf" },
+        "times-square-auditorium": { "artifactId": "glb/times-square-premium-auditorium-normalized-93b7ad2cfb0ccda4.glb", "role": "canonical_model", "format": "glb", "contentType": "model/gltf-binary", "runtimeUrl": "https://cdn.mint.gg/glb/times-square-premium-auditorium-normalized-93b7ad2cfb0ccda4.glb", "loaderHint": "gltf" },
+        "wide-screen": { "artifactId": "glb/wide-blank-projection-screen-normalized-a6c5c1d534825a8b.glb", "role": "canonical_model", "format": "glb", "contentType": "model/gltf-binary", "runtimeUrl": "https://cdn.mint.gg/glb/wide-blank-projection-screen-normalized-a6c5c1d534825a8b.glb", "loaderHint": "gltf" },
+        "premium-recliner": { "artifactId": "glb/oxblood-premium-recliner-normalized-cdf043ea1a1b24e4.glb", "role": "canonical_model", "format": "glb", "contentType": "model/gltf-binary", "runtimeUrl": "https://cdn.mint.gg/glb/oxblood-premium-recliner-normalized-cdf043ea1a1b24e4.glb", "loaderHint": "gltf" },
+        "dine-in-recliner": { "artifactId": "glb/oxblood-dine-in-recliner-normalized-28c4adc8e6848164.glb", "role": "canonical_model", "format": "glb", "contentType": "model/gltf-binary", "runtimeUrl": "https://cdn.mint.gg/glb/oxblood-dine-in-recliner-normalized-28c4adc8e6848164.glb", "loaderHint": "gltf" },
+        "aisle-beacon": { "artifactId": "glb/recessed-brass-aisle-beacon-normalized-ab54cabc1545d798.glb", "role": "canonical_model", "format": "glb", "contentType": "model/gltf-binary", "runtimeUrl": "https://cdn.mint.gg/glb/recessed-brass-aisle-beacon-normalized-ab54cabc1545d798.glb", "loaderHint": "gltf" }
+      }
+    },
+    "legacy-imax-screen": {
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "asset_pack", "assetId": "th7fsbs5bgqyam26ty87wcxr9n8at4gs" },
+      "mode": "remote_url",
+      "artifacts": {
+        "imax-screen": { "artifactId": "glb/imax-screen-normalized-a6f53efcfe8b7795.glb", "role": "canonical_model", "format": "glb", "contentType": "model/gltf-binary", "runtimeUrl": "https://cdn.mint.gg/glb/imax-screen-normalized-a6f53efcfe8b7795.glb", "loaderHint": "gltf" }
+      }
+    },
+    "mythic-sea-tableau": {
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "image", "assetId": "xn7bzp5qv91mqgkspjf7p9a9x18atk3c" },
+      "mode": "remote_url",
+      "artifacts": {
+        "image": { "artifactId": "images/xn7bzp5qv91mqgkspjf7p9a9x18atk3c/seatline-mythic-sea-tableau-43db4f-25a14eaf3a9f27fb.png", "role": "image_file", "format": "png", "contentType": "image/png", "runtimeUrl": "https://cdn.mint.gg/images/xn7bzp5qv91mqgkspjf7p9a9x18atk3c/seatline-mythic-sea-tableau-43db4f-25a14eaf3a9f27fb.png", "loaderHint": "image" }
+      }
+    }
+  }
+}

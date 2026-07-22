@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 2,
+  "order": 180,
+  "slug": "seatline-nyc",
+  "title": "Seatline NYC",
+  "description": "Choose a New York theater, showtime, and seat, then preview the 3D screen angle and sightline before opening the venue’s live listing.",
+  "status": "published",
+  "publishedAt": "2026-07-21",
+  "tags": ["Three.js", "Next.js", "Seat Preview", "Ticketing"],
+  "prompt": {
+    "version": 1,
+    "objective": "Build a New York cinema seat-preview experience with measured 3D sightlines.",
+    "mintAssets": [
+      { "kind": "asset-pack", "brief": "Auditorium shells, projection screens, recliners, and aisle fixtures." },
+      { "kind": "image", "brief": "Original mythic sea poster art for the fictional feature." }
+    ],
+    "experience": [
+      "Choose a venue, showtime, and seat, then move into its seated camera.",
+      "Read sightline metrics and open a non-binding summary before the venue listing."
+    ],
+    "visualDirection": "Brass and charcoal cinema styling with warm oxblood seating and restrained technical overlays."
+  },
+  "thumbnail": {
+    "src": "/experience-assets/seatline-nyc/social-card.webp",
+    "alt": "Seatline NYC showing a selected seat beside the 3D auditorium sightline and booking controls."
+  },
+  "social": {
+    "title": "Seatline NYC",
+    "description": "Preview a New York theater seat and its measured 3D screen sightline before booking.",
+    "image": {
+      "src": "/experience-assets/seatline-nyc/social-card.webp",
+      "alt": "Seatline NYC showing a selected seat beside the 3D auditorium sightline and booking controls.",
+      "width": 1200,
+      "height": 630,
+      "accent": "#D6A85F"
+    }
+  },
+  "runtime": { "kind": "bundle", "src": "/_experiences/seatline-nyc/index.html", "title": "Seatline NYC" }
+}

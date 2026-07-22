@@ -1,0 +1,11 @@
+{
+  "manifestVersion": 1,
+  "totalBytes": 18351848,
+  "assets": [
+    {
+      "path": "public/media/odyssey-trailer.mp4",
+      "bytes": 18351848,
+      "sha256": "3ba089f4b0710aea7c006793600b45cc7920b3e3f5c4517a3da8cbfc3977cf31"
+    }
+  ]
+}

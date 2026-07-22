@@ -1,0 +1,11 @@
+import type { NextConfig } from "next";
+
+const nextConfig: NextConfig = {
+  output: "export",
+  distDir: "dist",
+  basePath: "/_experiences/seatline-nyc",
+  trailingSlash: true,
+  images: { unoptimized: true },
+};
+
+export default nextConfig;

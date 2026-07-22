@@ -1,0 +1,487 @@
+.showroom {
+	--showroom-paper: oklch(92% 0.018 78);
+	--showroom-muted: oklch(74% 0.02 70);
+	--showroom-rust: oklch(58% 0.13 35);
+	position: relative;
+	isolation: isolate;
+	min-height: calc(100svh - 5rem);
+	overflow: hidden;
+	background: oklch(17% 0.012 55);
+	color: var(--showroom-paper);
+}
+
+.canvasShell,
+.scrim,
+.grain {
+	position: absolute;
+	inset: 0;
+}
+
+.canvasShell {
+	z-index: -3;
+}
+
+.canvasShell canvas {
+	display: block;
+	width: 100%;
+	height: 100%;
+	touch-action: none;
+}
+
+.canvasLoading {
+	position: absolute;
+	inset: 0;
+	display: grid;
+	place-items: center;
+	background: oklch(17% 0.012 55);
+	color: var(--showroom-muted);
+	font-size: 0.75rem;
+	letter-spacing: 0.18em;
+	text-transform: uppercase;
+}
+
+.scrim {
+	z-index: -2;
+	background:
+		linear-gradient(90deg, oklch(13% 0.012 50 / 0.94) 0%, oklch(14% 0.01 50 / 0.48) 35%, transparent 66%),
+		linear-gradient(0deg, oklch(12% 0.01 50 / 0.9) 0%, transparent 34%);
+	pointer-events: none;
+}
+
+.grain {
+	z-index: -1;
+	opacity: 0.14;
+	background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.34'/%3E%3C/svg%3E");
+	mix-blend-mode: soft-light;
+	pointer-events: none;
+}
+
+.content {
+	display: grid;
+	grid-template-rows: auto 1fr auto auto;
+	gap: clamp(1.5rem, 3vh, 2.5rem);
+	min-height: calc(100svh - 5rem);
+	padding: clamp(1.25rem, 3.5vw, 3.5rem) clamp(1.25rem, 4vw, 4.5rem) max(1.25rem, env(safe-area-inset-bottom));
+	pointer-events: none;
+}
+
+.kickerRow {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1rem;
+	font-size: 0.69rem;
+	font-weight: 600;
+	letter-spacing: 0.16em;
+	text-transform: uppercase;
+}
+
+.status {
+	display: flex;
+	align-items: center;
+	gap: 0.55rem;
+	color: var(--showroom-muted);
+	letter-spacing: 0.08em;
+}
+
+.statusDot,
+.statusReady {
+	display: inline-block;
+	width: 0.42rem;
+	height: 0.42rem;
+	border-radius: 50%;
+	background: var(--showroom-rust);
+}
+
+.statusDot {
+	animation: showroomPulse 1.5s ease-in-out infinite;
+}
+
+.statusReady {
+	background: oklch(70% 0.1 145);
+}
+
+.productCopy {
+	align-self: center;
+	width: min(32rem, 45vw);
+}
+
+.collection {
+	margin-bottom: 1rem;
+	color: oklch(74% 0.08 40);
+	font-size: 0.72rem;
+	font-weight: 650;
+	letter-spacing: 0.17em;
+	text-transform: uppercase;
+}
+
+.productCopy h1 {
+	max-width: 8ch;
+	font-family: var(--font-display);
+	font-size: clamp(3.6rem, 7.3vw, 8.5rem);
+	font-weight: 500;
+	letter-spacing: -0.07em;
+	line-height: 0.82;
+	text-wrap: balance;
+}
+
+.description {
+	max-width: 32rem;
+	margin-top: clamp(1.5rem, 3vh, 2.5rem);
+	color: var(--showroom-muted);
+	font-size: clamp(1rem, 1.35vw, 1.2rem);
+	line-height: 1.6;
+}
+
+.productMeta {
+	display: grid;
+	grid-template-columns: minmax(6rem, 0.65fr) minmax(10rem, 1.35fr);
+	gap: 1.25rem;
+	max-width: 30rem;
+	margin-top: 1.7rem;
+	padding-top: 1rem;
+	border-top: 1px solid oklch(86% 0.02 75 / 0.2);
+}
+
+.productMeta div {
+	display: grid;
+	gap: 0.35rem;
+}
+
+.productMeta dt {
+	color: var(--showroom-muted);
+	font-size: 0.64rem;
+	letter-spacing: 0.13em;
+	text-transform: uppercase;
+}
+
+.productMeta dd {
+	font-size: 0.9rem;
+	font-variant-numeric: tabular-nums;
+}
+
+.actions {
+	display: flex;
+	align-items: center;
+	gap: 1.4rem;
+	margin-top: 1.7rem;
+	pointer-events: auto;
+}
+
+.primaryAction,
+.textAction {
+	display: inline-flex;
+	min-height: 3rem;
+	align-items: center;
+	justify-content: center;
+	gap: 0.65rem;
+	font-size: 0.8rem;
+	font-weight: 650;
+	transition:
+		transform 220ms cubic-bezier(0.22, 1, 0.36, 1),
+		background-color 180ms ease-out,
+		color 180ms ease-out;
+}
+
+.primaryAction {
+	min-width: 9.5rem;
+	border: 1px solid var(--showroom-paper);
+	background: var(--showroom-paper);
+	color: oklch(18% 0.015 55);
+}
+
+.primaryAction:hover,
+.primaryAction:focus-visible {
+	transform: translateY(-2px);
+	background: oklch(97% 0.01 78);
+}
+
+.primaryAction:disabled {
+	cursor: not-allowed;
+	opacity: 0.5;
+}
+
+.primaryAction svg,
+.textAction svg {
+	width: 1rem;
+	height: 1rem;
+}
+
+.textAction {
+	border-bottom: 1px solid oklch(86% 0.02 75 / 0.38);
+}
+
+.textAction:hover,
+.textAction:focus-visible {
+	color: oklch(78% 0.1 40);
+}
+
+.navigator {
+	display: grid;
+	grid-template-columns: auto minmax(0, 1fr);
+	align-items: end;
+	gap: clamp(1.5rem, 4vw, 4rem);
+	pointer-events: auto;
+}
+
+.arrowControls {
+	display: flex;
+	align-items: center;
+	gap: 0.65rem;
+}
+
+.arrowControls button,
+.viewerControls button {
+	min-width: 2.75rem;
+	min-height: 2.75rem;
+	border: 1px solid oklch(86% 0.02 75 / 0.3);
+	transition:
+		border-color 160ms ease-out,
+		background-color 160ms ease-out;
+}
+
+.arrowControls button {
+	display: grid;
+	place-items: center;
+}
+
+.arrowControls button:hover,
+.arrowControls button:focus-visible,
+.viewerControls button:hover,
+.viewerControls button:focus-visible {
+	border-color: var(--showroom-paper);
+	background: oklch(90% 0.02 75 / 0.1);
+}
+
+.arrowControls svg {
+	width: 1rem;
+	height: 1rem;
+}
+
+.arrowControls p {
+	min-width: 3.6rem;
+	color: var(--showroom-muted);
+	font-size: 0.7rem;
+	font-variant-numeric: tabular-nums;
+	text-align: center;
+}
+
+.arrowControls p span {
+	color: var(--showroom-paper);
+	font-size: 1rem;
+}
+
+.productRail {
+	display: grid;
+	grid-template-columns: repeat(6, minmax(5.5rem, 1fr));
+	border-top: 1px solid oklch(86% 0.02 75 / 0.2);
+}
+
+.railItem,
+.railItemActive {
+	display: grid;
+	grid-template-columns: 2.6rem minmax(0, 1fr);
+	align-items: center;
+	gap: 0.65rem;
+	min-height: 4.5rem;
+	padding: 0.45rem 0.6rem;
+	border-top: 2px solid transparent;
+	color: var(--showroom-muted);
+	text-align: left;
+	transition:
+		background-color 180ms ease-out,
+		color 180ms ease-out,
+		border-color 180ms ease-out;
+}
+
+.railItem:hover,
+.railItem:focus-visible,
+.railItemActive {
+	border-top-color: var(--showroom-rust);
+	background: oklch(86% 0.02 75 / 0.08);
+	color: var(--showroom-paper);
+}
+
+.railImage {
+	position: relative;
+	display: block;
+	width: 2.5rem;
+	aspect-ratio: 3 / 4;
+	overflow: hidden;
+	background: oklch(82% 0.02 75);
+}
+
+.railImage img {
+	object-fit: cover;
+}
+
+.railLabel {
+	display: grid;
+	gap: 0.2rem;
+	overflow: hidden;
+	font-size: 0.68rem;
+	font-weight: 600;
+	line-height: 1.2;
+}
+
+.railLabel small {
+	color: oklch(70% 0.07 40);
+	font-size: 0.55rem;
+	font-variant-numeric: tabular-nums;
+}
+
+.viewerControls {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	gap: 1.2rem;
+	color: var(--showroom-muted);
+	font-size: 0.65rem;
+	letter-spacing: 0.04em;
+	pointer-events: auto;
+}
+
+.viewerControls span {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.4rem;
+}
+
+.viewerControls svg {
+	width: 0.8rem;
+	height: 0.8rem;
+}
+
+.viewerControls button {
+	padding: 0 0.8rem;
+}
+
+@keyframes showroomPulse {
+	50% {
+		opacity: 0.35;
+		transform: scale(0.82);
+	}
+}
+
+@media (max-width: 1023px) {
+	.showroom,
+	.content {
+		min-height: calc(100svh - 5rem);
+	}
+
+	.scrim {
+		background:
+			linear-gradient(90deg, oklch(13% 0.012 50 / 0.9) 0%, oklch(14% 0.01 50 / 0.34) 58%, transparent 86%),
+			linear-gradient(0deg, oklch(12% 0.01 50 / 0.94) 0%, transparent 44%);
+	}
+
+	.productCopy {
+		width: min(30rem, 60vw);
+	}
+
+	.navigator {
+		grid-template-columns: 1fr;
+		gap: 1rem;
+	}
+
+	.productRail {
+		overflow-x: auto;
+		grid-template-columns: repeat(6, minmax(8rem, 1fr));
+		scrollbar-width: thin;
+	}
+
+	.arrowControls {
+		justify-self: end;
+		order: -1;
+	}
+}
+
+@media (max-width: 639px) {
+	.showroom {
+		min-height: 56rem;
+	}
+
+	.content {
+		grid-template-rows: auto minmax(28rem, 1fr) auto auto;
+		min-height: 56rem;
+		padding-top: 1rem;
+	}
+
+	.kickerRow {
+		align-items: flex-start;
+	}
+
+	.kickerRow > p:first-child {
+		display: none;
+	}
+
+	.status {
+		max-width: 19rem;
+	}
+
+	.scrim {
+		background:
+			linear-gradient(180deg, oklch(13% 0.012 50 / 0.85) 0%, transparent 26%),
+			linear-gradient(0deg, oklch(12% 0.01 50 / 0.98) 0%, oklch(13% 0.01 50 / 0.78) 48%, transparent 76%);
+	}
+
+	.productCopy {
+		align-self: end;
+		width: 100%;
+	}
+
+	.productCopy h1 {
+		max-width: 9ch;
+		font-size: clamp(3.4rem, 18vw, 5.8rem);
+	}
+
+	.description {
+		max-width: 28rem;
+		margin-top: 1.2rem;
+		font-size: 0.95rem;
+	}
+
+	.productMeta {
+		margin-top: 1.15rem;
+	}
+
+	.actions {
+		margin-top: 1.25rem;
+	}
+
+	.navigator {
+		gap: 0.65rem;
+	}
+
+	.arrowControls {
+		display: none;
+	}
+
+	.viewerControls {
+		justify-content: space-between;
+		gap: 0.5rem;
+	}
+
+	.viewerControls span:nth-child(2) {
+		display: none;
+	}
+
+	.viewerControls button {
+		min-height: 2.5rem;
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.statusDot {
+		animation: none;
+	}
+
+	.primaryAction,
+	.textAction,
+	.arrowControls button,
+	.viewerControls button,
+	.railItem,
+	.railItemActive {
+		transition-duration: 0.01ms;
+	}
+}

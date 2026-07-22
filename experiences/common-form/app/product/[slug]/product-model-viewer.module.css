@@ -1,0 +1,226 @@
+.viewer,
+.viewerUnavailable {
+	position: relative;
+	min-height: clamp(34rem, 72svh, 52rem);
+	overflow: hidden;
+	border: 1px solid oklch(70% 0.025 64 / 0.32);
+	background:
+		radial-gradient(circle at 62% 34%, oklch(33% 0.04 45 / 0.74), transparent 32%),
+		linear-gradient(145deg, oklch(23% 0.018 52), oklch(13% 0.01 52));
+	color: oklch(94% 0.015 78);
+}
+
+.viewer::before {
+	position: absolute;
+	z-index: 1;
+	inset: 0;
+	background:
+		linear-gradient(90deg, oklch(9% 0.01 55 / 0.28), transparent 28%),
+		linear-gradient(0deg, oklch(9% 0.01 55 / 0.68), transparent 27%);
+	content: "";
+	pointer-events: none;
+}
+
+.viewer:fullscreen,
+.viewer[data-fullscreen] {
+	width: 100vw;
+	height: 100vh;
+	min-height: 100vh;
+	border: 0;
+}
+
+.canvasShell,
+.canvasLoading {
+	position: absolute;
+	inset: 0;
+}
+
+.canvasShell canvas {
+	display: block;
+	width: 100%;
+	height: 100%;
+	touch-action: none;
+}
+
+.canvasLoading,
+.viewerUnavailable {
+	display: grid;
+	place-items: center;
+	color: oklch(74% 0.02 70);
+	font-size: 0.7rem;
+	font-weight: 650;
+	letter-spacing: 0.16em;
+	text-transform: uppercase;
+}
+
+.viewerHeader,
+.viewerHint,
+.controls {
+	position: absolute;
+	z-index: 2;
+}
+
+.viewerHeader,
+.viewerHint {
+	pointer-events: none;
+}
+
+.viewerHeader {
+	top: clamp(1rem, 2.4vw, 2rem);
+	left: clamp(1rem, 2.4vw, 2rem);
+	display: flex;
+	right: clamp(1rem, 2.4vw, 2rem);
+	align-items: center;
+	justify-content: space-between;
+	gap: 1rem;
+	font-size: 0.64rem;
+	font-weight: 650;
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+}
+
+.status {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.5rem;
+	color: oklch(74% 0.02 70);
+	letter-spacing: 0.06em;
+}
+
+.statusDot,
+.statusReady {
+	width: 0.4rem;
+	height: 0.4rem;
+	border-radius: 50%;
+	background: oklch(58% 0.13 35);
+}
+
+.statusDot {
+	animation: viewerPulse 1.5s ease-in-out infinite;
+}
+
+.statusReady {
+	background: oklch(70% 0.1 145);
+}
+
+.viewerHint {
+	bottom: 5.4rem;
+	left: 50%;
+	display: flex;
+	transform: translateX(-50%);
+	align-items: center;
+	gap: 1.25rem;
+	color: oklch(74% 0.02 70);
+	font-size: 0.65rem;
+	white-space: nowrap;
+}
+
+.viewerHint span,
+.controls button {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.45rem;
+}
+
+.viewerHint svg,
+.controls svg {
+	width: 0.9rem;
+	height: 0.9rem;
+}
+
+.controls {
+	bottom: 1.25rem;
+	left: 50%;
+	display: flex;
+	transform: translateX(-50%);
+	align-items: center;
+	border: 1px solid oklch(86% 0.02 75 / 0.28);
+	background: oklch(13% 0.01 55 / 0.68);
+	backdrop-filter: blur(18px);
+}
+
+.controls button {
+	min-height: 3rem;
+	padding: 0 1rem;
+	border-right: 1px solid oklch(86% 0.02 75 / 0.2);
+	font-size: 0.68rem;
+	font-weight: 620;
+	white-space: nowrap;
+	transition: background-color 160ms ease-out;
+}
+
+.controls button:last-child {
+	border-right: 0;
+}
+
+.controls button:hover,
+.controls button:focus-visible {
+	background: oklch(90% 0.02 75 / 0.12);
+}
+
+.controls button:disabled {
+	cursor: not-allowed;
+	opacity: 0.42;
+}
+
+@keyframes viewerPulse {
+	50% {
+		opacity: 0.35;
+		transform: scale(0.82);
+	}
+}
+
+@media (max-width: 639px) {
+	.viewer,
+	.viewerUnavailable {
+		min-height: 34rem;
+	}
+
+	.viewerHeader {
+		align-items: flex-start;
+		flex-direction: column;
+		gap: 0.45rem;
+	}
+
+	.viewerHint {
+		bottom: 5.15rem;
+		gap: 0.8rem;
+	}
+
+	.viewerHint span:nth-child(2) {
+		display: none;
+	}
+
+	.controls {
+		bottom: 1rem;
+		width: calc(100% - 2rem);
+		justify-content: stretch;
+	}
+
+	.controls button {
+		min-width: 0;
+		flex: 1;
+		justify-content: center;
+		padding: 0 0.55rem;
+		font-size: 0.62rem;
+	}
+
+	.controls button:last-child {
+		font-size: 0;
+	}
+
+	.controls button:last-child svg {
+		width: 1rem;
+		height: 1rem;
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.statusDot {
+		animation: none;
+	}
+
+	.controls button {
+		transition-duration: 0.01ms;
+	}
+}

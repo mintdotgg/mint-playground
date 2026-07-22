@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 2,
+  "order": 170,
+  "slug": "sole-archive",
+  "title": "Sole Archive",
+  "description": "Inspect and configure six fictional sneakers in an underground boutique with exploded materials, comparison, wishlist, sizing, and a persistent demo cart.",
+  "status": "published",
+  "publishedAt": "2026-07-21",
+  "tags": ["Three.js", "Next.js", "Configurator", "E-commerce"],
+  "prompt": {
+    "version": 1,
+    "objective": "Build a sneaker archive around six fictional releases.",
+    "mintAssets": [
+      { "kind": "asset-pack", "brief": "Six sneakers plus concrete boutique fixtures." },
+      { "kind": "material", "brief": "Eight close-up footwear and architectural material surfaces." },
+      { "kind": "image", "brief": "A campaign image for every sneaker release." },
+      { "kind": "audio", "brief": "Subterranean ambience with material and cart cues." }
+    ],
+    "experience": [
+      "Inspect, configure, explode, compare, and wishlist the six releases.",
+      "Choose a size and build a persistent demonstration cart with a mock checkout."
+    ],
+    "visualDirection": "Underground boutique in charcoal concrete with sharp typography and acid-green accents."
+  },
+  "thumbnail": {
+    "src": "/experience-assets/sole-archive/social-card.webp",
+    "alt": "Sole Archive showing the Sublevel Zero sneaker in a dark acid-green configurator with product controls."
+  },
+  "social": {
+    "title": "Sole Archive",
+    "description": "Configure six fictional sneakers in an underground acid-green boutique.",
+    "image": {
+      "src": "/experience-assets/sole-archive/social-card.webp",
+      "alt": "Sole Archive showing the Sublevel Zero sneaker in a dark acid-green configurator with product controls.",
+      "width": 1200,
+      "height": 630,
+      "accent": "#C7FF1A"
+    }
+  },
+  "runtime": { "kind": "bundle", "src": "/_experiences/sole-archive/index.html", "title": "Sole Archive" }
+}

@@ -1,0 +1,56 @@
+{
+  "manifestVersion": 1,
+  "provider": "Mint",
+  "mode": "auto",
+  "generatedAt": "2026-07-21",
+  "sneakers": {
+    "sublevel-zero": {
+      "model": "https://cdn.mint.gg/glb/sa-001-sublevel-zero-normalized-d359b98361cc9925.glb",
+      "image": "https://cdn.mint.gg/images/xn74f5svq5bed0ks8p9ewygcrx8aynff/sa-001-sublevel-zero-campaign-5f6461-6744ce2570d613ad.png"
+    },
+    "pressure-seal": {
+      "model": "https://cdn.mint.gg/glb/sa-002-pressure-seal-normalized-b3e8bfc852653d2f.glb",
+      "image": "https://cdn.mint.gg/images/xn7az20w6pc57p86rjvexd7rcn8ay1fa/sa-002-pressure-seal-campaign-d21970-60d2d61768155b9c.png"
+    },
+    "night-transit": {
+      "model": "https://cdn.mint.gg/glb/sa-003-night-transit-normalized-2ab3cc9da7cb0405.glb",
+      "image": "https://cdn.mint.gg/images/xn7ectd46qm3wm74kbyznddy5s8azvn7/sa-003-night-transit-campaign-ae4944-81030f889b507e3a.png"
+    },
+    "static-veil": {
+      "model": "https://cdn.mint.gg/glb/sa-004-static-veil-normalized-1c6daae93824e827.glb",
+      "image": "https://cdn.mint.gg/images/xn7e11z4az05pqwm30c151j7xs8azsry/sa-004-static-veil-campaign-528569-fa34d23806a3e4c3.png"
+    },
+    "vault-strike": {
+      "model": "https://cdn.mint.gg/glb/sa-005-vault-strike-normalized-0266d52ecbe88e44.glb",
+      "image": "https://cdn.mint.gg/images/xn73fxq0q81chkm7kr64nt5f2h8azfxe/sa-005-vault-strike-campaign-73e489-0a7916a5bc67f80f.png"
+    },
+    "afterimage": {
+      "model": "https://cdn.mint.gg/glb/sa-006-afterimage-normalized-5804fdb182b652b3.glb",
+      "image": "https://cdn.mint.gg/images/xn7e1qbrd0qpb7jnwt9ezytcm98azbkb/sa-006-afterimage-campaign-07ac09-203110f6e43daf4b.png"
+    }
+  },
+  "fixtures": {
+    "plinth": "https://cdn.mint.gg/glb/concrete-display-plinth-normalized-aadeff29a7b8059b.glb",
+    "shelving": "https://cdn.mint.gg/glb/illuminated-archive-shelving-normalized-95e4882c107cfd07.glb",
+    "laceSet": "https://cdn.mint.gg/glb/lace-presentation-set-normalized-71e6c3071cb1f56e.glb",
+    "swatchRail": "https://cdn.mint.gg/glb/material-swatch-rail-normalized-84ad024535a21029.glb",
+    "mirror": "https://cdn.mint.gg/glb/smoked-boutique-mirror-normalized-45dfa31e13b49438.glb",
+    "divider": "https://cdn.mint.gg/glb/polycarbonate-divider-normalized-e5ac2239933a615f.glb",
+    "room": "https://cdn.mint.gg/glb/concrete-room-kit-normalized-4662988444cfc797.glb"
+  },
+  "materials": {
+    "board-formed-concrete": { "baseColor": "https://cdn.mint.gg/materials/w17ept2a6egsj5z0zxs5f7nbcd8az8mr/board-formed-concrete-basecolor-dbc80b-25831b90bed0bd28.png" },
+    "ballistic-mesh": { "baseColor": "https://cdn.mint.gg/materials/w171aw54xnanh4fn1ndv4cy6t58aypp4/ballistic-mesh-basecolor-ade86b-caacc7d58a366163.png" },
+    "brushed-suede": { "baseColor": "https://cdn.mint.gg/materials/w176jscm57g1jbk8hewjwad8px8aygfs/brushed-suede-basecolor-365c28-cd210777e487d929.png" },
+    "coated-leather": { "baseColor": "https://cdn.mint.gg/materials/w178c77s1k0wgvj5ya3bzm320s8ayzsp/coated-leather-basecolor-f2ed30-5cf70d81eb47e601.png" },
+    "engineered-knit": { "baseColor": "https://cdn.mint.gg/materials/w175a48vq72jdvsgypxagz1zsn8aym6c/engineered-knit-basecolor-a93156-23b89e665b703e88.png" },
+    "trail-rubber": { "baseColor": "https://cdn.mint.gg/materials/w176semvserxmxad0ewvgmere98ay5az/trail-rubber-basecolor-9625bb-873b544ab17ad697.png" },
+    "smoked-polycarbonate": { "baseColor": "https://cdn.mint.gg/materials/w17fn0e3v7qm0cggf113hmxman8az0tz/smoked-polycarbonate-basecolor-bf5c0e-7bdb32d9a34f7c70.png" },
+    "translucent-foam": { "baseColor": "https://cdn.mint.gg/materials/w172k84bh9tf5v80khps62jxzx8ayr6h/translucent-foam-basecolor-8088c8-e726dd9b78d8360f.png" }
+  },
+  "audio": {
+    "ambience": "https://cdn.mint.gg/audio/xd73ypy8qcetqbaycc27s92a0h8azz80/sole-archive-subterranean-ambience-7137a1-d9143288fdc01c46.mp3",
+    "materialSwitch": "https://cdn.mint.gg/audio/xd72e7y9nm682znd3wansn1pqx8ay18k/sole-archive-material-switch-94fb0a-b7ffda0835d8cd7a.mp3",
+    "cartConfirmation": "https://cdn.mint.gg/audio/xd74cgh8pm1hm2begrdr2f4y5x8ayq20/sole-archive-cart-confirmation-758c59-e1ae2e6c9905ac6b.mp3"
+  }
+}

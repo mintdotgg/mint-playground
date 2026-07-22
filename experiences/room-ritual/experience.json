@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 2,
+  "order": 160,
+  "slug": "room-ritual",
+  "title": "Room Ritual",
+  "description": "Arrange six statement furniture pieces in a soft-brutalist loft, customize finishes and lighting, and save, compare, or cart room plans.",
+  "status": "published",
+  "publishedAt": "2026-07-21",
+  "tags": ["Three.js", "React", "Configurator", "Interior Design"],
+  "prompt": {
+    "version": 1,
+    "objective": "Build an editable apartment planner around six statement furniture pieces.",
+    "mintAssets": [
+      { "kind": "asset-pack", "brief": "Furniture, lighting, plants, rugs, art, and shelving." },
+      { "kind": "material", "brief": "A coordinated soft-brutalist finish library." },
+      { "kind": "image", "brief": "Editorial campaign images for the six hero pieces." },
+      { "kind": "audio", "brief": "Loft ambience plus interaction cues." }
+    ],
+    "experience": [
+      "Drag, snap, rotate, and inspect pieces in a measured room plan.",
+      "Customize finishes and light, then save, compare, or cart plans locally."
+    ],
+    "visualDirection": "Editorial soft brutalism with limewash, travertine, linen, dark timber, and ultramarine accents."
+  },
+  "thumbnail": {
+    "src": "/experience-assets/room-ritual/social-card.webp",
+    "alt": "Room Ritual apartment configurator with a furniture catalog, measured 3D room plan, and product inspector."
+  },
+  "social": {
+    "title": "Room Ritual",
+    "description": "Arrange statement furniture in a soft-brutalist loft and compare complete room plans.",
+    "image": {
+      "src": "/experience-assets/room-ritual/social-card.webp",
+      "alt": "Room Ritual apartment configurator with a furniture catalog, measured 3D room plan, and product inspector.",
+      "width": 1200,
+      "height": 630,
+      "accent": "#1738B8"
+    }
+  },
+  "runtime": { "kind": "bundle", "src": "/_experiences/room-ritual/index.html", "title": "Room Ritual" }
+}

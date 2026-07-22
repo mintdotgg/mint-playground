@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 2,
+  "order": 150,
+  "slug": "common-form",
+  "title": "Common Form",
+  "description": "Explore six considered everyday objects in a warm interactive showroom, inspect them in 3D, and build a persistent demo cart.",
+  "status": "published",
+  "publishedAt": "2026-07-21",
+  "tags": ["Three.js", "Next.js", "E-commerce", "3D Showroom"],
+  "prompt": {
+    "version": 1,
+    "objective": "Build a warm interactive showroom for six considered everyday objects.",
+    "mintAssets": [
+      { "kind": "asset-pack", "brief": "Six products plus sculptural showroom fixtures." },
+      { "kind": "image", "brief": "Warm campaign imagery for each product." },
+      { "kind": "audio", "brief": "Showroom ambience and a restrained selection cue." }
+    ],
+    "experience": [
+      "Browse the collection, orbit product models, and open detailed product views.",
+      "Add products to a persistent demonstration cart with no live payment flow."
+    ],
+    "visualDirection": "Warm modernist retail with sculptural lighting, tactile neutrals, and rust accents."
+  },
+  "thumbnail": {
+    "src": "/experience-assets/common-form/social-card.webp",
+    "alt": "Common Form showroom with the Everyday Tote and five everyday objects staged beneath warm sculptural lighting."
+  },
+  "social": {
+    "title": "Common Form",
+    "description": "Browse six everyday objects in a warm interactive 3D showroom and build a persistent demo cart.",
+    "image": {
+      "src": "/experience-assets/common-form/social-card.webp",
+      "alt": "Common Form showroom with the Everyday Tote and five everyday objects staged beneath warm sculptural lighting.",
+      "width": 1200,
+      "height": 630,
+      "accent": "#B5523B"
+    }
+  },
+  "runtime": { "kind": "bundle", "src": "/_experiences/common-form/index.html", "title": "Common Form" }
+}

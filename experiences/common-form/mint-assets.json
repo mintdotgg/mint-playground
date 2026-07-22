@@ -1,0 +1,44 @@
+{
+  "registryVersion": 1,
+  "assetRoot": "public",
+  "delivery": "mint_cdn",
+  "assets": {
+    "common-form-products": {
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "asset_pack", "assetId": "th7806md96aype765jrc3eg0wn8aytxr" },
+      "mode": "remote_url",
+      "artifacts": {
+        "everyday-tote-model": { "artifactId": "glb/everyday-tote-normalized-d0e328a87442fb9f.glb", "role": "canonical_model", "format": "glb", "contentType": "model/gltf-binary", "runtimeUrl": "https://cdn.mint.gg/glb/everyday-tote-normalized-d0e328a87442fb9f.glb", "loaderHint": "gltf" },
+        "desk-lamp-model": { "artifactId": "glb/desk-lamp-normalized-1961e12c99febd0e.glb", "role": "canonical_model", "format": "glb", "contentType": "model/gltf-binary", "runtimeUrl": "https://cdn.mint.gg/glb/desk-lamp-normalized-1961e12c99febd0e.glb", "loaderHint": "gltf" },
+        "linen-notebook-model": { "artifactId": "glb/linen-notebook-normalized-4c24352e524e75d7.glb", "role": "canonical_model", "format": "glb", "contentType": "model/gltf-binary", "runtimeUrl": "https://cdn.mint.gg/glb/linen-notebook-normalized-4c24352e524e75d7.glb", "loaderHint": "gltf" },
+        "ceramic-mug-model": { "artifactId": "glb/ceramic-mug-normalized-b3cc001e00459896.glb", "role": "canonical_model", "format": "glb", "contentType": "model/gltf-binary", "runtimeUrl": "https://cdn.mint.gg/glb/ceramic-mug-normalized-b3cc001e00459896.glb", "loaderHint": "gltf" },
+        "woven-throw-model": { "artifactId": "glb/woven-throw-normalized-b2fb13844950ff26.glb", "role": "canonical_model", "format": "glb", "contentType": "model/gltf-binary", "runtimeUrl": "https://cdn.mint.gg/glb/woven-throw-normalized-b2fb13844950ff26.glb", "loaderHint": "gltf" },
+        "storage-tray-model": { "artifactId": "glb/storage-tray-normalized-9821a9f6ebbd0538.glb", "role": "canonical_model", "format": "glb", "contentType": "model/gltf-binary", "runtimeUrl": "https://cdn.mint.gg/glb/storage-tray-normalized-9821a9f6ebbd0538.glb", "loaderHint": "gltf" },
+        "everyday-tote-image": { "artifactId": "images/models/everyday-tote-e7e38680279b2df1.webp", "role": "preview_image", "format": "webp", "contentType": "image/webp", "runtimeUrl": "https://cdn.mint.gg/images/models/everyday-tote-e7e38680279b2df1.webp", "loaderHint": "image" },
+        "desk-lamp-image": { "artifactId": "images/models/desk-lamp-6a1e6ae47dc1bb9d.webp", "role": "preview_image", "format": "webp", "contentType": "image/webp", "runtimeUrl": "https://cdn.mint.gg/images/models/desk-lamp-6a1e6ae47dc1bb9d.webp", "loaderHint": "image" },
+        "linen-notebook-image": { "artifactId": "images/models/linen-notebook-3096e2df0a15ef2b.webp", "role": "preview_image", "format": "webp", "contentType": "image/webp", "runtimeUrl": "https://cdn.mint.gg/images/models/linen-notebook-3096e2df0a15ef2b.webp", "loaderHint": "image" },
+        "ceramic-mug-image": { "artifactId": "images/models/ceramic-mug-ae7622d92575f546.webp", "role": "preview_image", "format": "webp", "contentType": "image/webp", "runtimeUrl": "https://cdn.mint.gg/images/models/ceramic-mug-ae7622d92575f546.webp", "loaderHint": "image" },
+        "woven-throw-image": { "artifactId": "images/models/woven-throw-05cd2851ac8e2b9c.webp", "role": "preview_image", "format": "webp", "contentType": "image/webp", "runtimeUrl": "https://cdn.mint.gg/images/models/woven-throw-05cd2851ac8e2b9c.webp", "loaderHint": "image" },
+        "storage-tray-image": { "artifactId": "images/models/storage-tray-7c4a65d4db8e42d7.webp", "role": "preview_image", "format": "webp", "contentType": "image/webp", "runtimeUrl": "https://cdn.mint.gg/images/models/storage-tray-7c4a65d4db8e42d7.webp", "loaderHint": "image" }
+      }
+    },
+    "showroom-fixtures": {
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "asset_pack", "assetId": "th767d55azcnk282z53v62gadx8ayswf" },
+      "mode": "remote_url",
+      "artifacts": {
+        "gallery-plinth": { "artifactId": "glb/gallery-plinth-normalized-b54c63d2ed2f65a7.glb", "role": "source_model", "format": "glb", "contentType": "model/gltf-binary", "runtimeUrl": "https://cdn.mint.gg/glb/gallery-plinth-normalized-b54c63d2ed2f65a7.glb", "loaderHint": "gltf" },
+        "ribbed-screen": { "artifactId": "glb/ribbed-screen-normalized-5b6430db4ad24164.glb", "role": "source_model", "format": "glb", "contentType": "model/gltf-binary", "runtimeUrl": "https://cdn.mint.gg/glb/ribbed-screen-normalized-5b6430db4ad24164.glb", "loaderHint": "gltf" },
+        "arc-light": { "artifactId": "glb/arc-light-normalized-e9ad54ff1c80c418.glb", "role": "source_model", "format": "glb", "contentType": "model/gltf-binary", "runtimeUrl": "https://cdn.mint.gg/glb/arc-light-normalized-e9ad54ff1c80c418.glb", "loaderHint": "gltf" }
+      }
+    },
+    "showroom-ambience": {
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "audio", "assetId": "xd7bsh906ks660tfc9h5037gs58az395" },
+      "mode": "remote_url",
+      "artifacts": { "audio": { "artifactId": "audio/xd7bsh906ks660tfc9h5037gs58az395/common-form-showroom-ambience-779525-4b0d4c03f2650330.mp3", "role": "audio_file", "format": "mp3", "contentType": "audio/mpeg", "runtimeUrl": "https://cdn.mint.gg/audio/xd7bsh906ks660tfc9h5037gs58az395/common-form-showroom-ambience-779525-4b0d4c03f2650330.mp3", "loaderHint": "audio" } }
+    },
+    "selection-cue": {
+      "source": { "manifestVersion": 1, "kind": "asset", "assetType": "audio", "assetId": "xd71wndvq772mx206t8shttzf98azvkk" },
+      "mode": "remote_url",
+      "artifacts": { "audio": { "artifactId": "audio/xd71wndvq772mx206t8shttzf98azvkk/common-form-selection-cue-4dccad-1c8114efa2cd9d7b.mp3", "role": "audio_file", "format": "mp3", "contentType": "audio/mpeg", "runtimeUrl": "https://cdn.mint.gg/audio/xd71wndvq772mx206t8shttzf98azvkk/common-form-selection-cue-4dccad-1c8114efa2cd9d7b.mp3", "loaderHint": "audio" } }
+    }
+  }
+}
