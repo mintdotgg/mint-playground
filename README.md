@@ -161,6 +161,22 @@ pipeline and
   <p><sub>Three.js · Next.js · Seat Preview · Ticketing</sub></p>
   <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/seatline-nyc">Code</a> · <a href="https://play.mint.gg/seatline-nyc">Live demo</a></p>
 </td>
+<td width="50%" valign="top">
+  <a href="https://play.mint.gg/elemental-chess"><img src="https://play.mint.gg/experience-assets/elemental-chess/social-card.webp" alt="Water Tribe and Fire Nation sculptures face each other across an ornate icy chessboard." width="100%"></a>
+  <h3>Elemental Chess</h3>
+  <p>Choose Water, Earth, Fire, or Air, face a rival, and play a complete cinematic 3D chess match in a Mint-authored elemental world.</p>
+  <p><sub>Next.js · Three.js · Chess · Strategy</sub></p>
+  <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/elemental-chess">Code</a> · <a href="https://play.mint.gg/elemental-chess">Live demo</a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+  <a href="https://play.mint.gg/memory-constellation"><img src="https://play.mint.gg/experience-assets/memory-constellation/social-card.webp" alt="A dark memory observatory with warm connected stars, orbital trails, and the heading Where, when, and who we remember." width="100%"></a>
+  <h3>Memory Constellation</h3>
+  <p>Capture private memories locally, explore their connections as a 3D constellation, and revisit every moment in an accessible timeline.</p>
+  <p><sub>Next.js · Three.js · Local-First · Memory Archive</sub></p>
+  <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/memory-constellation">Code</a> · <a href="https://play.mint.gg/memory-constellation">Live demo</a></p>
+</td>
 <td width="50%"></td>
 </tr>
 </table>

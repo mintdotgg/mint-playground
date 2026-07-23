@@ -1,0 +1,507 @@
+{
+  "registryVersion": 1,
+  "assetRoot": "public",
+  "delivery": "mint_cdn",
+  "assets": {
+    "four-nations-piece-pack": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "asset_pack",
+        "assetId": "th7fb3rdpcmmzm1yy9f7e19dbx8b0h2s"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "water-king": {
+          "artifactId": "glb/water-king-chief-arnook-normalized-86749b515607af49.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/water-king-chief-arnook-normalized-86749b515607af49.glb",
+          "loaderHint": "gltf"
+        },
+        "water-queen": {
+          "artifactId": "glb/water-queen-katara-normalized-3d1a9e9c6966e969.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/water-queen-katara-normalized-3d1a9e9c6966e969.glb",
+          "loaderHint": "gltf"
+        },
+        "water-bishop": {
+          "artifactId": "glb/water-bishop-master-pakku-normalized-55248a4d16e4829f.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/water-bishop-master-pakku-normalized-55248a4d16e4829f.glb",
+          "loaderHint": "gltf"
+        },
+        "water-knight": {
+          "artifactId": "glb/water-knight-sokka-normalized-2763ae5d846f2ec3.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/water-knight-sokka-normalized-2763ae5d846f2ec3.glb",
+          "loaderHint": "gltf"
+        },
+        "water-rook": {
+          "artifactId": "glb/water-rook-ice-watchtower-normalized-792f1364ad981e22.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/water-rook-ice-watchtower-normalized-792f1364ad981e22.glb",
+          "loaderHint": "gltf"
+        },
+        "water-pawn": {
+          "artifactId": "glb/water-pawn-water-warrior-normalized-275b97bcfcada9d1.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/water-pawn-water-warrior-normalized-275b97bcfcada9d1.glb",
+          "loaderHint": "gltf"
+        },
+        "earth-king": {
+          "artifactId": "glb/earth-king-kuei-normalized-8437a567bb7ba669.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/earth-king-kuei-normalized-8437a567bb7ba669.glb",
+          "loaderHint": "gltf"
+        },
+        "earth-queen": {
+          "artifactId": "glb/earth-queen-toph-normalized-d737a857e37873b8.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/earth-queen-toph-normalized-d737a857e37873b8.glb",
+          "loaderHint": "gltf"
+        },
+        "earth-bishop": {
+          "artifactId": "glb/earth-bishop-king-bumi-normalized-b47245e77ebcf125.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/earth-bishop-king-bumi-normalized-b47245e77ebcf125.glb",
+          "loaderHint": "gltf"
+        },
+        "earth-knight": {
+          "artifactId": "glb/earth-knight-suki-normalized-e0d8c6bc964f5904.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/earth-knight-suki-normalized-e0d8c6bc964f5904.glb",
+          "loaderHint": "gltf"
+        },
+        "earth-rook": {
+          "artifactId": "glb/earth-rook-ba-sing-se-gate-normalized-bdf2ad857aeee3b8.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/earth-rook-ba-sing-se-gate-normalized-bdf2ad857aeee3b8.glb",
+          "loaderHint": "gltf"
+        },
+        "earth-pawn": {
+          "artifactId": "glb/earth-pawn-earth-soldier-normalized-0b3a44c967044262.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/earth-pawn-earth-soldier-normalized-0b3a44c967044262.glb",
+          "loaderHint": "gltf"
+        },
+        "fire-king": {
+          "artifactId": "glb/fire-king-ozai-normalized-5a45e414ce370d5c.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/fire-king-ozai-normalized-5a45e414ce370d5c.glb",
+          "loaderHint": "gltf"
+        },
+        "fire-queen": {
+          "artifactId": "glb/fire-queen-azula-normalized-42b088a2449217e6.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/fire-queen-azula-normalized-42b088a2449217e6.glb",
+          "loaderHint": "gltf"
+        },
+        "fire-bishop": {
+          "artifactId": "glb/fire-bishop-iroh-normalized-16170d70fccca26e.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/fire-bishop-iroh-normalized-16170d70fccca26e.glb",
+          "loaderHint": "gltf"
+        },
+        "fire-knight": {
+          "artifactId": "glb/fire-knight-zuko-normalized-604315734b53bc74.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/fire-knight-zuko-normalized-604315734b53bc74.glb",
+          "loaderHint": "gltf"
+        },
+        "fire-rook": {
+          "artifactId": "glb/fire-rook-palace-tower-normalized-3b87b7a599b1b7c9.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/fire-rook-palace-tower-normalized-3b87b7a599b1b7c9.glb",
+          "loaderHint": "gltf"
+        },
+        "fire-pawn": {
+          "artifactId": "glb/fire-pawn-fire-soldier-normalized-5060d30250acfb3e.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/fire-pawn-fire-soldier-normalized-5060d30250acfb3e.glb",
+          "loaderHint": "gltf"
+        },
+        "air-king": {
+          "artifactId": "glb/air-king-aang-normalized-04b8af15291643b2.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/air-king-aang-normalized-04b8af15291643b2.glb",
+          "loaderHint": "gltf"
+        },
+        "air-queen": {
+          "artifactId": "glb/air-queen-yangchen-normalized-7fbd31f0074bc60c.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/air-queen-yangchen-normalized-7fbd31f0074bc60c.glb",
+          "loaderHint": "gltf"
+        },
+        "air-bishop": {
+          "artifactId": "glb/air-bishop-monk-gyatso-normalized-2bc624eeca953a80.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/air-bishop-monk-gyatso-normalized-2bc624eeca953a80.glb",
+          "loaderHint": "gltf"
+        },
+        "air-knight": {
+          "artifactId": "glb/air-knight-appa-normalized-0ccc7cebbbde72c2.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/air-knight-appa-normalized-0ccc7cebbbde72c2.glb",
+          "loaderHint": "gltf"
+        },
+        "air-rook": {
+          "artifactId": "glb/air-rook-temple-tower-normalized-c4e8c8ce5905872a.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/air-rook-temple-tower-normalized-c4e8c8ce5905872a.glb",
+          "loaderHint": "gltf"
+        },
+        "air-pawn": {
+          "artifactId": "glb/air-pawn-air-acolyte-normalized-b1f34d0111ce7aa5.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/air-pawn-air-acolyte-normalized-b1f34d0111ce7aa5.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "four-nations-board-pack": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "asset_pack",
+        "assetId": "th724sydhdevq567q61rz15ykh8b07rq"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "water-board": {
+          "artifactId": "glb/water-tribe-board-normalized-3bc2c07c58236262.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/water-tribe-board-normalized-3bc2c07c58236262.glb",
+          "loaderHint": "gltf"
+        },
+        "earth-board": {
+          "artifactId": "glb/earth-kingdom-board-normalized-382485ff7f69ae54.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/earth-kingdom-board-normalized-382485ff7f69ae54.glb",
+          "loaderHint": "gltf"
+        },
+        "fire-board": {
+          "artifactId": "glb/fire-nation-board-normalized-5d91b6780457779c.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/fire-nation-board-normalized-5d91b6780457779c.glb",
+          "loaderHint": "gltf"
+        },
+        "air-board": {
+          "artifactId": "glb/air-nomad-board-normalized-7547ab47f275b84e.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/air-nomad-board-normalized-7547ab47f275b84e.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "northern-water-tribe-world": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "world",
+        "assetId": "j9756wb2fjgtdq3hcdgswdzz7h8b1tne"
+      },
+      "mode": "remote_stream",
+      "artifacts": {
+        "runtime": {
+          "artifactId": "rad/northern-water-tribe-courtyard-dfe3d7a020b32e74-lod.rad",
+          "role": "world_runtime",
+          "format": "rad",
+          "contentType": "application/vnd.mint.rad",
+          "runtimeUrl": "https://cdn.mint.gg/rad/northern-water-tribe-courtyard-dfe3d7a020b32e74-lod.rad",
+          "loaderHint": "spark_rad"
+        },
+        "collider": {
+          "artifactId": "worlds/northern-water-tribe-courtyard-collider-867ab36046f00cb1.glb",
+          "role": "world_collider",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/worlds/northern-water-tribe-courtyard-collider-867ab36046f00cb1.glb",
+          "loaderHint": "gltf"
+        },
+        "lobby-preview": {
+          "artifactId": "assets/northern-water-tribe-courtyard-j9756wb2fjgtdq3hcdgswdzz7h8b1tne-preview-webp-8f354319f2d808ab.webp",
+          "role": "preview_image",
+          "format": "webp",
+          "contentType": "image/webp",
+          "runtimeUrl": "https://cdn.mint.gg/assets/northern-water-tribe-courtyard-j9756wb2fjgtdq3hcdgswdzz7h8b1tne-preview-webp-8f354319f2d808ab.webp",
+          "loaderHint": "image"
+        }
+      }
+    },
+    "ba-sing-se-world": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "world",
+        "assetId": "j9704f9sr38rzak3atmn3xhtb98b0qtw"
+      },
+      "mode": "remote_stream",
+      "artifacts": {
+        "runtime": {
+          "artifactId": "rad/ba-sing-se-terrace-e369787a6397d836-lod.rad",
+          "role": "world_runtime",
+          "format": "rad",
+          "contentType": "application/vnd.mint.rad",
+          "runtimeUrl": "https://cdn.mint.gg/rad/ba-sing-se-terrace-e369787a6397d836-lod.rad",
+          "loaderHint": "spark_rad"
+        },
+        "collider": {
+          "artifactId": "worlds/ba-sing-se-terrace-collider-08194297ef2100f9.glb",
+          "role": "world_collider",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/worlds/ba-sing-se-terrace-collider-08194297ef2100f9.glb",
+          "loaderHint": "gltf"
+        },
+        "lobby-preview": {
+          "artifactId": "assets/ba-sing-se-terrace-j9704f9sr38rzak3atmn3xhtb98b0qtw-preview-webp-6147a2e16dbcec28.webp",
+          "role": "preview_image",
+          "format": "webp",
+          "contentType": "image/webp",
+          "runtimeUrl": "https://cdn.mint.gg/assets/ba-sing-se-terrace-j9704f9sr38rzak3atmn3xhtb98b0qtw-preview-webp-6147a2e16dbcec28.webp",
+          "loaderHint": "image"
+        }
+      }
+    },
+    "fire-nation-world": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "world",
+        "assetId": "j975wxzsgncqcqpyds4vtxfbrn8b1nyk"
+      },
+      "mode": "remote_stream",
+      "artifacts": {
+        "runtime": {
+          "artifactId": "rad/fire-nation-courtyard-acf9806faede0e5d-lod.rad",
+          "role": "world_runtime",
+          "format": "rad",
+          "contentType": "application/vnd.mint.rad",
+          "runtimeUrl": "https://cdn.mint.gg/rad/fire-nation-courtyard-acf9806faede0e5d-lod.rad",
+          "loaderHint": "spark_rad"
+        },
+        "collider": {
+          "artifactId": "worlds/fire-nation-courtyard-collider-c65bec8011d0d0d1.glb",
+          "role": "world_collider",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/worlds/fire-nation-courtyard-collider-c65bec8011d0d0d1.glb",
+          "loaderHint": "gltf"
+        },
+        "lobby-preview": {
+          "artifactId": "assets/fire-nation-courtyard-j975wxzsgncqcqpyds4vtxfbrn8b1nyk-preview-webp-a6272e7d4a4d8179.webp",
+          "role": "preview_image",
+          "format": "webp",
+          "contentType": "image/webp",
+          "runtimeUrl": "https://cdn.mint.gg/assets/fire-nation-courtyard-j975wxzsgncqcqpyds4vtxfbrn8b1nyk-preview-webp-a6272e7d4a4d8179.webp",
+          "loaderHint": "image"
+        }
+      }
+    },
+    "southern-air-temple-world": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "world",
+        "assetId": "j978mjsbajqz8n2gx3dkbhma2h8b1nza"
+      },
+      "mode": "remote_stream",
+      "artifacts": {
+        "runtime": {
+          "artifactId": "rad/southern-air-temple-courtyard-de80f3d362266569-lod.rad",
+          "role": "world_runtime",
+          "format": "rad",
+          "contentType": "application/vnd.mint.rad",
+          "runtimeUrl": "https://cdn.mint.gg/rad/southern-air-temple-courtyard-de80f3d362266569-lod.rad",
+          "loaderHint": "spark_rad"
+        },
+        "collider": {
+          "artifactId": "worlds/southern-air-temple-courtyard-collider-aa96e8240b8c2f0f.glb",
+          "role": "world_collider",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/worlds/southern-air-temple-courtyard-collider-aa96e8240b8c2f0f.glb",
+          "loaderHint": "gltf"
+        },
+        "lobby-preview": {
+          "artifactId": "assets/southern-air-temple-courtyard-j978mjsbajqz8n2gx3dkbhma2h8b1nza-preview-webp-b44d12b9dc96d8a6.webp",
+          "role": "preview_image",
+          "format": "webp",
+          "contentType": "image/webp",
+          "runtimeUrl": "https://cdn.mint.gg/assets/southern-air-temple-courtyard-j978mjsbajqz8n2gx3dkbhma2h8b1nza-preview-webp-b44d12b9dc96d8a6.webp",
+          "loaderHint": "image"
+        }
+      }
+    },
+    "air-temple-foundation": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks7bp9er86ydxabg6kp1t8ref98b104d"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "foundation": {
+          "artifactId": "glb/ivory-saffron-plinth-normalized-fdeee09a9781cedf.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/ivory-saffron-plinth-normalized-fdeee09a9781cedf.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "elemental-ambience": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd7495f5xcjdw9s83z5swbb6mh8b1wht"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio": {
+          "artifactId": "audio/xd7495f5xcjdw9s83z5swbb6mh8b1wht/convergence-chess-elemental-ambience-1f8308-392147002e6e09d5.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd7495f5xcjdw9s83z5swbb6mh8b1wht/convergence-chess-elemental-ambience-1f8308-392147002e6e09d5.mp3",
+          "loaderHint": "audio"
+        }
+      }
+    },
+    "move-cue": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd7dd30zw65410cr3p1e5kdp3n8b17t3"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio": {
+          "artifactId": "audio/xd7dd30zw65410cr3p1e5kdp3n8b17t3/convergence-chess-move-bfd81e-7d5c0adc1332e535.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd7dd30zw65410cr3p1e5kdp3n8b17t3/convergence-chess-move-bfd81e-7d5c0adc1332e535.mp3",
+          "loaderHint": "audio"
+        }
+      }
+    },
+    "capture-cue": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd73n3c2sxhegpc450ebs1tpfd8b1m0c"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio": {
+          "artifactId": "audio/xd73n3c2sxhegpc450ebs1tpfd8b1m0c/convergence-chess-capture-bbd5ac-7cf483d5817ae0a6.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd73n3c2sxhegpc450ebs1tpfd8b1m0c/convergence-chess-capture-bbd5ac-7cf483d5817ae0a6.mp3",
+          "loaderHint": "audio"
+        }
+      }
+    },
+    "check-cue": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd7fz0bxr0z0dx8250xfz7jcy18b0v6d"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio": {
+          "artifactId": "audio/xd7fz0bxr0z0dx8250xfz7jcy18b0v6d/convergence-chess-check-32cb5a-d8729699ff34395e.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd7fz0bxr0z0dx8250xfz7jcy18b0v6d/convergence-chess-check-32cb5a-d8729699ff34395e.mp3",
+          "loaderHint": "audio"
+        }
+      }
+    },
+    "victory-cue": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd7dydb8080h6cjh708te8b0z98b1edq"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio": {
+          "artifactId": "audio/xd7dydb8080h6cjh708te8b0z98b1edq/convergence-chess-victory-bc4e99-10aa8f962759f569.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd7dydb8080h6cjh708te8b0z98b1edq/convergence-chess-victory-bc4e99-10aa8f962759f569.mp3",
+          "loaderHint": "audio"
+        }
+      }
+    }
+  }
+}

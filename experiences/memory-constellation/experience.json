@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 2,
+  "order": 200,
+  "slug": "memory-constellation",
+  "title": "Memory Constellation",
+  "description": "Capture private memories locally, explore their connections as a 3D constellation, and revisit every moment in an accessible timeline.",
+  "status": "published",
+  "publishedAt": "2026-07-23",
+  "tags": ["Next.js", "Three.js", "Local-First", "Memory Archive"],
+  "prompt": {
+    "version": 1,
+    "objective": "Build a private local memory archive with a navigable 3D constellation and accessible timeline.",
+    "mintAssets": [
+      {
+        "kind": "asset-pack",
+        "brief": "Six stellar memory cores, constellation structures, and flybys."
+      },
+      {
+        "kind": "material",
+        "brief": "A sharp-twinkle PBR surface for stellar cores."
+      },
+      {
+        "kind": "image",
+        "brief": "A cinematic deep-sky backdrop."
+      },
+      {
+        "kind": "audio",
+        "brief": "Quiet observatory ambience."
+      }
+    ],
+    "experience": [
+      "Keep entries and media in this browser.",
+      "Search, filter, follow connections, or use a timeline."
+    ],
+    "visualDirection": "Near-black observatory, warm stars, orbital lines, and editorial type."
+  },
+  "thumbnail": {
+    "src": "/experience-assets/memory-constellation/social-card.webp",
+    "alt": "A dark memory observatory with warm connected stars, orbital trails, and the heading Where, when, and who we remember."
+  },
+  "social": {
+    "title": "Memory Constellation",
+    "description": "Keep a private local archive and rediscover its people, places, and moments as an interactive constellation.",
+    "image": {
+      "src": "/experience-assets/memory-constellation/social-card.webp",
+      "alt": "A dark memory observatory with warm connected stars, orbital trails, and the heading Where, when, and who we remember.",
+      "width": 1200,
+      "height": 630,
+      "accent": "#E7D9B5"
+    }
+  },
+  "runtime": {
+    "kind": "bundle",
+    "src": "/_experiences/memory-constellation/index.html",
+    "title": "Memory Constellation"
+  }
+}

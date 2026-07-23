@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 2,
+  "order": 190,
+  "slug": "elemental-chess",
+  "title": "Elemental Chess",
+  "description": "Choose Water, Earth, Fire, or Air, face a rival, and play a complete cinematic 3D chess match in a Mint-authored elemental world.",
+  "status": "published",
+  "publishedAt": "2026-07-22",
+  "tags": ["Next.js", "Three.js", "Chess", "Strategy"],
+  "prompt": {
+    "version": 1,
+    "objective": "Build cinematic 3D chess with four factions, selectable rivals, and placeable worlds.",
+    "mintAssets": [
+      {
+        "kind": "asset-pack",
+        "brief": "Four six-role armies and four themed chessboards."
+      },
+      {
+        "kind": "world",
+        "brief": "Four elemental courtyards with RAD streams and colliders."
+      },
+      {
+        "kind": "audio",
+        "brief": "Elemental ambience and move, capture, check, and victory cues."
+      }
+    ],
+    "experience": [
+      "Choose a faction and rival, then play a complete legal solo match.",
+      "Orbit or flip the board and persist each world's placement."
+    ],
+    "visualDirection": "Faction-colored tabletop sculptures, luminous UI, and cinematic courtyards."
+  },
+  "thumbnail": {
+    "src": "/experience-assets/elemental-chess/social-card.webp",
+    "alt": "Water Tribe and Fire Nation sculptures face each other across an ornate icy chessboard."
+  },
+  "social": {
+    "title": "Elemental Chess",
+    "description": "Choose an elemental nation and command its sculpted army in a cinematic 3D chess match.",
+    "image": {
+      "src": "/experience-assets/elemental-chess/social-card.webp",
+      "alt": "Water Tribe and Fire Nation sculptures face each other across an ornate icy chessboard.",
+      "width": 1200,
+      "height": 630,
+      "accent": "#71D6F0"
+    }
+  },
+  "runtime": {
+    "kind": "bundle",
+    "src": "/_experiences/elemental-chess/index.html",
+    "title": "Elemental Chess"
+  }
+}

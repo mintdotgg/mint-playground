@@ -1,0 +1,239 @@
+{
+  "registryVersion": 1,
+  "assetRoot": "public",
+  "delivery": "mint_cdn",
+  "assets": {
+    "memory-deep-sky": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "image",
+        "assetId": "xn7cwrdt1msb6wtc5cxqdz97sd8b1836"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "image": {
+          "artifactId": "images/xn7cwrdt1msb6wtc5cxqdz97sd8b1836/memory-constellation-deep-sky-9cbe67-8d3aface417a52ce.png",
+          "role": "image",
+          "format": "png",
+          "contentType": "image/png",
+          "runtimeUrl": "https://cdn.mint.gg/images/xn7cwrdt1msb6wtc5cxqdz97sd8b1836/memory-constellation-deep-sky-9cbe67-8d3aface417a52ce.png",
+          "loaderHint": "image"
+        }
+      }
+    },
+    "orbit-week-deep-space": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "image",
+        "assetId": "xn79pd38zsyxzcm24a4sqs4pe98atbr1"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "image": {
+          "artifactId": "images/xn79pd38zsyxzcm24a4sqs4pe98atbr1/orbit-week-deep-space-d44948-2f28b6d70d5b2089.png",
+          "role": "image",
+          "format": "png",
+          "contentType": "image/png",
+          "runtimeUrl": "https://cdn.mint.gg/images/xn79pd38zsyxzcm24a4sqs4pe98atbr1/orbit-week-deep-space-d44948-2f28b6d70d5b2089.png",
+          "loaderHint": "image"
+        }
+      }
+    },
+    "quiet-observatory": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd7e149p8x7k6z107msw542mp98b03fy"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio": {
+          "artifactId": "audio/xd7e149p8x7k6z107msw542mp98b03fy/memory-constellation-quiet-observatory-93f6cd-1b12786666f6c056.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd7e149p8x7k6z107msw542mp98b03fy/memory-constellation-quiet-observatory-93f6cd-1b12786666f6c056.mp3",
+          "loaderHint": "audio"
+        }
+      }
+    },
+    "point-light-cores": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "asset_pack",
+        "assetId": "th72z09m01r6pbazg39rqtn74s8b00jp"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "family": {
+          "artifactId": "glb/point-light-family-core-normalized-71d18be8108641ea.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/point-light-family-core-normalized-71d18be8108641ea.glb",
+          "loaderHint": "gltf"
+        },
+        "friendship": {
+          "artifactId": "glb/point-light-friendship-core-normalized-8eafc03c421770a5.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/point-light-friendship-core-normalized-8eafc03c421770a5.glb",
+          "loaderHint": "gltf"
+        },
+        "travel": {
+          "artifactId": "glb/point-light-travel-core-normalized-cfc5037e8a0757e8.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/point-light-travel-core-normalized-cfc5037e8a0757e8.glb",
+          "loaderHint": "gltf"
+        },
+        "achievement": {
+          "artifactId": "glb/point-light-achievement-core-normalized-e2a8566bb6b8ff1e.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/point-light-achievement-core-normalized-e2a8566bb6b8ff1e.glb",
+          "loaderHint": "gltf"
+        },
+        "everyday": {
+          "artifactId": "glb/point-light-everyday-core-normalized-00ea42882aef259f.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/point-light-everyday-core-normalized-00ea42882aef259f.glb",
+          "loaderHint": "gltf"
+        },
+        "growth": {
+          "artifactId": "glb/point-light-growth-core-normalized-8d249dc947a3cb15.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/point-light-growth-core-normalized-8d249dc947a3cb15.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "family-sharp-twinkle-material": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "material",
+        "assetId": "w170f22fj8xm8a8zxz3pz0wy7s8b1t87"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "basecolor": {
+          "artifactId": "materials/w170f22fj8xm8a8zxz3pz0wy7s8b1t87/family-basecolor-20820a-a5221360398724cd.png",
+          "role": "material_basecolor",
+          "format": "png",
+          "contentType": "image/png",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w170f22fj8xm8a8zxz3pz0wy7s8b1t87/family-basecolor-20820a-a5221360398724cd.png",
+          "loaderHint": "texture"
+        },
+        "normal": {
+          "artifactId": "materials/w170f22fj8xm8a8zxz3pz0wy7s8b1t87/family-normal-acfe3e-f36ac513c0ddae5a.png",
+          "role": "material_normal",
+          "format": "png",
+          "contentType": "image/png",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w170f22fj8xm8a8zxz3pz0wy7s8b1t87/family-normal-acfe3e-f36ac513c0ddae5a.png",
+          "loaderHint": "texture"
+        },
+        "roughness": {
+          "artifactId": "materials/w170f22fj8xm8a8zxz3pz0wy7s8b1t87/family-roughness-be484a-74b2f58521f844af.png",
+          "role": "material_roughness",
+          "format": "png",
+          "contentType": "image/png",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w170f22fj8xm8a8zxz3pz0wy7s8b1t87/family-roughness-be484a-74b2f58521f844af.png",
+          "loaderHint": "texture"
+        }
+      }
+    },
+    "orbit-week-flybys": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "asset_pack",
+        "assetId": "th75pyw5smcx64jddzmszseg418atqj7"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "blue-ice-comet": {
+          "artifactId": "glb/blue-ice-comet-normalized-1490e4f56538d916.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/blue-ice-comet-normalized-1490e4f56538d916.glb",
+          "loaderHint": "gltf"
+        },
+        "gold-dust-comet": {
+          "artifactId": "glb/gold-dust-comet-normalized-8de2a2dfaf0a6634.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/gold-dust-comet-normalized-8de2a2dfaf0a6634.glb",
+          "loaderHint": "gltf"
+        },
+        "ember-meteor": {
+          "artifactId": "glb/ember-meteor-normalized-4c3c291ba1106af0.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/ember-meteor-normalized-4c3c291ba1106af0.glb",
+          "loaderHint": "gltf"
+        },
+        "cold-stone-meteor": {
+          "artifactId": "glb/cold-stone-meteor-normalized-60d59788f6f4c1b1.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/cold-stone-meteor-normalized-60d59788f6f4c1b1.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "constellation-filament": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "asset_pack",
+        "assetId": "th70bsd0wkzy68f1sja16qbcm18b0m4w"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "filament": {
+          "artifactId": "glb/constellation-filament-normalized-33d854a755352df9.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/constellation-filament-normalized-33d854a755352df9.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "smoked-ivory-orbit-arc": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks7179e6zrnme7q0vx2xckn8718b007s"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "model": {
+          "artifactId": "glb/smoked-ivory-orbit-arc-normalized-ace2fa4ccb6f4aa7.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/smoked-ivory-orbit-arc-normalized-ace2fa4ccb6f4aa7.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    }
+  }
+}
