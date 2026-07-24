@@ -1,1 +1,0 @@
-{"root":["./src/app.tsx","./src/main.tsx","./src/types.ts","./src/assets/mintassets.ts","./src/assets/mintmodelloader.ts","./src/audio/audiosystem.ts","./src/data/catalog.ts","./src/scene/roomscene.ts","./src/scene/modelfactory.ts","./src/scene/spatial.ts","./src/state/defaultroom.ts","./src/state/store.ts"],"version":"5.9.3"}
