@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 2,
+  "order": 210,
+  "slug": "pogo-man",
+  "title": "Pogo Man",
+  "description": "Charge double jumps to clear city traffic, build combos, and chase a high score in a one-button 3D arcade run.",
+  "status": "published",
+  "publishedAt": "2026-07-24",
+  "tags": ["Vinext", "Three.js", "Arcade", "Runner"],
+  "prompt": {
+    "version": 1,
+    "objective": "Create a side-view pogo arcade runner with automatic hops, double jumps, traffic, combos, and scores.",
+    "mintAssets": [
+      {
+        "kind": "model",
+        "brief": "Connected side-profile rider and pogo stick with fixed hands and feet."
+      },
+      {
+        "kind": "asset-pack",
+        "brief": "Three vehicles, tall buildings, a seamless dark road, and parallax clouds."
+      },
+      {
+        "kind": "audio",
+        "brief": "Urban arcade loop plus pogo, crash, and clear cues."
+      }
+    ],
+    "experience": [
+      "Use automatic rebounds and two immediate jumps per landing.",
+      "Clear safe-spaced traffic, score combos, save the best score, and restart."
+    ],
+    "visualDirection": "Warm toy-diorama city, cobalt sky, rounded PBR forms, and crisp side silhouettes."
+  },
+  "thumbnail": {
+    "src": "/experience-assets/pogo-man/social-card.webp",
+    "alt": "A stylized rider bounces on a pogo stick over yellow and coral cars on a colorful city street."
+  },
+  "social": {
+    "title": "Pogo Man",
+    "description": "Charge double jumps to clear city traffic, build combos, and chase a high score in a one-button 3D arcade run.",
+    "image": {
+      "src": "/experience-assets/pogo-man/social-card.webp",
+      "alt": "A stylized rider bounces on a pogo stick over yellow and coral cars on a colorful city street.",
+      "width": 1200,
+      "height": 630,
+      "accent": "#F4A11A"
+    }
+  },
+  "runtime": {
+    "kind": "bundle",
+    "src": "/_experiences/pogo-man/index.html",
+    "title": "Pogo Man"
+  }
+}

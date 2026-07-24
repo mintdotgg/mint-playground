@@ -1,0 +1,194 @@
+{
+  "registryVersion": 1,
+  "assetRoot": "public",
+  "delivery": "mint_cdn",
+  "assets": {
+    "pogo-man-rider": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks7a9tz4zk6ammtahg3hd3cst58b23t7"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "model": {
+          "artifactId": "glb/cobalt-pogo-rider-normalized-727be6bb6308607e.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/cobalt-pogo-rider-normalized-727be6bb6308607e.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "blue-sky-city-kit": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "asset_pack",
+        "assetId": "th70t61kjm1zw6j32etd8xxjnx8b3r8b"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "buildings": {
+          "artifactId": "glb/tall-building-row-normalized-0c3687a9f3e6ab20.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/tall-building-row-normalized-0c3687a9f3e6ab20.glb",
+          "loaderHint": "gltf"
+        },
+        "road": {
+          "artifactId": "glb/continuous-asphalt-road-normalized-cf4c45e949cbb198.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/continuous-asphalt-road-normalized-cf4c45e949cbb198.glb",
+          "loaderHint": "gltf"
+        },
+        "clouds": {
+          "artifactId": "glb/arcade-cloud-family-normalized-7b4b35da0d3098d3.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/arcade-cloud-family-normalized-7b4b35da0d3098d3.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "taxi": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks77xxjttsz6a372bwdrgvnf8d8b3h78"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "model": {
+          "artifactId": "glb/checker-cab-cruiser-normalized-6f30f81242f4812c.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/checker-cab-cruiser-normalized-6f30f81242f4812c.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "sedan": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks72k8nk58vecxvmab7h34y72h8b2f4f"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "model": {
+          "artifactId": "glb/coral-cream-sedan-normalized-da2d98d0eed1e32a.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/coral-cream-sedan-normalized-da2d98d0eed1e32a.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "bus": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks72k7qvqyrvmwnj53dz65sn1h8b2jsm"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "model": {
+          "artifactId": "glb/cobalt-stripe-shuttle-normalized-0c4d88f3449b2a28.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/cobalt-stripe-shuttle-normalized-0c4d88f3449b2a28.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "downtown-loop": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd74btd6saq7w4tsmw8bvvyg918b3tww"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio": {
+          "artifactId": "audio/xd74btd6saq7w4tsmw8bvvyg918b3tww/pogo-man-downtown-loop-b0f0f8-9d63d2eccbdc3fe4.mp3",
+          "role": "audio_file",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd74btd6saq7w4tsmw8bvvyg918b3tww/pogo-man-downtown-loop-b0f0f8-9d63d2eccbdc3fe4.mp3",
+          "loaderHint": "audio"
+        }
+      }
+    },
+    "pogo-boing": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd73z02cd06fxnjvzbnmd8ga4d8b3rma"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio": {
+          "artifactId": "audio/xd73z02cd06fxnjvzbnmd8ga4d8b3rma/pogo-boing-baa915-84c6c27f460c7cb2.mp3",
+          "role": "audio_file",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd73z02cd06fxnjvzbnmd8ga4d8b3rma/pogo-boing-baa915-84c6c27f460c7cb2.mp3",
+          "loaderHint": "audio"
+        }
+      }
+    },
+    "traffic-crash": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd73n42zs1c7s0j1snkc62qdn58b2p75"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio": {
+          "artifactId": "audio/xd73n42zs1c7s0j1snkc62qdn58b2p75/traffic-crash-320a08-e6d8e80cb266273e.mp3",
+          "role": "audio_file",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd73n42zs1c7s0j1snkc62qdn58b2p75/traffic-crash-320a08-e6d8e80cb266273e.mp3",
+          "loaderHint": "audio"
+        }
+      }
+    },
+    "perfect-clear": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd79rwpt40sh5s12tmw52dnges8b2hw9"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio": {
+          "artifactId": "audio/xd79rwpt40sh5s12tmw52dnges8b2hw9/perfect-clear-a8f081-2c80fc7c1b072851.mp3",
+          "role": "audio_file",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd79rwpt40sh5s12tmw52dnges8b2hw9/perfect-clear-a8f081-2c80fc7c1b072851.mp3",
+          "loaderHint": "audio"
+        }
+      }
+    }
+  }
+}

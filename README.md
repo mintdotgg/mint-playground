@@ -178,12 +178,22 @@ pipeline and
   <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/memory-constellation">Code</a> · <a href="https://play.mint.gg/memory-constellation">Live demo</a></p>
 </td>
 <td width="50%" valign="top">
+  <a href="https://play.mint.gg/pogo-man"><img src="https://play.mint.gg/experience-assets/pogo-man/social-card.webp" alt="A stylized rider bounces on a pogo stick over yellow and coral cars on a colorful city street." width="100%"></a>
+  <h3>Pogo Man</h3>
+  <p>Charge double jumps to clear city traffic, build combos, and chase a high score in a one-button 3D arcade run.</p>
+  <p><sub>Vinext · Three.js · Arcade · Runner</sub></p>
+  <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/pogo-man">Code</a> · <a href="https://play.mint.gg/pogo-man">Live demo</a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
   <a href="https://play.mint.gg/robot-store"><img src="https://play.mint.gg/experience-assets/robot-store/social-card.webp" alt="Editorial robot storefront featuring the orange-and-white Sunday Memo robot surrounded by technical callouts and a carousel of robot models." width="100%"></a>
   <h3>Future Form: Robot Store</h3>
   <p>Explore an editorial 3D archive of 15 humanoid robots, orbit each digital twin, and compare their capabilities.</p>
   <p><sub>three.js · robots · catalog · interactive</sub></p>
   <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/robot-store">Code</a> · <a href="https://play.mint.gg/robot-store">Live demo</a></p>
 </td>
+<td width="50%"></td>
 </tr>
 </table>
 
