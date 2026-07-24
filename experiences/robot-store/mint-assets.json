@@ -1,0 +1,716 @@
+{
+  "registryVersion": 1,
+  "assetRoot": "public",
+  "delivery": "mint_cdn",
+  "assets": {
+    "1x-neo": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks7dp1cxyt0rm296hrbk1td1bs8b4p5h"
+      },
+      "transform": {
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0],
+        "scale": [1, 1, 1]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "optimized_glb": {
+          "artifactId": "optimized_glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "ivory-knit-humanoid-bs8b4p5h-optimized.glb",
+          "loaderHint": "gltf",
+          "byteSize": 5971408,
+          "runtimeUrl": "https://cdn.mint.gg/glb/ivory-knit-humanoid-ad42b501b2fbcd9a.glb"
+        },
+        "ar_usdz": {
+          "artifactId": "ar_usdz",
+          "role": "ar_model",
+          "format": "usdz",
+          "contentType": "model/vnd.usdz+zip",
+          "filename": "1x-neo.usdz",
+          "loaderHint": "quick-look",
+          "byteSize": 14370351,
+          "runtimeUrl": "https://cdn.mint.gg/conversions/ad42b501b2fbcd9a/usdz-v1-c571afd611560c5e.usdz"
+        },
+        "preview_image": {
+          "artifactId": "preview_image",
+          "role": "preview_image",
+          "format": "webp",
+          "contentType": "image/webp",
+          "filename": "ivory-knit-humanoid-bs8b4p5h-preview.webp",
+          "loaderHint": "image",
+          "byteSize": 42458,
+          "runtimeUrl": "https://cdn.mint.gg/images/models/ivory-knit-humanoid-ba85d1c508acd742.webp"
+        }
+      }
+    },
+    "agility-digit": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks70njv69e1gz18nkdb5q7mpdh8b5322"
+      },
+      "transform": {
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0],
+        "scale": [1, 1, 1]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "optimized_glb": {
+          "artifactId": "optimized_glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "luminous-tote-walker-dh8b5322-optimized.glb",
+          "loaderHint": "gltf",
+          "byteSize": 6629540,
+          "runtimeUrl": "https://cdn.mint.gg/glb/luminous-tote-walker-0036e2e2c5f3785f.glb"
+        },
+        "ar_usdz": {
+          "artifactId": "ar_usdz",
+          "role": "ar_model",
+          "format": "usdz",
+          "contentType": "model/vnd.usdz+zip",
+          "filename": "agility-digit.usdz",
+          "loaderHint": "quick-look",
+          "byteSize": 14981232,
+          "runtimeUrl": "https://cdn.mint.gg/conversions/0036e2e2c5f3785f/usdz-v1-36923b85cba5548e.usdz"
+        },
+        "preview_image": {
+          "artifactId": "preview_image",
+          "role": "preview_image",
+          "format": "webp",
+          "contentType": "image/webp",
+          "filename": "luminous-tote-walker-dh8b5322-preview.webp",
+          "loaderHint": "image",
+          "byteSize": 52074,
+          "runtimeUrl": "https://cdn.mint.gg/images/models/luminous-tote-walker-386f2d1aefcd6fac.webp"
+        }
+      }
+    },
+    "apptronik-apollo-2": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks70atf6ezsm9wb57s9p7hgvcn8b507s"
+      },
+      "transform": {
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0],
+        "scale": [1, 1, 1]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "optimized_glb": {
+          "artifactId": "optimized_glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "amber-visor-apollo-cn8b507s-optimized.glb",
+          "loaderHint": "gltf",
+          "byteSize": 7002888,
+          "runtimeUrl": "https://cdn.mint.gg/glb/amber-visor-apollo-c8e64bb00fbbf225.glb"
+        },
+        "ar_usdz": {
+          "artifactId": "ar_usdz",
+          "role": "ar_model",
+          "format": "usdz",
+          "contentType": "model/vnd.usdz+zip",
+          "filename": "apptronik-apollo-2.usdz",
+          "loaderHint": "quick-look",
+          "byteSize": 15251563,
+          "runtimeUrl": "https://cdn.mint.gg/conversions/c8e64bb00fbbf225/usdz-v1-1a49dbfc44888934.usdz"
+        },
+        "preview_image": {
+          "artifactId": "preview_image",
+          "role": "preview_image",
+          "format": "webp",
+          "contentType": "image/webp",
+          "filename": "amber-visor-apollo-cn8b507s-preview.webp",
+          "loaderHint": "image",
+          "byteSize": 62976,
+          "runtimeUrl": "https://cdn.mint.gg/images/models/amber-visor-apollo-a154c61553f79eb3.webp"
+        }
+      }
+    },
+    "boston-dynamics-atlas": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks78m0k1bb48brgwrj13k03yk18b55b5"
+      },
+      "transform": {
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0],
+        "scale": [1, 1, 1]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "optimized_glb": {
+          "artifactId": "optimized_glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "blue-halo-atlas-k18b55b5-optimized.glb",
+          "loaderHint": "gltf",
+          "byteSize": 7002924,
+          "runtimeUrl": "https://cdn.mint.gg/glb/blue-halo-atlas-09179ab13bd887a7.glb"
+        },
+        "ar_usdz": {
+          "artifactId": "ar_usdz",
+          "role": "ar_model",
+          "format": "usdz",
+          "contentType": "model/vnd.usdz+zip",
+          "filename": "boston-dynamics-atlas.usdz",
+          "loaderHint": "quick-look",
+          "byteSize": 15346836,
+          "runtimeUrl": "https://cdn.mint.gg/conversions/09179ab13bd887a7/usdz-v1-4df1d4daad2fb35d.usdz"
+        },
+        "preview_image": {
+          "artifactId": "preview_image",
+          "role": "preview_image",
+          "format": "webp",
+          "contentType": "image/webp",
+          "filename": "blue-halo-atlas-k18b55b5-preview.webp",
+          "loaderHint": "image",
+          "byteSize": 69076,
+          "runtimeUrl": "https://cdn.mint.gg/images/models/blue-halo-atlas-f2a5a67b5a3a0644.webp"
+        }
+      }
+    },
+    "fauna-sprout": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks79560q6grhqy27qzw2a6hpc58b4yt9"
+      },
+      "transform": {
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0],
+        "scale": [1, 1, 1]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "optimized_glb": {
+          "artifactId": "optimized_glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "sage-sprout-humanoid-c58b4yt9-optimized.glb",
+          "loaderHint": "gltf",
+          "byteSize": 6738600,
+          "runtimeUrl": "https://cdn.mint.gg/glb/sage-sprout-humanoid-5de6bf988153c564.glb"
+        },
+        "ar_usdz": {
+          "artifactId": "ar_usdz",
+          "role": "ar_model",
+          "format": "usdz",
+          "contentType": "model/vnd.usdz+zip",
+          "filename": "fauna-sprout.usdz",
+          "loaderHint": "quick-look",
+          "byteSize": 14592483,
+          "runtimeUrl": "https://cdn.mint.gg/conversions/5de6bf988153c564/usdz-v1-0c62dcd024fd14f9.usdz"
+        },
+        "preview_image": {
+          "artifactId": "preview_image",
+          "role": "preview_image",
+          "format": "webp",
+          "contentType": "image/webp",
+          "filename": "sage-sprout-humanoid-c58b4yt9-preview.webp",
+          "loaderHint": "image",
+          "byteSize": 57778,
+          "runtimeUrl": "https://cdn.mint.gg/images/models/sage-sprout-humanoid-bb6ff8fa0beee2b0.webp"
+        }
+      }
+    },
+    "figure-03": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks74t51523f4sd9y706dqrpt0h8b503e"
+      },
+      "transform": {
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0],
+        "scale": [1, 1, 1]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "optimized_glb": {
+          "artifactId": "optimized_glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "ivory-visor-automaton-0h8b503e-optimized.glb",
+          "loaderHint": "gltf",
+          "byteSize": 6347472,
+          "runtimeUrl": "https://cdn.mint.gg/glb/ivory-visor-automaton-177b37b172275581.glb"
+        },
+        "ar_usdz": {
+          "artifactId": "ar_usdz",
+          "role": "ar_model",
+          "format": "usdz",
+          "contentType": "model/vnd.usdz+zip",
+          "filename": "figure-03.usdz",
+          "loaderHint": "quick-look",
+          "byteSize": 14827956,
+          "runtimeUrl": "https://cdn.mint.gg/conversions/177b37b172275581/usdz-v1-8593f4b6f334c4da.usdz"
+        },
+        "preview_image": {
+          "artifactId": "preview_image",
+          "role": "preview_image",
+          "format": "webp",
+          "contentType": "image/webp",
+          "filename": "ivory-visor-automaton-0h8b503e-preview.webp",
+          "loaderHint": "image",
+          "byteSize": 49918,
+          "runtimeUrl": "https://cdn.mint.gg/images/models/ivory-visor-automaton-dc6ad9d679bb29bd.webp"
+        }
+      }
+    },
+    "fourier-gr3": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks7amwd57zgn62240r52wfynw98b58d4"
+      },
+      "transform": {
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0],
+        "scale": [1, 1, 1]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "optimized_glb": {
+          "artifactId": "optimized_glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "beige-care-humanoid-w98b58d4-optimized.glb",
+          "loaderHint": "gltf",
+          "byteSize": 6907216,
+          "runtimeUrl": "https://cdn.mint.gg/glb/beige-care-humanoid-73a60a05a5d354a5.glb"
+        },
+        "ar_usdz": {
+          "artifactId": "ar_usdz",
+          "role": "ar_model",
+          "format": "usdz",
+          "contentType": "model/vnd.usdz+zip",
+          "filename": "fourier-gr3.usdz",
+          "loaderHint": "quick-look",
+          "byteSize": 15682494,
+          "runtimeUrl": "https://cdn.mint.gg/conversions/73a60a05a5d354a5/usdz-v1-d9ff24d69e3ef3b8.usdz"
+        },
+        "preview_image": {
+          "artifactId": "preview_image",
+          "role": "preview_image",
+          "format": "webp",
+          "contentType": "image/webp",
+          "filename": "beige-care-humanoid-w98b58d4-preview.webp",
+          "loaderHint": "image",
+          "byteSize": 57670,
+          "runtimeUrl": "https://cdn.mint.gg/images/models/beige-care-humanoid-5271eabf50221766.webp"
+        }
+      }
+    },
+    "neura-4ne1-gen3": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks75k804gmfe9hbfkmxqzger158b57rh"
+      },
+      "transform": {
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0],
+        "scale": [1, 1, 1]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "optimized_glb": {
+          "artifactId": "optimized_glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "white-visor-automaton-158b57rh-optimized.glb",
+          "loaderHint": "gltf",
+          "byteSize": 6727932,
+          "runtimeUrl": "https://cdn.mint.gg/glb/white-visor-automaton-07b87335bb8efb92.glb"
+        },
+        "ar_usdz": {
+          "artifactId": "ar_usdz",
+          "role": "ar_model",
+          "format": "usdz",
+          "contentType": "model/vnd.usdz+zip",
+          "filename": "neura-4ne1-gen3.usdz",
+          "loaderHint": "quick-look",
+          "byteSize": 14962404,
+          "runtimeUrl": "https://cdn.mint.gg/conversions/07b87335bb8efb92/usdz-v1-6316f0fc808690dc.usdz"
+        },
+        "preview_image": {
+          "artifactId": "preview_image",
+          "role": "preview_image",
+          "format": "webp",
+          "contentType": "image/webp",
+          "filename": "white-visor-automaton-158b57rh-preview.webp",
+          "loaderHint": "image",
+          "byteSize": 43150,
+          "runtimeUrl": "https://cdn.mint.gg/images/models/white-visor-automaton-02d390e8bb3f8371.webp"
+        }
+      }
+    },
+    "sanctuary-phoenix-gen8": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks737s121v677hpj4pn234m51s8b4885"
+      },
+      "transform": {
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0],
+        "scale": [1, 1, 1]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "optimized_glb": {
+          "artifactId": "optimized_glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "monolith-dexterity-rover-1s8b4885-optimized.glb",
+          "loaderHint": "gltf",
+          "byteSize": 7039036,
+          "runtimeUrl": "https://cdn.mint.gg/glb/monolith-dexterity-rover-7c8a9e7d2082f381.glb"
+        },
+        "ar_usdz": {
+          "artifactId": "ar_usdz",
+          "role": "ar_model",
+          "format": "usdz",
+          "contentType": "model/vnd.usdz+zip",
+          "filename": "sanctuary-phoenix-gen8.usdz",
+          "loaderHint": "quick-look",
+          "byteSize": 15615668,
+          "runtimeUrl": "https://cdn.mint.gg/conversions/7c8a9e7d2082f381/usdz-v1-9068a994c603349d.usdz"
+        },
+        "preview_image": {
+          "artifactId": "preview_image",
+          "role": "preview_image",
+          "format": "webp",
+          "contentType": "image/webp",
+          "filename": "monolith-dexterity-rover-1s8b4885-preview.webp",
+          "loaderHint": "image",
+          "byteSize": 64184,
+          "runtimeUrl": "https://cdn.mint.gg/images/models/monolith-dexterity-rover-6658ff35fc0cbd3f.webp"
+        }
+      }
+    },
+    "sunday-memo": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks7c5pb0yk2anx3659dvshjg8x8b4gyv"
+      },
+      "transform": {
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0],
+        "scale": [1, 1, 1]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "optimized_glb": {
+          "artifactId": "optimized_glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "orange-halo-housebot-8x8b4gyv-optimized.glb",
+          "loaderHint": "gltf",
+          "byteSize": 6486736,
+          "runtimeUrl": "https://cdn.mint.gg/glb/orange-halo-housebot-13c8d24170def27c.glb"
+        },
+        "ar_usdz": {
+          "artifactId": "ar_usdz",
+          "role": "ar_model",
+          "format": "usdz",
+          "contentType": "model/vnd.usdz+zip",
+          "filename": "sunday-memo.usdz",
+          "loaderHint": "quick-look",
+          "byteSize": 14479988,
+          "runtimeUrl": "https://cdn.mint.gg/conversions/13c8d24170def27c/usdz-v1-1009937f05de807d.usdz"
+        },
+        "preview_image": {
+          "artifactId": "preview_image",
+          "role": "preview_image",
+          "format": "webp",
+          "contentType": "image/webp",
+          "filename": "orange-halo-housebot-8x8b4gyv-preview.webp",
+          "loaderHint": "image",
+          "byteSize": 47150,
+          "runtimeUrl": "https://cdn.mint.gg/images/models/orange-halo-housebot-b070210c06b362f3.webp"
+        }
+      }
+    },
+    "switchbot-onero-h1": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks7484bx20tkkzear2avebdeg98b4vq8"
+      },
+      "transform": {
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0],
+        "scale": [1, 1, 1]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "optimized_glb": {
+          "artifactId": "optimized_glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "white-visor-homematon-g98b4vq8-optimized.glb",
+          "loaderHint": "gltf",
+          "byteSize": 6331548,
+          "runtimeUrl": "https://cdn.mint.gg/glb/white-visor-homematon-c1b8f065cba23795.glb"
+        },
+        "ar_usdz": {
+          "artifactId": "ar_usdz",
+          "role": "ar_model",
+          "format": "usdz",
+          "contentType": "model/vnd.usdz+zip",
+          "filename": "switchbot-onero-h1.usdz",
+          "loaderHint": "quick-look",
+          "byteSize": 14607097,
+          "runtimeUrl": "https://cdn.mint.gg/conversions/c1b8f065cba23795/usdz-v1-0ffb75b58accf4a5.usdz"
+        },
+        "preview_image": {
+          "artifactId": "preview_image",
+          "role": "preview_image",
+          "format": "webp",
+          "contentType": "image/webp",
+          "filename": "white-visor-homematon-g98b4vq8-preview.webp",
+          "loaderHint": "image",
+          "byteSize": 23572,
+          "runtimeUrl": "https://cdn.mint.gg/images/models/white-visor-homematon-1b8a3ec192350f6e.webp"
+        }
+      }
+    },
+    "tesla-optimus": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks76kptb16apqkpvdv9wpe99yd8b543n"
+      },
+      "transform": {
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0],
+        "scale": [1, 1, 1]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "optimized_glb": {
+          "artifactId": "optimized_glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "white-visor-automaton-yd8b543n-optimized.glb",
+          "loaderHint": "gltf",
+          "byteSize": 6640992,
+          "runtimeUrl": "https://cdn.mint.gg/glb/white-visor-automaton-e5965eb21126f9b7.glb"
+        },
+        "ar_usdz": {
+          "artifactId": "ar_usdz",
+          "role": "ar_model",
+          "format": "usdz",
+          "contentType": "model/vnd.usdz+zip",
+          "filename": "tesla-optimus.usdz",
+          "loaderHint": "quick-look",
+          "byteSize": 14592229,
+          "runtimeUrl": "https://cdn.mint.gg/conversions/e5965eb21126f9b7/usdz-v1-38a753b80580e1f1.usdz"
+        },
+        "preview_image": {
+          "artifactId": "preview_image",
+          "role": "preview_image",
+          "format": "webp",
+          "contentType": "image/webp",
+          "filename": "white-visor-automaton-yd8b543n-preview.webp",
+          "loaderHint": "image",
+          "byteSize": 31504,
+          "runtimeUrl": "https://cdn.mint.gg/images/models/white-visor-automaton-a68e099825d4428a.webp"
+        }
+      }
+    },
+    "ubtech-walker-s2": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks7dbbhjpvy4dt3pxg0xmzg5x18b4az5"
+      },
+      "transform": {
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0],
+        "scale": [1, 1, 1]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "optimized_glb": {
+          "artifactId": "optimized_glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "cyan-visor-walker-x18b4az5-optimized.glb",
+          "loaderHint": "gltf",
+          "byteSize": 7056828,
+          "runtimeUrl": "https://cdn.mint.gg/glb/cyan-visor-walker-f1da36b2445171f0.glb"
+        },
+        "ar_usdz": {
+          "artifactId": "ar_usdz",
+          "role": "ar_model",
+          "format": "usdz",
+          "contentType": "model/vnd.usdz+zip",
+          "filename": "ubtech-walker-s2.usdz",
+          "loaderHint": "quick-look",
+          "byteSize": 15189727,
+          "runtimeUrl": "https://cdn.mint.gg/conversions/f1da36b2445171f0/usdz-v1-0e724b4826d035cf.usdz"
+        },
+        "preview_image": {
+          "artifactId": "preview_image",
+          "role": "preview_image",
+          "format": "webp",
+          "contentType": "image/webp",
+          "filename": "cyan-visor-walker-x18b4az5-preview.webp",
+          "loaderHint": "image",
+          "byteSize": 59916,
+          "runtimeUrl": "https://cdn.mint.gg/images/models/cyan-visor-walker-e86abe407513785d.webp"
+        }
+      }
+    },
+    "unitree-g1": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks7dgwbjfefqrfp0c55dpt6r5h8b4bt6"
+      },
+      "transform": {
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0],
+        "scale": [1, 1, 1]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "optimized_glb": {
+          "artifactId": "optimized_glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "graphite-visor-humanoid-5h8b4bt6-optimized.glb",
+          "loaderHint": "gltf",
+          "byteSize": 6591124,
+          "runtimeUrl": "https://cdn.mint.gg/glb/graphite-visor-humanoid-d3a0b4f5448e7afa.glb"
+        },
+        "ar_usdz": {
+          "artifactId": "ar_usdz",
+          "role": "ar_model",
+          "format": "usdz",
+          "contentType": "model/vnd.usdz+zip",
+          "filename": "unitree-g1.usdz",
+          "loaderHint": "quick-look",
+          "byteSize": 14895089,
+          "runtimeUrl": "https://cdn.mint.gg/conversions/d3a0b4f5448e7afa/usdz-v1-6ddc91c856b749ca.usdz"
+        },
+        "preview_image": {
+          "artifactId": "preview_image",
+          "role": "preview_image",
+          "format": "webp",
+          "contentType": "image/webp",
+          "filename": "graphite-visor-humanoid-5h8b4bt6-preview.webp",
+          "loaderHint": "image",
+          "byteSize": 59824,
+          "runtimeUrl": "https://cdn.mint.gg/images/models/graphite-visor-humanoid-7b2c0f44a6898bf4.webp"
+        }
+      }
+    },
+    "weave-isaac-1": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks7cjew1r1ad98y4aw2be2ckhh8b5z7r"
+      },
+      "transform": {
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0],
+        "scale": [1, 1, 1]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "optimized_glb": {
+          "artifactId": "optimized_glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "sage-mast-butler-hh8b5z7r-optimized.glb",
+          "loaderHint": "gltf",
+          "byteSize": 6451344,
+          "runtimeUrl": "https://cdn.mint.gg/glb/sage-mast-butler-df5fd612d2f0a657.glb"
+        },
+        "ar_usdz": {
+          "artifactId": "ar_usdz",
+          "role": "ar_model",
+          "format": "usdz",
+          "contentType": "model/vnd.usdz+zip",
+          "filename": "weave-isaac-1.usdz",
+          "loaderHint": "quick-look",
+          "byteSize": 15313407,
+          "runtimeUrl": "https://cdn.mint.gg/conversions/df5fd612d2f0a657/usdz-v1-e37dad0e6e574151.usdz"
+        },
+        "preview_image": {
+          "artifactId": "preview_image",
+          "role": "preview_image",
+          "format": "webp",
+          "contentType": "image/webp",
+          "filename": "sage-mast-butler-hh8b5z7r-preview.webp",
+          "loaderHint": "image",
+          "byteSize": 46868,
+          "runtimeUrl": "https://cdn.mint.gg/images/models/sage-mast-butler-8467d37828ae7731.webp"
+        }
+      }
+    },
+    "draco-runtime": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "runtime",
+        "assetType": "draco_decoder",
+        "assetId": "draco-gltf-three-0.184.0"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "decoder-path": {
+          "artifactId": "draco-gltf-three-0.184.0",
+          "role": "runtime_decoder_path",
+          "format": "directory",
+          "contentType": "application/octet-stream",
+          "runtimeUrl": "https://cdn.mint.gg/runtime/draco/gltf/three-0.184.0/",
+          "loaderHint": "draco"
+        }
+      }
+    }
+  }
+}

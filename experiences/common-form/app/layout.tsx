@@ -14,7 +14,7 @@ import { StoreJsonLd } from "@/lib/json-ld";
 import { STORE_DESCRIPTION, STORE_NAME, storeAssets } from "@/lib/store";
 
 export const metadata: Metadata = {
-	metadataBase: new URL(process.env.NEXT_PUBLIC_URL ?? "http://localhost:3000"),
+	metadataBase: new URL(process.env.NEXT_PUBLIC_URL ?? "https://play.mint.gg"),
 	title: STORE_NAME,
 	description: STORE_DESCRIPTION,
 	icons: {

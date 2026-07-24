@@ -81,6 +81,8 @@ const DEMO_DATA_VERSION_KEY = "memory-constellation-demo-data-v4-nine-memory-mat
 const SETTINGS_KEY = "memory-constellation-settings-v1";
 const INTRO_KEY = "memory-constellation-intro-seen-v1";
 const MEDIA_DB = "memory-constellation-media-v1";
+const DEFAULT_CAMERA_PITCH = 0.52;
+const WEBGL_TEXTURE_QUERY = "consumer=three";
 
 const STAR_VARIANTS = Object.keys(MEMORY_CONSTELLATION_ASSETS.stars) as MemoryCategory[];
 const STAR_COLORS: Record<MemoryCategory, string> = {
@@ -104,6 +106,8 @@ const splitList = (value: string) =>
     .split(",")
     .map((item) => item.trim())
     .filter(Boolean);
+const webglTextureUrl = (url: string) =>
+  `${url}${url.includes("?") ? "&" : "?"}${WEBGL_TEXTURE_QUERY}`;
 
 const DEMO_SCENARIOS: {
   id: string;
@@ -410,21 +414,30 @@ function ConstellationCanvas({ memories, selectedId, onSelect, onStep, journey, 
       }
       texture.updateMatrix();
     };
-    new THREE.TextureLoader().load(MEMORY_CONSTELLATION_ASSETS.denseBackdrop, (texture) => {
-      if (disposed) {
-        texture.dispose();
-        return;
-      }
-      texture.colorSpace = THREE.SRGBColorSpace;
-      fitSkyTexture(texture);
-      skyTexture = texture;
-      scene.background = texture;
-    });
+    new THREE.TextureLoader().load(
+      webglTextureUrl(MEMORY_CONSTELLATION_ASSETS.denseBackdrop),
+      (texture) => {
+        if (disposed) {
+          texture.dispose();
+          return;
+        }
+        texture.colorSpace = THREE.SRGBColorSpace;
+        fitSkyTexture(texture);
+        skyTexture = texture;
+        scene.background = texture;
+      },
+      undefined,
+      (error) => {
+        if (disposed) return;
+        console.error("Memory Constellation sky texture load failed", error);
+        host.dataset.assetError = "true";
+      },
+    );
     const camera = new THREE.PerspectiveCamera(42, 1, 0.1, 120);
     camera.position.set(0, 4, 20);
     const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true, powerPreference: "high-performance" });
     renderer.setPixelRatio(Math.min(window.devicePixelRatio, 1.75));
-    renderer.setSize(host.clientWidth, host.clientHeight);
+    renderer.setSize(host.clientWidth, host.clientHeight, false);
     renderer.outputColorSpace = THREE.SRGBColorSpace;
     renderer.toneMapping = THREE.ACESFilmicToneMapping;
     renderer.toneMappingExposure = 1.18;
@@ -478,7 +491,7 @@ function ConstellationCanvas({ memories, selectedId, onSelect, onStep, journey, 
     let built = false;
     let raf = 0;
     let yaw = 0;
-    let pitch = 0.17;
+    let pitch = DEFAULT_CAMERA_PITCH;
     const distance = 22;
     const target = new THREE.Vector3(0, 0, 0);
     let pointerDown: { x: number; y: number; yaw: number; pitch: number; moved: boolean } | null = null;
@@ -1288,7 +1301,7 @@ export default function MemoryConstellation() {
     localStorage.setItem(INTRO_KEY, "true");
   };
 
-  const captureDate = formatDate(today());
+  const captureDate = hydrated ? formatDate(today()) : "";
 
   return (
     <main className="mc-app">

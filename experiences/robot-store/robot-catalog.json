@@ -1,0 +1,1062 @@
+{
+  "schema_version": "1.0.0",
+  "catalog_id": "robot-store-research-2026-07-18",
+  "title": "Robot Store Research Catalog",
+  "generated_on": "2026-07-18",
+  "research_cutoff": "2026-07-18",
+  "currency": "USD",
+  "catalog_status": "approved_for_production",
+  "catalog_counts": {
+    "total": 15,
+    "pictured": 7,
+    "peer_additions": 8,
+    "manufacturer_or_store_prices": 4,
+    "reported_market_prices": 1,
+    "fictional_showcase_prices": 10
+  },
+  "normalization": {
+    "units": {
+      "length": "meter",
+      "mass": "kilogram",
+      "speed": "meter_per_second",
+      "runtime": "hour",
+      "battery": "kilowatt_hour",
+      "price": "usd"
+    },
+    "null_semantics": "A null value means the current model's manufacturer did not publish a trustworthy revision-specific value in the reviewed sources.",
+    "reference_view_vocabulary": [
+      "front",
+      "front_three_quarter",
+      "side",
+      "rear",
+      "action",
+      "head_detail",
+      "hand_detail",
+      "material_detail",
+      "mechanical_detail"
+    ],
+    "reference_strength_vocabulary": [
+      "strong",
+      "partial",
+      "missing"
+    ],
+    "source_policy": "Technical specifications come from manufacturer product, support, news, or investor materials. A third-party source is used only for Sprout's reported market price and is labeled accordingly.",
+    "image_policy": "Direct image URLs point to manufacturer-hosted press or product assets for research reference only. Copyright and reuse rights remain with their owners; storefront publication or model-training use requires a later rights check."
+  },
+  "fictional_pricing_methodology": {
+    "purpose": "Provide coherent demo-store merchandising numbers where no public purchase price exists.",
+    "rules": [
+      "Use an official current ownership price when one is publicly offered.",
+      "Keep subscription and deposit information separate from ownership price.",
+      "When only a reputable reported market price is available, label it reported rather than manufacturer-published.",
+      "For unavailable prices, assign a fictional showcase MSRP from market segment, size, payload, endurance, ruggedization, serviceability, development openness, and expected production volume.",
+      "Fictional values are UX placeholders, not quotes, valuations, forecasts, or claims about future manufacturer pricing."
+    ],
+    "tier_anchors_usd": {
+      "consumer_home": [8000, 30000],
+      "developer_research": [13000, 90000],
+      "commercial_service": [75000, 175000],
+      "rugged_continuous_industrial": [150000, 400000]
+    }
+  },
+  "robots": [
+    {
+      "id": "1x-neo",
+      "brand": "1X",
+      "model": "NEO",
+      "revision": "2025-2026 early-access home robot",
+      "display_name": "1X NEO",
+      "inclusion": "pictured",
+      "attachment_match": {
+        "position_from_left": 1,
+        "confidence": "high",
+        "basis": "The 1X wordmark, soft full-body knit suit, minimal face, and human-scale proportions match current NEO product imagery."
+      },
+      "summary": "A soft-bodied, tendon-driven biped intended for household chores, conversation, and progressively learned autonomy, with scheduled remote expert guidance for unfamiliar tasks.",
+      "watch_video": {"provider": "youtube", "video_id": "lS_z60kjVEk", "title": "NEO is Starting to Learn on Its Own", "channel": "1X", "duration_seconds": 270, "watch_url": "https://www.youtube.com/watch?v=lS_z60kjVEk", "embed_url": "https://www.youtube.com/embed/lS_z60kjVEk", "source_type": "official_manufacturer", "embed_verified_on": "2026-07-24"},
+      "market": {
+        "segment": "consumer_home",
+        "category": "general-purpose home humanoid",
+        "form_factor": "full-size humanoid",
+        "locomotion": "bipedal",
+        "target_environments": ["home"],
+        "target_customers": ["households", "early adopters"],
+        "status": "preorder_early_access",
+        "availability": "US deliveries stated to begin in 2026"
+      },
+      "specs": {
+        "dimensions": {"height_m": 1.676, "width_m": null, "depth_m": null, "footprint_width_m": null, "footprint_depth_m": null, "vertical_reach_m": null, "horizontal_reach_m": null},
+        "mass_kg": 29.94,
+        "dof": {"total": 75, "hands_each": 22, "arms_each": 7, "neck": 3, "spine": 2, "legs_each": 6},
+        "payload_kg": {"arm_each": 8.16, "carry": 24.95, "peak_lift": 69.85},
+        "speed_m_s": {"walk": 1.4, "max_run": 6.2},
+        "runtime_h": 4,
+        "charge_h": null,
+        "quick_charge_minutes_per_runtime_hour": 6,
+        "battery_kwh": 0.842,
+        "ingress_protection": {"body": "IP44", "hands": "IP68"},
+        "compute": "1X NEO Cortex using NVIDIA Jetson Thor; up to 2070 FP4 TFLOPS",
+        "sensing": ["linkwise differential IMUs", "microphones", "vision for Redwood AI"],
+        "connectivity": ["mobile app", "voice interface", "VR remote control"],
+        "notes": ["Total DoF is the sum of the manufacturer-published component counts.", "Quick-charge time is published as six minutes per additional hour of runtime."]
+      },
+      "capabilities": ["household chores", "dish handling", "laundry assistance", "voice interaction", "self-charging", "scheduled remote expert guidance"],
+      "pricing": {
+        "public_price": {"status": "manufacturer_published", "ownership_usd": 20000, "subscription_usd_month": 499, "deposit_usd": 200, "notes": "Ownership and subscription are separate options; early-access terms may change."},
+        "store_price": {"usd": 20000, "kind": "manufacturer_price", "confidence": "high", "basis": "Current 1X order page."}
+      },
+      "visual_identity": {
+        "palette": ["warm ivory", "bone white", "soft gray"],
+        "materials": ["knit outer suit", "deformable lattice polymer padding", "matte face shell"],
+        "head": "Small oval head with a blank pale face and paired dark camera apertures.",
+        "torso": "Human-proportioned soft torso with no exposed mechanical frame.",
+        "arms_hands": "Long fabric-covered limbs and five-finger anthropomorphic hands.",
+        "lower_body": "Fully covered humanlike hips, legs, and flat soft feet.",
+        "distinguishing_features": ["continuous knit silhouette", "subtle emotive ear ring", "no exposed joints"]
+      },
+      "reference_images": [
+        {"id": "neo-front-full", "view": "front", "role": "neutral full body", "page_url": "https://www.1x.tech/neo", "direct_url": "https://cdn.sanity.io/images/qka6yvsc/production/ee557c733ef09cd4628692339331fa5abc79239b-1069x2293.webp", "source_type": "manufacturer", "revision_alignment": "exact", "modeling_value": "high"},
+        {"id": "neo-three-quarter", "view": "front_three_quarter", "role": "proportion and drape", "page_url": "https://www.1x.tech/neo", "direct_url": "https://cdn.sanity.io/images/qka6yvsc/production/8353aa0348b725209afd88990b7d51ca050176e2-4096x2730.jpg", "source_type": "manufacturer", "revision_alignment": "exact", "modeling_value": "high"},
+        {"id": "neo-action", "view": "action", "role": "articulation and scale", "page_url": "https://www.1x.tech/neo", "direct_url": "https://cdn.sanity.io/images/qka6yvsc/production/16ac313d16c3550c96e2d9432ca52b07e887ec44-1920x1080.webp", "source_type": "manufacturer", "revision_alignment": "exact", "modeling_value": "medium"},
+        {"id": "neo-material", "view": "material_detail", "role": "soft-body material", "page_url": "https://www.1x.tech/neo", "direct_url": "https://cdn.sanity.io/images/qka6yvsc/production/610080b1b2dcbf039e0248b833f7b0cc1414fbb2-3840x2160.webp", "source_type": "manufacturer", "revision_alignment": "exact", "modeling_value": "high"}
+      ],
+      "reference_coverage": {"front": "strong", "front_three_quarter": "strong", "side": "missing", "rear": "missing", "head_detail": "partial", "hand_detail": "partial", "material_detail": "strong", "score_out_of_5": 3.2, "blockers": ["Add exact side and rear views before final modeling."], "ready_for_3d": false},
+      "sources": [
+        {"title": "NEO Home Robot", "publisher": "1X", "url": "https://www.1x.tech/neo", "type": "manufacturer_product", "supports": ["specifications", "capabilities", "visual references"]},
+        {"title": "Order NEO", "publisher": "1X", "url": "https://www.1x.tech/order", "type": "manufacturer_store", "supports": ["price", "deposit", "delivery timing"]}
+      ],
+      "quality": {"spec_confidence": "high", "price_confidence": "high", "revision_confidence": "high", "open_issues": ["No official side or rear still was located."]}
+    },
+    {
+      "id": "fourier-gr3",
+      "brand": "Fourier",
+      "model": "GR-3",
+      "revision": "2025 care-bot",
+      "display_name": "Fourier GR-3",
+      "inclusion": "pictured",
+      "attachment_match": {
+        "position_from_left": 2,
+        "confidence": "high",
+        "basis": "The Fourier logo, warm beige padded shell, narrow eye display, and GR-3 joint layout match Fourier's current care-bot."
+      },
+      "summary": "A full-size social and assistive humanoid with a padded automotive-upholstery exterior, multimodal interaction, dexterous hands, developer interfaces, and hot-swappable batteries.",
+      "watch_video": {"provider": "youtube", "video_id": "xNxtKU7Wq98", "title": "Fourier GR-3: How to Be a Good Robot?", "channel": "Fourier", "duration_seconds": 84, "watch_url": "https://www.youtube.com/watch?v=xNxtKU7Wq98", "embed_url": "https://www.youtube-nocookie.com/embed/xNxtKU7Wq98", "source_type": "official_manufacturer", "embed_verified_on": "2026-07-24"},
+      "market": {
+        "segment": "developer_research",
+        "category": "care and social humanoid platform",
+        "form_factor": "full-size humanoid",
+        "locomotion": "bipedal",
+        "target_environments": ["public service", "research", "clinical care", "future home"],
+        "target_customers": ["research labs", "healthcare developers", "service integrators"],
+        "status": "commercial_contact_sales",
+        "availability": "Contact Fourier"
+      },
+      "specs": {
+        "dimensions": {"height_m": 1.642, "width_m": 0.552, "depth_m": 0.292, "footprint_width_m": null, "footprint_depth_m": null, "vertical_reach_m": null, "horizontal_reach_m": null},
+        "mass_kg": 71,
+        "dof": {"total": 55, "hands_each": 12, "arms_each": 7, "neck": 2, "waist": 3, "legs_each": 6},
+        "payload_kg": {"arm_each": 3, "carry": null, "peak_lift": null},
+        "speed_m_s": {"walk": 1.694, "max_run": null},
+        "runtime_h": 3,
+        "charge_h": 1.5,
+        "quick_charge_minutes_per_runtime_hour": null,
+        "battery_kwh": 0.936,
+        "ingress_protection": null,
+        "compute": "AMD Ryzen 7 8845HS, 32 GB memory, 1 TB storage, Ubuntu 22.04",
+        "sensing": ["monocular camera", "6-axis IMU", "360-degree microphone pickup", "distributed head and torso tactile sensors"],
+        "connectivity": ["Ethernet", "Wi-Fi 6", "USB 3.0", "USB-C", "VR or exoskeleton teleoperation"],
+        "notes": ["Fourier's brochure additionally describes RGB plus structured-light vision, four microphones, and 31 distributed pressure sensors.", "Width and depth use the detailed Fourier support specification; announcement height rounds to 1.65 m."]
+      },
+      "capabilities": ["social interaction", "voice interaction", "tactile response", "navigation", "practical assistance", "developer APIs", "hot-swappable battery"],
+      "pricing": {
+        "public_price": {"status": "not_published", "ownership_usd": null, "subscription_usd_month": null, "deposit_usd": null, "notes": "Contact sales."},
+        "store_price": {"usd": 78000, "kind": "fictional_showcase_msrp", "confidence": "low", "basis": "Full-size 55-DoF research and care platform priced above Sprout's reported developer price but below rugged industrial tiers."}
+      },
+      "visual_identity": {
+        "palette": ["warm beige", "cream", "dark brown", "soft black"],
+        "materials": ["automotive-grade upholstery", "foam padding", "engineering plastic", "aluminum structure"],
+        "head": "Rounded rectangular cream head with a thin black eye visor and compact top sensor slot.",
+        "torso": "Broad padded chest and abdomen with subtle Fourier mark.",
+        "arms_hands": "Segmented beige padded arms with dark joint gaps and dexterous five-finger hands.",
+        "lower_body": "Mechanical biped legs softened by rounded padded armor panels.",
+        "distinguishing_features": ["soft monochrome care aesthetic", "rounded shoulder caps", "friendly compact face"]
+      },
+      "reference_images": [
+        {"id": "gr3-hero", "view": "front_three_quarter", "role": "upper-body hero", "page_url": "https://www.fftai.com/grx/gr3", "direct_url": "https://www.fftai.com/gr3-webp/Banner.webp", "source_type": "manufacturer", "revision_alignment": "exact", "modeling_value": "high"},
+        {"id": "gr3-leg", "view": "mechanical_detail", "role": "leg construction", "page_url": "https://www.fftai.com/grx/gr3", "direct_url": "https://www.fftai.com/gr3-webp/FreedomLeg.webp", "source_type": "manufacturer", "revision_alignment": "exact", "modeling_value": "high"},
+        {"id": "gr3-hand", "view": "hand_detail", "role": "dexterous hand", "page_url": "https://www.fftai.com/grx/gr3", "direct_url": "https://www.fftai.com/gr3-webp/FreedomHand.webp", "source_type": "manufacturer", "revision_alignment": "exact", "modeling_value": "high"},
+        {"id": "gr3-material", "view": "material_detail", "role": "upholstery and padding", "page_url": "https://www.fftai.com/grx/gr3", "direct_url": "https://www.fftai.com/gr3-webp/Material.webp", "source_type": "manufacturer", "revision_alignment": "exact", "modeling_value": "high"}
+      ],
+      "reference_coverage": {"front": "partial", "front_three_quarter": "strong", "side": "missing", "rear": "missing", "head_detail": "strong", "hand_detail": "strong", "material_detail": "strong", "score_out_of_5": 3.3, "blockers": ["Add a clean full-body front, exact side, and rear reference."], "ready_for_3d": false},
+      "sources": [
+        {"title": "Robot Overview: GR-3", "publisher": "Fourier", "url": "https://support.fftai.com/en/getting-started/general-information", "type": "manufacturer_support", "supports": ["dimensions", "DoF", "payload", "battery", "compute", "sensors"]},
+        {"title": "Fourier Unveils Its First Care-Centric Humanoid GR-3", "publisher": "Fourier", "url": "https://www.fftai.com/newsroom-humanoid/26", "type": "manufacturer_announcement", "supports": ["positioning", "materials", "release", "capabilities"]},
+        {"title": "GR-3 Product Brochure", "publisher": "Fourier", "url": "https://www.fftai.com/uploads/upload/files/20251022/425294838296d52b62b802c68128c30f.pdf", "type": "manufacturer_spec_sheet", "supports": ["rounded dimensions", "interaction sensors"]}
+      ],
+      "quality": {"spec_confidence": "high", "price_confidence": "fictional", "revision_confidence": "high", "open_issues": ["Manufacturer pricing is private.", "The official still set lacks full orthographic coverage."]}
+    },
+    {
+      "id": "fauna-sprout",
+      "brand": "Fauna Robotics",
+      "model": "Sprout",
+      "revision": "Creator Edition 2026",
+      "display_name": "Fauna Sprout",
+      "inclusion": "pictured",
+      "attachment_match": {
+        "position_from_left": 3,
+        "confidence": "high",
+        "basis": "The Fauna Robotics label, compact white-and-yellow body, LED face, and exact limb proportions match Sprout Creator Edition."
+      },
+      "summary": "A compact, lightweight, soft-bodied humanoid development platform built for safe interaction, modular autonomy, teleoperation, expressive behavior, and human-scale research environments.",
+      "watch_video": {"provider": "youtube", "video_id": "pO9MEqs7H2s", "title": "Meet Sprout | A Humanoid Robotics Platform for the Real World", "channel": "Fauna Robotics", "duration_seconds": 86, "watch_url": "https://www.youtube.com/watch?v=pO9MEqs7H2s", "embed_url": "https://www.youtube-nocookie.com/embed/pO9MEqs7H2s", "source_type": "official_manufacturer", "embed_verified_on": "2026-07-24"},
+      "market": {
+        "segment": "developer_research",
+        "category": "compact humanoid developer platform",
+        "form_factor": "compact humanoid",
+        "locomotion": "bipedal",
+        "target_environments": ["research lab", "education", "retail", "entertainment", "home services R&D"],
+        "target_customers": ["researchers", "educators", "commercial developers"],
+        "status": "shipping_contact_sales",
+        "availability": "Available by request"
+      },
+      "specs": {
+        "dimensions": {"height_m": 1.07, "width_m": null, "depth_m": null, "footprint_width_m": null, "footprint_depth_m": null, "vertical_reach_m": null, "horizontal_reach_m": null},
+        "mass_kg": 22.7,
+        "dof": {"total": 29, "hands_each": 1, "arms_each": 6, "neck": 2, "spine": null, "legs_each": 5},
+        "payload_kg": {"arm_each": null, "carry": null, "peak_lift": null},
+        "speed_m_s": {"walk": null, "max_run": null},
+        "runtime_h": {"min": 3, "max": 3.5},
+        "charge_h": null,
+        "quick_charge_minutes_per_runtime_hour": null,
+        "battery_kwh": null,
+        "ingress_protection": null,
+        "compute": "NVIDIA Jetson AGX Orin 64 GB with 1 TB SSD",
+        "sensing": ["ZED 2i stereo camera", "four time-of-flight sensors", "torso IMU", "directional four-microphone array"],
+        "connectivity": ["Ethernet", "whole-body teleoperation", "developer APIs"],
+        "notes": ["Published total DoF includes active eyebrows.", "Swappable battery and grippers are included with Creator Edition."]
+      },
+      "capabilities": ["walking", "kneeling", "crawling", "sitting", "mapping", "navigation", "human awareness", "conversation", "whole-body teleoperation", "expressive LED face"],
+      "pricing": {
+        "public_price": {"status": "reported_not_manufacturer_published", "ownership_usd": 50000, "subscription_usd_month": null, "deposit_usd": null, "notes": "Associated Press reported the $50,000 price; Fauna's product page uses request-a-robot rather than public checkout."},
+        "store_price": {"usd": 50000, "kind": "reported_market_price", "confidence": "medium", "basis": "Reputable reporting, retained with explicit non-manufacturer label."}
+      },
+      "visual_identity": {
+        "palette": ["warm white", "black", "mustard yellow", "sage optional finish"],
+        "materials": ["soft-touch polymer shell", "rubber gripper pads", "matte joint covers", "LED face panel"],
+        "head": "Small rounded head with wide black facial display, paired white LED eyes, and articulated eyebrows.",
+        "torso": "Compact egg-shaped white torso with black waist separation.",
+        "arms_hands": "Slim mechanical limbs with yellow shoulder caps and durable single-DoF grippers.",
+        "lower_body": "Short five-DoF legs with rounded armor and wide low-impact feet.",
+        "distinguishing_features": ["child-height silhouette", "bright yellow joint accents", "animated eyebrows"]
+      },
+      "reference_images": [
+        {"id": "sprout-three-quarter", "view": "front_three_quarter", "role": "full-body proportion", "page_url": "https://faunarobotics.com/product", "direct_url": "https://cdn.prod.website-files.com/693933367980a29f6ff36b6d/6968af350a9679264eb0d177_Shot%201.avif", "source_type": "manufacturer", "revision_alignment": "exact", "modeling_value": "high"},
+        {"id": "sprout-rear", "view": "rear", "role": "rear upper-body construction", "page_url": "https://faunarobotics.com/product", "direct_url": "https://cdn.prod.website-files.com/693933367980a29f6ff36b6d/6968ab6ce72d938c58e73659_Shot%205.avif", "source_type": "manufacturer", "revision_alignment": "exact", "modeling_value": "high"},
+        {"id": "sprout-hand", "view": "hand_detail", "role": "gripper and forearm", "page_url": "https://faunarobotics.com/product", "direct_url": "https://cdn.prod.website-files.com/693933367980a29f6ff36b6d/6968ab49cf88e29cad5538fc_Shot%204.avif", "source_type": "manufacturer", "revision_alignment": "exact", "modeling_value": "high"},
+        {"id": "sprout-legs", "view": "mechanical_detail", "role": "leg and foot construction", "page_url": "https://faunarobotics.com/product", "direct_url": "https://cdn.prod.website-files.com/693933367980a29f6ff36b6d/6968aba097fbf954dbba6002_Shot%206.avif", "source_type": "manufacturer", "revision_alignment": "exact", "modeling_value": "high"}
+      ],
+      "reference_coverage": {"front": "partial", "front_three_quarter": "strong", "side": "partial", "rear": "strong", "head_detail": "strong", "hand_detail": "strong", "material_detail": "strong", "score_out_of_5": 4.2, "blockers": ["Add a clean neutral front and exact side view."], "ready_for_3d": true},
+      "sources": [
+        {"title": "Sprout Creator Edition", "publisher": "Fauna Robotics", "url": "https://faunarobotics.com/product", "type": "manufacturer_product", "supports": ["specifications", "capabilities", "availability", "visual references"]},
+        {"title": "Fauna Robotics Unveils Sprout", "publisher": "Fauna Robotics", "url": "https://faunarobotics.com/news/fauna-robotics-launches-sprout-the-easiest-way-to-build-with-humanoids", "type": "manufacturer_announcement", "supports": ["release date", "customers", "safety design"]},
+        {"title": "Amazon Acquires Fauna Robotics", "publisher": "Associated Press", "url": "https://apnews.com/article/f51ced4a097b1af56b0b2561cdca8fef", "type": "independent_reporting", "supports": ["reported price"]}
+      ],
+      "quality": {"spec_confidence": "high", "price_confidence": "medium_reported", "revision_confidence": "high", "open_issues": ["Price is reported rather than manufacturer-published."]}
+    },
+    {
+      "id": "sunday-memo",
+      "brand": "Sunday",
+      "model": "Memo",
+      "revision": "2025-2026 home beta",
+      "display_name": "Sunday Memo",
+      "inclusion": "pictured",
+      "attachment_match": {
+        "position_from_left": 4,
+        "confidence": "high",
+        "basis": "The Sunday mark, white wheeled pedestal, orange waist and shoulder accents, and suspended long arms match Memo."
+      },
+      "summary": "A wheeled household robot with a telescoping body and long arms, designed to learn domestic manipulation from first-person data and perform chores autonomously without in-home teleoperation.",
+      "watch_video": {"provider": "youtube", "video_id": "ERH-tMUHV1E", "title": "Introducing Memo, from Sunday", "channel": "Sunday Robotics", "duration_seconds": 63, "watch_url": "https://www.youtube.com/watch?v=ERH-tMUHV1E", "embed_url": "https://www.youtube-nocookie.com/embed/ERH-tMUHV1E", "source_type": "official_manufacturer", "embed_verified_on": "2026-07-24"},
+      "market": {
+        "segment": "consumer_home",
+        "category": "mobile household manipulator",
+        "form_factor": "wheeled torso with two arms",
+        "locomotion": "wheeled",
+        "target_environments": ["home"],
+        "target_customers": ["beta households", "future consumers"],
+        "status": "private_beta_planned",
+        "availability": "Beta stated for late 2026"
+      },
+      "specs": {
+        "dimensions": {"height_m": 1.219, "width_m": null, "depth_m": null, "footprint_width_m": null, "footprint_depth_m": null, "vertical_reach_m": 2.134, "horizontal_reach_m": null},
+        "mass_kg": null,
+        "dof": {"total": null, "hands_each": null, "arms_each": null, "neck": null, "spine": null, "legs_each": 0},
+        "payload_kg": {"arm_each": null, "carry": null, "peak_lift": null},
+        "speed_m_s": {"walk": null, "max_run": null},
+        "runtime_h": null,
+        "charge_h": null,
+        "quick_charge_minutes_per_runtime_hour": null,
+        "battery_kwh": null,
+        "ingress_protection": null,
+        "compute": null,
+        "sensing": ["vision", "proprioception", "force feedback"],
+        "connectivity": null,
+        "notes": ["Memo rests at about 4 ft and can reach about 7 ft.", "Sunday says current hardware costs about $20,000 to build and expects manufacturing to reduce costs by at least 50%.", "Published motion is software-limited to roughly half human pace; no absolute speed is given."]
+      },
+      "capabilities": ["dish loading", "coffee preparation", "laundry handling", "general domestic manipulation", "autonomous execution", "first-person demonstration learning"],
+      "pricing": {
+        "public_price": {"status": "not_published", "ownership_usd": null, "subscription_usd_month": null, "deposit_usd": null, "notes": "Sunday publishes current build cost, not a retail offer."},
+        "store_price": {"usd": 9995, "kind": "fictional_showcase_msrp", "confidence": "medium", "basis": "Rounded just below half of Sunday's stated approximately $20,000 current build cost, matching the company's stated expectation of at least a 50% manufacturing reduction."}
+      },
+      "visual_identity": {
+        "palette": ["gloss white", "safety orange", "black", "warm gray"],
+        "materials": ["smooth polymer shell", "silicone protective shell", "black rubber wheel trim"],
+        "head": "Small white capsule head with a horizontal black eye strip and orange cap.",
+        "torso": "Tall white-and-orange central body with a tapered waist and telescoping pedestal.",
+        "arms_hands": "Extremely long slim white arms, black wrist modules, and compact dexterous hands.",
+        "lower_body": "Wide white circular mobile base with low-profile wheels.",
+        "distinguishing_features": ["orange halo cap", "long hanging arms", "round pedestal base"]
+      },
+      "reference_images": [
+        {"id": "memo-action-full", "view": "front_three_quarter", "role": "full robot in home", "page_url": "https://www.sunday.ai/", "direct_url": "https://image.mux.com/xLLkokRSG7wrmPVmYfSE3Hz2TwlKI83Ohf8vHejgI4o/thumbnail.webp?time=0", "source_type": "manufacturer", "revision_alignment": "exact", "modeling_value": "medium"},
+        {"id": "memo-head", "view": "head_detail", "role": "head and surface construction", "page_url": "https://www.sunday.ai/", "direct_url": "https://cdn.sanity.io/images/1omys9i3/production/f085507a0a9c42a1c67e34b8e437415b902eb721-1000x1500.jpg", "source_type": "manufacturer", "revision_alignment": "exact", "modeling_value": "high"},
+        {"id": "memo-scale", "view": "action", "role": "human scale and upper body", "page_url": "https://www.sunday.ai/", "direct_url": "https://cdn.sanity.io/images/1omys9i3/production/c49ba051575372599017883e013d919c545be21f-2400x1600.jpg", "source_type": "manufacturer", "revision_alignment": "exact", "modeling_value": "medium"}
+      ],
+      "reference_coverage": {"front": "partial", "front_three_quarter": "partial", "side": "missing", "rear": "missing", "head_detail": "strong", "hand_detail": "missing", "material_detail": "partial", "score_out_of_5": 2.2, "blockers": ["Add clean full-body neutral front, side, rear, hand, and base views."], "ready_for_3d": false},
+      "sources": [
+        {"title": "Sunday Home", "publisher": "Sunday", "url": "https://www.sunday.ai/", "type": "manufacturer_product", "supports": ["appearance", "capabilities", "beta timing", "build cost"]},
+        {"title": "Technology", "publisher": "Sunday", "url": "https://www.sunday.ai/technology", "type": "manufacturer_technology", "supports": ["autonomy approach", "data collection", "robot design"]}
+      ],
+      "quality": {"spec_confidence": "medium", "price_confidence": "fictional", "revision_confidence": "high", "open_issues": ["No public mass, payload, runtime, DoF, or retail price.", "Reference coverage is insufficient for accurate modeling."]}
+    },
+    {
+      "id": "weave-isaac-1",
+      "brand": "Weave Robotics",
+      "model": "Isaac 1",
+      "revision": "2026 preorder",
+      "display_name": "Weave Isaac 1",
+      "inclusion": "pictured",
+      "attachment_match": {
+        "position_from_left": 5,
+        "confidence": "high",
+        "basis": "The Weave mark, sage fabric shell, small eye visor, telescoping column, dual arms, and wheeled base match Isaac 1."
+      },
+      "summary": "A telescoping dual-arm home robot for laundry and daily room reset tasks, autonomous by default with teleoperation assistance when needed.",
+      "watch_video": {"provider": "youtube", "video_id": "m7pZr90BQw4", "title": "Launching Isaac 1: our most capable home robot", "channel": "Weave Robotics", "duration_seconds": 77, "watch_url": "https://www.youtube.com/watch?v=m7pZr90BQw4", "embed_url": "https://www.youtube-nocookie.com/embed/m7pZr90BQw4", "source_type": "official_manufacturer", "embed_verified_on": "2026-07-24"},
+      "market": {
+        "segment": "consumer_home",
+        "category": "mobile household manipulator",
+        "form_factor": "wheeled telescoping torso with two arms",
+        "locomotion": "wheeled",
+        "target_environments": ["home"],
+        "target_customers": ["households"],
+        "status": "preorder",
+        "availability": "California deliveries fall 2026; broader US availability through 2027"
+      },
+      "specs": {
+        "dimensions": {"height_m": {"min": 0.914, "max": 1.753}, "width_m": null, "depth_m": null, "footprint_width_m": 0.521, "footprint_depth_m": 0.559, "vertical_reach_m": 2.032, "horizontal_reach_m": 0.965},
+        "mass_kg": null,
+        "dof": {"total": 21, "hands_each": 1, "arms_each": 6, "neck": 2, "torso": 2, "base": 3, "legs_each": 0},
+        "payload_kg": {"arm_each": null, "carry": null, "peak_lift": null},
+        "speed_m_s": {"walk": null, "max_run": null},
+        "runtime_h": 8,
+        "charge_h": 2,
+        "quick_charge_minutes_per_runtime_hour": null,
+        "battery_kwh": null,
+        "ingress_protection": null,
+        "compute": null,
+        "sensing": ["head cameras with physical privacy shutters", "proprietary safety system"],
+        "connectivity": ["Wi-Fi", "smartphone companion app", "teleoperation assistance"],
+        "notes": ["Total DoF is the sum of neck, arms, hands, torso, and base values published by Weave."]
+      },
+      "capabilities": ["collecting laundry", "moving hampers", "folding and putting away clothes", "making beds", "resetting rooms", "scheduled autonomous work", "assisted teleoperation"],
+      "pricing": {
+        "public_price": {"status": "manufacturer_published", "ownership_usd": 7999, "subscription_usd_month": 449, "deposit_usd": 250, "notes": "Optional premium membership listed at $99 per month."},
+        "store_price": {"usd": 7999, "kind": "manufacturer_price", "confidence": "high", "basis": "Current Isaac 1 preorder page."}
+      },
+      "visual_identity": {
+        "palette": ["sage green", "olive", "warm gray", "black", "orange fingertip accents"],
+        "materials": ["detachable soft fabric shell", "matte polymer joints", "rubberized wheel base"],
+        "head": "Small rounded rectangular head with dark visor and two bright eye apertures.",
+        "torso": "Broad soft-covered shoulder body on an exposed telescoping center column.",
+        "arms_hands": "Chunky rounded arm segments with compact multi-purpose grippers and orange tips.",
+        "lower_body": "Single telescoping mast terminating in a broad rounded rectangular mobile base.",
+        "distinguishing_features": ["soft sage shell", "collapsible torso", "single central mast", "low wheeled base"]
+      },
+      "reference_images": [
+        {"id": "isaac1-front", "view": "front", "role": "clean full product render", "page_url": "https://www.weaverobotics.com/isaac-1", "direct_url": "https://www.weaverobotics.com/images/products/isaac-1-order/sage-narrow-v2.webp", "source_type": "manufacturer", "revision_alignment": "exact", "modeling_value": "high"},
+        {"id": "isaac1-face", "view": "head_detail", "role": "camera and face design", "page_url": "https://www.weaverobotics.com/isaac-1", "direct_url": "https://www.weaverobotics.com/images/products/isaac-1-face.webp", "source_type": "manufacturer", "revision_alignment": "exact", "modeling_value": "high"},
+        {"id": "isaac1-home", "view": "action", "role": "human scale and environment", "page_url": "https://www.weaverobotics.com/isaac-1", "direct_url": "https://www.weaverobotics.com/videos/posters/isaac-1/isaac1-at-home.jpg", "source_type": "manufacturer", "revision_alignment": "exact", "modeling_value": "medium"},
+        {"id": "isaac1-laundry", "view": "action", "role": "arm articulation", "page_url": "https://www.weaverobotics.com/isaac-1", "direct_url": "https://www.weaverobotics.com/videos/posters/isaac-1/isaac1-laundry.jpg", "source_type": "manufacturer", "revision_alignment": "exact", "modeling_value": "medium"}
+      ],
+      "reference_coverage": {"front": "strong", "front_three_quarter": "strong", "side": "partial", "rear": "missing", "head_detail": "strong", "hand_detail": "partial", "material_detail": "strong", "score_out_of_5": 3.8, "blockers": ["Add a clean rear view and isolated hand/base detail."], "ready_for_3d": true},
+      "sources": [
+        {"title": "Isaac 1", "publisher": "Weave Robotics", "url": "https://www.weaverobotics.com/isaac-1", "type": "manufacturer_product", "supports": ["specifications", "capabilities", "delivery timing", "price", "visual references"]},
+        {"title": "Pre-order Isaac 1", "publisher": "Weave Robotics", "url": "https://www.weaverobotics.com/isaac-1/order", "type": "manufacturer_store", "supports": ["ownership price", "subscription", "deposit"]}
+      ],
+      "quality": {"spec_confidence": "high", "price_confidence": "high", "revision_confidence": "high", "open_issues": ["Mass, payload, and rear design are not publicly documented."]}
+    },
+    {
+      "id": "boston-dynamics-atlas",
+      "brand": "Boston Dynamics",
+      "model": "Atlas",
+      "revision": "electric Atlas, 2024 prototype to 2026 product lineage",
+      "display_name": "Boston Dynamics Atlas",
+      "inclusion": "pictured",
+      "attachment_match": {
+        "position_from_left": 6,
+        "confidence": "high_model_medium_revision",
+        "basis": "The Boston Dynamics mark and blue-and-black electric Atlas body are definitive; the attachment appears closer to the 2024-2025 prototype styling than the latest 2026 product render."
+      },
+      "summary": "A rugged all-electric industrial humanoid for autonomous material handling and machine tending, engineered for continuous operation, high payloads, wide joint ranges, and industrial environmental protection.",
+      "watch_video": {"provider": "youtube", "video_id": "rrUHZKlrxms", "title": "Atlas | Product Features | Boston Dynamics", "channel": "Boston Dynamics", "duration_seconds": 103, "watch_url": "https://www.youtube.com/watch?v=rrUHZKlrxms", "embed_url": "https://www.youtube-nocookie.com/embed/rrUHZKlrxms", "source_type": "official_manufacturer", "embed_verified_on": "2026-07-24"},
+      "market": {
+        "segment": "rugged_continuous_industrial",
+        "category": "industrial humanoid",
+        "form_factor": "full-size humanoid",
+        "locomotion": "bipedal",
+        "target_environments": ["automotive manufacturing", "warehouse", "industrial facility"],
+        "target_customers": ["large manufacturers", "industrial automation operators"],
+        "status": "limited_commercial_deployment",
+        "availability": "Boston Dynamics stated 2026 deployments were committed to Hyundai and Google DeepMind"
+      },
+      "specs": {
+        "dimensions": {"height_m": 1.9, "width_m": null, "depth_m": null, "footprint_width_m": null, "footprint_depth_m": null, "vertical_reach_m": 2.3, "horizontal_reach_m": null},
+        "mass_kg": 90,
+        "dof": {"total": 56, "hands_each": null, "arms_each": null, "neck": null, "spine": null, "legs_each": null},
+        "payload_kg": {"instantaneous": 50, "sustained": 30, "one_hand": 20},
+        "speed_m_s": {"walk": null, "max_run": null},
+        "runtime_h": {"typical": 4, "heavy": 2},
+        "charge_h": 1.5,
+        "battery_swap_minutes": 3,
+        "battery_kwh": null,
+        "ingress_protection": "IP67",
+        "operating_temperature_c": {"min": -20, "max": 40},
+        "compute": null,
+        "sensing": ["360-degree camera coverage", "tactile sensing in hands", "industrial perception stack"],
+        "connectivity": ["autonomous workflows", "VR teleoperation", "tablet control", "110 V and 220 V charging"],
+        "notes": ["Payload categories are kept distinct because the manufacturer publishes instantaneous, sustained, and one-hand values."]
+      },
+      "capabilities": ["material handling", "machine tending", "autonomous navigation", "high-reach manipulation", "self battery swap", "VR teleoperation", "industrial fleet operation"],
+      "pricing": {
+        "public_price": {"status": "not_published", "ownership_usd": null, "subscription_usd_month": null, "deposit_usd": null, "notes": "Enterprise deployment pricing is private."},
+        "store_price": {"usd": 395000, "kind": "fictional_showcase_msrp", "confidence": "low", "basis": "Top catalog tier based on 50 kg instantaneous payload, IP67 protection, wide temperature range, self-swapping battery, and scarce industrial deployment."}
+      },
+      "visual_identity": {
+        "palette": ["electric blue", "matte black", "dark graphite"],
+        "materials": ["hard composite armor", "exposed elastomer bellows", "metal joint structures", "tactile gripper surfaces"],
+        "head": "Compact cylindrical sensor head with a large circular dark face aperture.",
+        "torso": "Dense rectangular blue core surrounded by black shoulder and waist mechanics.",
+        "arms_hands": "Powerful black-and-blue segmented arms with industrial three-finger end effectors.",
+        "lower_body": "Long reverse-articulated black legs with blue joint rings and broad industrial feet.",
+        "distinguishing_features": ["circular face aperture", "blue joint housings", "extreme joint rotation", "non-human industrial stance"]
+      },
+      "reference_images": [
+        {"id": "atlas-current-render", "view": "front_three_quarter", "role": "current product design", "page_url": "https://bostondynamics.com/products/atlas/", "direct_url": "https://bostondynamics.com/wp-content/uploads/2026/01/atlas-render-blog.jpg", "source_type": "manufacturer", "revision_alignment": "exact_current_product", "modeling_value": "high"},
+        {"id": "atlas-blue-full", "view": "front_three_quarter", "role": "attachment-era blue prototype", "page_url": "https://bostondynamics.com/products/atlas/", "direct_url": "https://bostondynamics.com/wp-content/uploads/2024/04/atlas-blue-mobile-copy.jpg", "source_type": "manufacturer", "revision_alignment": "exact_attachment_lineage", "modeling_value": "high"},
+        {"id": "atlas-hand", "view": "hand_detail", "role": "industrial hand", "page_url": "https://bostondynamics.com/products/atlas/", "direct_url": "https://bostondynamics.com/wp-content/uploads/2024/10/atlas-hands-on.jpg", "source_type": "manufacturer", "revision_alignment": "adjacent_prototype", "modeling_value": "high"},
+        {"id": "atlas-work", "view": "action", "role": "current articulation and scale", "page_url": "https://bostondynamics.com/products/atlas/", "direct_url": "https://bostondynamics.com/wp-content/uploads/2025/12/atlas-on-the-job-1024x723.jpg", "source_type": "manufacturer", "revision_alignment": "near_current", "modeling_value": "medium"}
+      ],
+      "reference_coverage": {"front": "strong", "front_three_quarter": "strong", "side": "partial", "rear": "partial", "head_detail": "strong", "hand_detail": "strong", "material_detail": "strong", "score_out_of_5": 4.1, "blockers": ["Choose attachment-era blue prototype or current 2026 production design before modeling; do not hybridize them."], "ready_for_3d": false},
+      "sources": [
+        {"title": "Atlas", "publisher": "Boston Dynamics", "url": "https://bostondynamics.com/products/atlas/", "type": "manufacturer_product", "supports": ["positioning", "availability", "capabilities", "visual references"]},
+        {"title": "Atlas Specification Sheet", "publisher": "Boston Dynamics", "url": "https://bostondynamics.com/wp-content/uploads/2026/01/atlas-spec-sheet.pdf", "type": "manufacturer_spec_sheet", "supports": ["dimensions", "payload", "runtime", "IP rating", "temperature", "DoF"]}
+      ],
+      "quality": {"spec_confidence": "high_current_product", "price_confidence": "fictional", "revision_confidence": "medium", "open_issues": ["User approval must freeze whether the store represents the pictured prototype styling or current production styling."]}
+    },
+    {
+      "id": "figure-03",
+      "brand": "Figure",
+      "model": "Figure 03",
+      "revision": "F.03, 2025-2026",
+      "display_name": "Figure 03",
+      "inclusion": "pictured",
+      "attachment_match": {
+        "position_from_left": 7,
+        "confidence": "high",
+        "basis": "The Figure mark, white body, black face panel, three-dot chest mark, and current F.03 proportions match Figure 03."
+      },
+      "summary": "A general-purpose electric humanoid using Figure's Helix AI for autonomous household and workforce tasks, with human-scale reach, dexterous hands, and a five-hour published runtime.",
+      "watch_video": {"provider": "youtube", "video_id": "Eu5mYMavctM", "title": "Introducing Figure 03", "channel": "Figure", "duration_seconds": 379, "watch_url": "https://www.youtube.com/watch?v=Eu5mYMavctM", "embed_url": "https://www.youtube-nocookie.com/embed/Eu5mYMavctM", "source_type": "official_manufacturer", "embed_verified_on": "2026-07-24"},
+      "market": {
+        "segment": "commercial_service",
+        "category": "general-purpose humanoid",
+        "form_factor": "full-size humanoid",
+        "locomotion": "bipedal",
+        "target_environments": ["home", "manufacturing", "warehouse"],
+        "target_customers": ["enterprise operators", "future households"],
+        "status": "commercial_pilot_and_development",
+        "availability": "Not offered through public retail checkout"
+      },
+      "specs": {
+        "dimensions": {"height_m": 1.727, "width_m": null, "depth_m": null, "footprint_width_m": null, "footprint_depth_m": null, "vertical_reach_m": null, "horizontal_reach_m": null},
+        "mass_kg": 61,
+        "dof": {"total": null, "hands_each": null, "arms_each": null, "neck": null, "spine": null, "legs_each": null},
+        "payload_kg": {"system": 20, "arm_each": null, "carry": null},
+        "speed_m_s": {"walk": 1.2, "max_run": null},
+        "runtime_h": 5,
+        "charge_h": null,
+        "quick_charge_minutes_per_runtime_hour": null,
+        "battery_kwh": 2.3,
+        "ingress_protection": null,
+        "compute": "Figure Helix embodied AI platform; detailed onboard compute not published",
+        "sensing": ["vision", "audio", "tactile hand sensing"],
+        "connectivity": null,
+        "notes": ["Figure publishes a 2.3 kWh battery and up to 2 kW fast charging but not a full-charge time."]
+      },
+      "capabilities": ["laundry", "cleaning", "dish handling", "voice-directed tasks", "autonomous navigation", "industrial material handling", "dexterous manipulation"],
+      "pricing": {
+        "public_price": {"status": "not_published", "ownership_usd": null, "subscription_usd_month": null, "deposit_usd": null, "notes": "No public purchase offer."},
+        "store_price": {"usd": 145000, "kind": "fictional_showcase_msrp", "confidence": "low", "basis": "Commercial full-size biped with 20 kg system payload and five-hour runtime, placed in the middle of the enterprise humanoid tier."}
+      },
+      "visual_identity": {
+        "palette": ["clean white", "gloss black", "charcoal", "small silver details"],
+        "materials": ["smooth polymer armor", "black elastomer joint covers", "metal internal frame", "soft fingertip pads"],
+        "head": "Featureless glossy black oval face embedded in a white head shell.",
+        "torso": "Minimal white tapered chest with a vertical three-dot Figure mark.",
+        "arms_hands": "Slim white arms, black elbows and wrists, and compact five-finger black hands.",
+        "lower_body": "White thigh and shin armor over black mechanical joints, with narrow flat feet.",
+        "distinguishing_features": ["black oval face", "three-dot chest mark", "high-contrast white-and-black body"]
+      },
+      "reference_images": [
+        {"id": "figure03-hero", "view": "front_three_quarter", "role": "full current robot", "page_url": "https://www.figure.ai/figure", "direct_url": "https://images.ctfassets.net/qx5k8y1u9drj/2qouCIcKmTzyS3v2HqyQB2/1dbed1bf7345042abc62823d9d890593/hero-figure-03-image-02.jpg", "source_type": "manufacturer", "revision_alignment": "exact", "modeling_value": "high"},
+        {"id": "figure03-form", "view": "front", "role": "human form and silhouette", "page_url": "https://www.figure.ai/figure", "direct_url": "https://images.ctfassets.net/qx5k8y1u9drj/6rREWE2DjWe7W3AFbZYSyH/21889f6a8f17464410b45c9ae12b718a/human-form-module-figure-3-image-v3.png", "source_type": "manufacturer", "revision_alignment": "exact", "modeling_value": "high"},
+        {"id": "figure03-form-mobile", "view": "front_three_quarter", "role": "alternate full-body composition", "page_url": "https://www.figure.ai/figure", "direct_url": "https://images.ctfassets.net/qx5k8y1u9drj/3Cc9Kd1x25aka6drALqU6V/be9423fb4658c2b93c76b71587cd21ed/human-form-module-figure-3-image-mobile-v3.png", "source_type": "manufacturer", "revision_alignment": "exact", "modeling_value": "medium"}
+      ],
+      "reference_coverage": {"front": "strong", "front_three_quarter": "strong", "side": "missing", "rear": "missing", "head_detail": "strong", "hand_detail": "partial", "material_detail": "partial", "score_out_of_5": 3.1, "blockers": ["Add exact side, rear, and isolated hand views."], "ready_for_3d": false},
+      "sources": [
+        {"title": "Figure 03", "publisher": "Figure", "url": "https://www.figure.ai/figure", "type": "manufacturer_product", "supports": ["specifications", "capabilities", "visual references"]},
+        {"title": "F.03 Battery Development", "publisher": "Figure", "url": "https://www.figure.ai/news/f-03-battery-development", "type": "manufacturer_engineering", "supports": ["battery capacity", "fast charging"]}
+      ],
+      "quality": {"spec_confidence": "high", "price_confidence": "fictional", "revision_confidence": "high", "open_issues": ["No official price, DoF, side, or rear references."]}
+    },
+    {
+      "id": "unitree-g1",
+      "brand": "Unitree",
+      "model": "G1",
+      "revision": "current G1 and G1 EDU family",
+      "display_name": "Unitree G1",
+      "inclusion": "peer_addition",
+      "attachment_match": null,
+      "summary": "A compact, relatively low-cost humanoid platform for embodied AI research, education, and development, with a foldable body and optional higher-DoF dexterous hands in EDU configurations.",
+      "watch_video": {"provider": "youtube", "video_id": "GzX1qOIO1bE", "title": "Unitree Introducing | Unitree G1 Humanoid Agent | AI Avatar | Price from $16K", "channel": "Unitree Robotics", "duration_seconds": 104, "watch_url": "https://www.youtube.com/watch?v=GzX1qOIO1bE", "embed_url": "https://www.youtube-nocookie.com/embed/GzX1qOIO1bE", "source_type": "official_manufacturer", "embed_verified_on": "2026-07-24"},
+      "selection_reason": "Adds the most visible lower-price developer humanoid and a compact contrast to the full-size robots in the attachment.",
+      "market": {
+        "segment": "developer_research",
+        "category": "compact humanoid developer platform",
+        "form_factor": "compact humanoid",
+        "locomotion": "bipedal",
+        "target_environments": ["research lab", "education", "controlled demonstrations"],
+        "target_customers": ["developers", "universities", "robotics labs"],
+        "status": "commercially_available",
+        "availability": "G1 and G1 EDU configurations sold by Unitree and distributors"
+      },
+      "specs": {
+        "dimensions": {"height_m": 1.32, "width_m": 0.45, "depth_m": 0.2, "footprint_width_m": null, "footprint_depth_m": null, "vertical_reach_m": null, "horizontal_reach_m": null},
+        "mass_kg": 35,
+        "dof": {"total_standard": 23, "total_max_edu": 43, "hands_each": null, "arms_each": null, "neck": null, "spine": null, "legs_each": null},
+        "payload_kg": {"arm_each_standard": 2, "arm_each_edu": 3},
+        "speed_m_s": {"walk": null, "max_run": 2},
+        "runtime_h": 2,
+        "charge_h": null,
+        "quick_charge_minutes_per_runtime_hour": null,
+        "battery_kwh": null,
+        "ingress_protection": null,
+        "compute": "8-core high-performance CPU; optional NVIDIA Jetson Orin on EDU variants",
+        "sensing": ["depth camera", "3D LiDAR"],
+        "connectivity": ["Wi-Fi 6", "Bluetooth 5.2"],
+        "notes": ["Unitree publishes a 9000 mAh quick-release battery but no battery voltage on the reviewed page, so it is not converted into kWh.", "Secondary development is supported on EDU variants, not the base G1."]
+      },
+      "capabilities": ["dynamic biped locomotion", "embodied AI research", "reinforcement-learning development", "optional dexterous manipulation", "foldable transport posture"],
+      "pricing": {
+        "public_price": {"status": "manufacturer_published_starting_price", "ownership_usd": 13500, "subscription_usd_month": null, "deposit_usd": null, "notes": "Starting price excludes tax and shipping; higher-spec EDU configurations cost more."},
+        "store_price": {"usd": 13500, "kind": "manufacturer_starting_price", "confidence": "high", "basis": "Current Unitree product page."}
+      },
+      "visual_identity": {
+        "palette": ["dark graphite", "matte black", "silver gray", "orange status light"],
+        "materials": ["hard polymer armor", "metal frame", "rubber foot pads", "exposed joint mechanisms"],
+        "head": "Low-profile helmet-like sensor block without a human face.",
+        "torso": "Compact dark mechanical chest with exposed waist articulation.",
+        "arms_hands": "Slender segmented arms with simple grippers or optional dexterous hands.",
+        "lower_body": "Short powerful legs with prominent round joints and broad feet.",
+        "distinguishing_features": ["compact dark silhouette", "folding knees", "helmet sensor bar"]
+      },
+      "reference_images": [
+        {"id": "g1-anatomy", "view": "front", "role": "full body and proportions", "page_url": "https://www.unitree.com/g1/", "direct_url": "https://www.unitree.com/images/773f6a21c6764bc8bfd9da5f9d714ecf_3840x3600.jpg", "source_type": "manufacturer", "revision_alignment": "exact_family", "modeling_value": "high"},
+        {"id": "g1-spec-collage", "view": "front_three_quarter", "role": "variant and configuration details", "page_url": "https://www.unitree.com/g1/", "direct_url": "https://www.unitree.com/images/87d23aa3708e4677aba22b14352bb779_2000x1470.png", "source_type": "manufacturer", "revision_alignment": "exact_family", "modeling_value": "medium"},
+        {"id": "g1-hand-detail", "view": "hand_detail", "role": "arm and hand construction", "page_url": "https://www.unitree.com/g1/", "direct_url": "https://www.unitree.com/images/221d6574eff346eeb3d2bb5e6dbe5773_2740x1720.jpg", "source_type": "manufacturer", "revision_alignment": "exact_family", "modeling_value": "high"}
+      ],
+      "reference_coverage": {"front": "strong", "front_three_quarter": "strong", "side": "partial", "rear": "partial", "head_detail": "partial", "hand_detail": "strong", "material_detail": "strong", "score_out_of_5": 4, "blockers": ["Use the base G1 configuration shown in the manufacturer reference set."], "ready_for_3d": true},
+      "sources": [
+        {"title": "G1 Humanoid Agent AI Avatar", "publisher": "Unitree", "url": "https://www.unitree.com/g1/", "type": "manufacturer_product", "supports": ["specifications", "price", "variants", "visual references"]}
+      ],
+      "quality": {"spec_confidence": "high", "price_confidence": "high_starting_price", "revision_confidence": "family_level", "open_issues": ["A specific hand and compute configuration must be chosen for final art."]}
+    },
+    {
+      "id": "agility-digit",
+      "brand": "Agility Robotics",
+      "model": "Digit",
+      "revision": "current commercial Digit",
+      "display_name": "Agility Digit",
+      "inclusion": "peer_addition",
+      "attachment_match": null,
+      "summary": "A commercial bipedal logistics robot designed to move totes and materials in human-oriented warehouses, with four-hour battery operation and deployment through Agility Arc fleet software.",
+      "watch_video": {"provider": "youtube", "video_id": "AJpTpUqjgrY", "title": "Digit's First Day of Work at GXO", "channel": "Agility", "duration_seconds": 113, "watch_url": "https://www.youtube.com/watch?v=AJpTpUqjgrY", "embed_url": "https://www.youtube-nocookie.com/embed/AJpTpUqjgrY", "source_type": "official_manufacturer", "embed_verified_on": "2026-07-24"},
+      "selection_reason": "Represents the most mature warehouse-focused commercial humanoid segment and a distinctive digitigrade leg design.",
+      "market": {
+        "segment": "commercial_service",
+        "category": "warehouse logistics humanoid",
+        "form_factor": "digitigrade humanoid",
+        "locomotion": "bipedal",
+        "target_environments": ["warehouse", "distribution center", "manufacturing"],
+        "target_customers": ["logistics operators", "manufacturers"],
+        "status": "commercial_deployment",
+        "availability": "Enterprise sales and robot-as-a-service deployments"
+      },
+      "specs": {
+        "dimensions": {"height_m": 1.753, "width_m": null, "depth_m": null, "footprint_width_m": null, "footprint_depth_m": null, "vertical_reach_m": null, "horizontal_reach_m": null},
+        "mass_kg": 63.5,
+        "dof": {"total": null, "hands_each": 0, "arms_each": null, "neck": null, "spine": null, "legs_each": null},
+        "payload_kg": {"carry": 15.88, "arm_each": null, "peak_lift": null},
+        "speed_m_s": {"walk": null, "max_run": null},
+        "runtime_h": 4,
+        "charge_h": null,
+        "quick_charge_minutes_per_runtime_hour": null,
+        "battery_kwh": null,
+        "ingress_protection": null,
+        "compute": null,
+        "sensing": ["head cameras", "industrial safety perception"],
+        "connectivity": ["Agility Arc fleet orchestration"],
+        "notes": ["Height, mass, and payload are published by Agility in its GXO pilot materials.", "Digit uses tote-oriented end effectors rather than anthropomorphic hands."]
+      },
+      "capabilities": ["tote handling", "AMR-to-conveyor transfer", "warehouse walking", "fleet-orchestrated workflows", "repetitive material movement"],
+      "pricing": {
+        "public_price": {"status": "not_published", "ownership_usd": null, "subscription_usd_month": null, "deposit_usd": null, "notes": "Commercial terms are negotiated."},
+        "store_price": {"usd": 175000, "kind": "fictional_showcase_msrp", "confidence": "low", "basis": "Commercial logistics deployment, four-hour endurance, mature fleet integration, and 15.9 kg payload place Digit in the upper enterprise tier."}
+      },
+      "visual_identity": {
+        "palette": ["off white", "matte black", "charcoal", "cool gray"],
+        "materials": ["hard polymer body panels", "metal leg links", "rubber feet", "industrial gripper pads"],
+        "head": "Rectangular white sensor head with two illuminated dark eye panels.",
+        "torso": "Compact white-and-black torso with a rear battery pack and narrow waist.",
+        "arms_hands": "Simple four-DoF arms terminating in broad tote-handling paddles.",
+        "lower_body": "Signature backward-bending digitigrade legs with elongated lower links and narrow feet.",
+        "distinguishing_features": ["birdlike legs", "tote paddles", "rectangular luminous eyes"]
+      },
+      "reference_images": [
+        {"id": "digit-front", "view": "front_three_quarter", "role": "current full body", "page_url": "https://www.agilityrobotics.com/solutions", "direct_url": "https://cdn.prod.website-files.com/68d6ca150ffa11fdc25d7575/699fdc16d3c0aca895e5b80e_Agility_Digit_01.avif", "source_type": "manufacturer", "revision_alignment": "exact", "modeling_value": "high"},
+        {"id": "digit-side", "view": "side", "role": "leg silhouette", "page_url": "https://www.agilityrobotics.com/solutions", "direct_url": "https://cdn.prod.website-files.com/68d6ca150ffa11fdc25d7575/699fdc15aa9256862cec3c95_Agility_Digit_04.avif", "source_type": "manufacturer", "revision_alignment": "exact", "modeling_value": "high"},
+        {"id": "digit-rear", "view": "rear", "role": "rear body and leg construction", "page_url": "https://www.agilityrobotics.com/solutions", "direct_url": "https://cdn.prod.website-files.com/68d6ca150ffa11fdc25d7575/699fdc1510423641b8d84d45_Agility_Digit_07.avif", "source_type": "manufacturer", "revision_alignment": "exact", "modeling_value": "high"}
+      ],
+      "reference_coverage": {"front": "strong", "front_three_quarter": "strong", "side": "strong", "rear": "strong", "head_detail": "partial", "hand_detail": "partial", "material_detail": "strong", "score_out_of_5": 4.5, "blockers": ["Add isolated end-effector and head close-ups."], "ready_for_3d": true},
+      "sources": [
+        {"title": "Digit Solutions", "publisher": "Agility Robotics", "url": "https://www.agilityrobotics.com/solutions", "type": "manufacturer_product", "supports": ["runtime", "payload", "applications", "visual references"]},
+        {"title": "GXO Conducting Industry-Leading Pilot", "publisher": "Agility Robotics", "url": "https://www.agilityrobotics.com/content/gxo-conducting-industry-leading-pilot-of-human-centric-robot", "type": "manufacturer_case_study", "supports": ["height", "mass", "payload", "warehouse tasks"]},
+        {"title": "Digit Spec Sheet", "publisher": "Agility Robotics", "url": "https://www.agilityrobotics.com/solutions/digit/spec-sheet", "type": "manufacturer_spec_sheet", "supports": ["current design reference"]}
+      ],
+      "quality": {"spec_confidence": "high_for_published_values", "price_confidence": "fictional", "revision_confidence": "high", "open_issues": ["Agility does not publish a full current numeric specification table or price on the reviewed public pages."]}
+    },
+    {
+      "id": "apptronik-apollo-2",
+      "brand": "Apptronik",
+      "model": "Apollo 2",
+      "revision": "2026 platform",
+      "display_name": "Apptronik Apollo 2",
+      "inclusion": "peer_addition",
+      "attachment_match": null,
+      "summary": "A modular enterprise humanoid platform offered in bipedal and wheeled forms, designed for high-efficiency actuation, swappable energy systems, continuous operation, and Google DeepMind Gemini Robotics integration.",
+      "watch_video": {"provider": "youtube", "video_id": "iPyxwELiD9Q", "title": "Welcome to Robot Park, where Apptronik is building the future with Apollo 2", "channel": "Apptronik", "duration_seconds": 74, "watch_url": "https://www.youtube.com/watch?v=iPyxwELiD9Q", "embed_url": "https://www.youtube-nocookie.com/embed/iPyxwELiD9Q", "source_type": "official_manufacturer", "embed_verified_on": "2026-07-24"},
+      "selection_reason": "Adds a leading US industrial humanoid with both bipedal and wheeled configurations and a current-generation modular design.",
+      "market": {
+        "segment": "commercial_service",
+        "category": "industrial humanoid platform",
+        "form_factor": "bipedal or wheeled humanoid",
+        "locomotion": "configuration_dependent",
+        "target_environments": ["manufacturing", "warehouse", "robot training facility"],
+        "target_customers": ["manufacturers", "logistics operators", "AI robotics developers"],
+        "status": "commercial_pilot_and_scaling",
+        "availability": "Enterprise contact sales"
+      },
+      "specs": {
+        "dimensions": {"height_m": null, "width_m": null, "depth_m": null, "footprint_width_m": null, "footprint_depth_m": null, "vertical_reach_m": null, "horizontal_reach_m": null},
+        "mass_kg": null,
+        "dof": {"total": null, "hands_each": null, "arms_each": null, "neck": null, "spine": null, "legs_each": null},
+        "payload_kg": {"arm_each": null, "carry": null, "peak_lift": null},
+        "speed_m_s": {"walk": null, "max_run": null},
+        "runtime_h": null,
+        "charge_h": null,
+        "quick_charge_minutes_per_runtime_hour": null,
+        "battery_kwh": null,
+        "ingress_protection": null,
+        "compute": "Google DeepMind Gemini Robotics integration announced; detailed onboard compute not published",
+        "sensing": ["vision", "human-robot interaction displays", "modular perception stack"],
+        "connectivity": ["swappable batteries", "autonomous charging", "tethered operation option"],
+        "notes": ["Apptronik publishes greater than 90% actuator efficiency and 7x22 operation goals.", "Older first-generation Apollo figures such as 1.73 m height, 72.6 kg mass, 25 kg payload, and four-hour runtime are intentionally not copied into Apollo 2 fields without revision-specific confirmation."]
+      },
+      "capabilities": ["material handling", "manufacturing workflows", "bipedal mobility", "wheeled mobility option", "battery swapping", "continuous operation", "AI model training"],
+      "pricing": {
+        "public_price": {"status": "not_published", "ownership_usd": null, "subscription_usd_month": null, "deposit_usd": null, "notes": "Enterprise terms are private."},
+        "store_price": {"usd": 155000, "kind": "fictional_showcase_msrp", "confidence": "low", "basis": "Current modular industrial platform with continuous-operation energy options, placed near other enterprise humanoids while acknowledging unpublished physical specs."}
+      },
+      "visual_identity": {
+        "palette": ["warm white", "charcoal black", "signal blue", "soft amber LEDs"],
+        "materials": ["smooth composite armor", "black elastomer joint covers", "LED face and chest displays"],
+        "head": "Rounded white head with a dark face visor and animated amber mouth line.",
+        "torso": "Friendly white chest with a large expressive status display and tapered black waist.",
+        "arms_hands": "Rounded modular arm shells with dark joints and compact dexterous hands.",
+        "lower_body": "Available with armored biped legs or a wheeled mobile base.",
+        "distinguishing_features": ["animated mouth strip", "large chest display", "friendly industrial styling"]
+      },
+      "reference_images": [
+        {"id": "apollo2-hero", "view": "front_three_quarter", "role": "full current platform", "page_url": "https://apptronik.com/apollo/apollo-2", "direct_url": "https://cdn.prod.website-files.com/6a0dd86942776facbc2f6ba4/6a31c21bca70bd2a4f82bf35_Apptronik-Apollo2-Humanoid-2.jpg", "source_type": "manufacturer", "revision_alignment": "exact", "modeling_value": "high"},
+        {"id": "apollo2-hri", "view": "head_detail", "role": "face and chest interaction", "page_url": "https://apptronik.com/apollo/apollo-2", "direct_url": "https://cdn.prod.website-files.com/6a0dd86942776facbc2f6ba4/6a31c14dcac42650bf18896d_Apollo2-HRI-2.jpg", "source_type": "manufacturer", "revision_alignment": "exact", "modeling_value": "high"},
+        {"id": "apollo2-actuation", "view": "mechanical_detail", "role": "actuator and joint design", "page_url": "https://apptronik.com/apollo/apollo-2", "direct_url": "https://cdn.prod.website-files.com/6a0dd86942776facbc2f6ba4/6a31bb833bf21098c46539df_Actuation.jpg", "source_type": "manufacturer", "revision_alignment": "exact", "modeling_value": "high"},
+        {"id": "apollo2-battery", "view": "mechanical_detail", "role": "energy module", "page_url": "https://apptronik.com/apollo/apollo-2", "direct_url": "https://cdn.prod.website-files.com/6a0dd86942776facbc2f6ba4/6a2b3ec6b5e641fabed19160_image._apollo2-battery.jpg", "source_type": "manufacturer", "revision_alignment": "exact", "modeling_value": "medium"}
+      ],
+      "reference_coverage": {"front": "partial", "front_three_quarter": "strong", "side": "partial", "rear": "missing", "head_detail": "strong", "hand_detail": "partial", "material_detail": "strong", "score_out_of_5": 3.5, "blockers": ["Choose bipedal or wheeled configuration.", "Add clean front, side, and rear product views."], "ready_for_3d": false},
+      "sources": [
+        {"title": "Apollo 2", "publisher": "Apptronik", "url": "https://apptronik.com/apollo/apollo-2", "type": "manufacturer_product", "supports": ["platform architecture", "actuation", "energy options", "visual references"]},
+        {"title": "Welcome to Robot Park", "publisher": "Apptronik", "url": "https://apptronik.com/news-collection/welcome-to-robot-park-where-apptroniks-apollo-goes-to-work", "type": "manufacturer_announcement", "supports": ["commercial training", "operations", "AI partnership"]}
+      ],
+      "quality": {"spec_confidence": "medium", "price_confidence": "fictional", "revision_confidence": "high", "open_issues": ["Apollo 2 revision-specific dimensions, mass, payload, runtime, and DoF are not public.", "Locomotion configuration must be selected."]}
+    },
+    {
+      "id": "sanctuary-phoenix-gen8",
+      "brand": "Sanctuary AI",
+      "model": "Phoenix",
+      "revision": "Generation 8",
+      "display_name": "Sanctuary AI Phoenix Gen 8",
+      "inclusion": "peer_addition",
+      "attachment_match": null,
+      "summary": "A wheeled general-purpose work robot optimized for high-quality manipulation data capture, improved sensing and telemetry, dexterous hands, and Carbon AI control.",
+      "watch_video": {"provider": "youtube", "video_id": "-HizP4UQvug", "title": "Sanctuary AI Unveils the Next Generation of AI Robotics", "channel": "Sanctuary AI", "duration_seconds": 42, "watch_url": "https://www.youtube.com/watch?v=-HizP4UQvug", "embed_url": "https://www.youtube-nocookie.com/embed/-HizP4UQvug", "source_type": "official_manufacturer", "embed_verified_on": "2026-07-24"},
+      "selection_reason": "Represents the dexterous teleoperation and AI-training branch of the market and provides a wheeled enterprise contrast to bipedal peers.",
+      "market": {
+        "segment": "commercial_service",
+        "category": "general-purpose work and data-capture humanoid",
+        "form_factor": "humanoid upper body on wheeled base",
+        "locomotion": "wheeled",
+        "target_environments": ["workplace", "retail", "manufacturing", "AI data capture"],
+        "target_customers": ["enterprise operators", "AI robotics teams"],
+        "status": "enterprise_deployment_and_development",
+        "availability": "Enterprise contact sales"
+      },
+      "specs": {
+        "dimensions": {"height_m": null, "width_m": null, "depth_m": null, "footprint_width_m": null, "footprint_depth_m": null, "vertical_reach_m": null, "horizontal_reach_m": null},
+        "mass_kg": null,
+        "dof": {"total": null, "hands_each": null, "arms_each": null, "neck": null, "spine": null, "legs_each": 0},
+        "payload_kg": {"arm_each": null, "carry": null, "peak_lift": null},
+        "speed_m_s": {"walk": null, "max_run": null},
+        "runtime_h": null,
+        "charge_h": null,
+        "quick_charge_minutes_per_runtime_hour": null,
+        "battery_kwh": null,
+        "ingress_protection": null,
+        "compute": "Sanctuary Carbon AI control system",
+        "sensing": ["improved camera field of view", "audio-video capture", "telemetry", "haptic and tactile manipulation data"],
+        "connectivity": ["teleoperation", "data capture pipeline"],
+        "notes": ["Sanctuary confirms a wheeled base for Gen 8.", "The predecessor Phoenix platform used 20-DoF hands, but Gen 8 does not publish a complete current body spec sheet, so current hand DoF remains null.", "Older Gen 6 dimensions, mass, payload, and speed are intentionally not copied into current Gen 8 scalar fields."]
+      },
+      "capabilities": ["dexterous manipulation", "teleoperation", "high-quality training data capture", "general workplace tasks", "mobile manipulation", "AI policy training"],
+      "pricing": {
+        "public_price": {"status": "not_published", "ownership_usd": null, "subscription_usd_month": null, "deposit_usd": null, "notes": "Enterprise terms are private."},
+        "store_price": {"usd": 135000, "kind": "fictional_showcase_msrp", "confidence": "low", "basis": "Enterprise dexterous mobile-manipulation platform, discounted from bipedal peers for wheeled locomotion but priced for sophisticated hands and data capture."}
+      },
+      "visual_identity": {
+        "palette": ["matte black", "graphite", "silver", "white face accents"],
+        "materials": ["dark composite body panels", "metal arm links", "soft tactile fingertips", "rubber mobile base"],
+        "head": "Small dark sensor head with a bright eye or status region.",
+        "torso": "Black industrial humanoid torso with exposed mechanical shoulders and a central column.",
+        "arms_hands": "Anthropomorphic arms terminating in highly articulated five-finger dexterous hands.",
+        "lower_body": "Telescoping torso mounted to a stable wheeled base.",
+        "distinguishing_features": ["highly dexterous hands", "dark monolithic styling", "wheeled lower platform"]
+      },
+      "reference_images": [
+        {"id": "phoenix-official-front", "view": "front_three_quarter", "role": "official article full robot", "page_url": "https://sanctuary.ai/news/sanctuary-ai-releases-new-generation-of-ai-robots-for-high-quality-data-capture/", "direct_url": "https://sanctuary.ai/wp-content/uploads/2024/12/09_sanctuary_ai_phoenix_gen_7_front_angled_not_a_render-scaled.webp", "source_type": "manufacturer", "revision_alignment": "adjacent_revision_filename_on_gen8_article", "modeling_value": "medium"},
+        {"id": "phoenix-official-full", "view": "front", "role": "official article full body", "page_url": "https://sanctuary.ai/news/sanctuary-ai-releases-new-generation-of-ai-robots-for-high-quality-data-capture/", "direct_url": "https://sanctuary.ai/wp-content/uploads/2024/12/08_sanctuary_ai_phoenix_gen_7_full_body_not_a_render-scaled.webp", "source_type": "manufacturer", "revision_alignment": "adjacent_revision_filename_on_gen8_article", "modeling_value": "medium"},
+        {"id": "phoenix-official-rear", "view": "rear", "role": "official article rear body", "page_url": "https://sanctuary.ai/news/sanctuary-ai-releases-new-generation-of-ai-robots-for-high-quality-data-capture/", "direct_url": "https://sanctuary.ai/wp-content/uploads/2024/12/03_sanctuary_ai_phoenix_gen_7_back_not_a_render.webp", "source_type": "manufacturer", "revision_alignment": "adjacent_revision_filename_on_gen8_article", "modeling_value": "medium"}
+      ],
+      "reference_coverage": {"front": "partial", "front_three_quarter": "partial", "side": "missing", "rear": "partial", "head_detail": "partial", "hand_detail": "partial", "material_detail": "partial", "score_out_of_5": 2.7, "blockers": ["Official Gen 8 article assets are named Gen 7; obtain confirmed Gen 8-specific front, side, rear, and hand imagery before modeling."], "ready_for_3d": false},
+      "sources": [
+        {"title": "Sanctuary AI Releases New Generation of AI Robots", "publisher": "Sanctuary AI", "url": "https://sanctuary.ai/news/sanctuary-ai-releases-new-generation-of-ai-robots-for-high-quality-data-capture/", "type": "manufacturer_announcement", "supports": ["Gen 8 positioning", "wheeled base", "sensor improvements", "visual references"]},
+        {"title": "Sanctuary AI Unveils Phoenix", "publisher": "Sanctuary AI", "url": "https://sanctuary.ai/news/sanctuary-ai-unveils-phoenix-a-humanoid-general-purpose-robot-designed-for-work/", "type": "manufacturer_predecessor_announcement", "supports": ["platform hand design", "explicit predecessor comparison only"]}
+      ],
+      "quality": {"spec_confidence": "medium_low", "price_confidence": "fictional", "revision_confidence": "medium", "open_issues": ["Gen 8-specific public numeric specs are sparse.", "Official article image filenames indicate the adjacent Gen 7 revision."]}
+    },
+    {
+      "id": "ubtech-walker-s2",
+      "brand": "UBTECH",
+      "model": "Walker S2",
+      "revision": "2025 third-generation industrial Walker",
+      "display_name": "UBTECH Walker S2",
+      "inclusion": "peer_addition",
+      "attachment_match": null,
+      "summary": "A mass-produced industrial humanoid with a dual-battery system and autonomous three-minute battery exchange for continuous 24/7 operation, plus a 52-DoF body and 15 kg full-range load handling.",
+      "watch_video": {"provider": "youtube", "video_id": "TNryO2uasws", "title": "Meet UBTECH New-Gen of Industrial Humanoid Robot——Walker S2", "channel": "UBTECH Robotics", "duration_seconds": 72, "watch_url": "https://www.youtube.com/watch?v=TNryO2uasws", "embed_url": "https://www.youtube-nocookie.com/embed/TNryO2uasws", "source_type": "official_manufacturer", "embed_verified_on": "2026-07-24"},
+      "selection_reason": "Adds a mass-produced industrial humanoid from China with a differentiated autonomous battery-swap system.",
+      "market": {
+        "segment": "rugged_continuous_industrial",
+        "category": "industrial humanoid",
+        "form_factor": "full-size humanoid",
+        "locomotion": "bipedal",
+        "target_environments": ["automotive manufacturing", "factory", "warehouse"],
+        "target_customers": ["manufacturers", "industrial logistics operators"],
+        "status": "mass_production_and_delivery",
+        "availability": "Enterprise sales; UBTECH says mass production and delivery began in November 2025"
+      },
+      "specs": {
+        "dimensions": {"height_m": null, "width_m": null, "depth_m": null, "footprint_width_m": null, "footprint_depth_m": null, "vertical_reach_m": 1.8, "horizontal_reach_m": null},
+        "mass_kg": null,
+        "dof": {"total": 52, "hands_each": null, "arms_each": null, "neck": null, "spine": null, "legs_each": null},
+        "payload_kg": {"full_work_envelope": 15, "arm_each": null, "carry": null},
+        "speed_m_s": {"walk": null, "max_run": null},
+        "runtime_h": null,
+        "charge_h": null,
+        "battery_swap_minutes": 3,
+        "battery_kwh": null,
+        "ingress_protection": null,
+        "compute": "UBTECH embodied AI and ROSA 2.0 platform; detailed onboard compute not published",
+        "sensing": ["binocular RGB vision", "industrial perception", "battery-station localization"],
+        "connectivity": ["cloud energy management", "autonomous battery-swap station"],
+        "notes": ["Published 24/7 operation depends on autonomous swapping between dual batteries and a swap station.", "Waist rotation is published as plus or minus 162 degrees.", "Unofficial height, mass, speed, and battery-duration figures are excluded."]
+      },
+      "capabilities": ["24/7 industrial operation", "autonomous battery exchange", "15 kg material handling across 0 to 1.8 m", "deep squatting", "floor-reaching picks", "factory logistics"],
+      "pricing": {
+        "public_price": {"status": "not_published", "ownership_usd": null, "subscription_usd_month": null, "deposit_usd": null, "notes": "Enterprise terms are private."},
+        "store_price": {"usd": 145000, "kind": "fictional_showcase_msrp", "confidence": "low", "basis": "Industrial 52-DoF platform with 15 kg full-range handling and autonomous 24/7 battery logistics, below Atlas because ruggedness and detailed payload limits are less fully documented."}
+      },
+      "visual_identity": {
+        "palette": ["white", "black", "silver", "cyan status lights"],
+        "materials": ["white composite armor", "black elastomer joints", "metal frame", "rubber industrial feet"],
+        "head": "Smooth white helmet form with a glossy black face visor and embedded camera array.",
+        "torso": "Athletic white chest armor with black abdomen and narrow articulated waist.",
+        "arms_hands": "Long white-and-black arms with compact multi-finger industrial hands.",
+        "lower_body": "Human-proportioned armored legs with black joint bands and broad white feet.",
+        "distinguishing_features": ["autonomous rear battery access", "high waist rotation", "clean white industrial shell"]
+      },
+      "reference_images": [
+        {"id": "walker-s2-hero", "view": "front_three_quarter", "role": "full robot", "page_url": "https://www.ubtrobot.com/en/humanoid/products/walker-s2", "direct_url": "https://owebsite-cdn.ubtrobot.com/resources/image/2025/07/17/698770322690117.jpg", "source_type": "manufacturer", "revision_alignment": "exact", "modeling_value": "high"},
+        {"id": "walker-s2-rear", "view": "rear", "role": "rear and waist construction", "page_url": "https://www.ubtrobot.com/en/humanoid/products/walker-s2", "direct_url": "https://owebsite-cdn.ubtrobot.com/resources/image/2025/07/17/698771049869381.jpg", "source_type": "manufacturer", "revision_alignment": "exact", "modeling_value": "high"},
+        {"id": "walker-s2-battery", "view": "action", "role": "battery swap and full scale", "page_url": "https://www.ubtrobot.com/en/humanoid/products/walker-s2", "direct_url": "https://owebsite-cdn.ubtrobot.com/resources/image/2025/07/17/698771297820741.jpg", "source_type": "manufacturer", "revision_alignment": "exact", "modeling_value": "high"}
+      ],
+      "reference_coverage": {"front": "partial", "front_three_quarter": "strong", "side": "partial", "rear": "strong", "head_detail": "partial", "hand_detail": "partial", "material_detail": "strong", "score_out_of_5": 3.8, "blockers": ["Add a neutral exact front and clean side view.", "Obtain official height and mass before scale-critical modeling."], "ready_for_3d": false},
+      "sources": [
+        {"title": "Walker S2", "publisher": "UBTECH", "url": "https://www.ubtrobot.com/en/humanoid/products/walker-s2", "type": "manufacturer_product", "supports": ["battery swap", "24/7 operation", "capabilities", "visual references"]},
+        {"title": "Annual Report 2025", "publisher": "UBTECH", "url": "https://owebsite-cdn.ubtrobot.com/resources/file/2026/04/21/797179114676293.pdf", "type": "manufacturer_investor_report", "supports": ["52 DoF", "15 kg handling", "work envelope", "waist rotation", "production status"]}
+      ],
+      "quality": {"spec_confidence": "high_for_published_values", "price_confidence": "fictional", "revision_confidence": "high", "open_issues": ["Official public height, mass, speed, and per-charge duration were not located."]}
+    },
+    {
+      "id": "neura-4ne1-gen3",
+      "brand": "NEURA Robotics",
+      "model": "4NE1",
+      "revision": "Generation 3 family",
+      "display_name": "NEURA 4NE1 Gen 3",
+      "inclusion": "peer_addition",
+      "attachment_match": null,
+      "summary": "A cognitive humanoid family for industrial and domestic work, available in bipedal, wheeled, and extended-reach configurations with exchangeable forearms and multimodal interaction.",
+      "watch_video": {"provider": "youtube", "video_id": "RpphFszxQbM", "title": "Discover 4NE-1: The era of household humanoids is coming soon.", "channel": "NEURA Robotics", "duration_seconds": 39, "watch_url": "https://www.youtube.com/watch?v=RpphFszxQbM", "embed_url": "https://www.youtube-nocookie.com/embed/RpphFszxQbM", "source_type": "official_manufacturer", "embed_verified_on": "2026-07-24"},
+      "selection_reason": "Adds a European cognitive-robotics platform spanning industrial and home configurations.",
+      "market": {
+        "segment": "commercial_service",
+        "category": "cognitive general-purpose humanoid family",
+        "form_factor": "bipedal or wheeled humanoid",
+        "locomotion": "configuration_dependent",
+        "target_environments": ["manufacturing", "logistics", "home"],
+        "target_customers": ["industrial operators", "service integrators", "future households"],
+        "status": "commercial_contact_sales",
+        "availability": "Contact NEURA Robotics"
+      },
+      "specs": {
+        "dimensions": {"height_m": 1.8, "width_m": null, "depth_m": null, "footprint_width_m": null, "footprint_depth_m": null, "vertical_reach_m": null, "horizontal_reach_m": null},
+        "mass_kg": 80,
+        "dof": {"total": null, "hands_each": null, "arms_each": null, "neck": null, "spine": null, "legs_each": null},
+        "payload_kg": {"family_published_range": {"min": 10, "max": 100}, "arm_each": null, "carry": null},
+        "speed_m_s": {"walk": 1.389, "max_run": null},
+        "runtime_h": null,
+        "charge_h": null,
+        "quick_charge_minutes_per_runtime_hour": null,
+        "battery_kwh": null,
+        "ingress_protection": null,
+        "compute": "NEURA cognitive platform with language model, computer vision, and reinforcement learning",
+        "sensing": ["3D computer vision", "force-torque sensing", "touchless human detection", "touch sensing", "audio"],
+        "connectivity": ["remote operation", "exchangeable forearms"],
+        "notes": ["The current product page displays payload as 10-100 kg across different models; it is preserved as a family range rather than a single robot claim.", "Current speed of 5 km/h is normalized to 1.389 m/s.", "Prior-generation values are not mixed into Gen 3 fields."]
+      },
+      "capabilities": ["industrial manipulation", "logistics", "voice interaction", "computer vision", "remote operation", "exchangeable tools", "home assistance"],
+      "pricing": {
+        "public_price": {"status": "not_published", "ownership_usd": null, "subscription_usd_month": null, "deposit_usd": null, "notes": "Contact sales."},
+        "store_price": {"usd": 125000, "kind": "fictional_showcase_msrp", "confidence": "low", "basis": "Commercial cognitive humanoid family with modular locomotion and tooling, placed mid-enterprise because configuration-specific payload and endurance are not public."}
+      },
+      "visual_identity": {
+        "palette": ["white", "matte black", "NEURA red", "dark gray"],
+        "materials": ["smooth white armor", "black flexible joint covers", "metal internal frame", "rubberized hands"],
+        "head": "Small white-and-black helmet head with a horizontal dark sensor band.",
+        "torso": "Broad angular white chest with black core and red branding accents.",
+        "arms_hands": "Modular white arms with exchangeable forearms and anthropomorphic hands.",
+        "lower_body": "Configuration-dependent biped legs, wheeled base, or extended vertical axis.",
+        "distinguishing_features": ["red NEURA accents", "exchangeable forearms", "multiple lower-body variants"]
+      },
+      "reference_images": [
+        {"id": "4ne1-gen3-hero", "view": "front_three_quarter", "role": "current Gen 3 product", "page_url": "https://neura-robotics.com/products/4ne1/", "direct_url": "https://neura-robotics.com/wp-content/uploads/2025/07/4NE1_Gen3_NEURA_Robotics_Header_Image-Mirrored.png", "source_type": "manufacturer", "revision_alignment": "exact", "modeling_value": "high"},
+        {"id": "4ne1-family", "view": "front", "role": "humanoid family navigation image", "page_url": "https://neura-robotics.com/products/4ne1/", "direct_url": "https://neura-robotics.com/wp-content/uploads/2025/05/260205-landingpage-navigation-product-category-humanoid.png", "source_type": "manufacturer", "revision_alignment": "family_level", "modeling_value": "medium"}
+      ],
+      "reference_coverage": {"front": "partial", "front_three_quarter": "strong", "side": "missing", "rear": "missing", "head_detail": "partial", "hand_detail": "partial", "material_detail": "partial", "score_out_of_5": 2.5, "blockers": ["Choose bipedal, wheeled, or 7th-axis configuration.", "Add exact front, side, rear, hand, and lower-body references for that configuration."], "ready_for_3d": false},
+      "sources": [
+        {"title": "Humanoid Robot 4NE1 for Work and Life", "publisher": "NEURA Robotics", "url": "https://neura-robotics.com/products/4ne1/", "type": "manufacturer_product", "supports": ["current dimensions", "family payload range", "speed", "mass", "variants", "visual references"]}
+      ],
+      "quality": {"spec_confidence": "medium_family_level", "price_confidence": "fictional", "revision_confidence": "high_family_low_configuration", "open_issues": ["Current page combines multiple models, so configuration-specific payload and imagery remain unresolved."]}
+    },
+    {
+      "id": "tesla-optimus",
+      "brand": "Tesla",
+      "model": "Optimus",
+      "revision": "current prototype family; generation unspecified",
+      "display_name": "Tesla Optimus",
+      "inclusion": "peer_addition",
+      "attachment_match": null,
+      "summary": "Tesla's general-purpose autonomous bipedal robot program, aimed at repetitive, unsafe, or boring tasks and trained with the company's AI, vision, planning, and inference systems.",
+      "watch_video": {"provider": "youtube", "video_id": "cpraXaw7dyc", "title": "Optimus - Gen 2 | Tesla", "channel": "Tesla", "duration_seconds": 103, "watch_url": "https://www.youtube.com/watch?v=cpraXaw7dyc", "embed_url": "https://www.youtube-nocookie.com/embed/cpraXaw7dyc", "source_type": "official_manufacturer", "embed_verified_on": "2026-07-24"},
+      "selection_reason": "Included for market relevance and public recognition, while explicitly avoiding the unsupported Gen 2 or Gen 3 labels commonly used in secondary coverage.",
+      "market": {
+        "segment": "consumer_home",
+        "category": "general-purpose humanoid prototype",
+        "form_factor": "full-size humanoid",
+        "locomotion": "bipedal",
+        "target_environments": ["factory", "future home"],
+        "target_customers": ["Tesla internal operations", "future consumers"],
+        "status": "prototype_development",
+        "availability": "No public retail offer or confirmed external delivery schedule"
+      },
+      "specs": {
+        "dimensions": {"height_m": null, "width_m": null, "depth_m": null, "footprint_width_m": null, "footprint_depth_m": null, "vertical_reach_m": null, "horizontal_reach_m": null},
+        "mass_kg": null,
+        "dof": {"total": null, "hands_each": null, "arms_each": null, "neck": null, "spine": null, "legs_each": null},
+        "payload_kg": {"arm_each": null, "carry": null, "peak_lift": null},
+        "speed_m_s": {"walk": null, "max_run": null},
+        "runtime_h": null,
+        "charge_h": null,
+        "quick_charge_minutes_per_runtime_hour": null,
+        "battery_kwh": null,
+        "ingress_protection": null,
+        "compute": "Tesla AI, vision, planning, and inference stack; current robot hardware details not published on the official AI page",
+        "sensing": ["vision-based perception"],
+        "connectivity": null,
+        "notes": ["No current-generation numeric specifications are entered because Tesla's official AI product page does not publish them.", "Claims circulating in presentations or secondary media are intentionally excluded unless the manufacturer adds them to a stable current source."]
+      },
+      "capabilities": ["general-purpose manipulation research", "factory tasks", "vision-based autonomy", "walking", "future household tasks"],
+      "pricing": {
+        "public_price": {"status": "not_published", "ownership_usd": null, "subscription_usd_month": null, "deposit_usd": null, "notes": "No public sale exists."},
+        "store_price": {"usd": 29995, "kind": "fictional_showcase_msrp", "confidence": "very_low", "basis": "A deliberately fictional future-consumer tier price; it is not a Tesla quote, preorder price, forecast, or availability claim."}
+      },
+      "visual_identity": {
+        "palette": ["clean white", "gloss black", "silver metal", "dark gray"],
+        "materials": ["smooth polymer armor", "exposed metal joint elements", "black elastomer covers", "soft hand pads"],
+        "head": "Featureless glossy black faceplate in a white helmet shell.",
+        "torso": "Minimal white chest armor over a black waist and silver frame.",
+        "arms_hands": "Human-proportioned white arms with black joints and slim five-finger hands.",
+        "lower_body": "White thigh and shin panels with exposed black and silver mechanics.",
+        "distinguishing_features": ["Tesla-minimal white shell", "black featureless face", "slender anthropomorphic hands"]
+      },
+      "reference_images": [
+        {
+          "id": "optimus-official-ai",
+          "view": "front_three_quarter",
+          "role": "official Tesla AI program image",
+          "page_url": "https://www.tesla.com/AI",
+          "direct_url": "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto%2Cq_auto/Tesla-Bot-AI.jpg",
+          "source_type": "manufacturer",
+          "revision_alignment": "official_program_image_revision_unspecified",
+          "modeling_value": "low"
+        }
+      ],
+      "reference_coverage": {"front": "missing", "front_three_quarter": "partial", "side": "missing", "rear": "missing", "head_detail": "missing", "hand_detail": "missing", "material_detail": "missing", "score_out_of_5": 0.8, "blockers": ["Add current-revision full-body front, side, rear, hand, and material references; the official AI image does not identify a hardware generation."], "ready_for_3d": false},
+      "sources": [
+        {"title": "AI and Robotics", "publisher": "Tesla", "url": "https://www.tesla.com/AI", "type": "manufacturer_program_page", "supports": ["program purpose", "AI approach"]}
+      ],
+      "quality": {"spec_confidence": "low_by_design", "price_confidence": "fictional", "revision_confidence": "low", "open_issues": ["Current official specs and stable direct reference images are absent.", "Optimus is not ready for 3D reference approval."]}
+    },
+    {
+      "id": "switchbot-onero-h1",
+      "brand": "SwitchBot",
+      "model": "onero H1",
+      "revision": "CES 2026 preview",
+      "display_name": "SwitchBot onero H1",
+      "inclusion": "peer_addition",
+      "attachment_match": null,
+      "summary": "A home humanoid positioned around SwitchBot's Omni Sense VLA system for learning household workflows such as laundry and dish handling, shown publicly at CES 2026.",
+      "watch_video": {"provider": "youtube", "video_id": "xqLRDWNzzZ8", "title": "onero H1 - Making embodied AI humanoid robots truly part of the home.", "channel": "SwitchBot", "duration_seconds": 103, "watch_url": "https://www.youtube.com/watch?v=xqLRDWNzzZ8", "embed_url": "https://www.youtube-nocookie.com/embed/xqLRDWNzzZ8", "source_type": "official_manufacturer", "embed_verified_on": "2026-07-24"},
+      "selection_reason": "Adds a directly consumer-positioned home humanoid with a visible store listing and aggressive sub-$10k headline price.",
+      "market": {
+        "segment": "consumer_home",
+        "category": "home humanoid",
+        "form_factor": "full-size humanoid",
+        "locomotion": "bipedal",
+        "target_environments": ["home"],
+        "target_customers": ["future households", "smart-home users"],
+        "status": "preview_unavailable",
+        "availability": "Store page exists but product is marked unavailable"
+      },
+      "specs": {
+        "dimensions": {"height_m": null, "width_m": null, "depth_m": null, "footprint_width_m": null, "footprint_depth_m": null, "vertical_reach_m": null, "horizontal_reach_m": null},
+        "mass_kg": null,
+        "dof": {"total": null, "hands_each": null, "arms_each": null, "neck": null, "spine": null, "legs_each": null},
+        "payload_kg": {"arm_each": null, "carry": null, "peak_lift": null},
+        "speed_m_s": {"walk": null, "max_run": null},
+        "runtime_h": null,
+        "charge_h": null,
+        "quick_charge_minutes_per_runtime_hour": null,
+        "battery_kwh": null,
+        "ingress_protection": null,
+        "compute": "SwitchBot Omni Sense VLA; detailed onboard hardware not published",
+        "sensing": ["vision-language-action perception"],
+        "connectivity": ["SwitchBot smart-home ecosystem"],
+        "notes": ["The product page makes broad home-task claims but publishes no revision-specific numeric robot specifications."]
+      },
+      "capabilities": ["laundry handling", "dish handling", "home tidying", "smart-home integration", "learned household workflows"],
+      "pricing": {
+        "public_price": {"status": "store_listing_unavailable", "ownership_usd": 9999, "subscription_usd_month": null, "deposit_usd": null, "notes": "The current product page displays $9,999 while also marking the item unavailable; it is not treated as a completed purchasable market transaction."},
+        "store_price": {"usd": 9999, "kind": "manufacturer_store_listing", "confidence": "medium", "basis": "Current SwitchBot store page, with unavailable status retained."}
+      },
+      "visual_identity": {
+        "palette": ["warm white", "matte black", "silver gray", "small blue indicators"],
+        "materials": ["smooth polymer armor", "black flexible joint covers", "metal structural elements"],
+        "head": "Small smooth white head with a dark wraparound face area.",
+        "torso": "Rounded white chest and abdomen with minimal consumer-electronics styling.",
+        "arms_hands": "Slender white arms with black joints and anthropomorphic hands.",
+        "lower_body": "Human-proportioned white legs with black joint bands and flat feet.",
+        "distinguishing_features": ["clean smart-home appliance aesthetic", "rounded white armor", "dark wraparound face"]
+      },
+      "reference_images": [
+        {"id": "onero-h1-product", "view": "front_three_quarter", "role": "official product image", "page_url": "https://us.switch-bot.com/products/onero-h1", "direct_url": "https://cdn.shopify.com/s/files/1/0648/1569/4057/files/H1_1x_1.png?v=1767593476", "source_type": "manufacturer", "revision_alignment": "exact_preview", "modeling_value": "high"},
+        {"id": "onero-h1-ces", "view": "front", "role": "official CES graphic", "page_url": "https://www.switch-bot.com/pages/events-ces-2026", "direct_url": "https://cdn.shopify.com/s/files/1/0648/1569/4057/files/H1.svg?v=1767149614", "source_type": "manufacturer", "revision_alignment": "exact_preview", "modeling_value": "medium"},
+        {"id": "onero-h1-ces-alt", "view": "front_three_quarter", "role": "alternate official CES graphic", "page_url": "https://www.switch-bot.com/pages/events-ces-2026", "direct_url": "https://cdn.shopify.com/s/files/1/0648/1569/4057/files/H1_1.svg?v=1767150856", "source_type": "manufacturer", "revision_alignment": "exact_preview", "modeling_value": "medium"}
+      ],
+      "reference_coverage": {"front": "partial", "front_three_quarter": "strong", "side": "missing", "rear": "missing", "head_detail": "partial", "hand_detail": "partial", "material_detail": "partial", "score_out_of_5": 2.5, "blockers": ["Add exact side, rear, hand, and material references.", "Confirm final production design rather than CES preview design."], "ready_for_3d": false},
+      "sources": [
+        {"title": "onero H1", "publisher": "SwitchBot", "url": "https://us.switch-bot.com/products/onero-h1", "type": "manufacturer_store", "supports": ["store listing price", "unavailable status", "home positioning", "visual reference"]},
+        {"title": "SwitchBot at CES 2026", "publisher": "SwitchBot", "url": "https://www.switch-bot.com/pages/events-ces-2026", "type": "manufacturer_event_page", "supports": ["preview status", "Omni Sense VLA", "visual references"]}
+      ],
+      "quality": {"spec_confidence": "low", "price_confidence": "medium_listing", "revision_confidence": "preview_only", "open_issues": ["No public physical specs.", "Product is unavailable and may change before production."]}
+    }
+  ],
+  "research_summary": {
+    "pictured_model_ids": ["1x-neo", "fourier-gr3", "fauna-sprout", "sunday-memo", "weave-isaac-1", "boston-dynamics-atlas", "figure-03"],
+    "peer_model_ids": ["unitree-g1", "agility-digit", "apptronik-apollo-2", "sanctuary-phoenix-gen8", "ubtech-walker-s2", "neura-4ne1-gen3", "tesla-optimus", "switchbot-onero-h1"],
+    "reference_ready_after_approval_with_minor_gaps": ["fauna-sprout", "weave-isaac-1", "unitree-g1", "agility-digit", "ubtech-walker-s2"],
+    "requires_revision_or_configuration_choice": ["boston-dynamics-atlas", "unitree-g1", "apptronik-apollo-2", "sanctuary-phoenix-gen8", "neura-4ne1-gen3", "switchbot-onero-h1"],
+    "requires_major_reference_collection": ["sunday-memo", "tesla-optimus"],
+    "recommended_first_3d_batch_after_approval": ["fauna-sprout", "weave-isaac-1", "unitree-g1", "agility-digit"],
+    "recommendation_basis": "These four have strong official identity, current specs, useful full-body imagery, and limited revision ambiguity. All robots remain blocked from generation until explicit user approval."
+  },
+  "validation": {
+    "json_parse": "passed",
+    "robot_count_check": "passed_15",
+    "pictured_count_check": "passed_7",
+    "peer_count_check": "passed_8",
+    "reference_image_url_count": 47,
+    "reference_image_http_check": "47_of_47_returned_http_200_on_2026-07-18",
+    "source_url_check": "All source URLs returned HTTP 200 on 2026-07-18 except Tesla's official AI page, which returned HTTP 403 to automated curl while remaining the canonical manufacturer URL.",
+    "threejs_or_mint_generation_check": "threejs_app_started; Mint generation blocked because the current tool host exposes no Mint calls"
+  }
+}

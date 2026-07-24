@@ -38,3 +38,22 @@ test("the package preserves the local-first archive contract", async () => {
   assert.match(source, /DEMO_SCENARIOS/);
   assert.match(source, /inferMemoryConnections/);
 });
+
+test("the constellation renderer keeps the CDN sky visible and responsive", async () => {
+  const source = await readFile(
+    new URL("app/MemoryConstellation.tsx", packageRoot),
+    "utf8",
+  );
+
+  assert.match(source, /WEBGL_TEXTURE_QUERY = "consumer=three"/);
+  assert.match(
+    source,
+    /webglTextureUrl\(MEMORY_CONSTELLATION_ASSETS\.denseBackdrop\)/,
+  );
+  assert.match(
+    source,
+    /renderer\.setSize\(host\.clientWidth, host\.clientHeight, false\)/,
+  );
+  assert.match(source, /DEFAULT_CAMERA_PITCH = 0\.52/);
+  assert.match(source, /const captureDate = hydrated \? formatDate\(today\(\)\) : ""/);
+});

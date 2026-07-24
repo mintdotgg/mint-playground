@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 2,
+  "order": 220,
+  "slug": "robot-store",
+  "title": "Future Form: Robot Store",
+  "description": "Explore an editorial 3D archive of 15 humanoid robots, orbit each digital twin, and compare their capabilities.",
+  "status": "published",
+  "publishedAt": "2026-07-24",
+  "tags": [
+    "three.js",
+    "robots",
+    "catalog",
+    "interactive"
+  ],
+  "prompt": {
+    "version": 1,
+    "objective": "Build an interactive editorial storefront for a curated lineup of humanoid robots.",
+    "mintAssets": [
+      {
+        "kind": "asset-pack",
+        "brief": "Fifteen near-future humanoid and service robots in a coherent presentation style."
+      }
+    ],
+    "experience": [
+      "Browse a carousel of robots and inspect one focused 3D digital twin at a time.",
+      "Orbit, pan, zoom, toggle motion and dither, and reset the technical showroom.",
+      "Surface concise specifications, availability, pricing context, and official links."
+    ],
+    "visualDirection": "Industrial editorial archive with warm paper, bold condensed type, orange technical accents, and halftone texture."
+  },
+  "thumbnail": {
+    "src": "/experience-assets/robot-store/social-card.webp",
+    "alt": "Editorial robot storefront featuring the orange-and-white Sunday Memo robot surrounded by technical callouts and a carousel of robot models."
+  },
+  "social": {
+    "title": "Future Form: Robot Store",
+    "description": "Explore an editorial 3D archive of 15 humanoid robots, orbit each digital twin, and compare their capabilities.",
+    "image": {
+      "src": "/experience-assets/robot-store/social-card.webp",
+      "alt": "Editorial robot storefront featuring the orange-and-white Sunday Memo robot surrounded by technical callouts and a carousel of robot models.",
+      "width": 1200,
+      "height": 630,
+      "accent": "#ff641e"
+    }
+  },
+  "runtime": {
+    "kind": "bundle",
+    "src": "/_experiences/robot-store/index.html",
+    "title": "Future Form: Robot Store"
+  }
+}
