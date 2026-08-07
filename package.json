@@ -5,6 +5,8 @@
   "license": "MIT",
   "packageManager": "pnpm@10.6.2",
   "scripts": {
-    "build": "pnpm -r --if-present build"
+    "build": "pnpm -r --if-present build",
+    "play": "node scripts/play.mjs",
+    "validate:catalog": "node scripts/validate-catalog.mjs"
   }
 }

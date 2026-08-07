@@ -1,0 +1,21 @@
+changelog:
+  exclude:
+    labels:
+      - skip-changelog
+  categories:
+    - title: New experiences
+      labels:
+        - new-experience
+    - title: Improvements and fixes
+      labels:
+        - enhancement
+        - bug
+    - title: Documentation
+      labels:
+        - documentation
+    - title: Dependency updates
+      labels:
+        - dependencies
+    - title: Other changes
+      labels:
+        - "*"

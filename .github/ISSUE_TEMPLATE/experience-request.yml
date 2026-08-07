@@ -1,0 +1,45 @@
+name: Experience request
+description: Suggest a 3D experience or reusable pattern for a future Playground drop.
+title: "[Experience]: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: concept
+    attributes:
+      label: Concept
+      description: What should someone be able to do, and why is it valuable as an open-source reference?
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Browser game
+        - Product or commerce
+        - Data visualization or education
+        - Creative or editorial
+        - World or simulation
+        - Reusable Three.js pattern
+    validations:
+      required: true
+  - type: textarea
+    id: learning
+    attributes:
+      label: What should developers learn from it?
+      description: List the interaction, rendering, architecture, or performance patterns it would demonstrate.
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Link to relevant open-source projects or original visual references. Do not attach unlicensed media.
+  - type: checkboxes
+    id: rights
+    attributes:
+      label: Rights check
+      options:
+        - label: The proposal does not depend on third-party characters, brands, or media that Mint lacks permission to publish.
+          required: true

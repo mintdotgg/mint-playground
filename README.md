@@ -1,12 +1,87 @@
-# Mint Playground
+<p align="center">
+  <a href="https://play.mint.gg">
+    <img src=".github/assets/social-preview.jpg" alt="Mint Playground — 39 open-source Three.js experiences" width="100%">
+  </a>
+</p>
 
-Open-source Three.js Experiences from [Mint Playground](https://play.mint.gg/).
+<h1 align="center">Mint Playground</h1>
 
-Every app here was made with [Mint MCP](https://mcp.mint.gg/) as the 3D asset
-pipeline and
-[Mint Three.js Skills](https://github.com/mintdotgg/mint-threejs-skills) as the coding workflow.
+<p align="center">
+  <strong>39 production-grade 3D web experiences, with live demos and source.</strong><br>
+  Explore reusable patterns for browser games, product configurators, data visualization,<br>
+  character animation, physics, audio, and Gaussian splats.
+</p>
 
-## Experiences
+<p align="center">
+  <a href="https://play.mint.gg"><strong>Play the demos</strong></a>
+  ·
+  <a href="#quick-start"><strong>Run one locally</strong></a>
+  ·
+  <a href="#browse-by-category"><strong>Browse by category</strong></a>
+  ·
+  <a href="CONTRIBUTING.md"><strong>Contribute</strong></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/mintdotgg/mint-playground/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/mintdotgg/mint-playground?style=flat-square&color=bdf832"></a>
+  <a href="https://github.com/mintdotgg/mint-playground/actions/workflows/validate.yml"><img alt="Catalog validation" src="https://img.shields.io/github/actions/workflow/status/mintdotgg/mint-playground/validate.yml?branch=main&style=flat-square&label=catalog"></a>
+  <a href="LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-161b22?style=flat-square"></a>
+</p>
+
+Every app is built with [Mint MCP](https://mcp.mint.gg/) as the 3D asset
+pipeline and [Mint Three.js Skills](https://github.com/mintdotgg/mint-threejs-skills)
+as the coding workflow. The source is organized as a pnpm workspace, with each
+experience isolated in `experiences/<slug>` and linked to its deployed version.
+
+## Start here
+
+<table>
+<tr>
+  <td width="25%" valign="top">
+    <a href="https://play.mint.gg/vanguard-protocol"><img src="https://play.mint.gg/experience-assets/vanguard-protocol/social-card.webp" alt="Vanguard Protocol animated character roster" width="100%"></a>
+    <strong>Character systems</strong><br>
+    <sub><a href="experiences/vanguard-protocol">Vanguard Protocol</a> — animation, selection, cameras, and reactive staging.</sub>
+  </td>
+  <td width="25%" valign="top">
+    <a href="https://play.mint.gg/breakline"><img src="https://play.mint.gg/experience-assets/breakline/social-card.webp" alt="Breakline arcade snowboarding game" width="100%"></a>
+    <strong>Game architecture</strong><br>
+    <sub><a href="experiences/breakline">Breakline</a> — physics, input, camera rigs, tricks, HUD, and audio.</sub>
+  </td>
+  <td width="25%" valign="top">
+    <a href="https://play.mint.gg/room-ritual"><img src="https://play.mint.gg/experience-assets/room-ritual/social-card.webp" alt="Room Ritual furniture configurator" width="100%"></a>
+    <strong>3D configurators</strong><br>
+    <sub><a href="experiences/room-ritual">Room Ritual</a> — placement, materials, lighting, and persistent state.</sub>
+  </td>
+  <td width="25%" valign="top">
+    <a href="https://play.mint.gg/impossible-places"><img src="https://play.mint.gg/experience-assets/impossible-places/social-card.webp" alt="Impossible Places Gaussian-splat world" width="100%"></a>
+    <strong>Gaussian splats</strong><br>
+    <sub><a href="experiences/impossible-places">Impossible Places</a> — streamed worlds and cinematic exploration.</sub>
+  </td>
+</tr>
+</table>
+
+## Browse by category
+
+| Category | Good places to begin |
+| --- | --- |
+| **Browser games** | [Breakline](experiences/breakline), [Mossbound](experiences/mossbound), [Reef Rivals](experiences/reef-rivals), [Genesis Grove Putt-Putt](experiences/mint-putt), [Flappy Bird 3D](experiences/flappy-bird-3d) |
+| **Product and commerce** | [Common Form](experiences/common-form), [Room Ritual](experiences/room-ritual), [Sole Archive](experiences/sole-archive), [Seatline NYC](experiences/seatline-nyc) |
+| **Data and education** | [Compound Visualization](experiences/compound-visualization), [Periodic Table 3D](experiences/periodic-table), [Financial City](experiences/financial-city), [SF Tennis Atlas](experiences/sf-tennis-atlas) |
+| **Creative and editorial** | [Neon Relic](experiences/neon-relic), [CDX-2089 Music Player](experiences/cdx-2089-music-player), [Side One](experiences/side-one), [The Complete Shelf](experiences/complete-shelf) |
+| **Worlds and simulation** | [Impossible Places](experiences/impossible-places), [Project Forge-5](experiences/project-forge-5), [Quadrotor Sandbox](experiences/quadrotor-sandbox), [Boulder Cove](experiences/boulder-cove) |
+
+## Patterns you can reuse
+
+| Pattern | Reference implementation |
+| --- | --- |
+| Character animation and selection | [`vanguard-protocol/src/showcase.ts`](experiences/vanguard-protocol/src/showcase.ts) |
+| Third-person physics and camera systems | [`breakline/src/systems`](experiences/breakline/src/systems) |
+| Configurator state and spatial placement | [`room-ritual/src`](experiences/room-ritual/src) |
+| Audio-reactive Three.js visuals | [`cdx-2089-music-player/src/audio`](experiences/cdx-2089-music-player/src/audio) |
+| Interactive scientific visualization | [`compound-visualization/src`](experiences/compound-visualization/src) |
+| Product viewer and persistent cart | [`sole-archive/components/sole-archive`](experiences/sole-archive/components/sole-archive) |
+
+## All experiences
 
 <table>
 <tr>
@@ -440,16 +515,46 @@ pipeline and
 </tr>
 </table>
 
-## Run locally
+## Quick start
 
-Install the workspace and start any Experience by its directory name:
+Requirements: Node.js 20 or newer and pnpm 10.6.2. Corepack can install the
+pinned pnpm version for you.
 
 ```bash
-pnpm install
-pnpm --dir experiences/vanguard-protocol dev
+corepack enable
+pnpm install --filter ./experiences/vanguard-protocol
+pnpm play vanguard-protocol
 ```
 
-Build every Experience with `pnpm build`.
+Run `pnpm play` without a slug to choose an experience interactively, or use
+`pnpm play --list` to print every available slug. Runtime 3D assets are loaded
+from Mint CDN, so the experiences require a network connection.
+
+To verify the repository catalog without installing dependencies:
+
+```bash
+pnpm validate:catalog
+```
+
+Build all experiences with `pnpm build`, or build one with:
+
+```bash
+pnpm --filter ./experiences/vanguard-protocol build
+```
+
+## Contributing
+
+Bug fixes, accessibility improvements, performance work, tests, and clearer
+documentation are welcome. Start with the [contribution guide](CONTRIBUTING.md)
+and look for [`good first issue`](https://github.com/mintdotgg/mint-playground/labels/good%20first%20issue)
+or [`help wanted`](https://github.com/mintdotgg/mint-playground/labels/help%20wanted)
+issues. New experience ideas belong in the experience request form so the
+maintainers can align them with the publishing pipeline before code is written.
+
+If this collection saves you time or gives you an idea, star the repository to
+follow future Playground drops. Maintainers can use the
+[GitHub visibility playbook](docs/maintainer-playbook.md) for repository settings,
+release structure, publishing checks, and weekly measurement.
 
 ## License
 
