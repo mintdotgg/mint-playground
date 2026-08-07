@@ -1,7 +1,7 @@
 # Flappy Bird 3D
 
 <a href="https://play.mint.gg/flappy-bird-3d">
-  <img src="https://play.mint.gg/experience-assets/flappy-bird-3d/social-card.webp" alt="A yellow 3D bird facing a green pipe course over a bright blue ocean beneath the Flappy Bird 3D title." width="100%">
+  <img src="../../.github/assets/experiences/flappy-bird-3d.webp" alt="A yellow 3D bird facing a green pipe course over a bright blue ocean beneath the Flappy Bird 3D title." width="100%">
 </a>
 
 Fly a selectable 3D bird down an endless ocean causeway, flapping through randomized pipe gaps for a high score.

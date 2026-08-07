@@ -26,8 +26,9 @@ implementation. Issues labeled [`good first issue`](https://github.com/mintdotgg
 are intentionally small and should include enough context to begin.
 
 Only contribute code and media you have permission to publish. Do not commit
-credentials, downloaded Mint CDN assets, production data, or third-party media
-without a compatible license and attribution.
+credentials, production data, runtime assets downloaded from Mint CDN, or
+third-party media without a compatible license and attribution. The curated
+social cards under `.github/assets/experiences` are the intentional exception.
 
 ## Local setup
 

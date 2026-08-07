@@ -1,7 +1,7 @@
 # SF Tennis Atlas
 
 <a href="https://play.mint.gg/sf-tennis-atlas">
-  <img src="https://play.mint.gg/experience-assets/sf-tennis-atlas/social-card.webp" alt="SF Tennis Atlas showing official public tennis facilities across a stylized 3D map of San Francisco" width="100%">
+  <img src="../../.github/assets/experiences/sf-tennis-atlas.webp" alt="SF Tennis Atlas showing official public tennis facilities across a stylized 3D map of San Francisco" width="100%">
 </a>
 
 A source-aware 3D atlas for exploring all 64 official San Francisco public tennis facilities.

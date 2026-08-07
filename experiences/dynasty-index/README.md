@@ -1,7 +1,7 @@
 # Dynasty Index
 
 <a href="https://play.mint.gg/dynasty-index">
-  <img src="https://play.mint.gg/experience-assets/dynasty-index/social-card.webp" alt="Jalen Quill basketball card displayed in the Dynasty Index collector vault" width="100%">
+  <img src="../../.github/assets/experiences/dynasty-index.webp" alt="Jalen Quill basketball card displayed in the Dynasty Index collector vault" width="100%">
 </a>
 
 An immersive collector vault for selecting and inspecting six fictional premium sports trading cards.

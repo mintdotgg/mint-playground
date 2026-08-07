@@ -1,7 +1,7 @@
 # The Complete Shelf
 
 <a href="https://play.mint.gg/complete-shelf">
-  <img src="https://play.mint.gg/experience-assets/complete-shelf/social-card.webp" alt="A warm editorial 3D bookshelf with colorful procedural hardcovers arranged above a walnut shelf." width="100%">
+  <img src="../../.github/assets/experiences/complete-shelf.webp" alt="A warm editorial 3D bookshelf with colorful procedural hardcovers arranged above a walnut shelf." width="100%">
 </a>
 
 Browse nineteen procedural hardcovers on a continuous 3D shelf, then pull any volume forward to orbit, zoom, and inspect its editorial details.

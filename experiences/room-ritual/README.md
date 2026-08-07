@@ -1,7 +1,7 @@
 # Room Ritual
 
 <a href="https://play.mint.gg/room-ritual">
-  <img src="https://play.mint.gg/experience-assets/room-ritual/social-card.webp" alt="Room Ritual apartment configurator with a furniture catalog, measured 3D room plan, and product inspector." width="100%">
+  <img src="../../.github/assets/experiences/room-ritual.webp" alt="Room Ritual apartment configurator with a furniture catalog, measured 3D room plan, and product inspector." width="100%">
 </a>
 
 Arrange six statement furniture pieces in a soft-brutalist loft, customize finishes and lighting, and save, compare, or cart room plans.

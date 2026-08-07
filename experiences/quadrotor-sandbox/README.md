@@ -1,7 +1,7 @@
 # Quadrotor Sandbox
 
 <a href="https://play.mint.gg/quadrotor-sandbox">
-  <img src="https://play.mint.gg/experience-assets/quadrotor-sandbox/social-card.webp" alt="A shuttle launch stack climbing above a modern city with glowing engine plumes and live flight telemetry." width="100%">
+  <img src="../../.github/assets/experiences/quadrotor-sandbox.webp" alt="A shuttle launch stack climbing above a modern city with glowing engine plumes and live flight telemetry." width="100%">
 </a>
 
 Pilot seven distinct aircraft through a collider-rich city with real flight models, wind, sensing, tuning, landings, and launch staging.

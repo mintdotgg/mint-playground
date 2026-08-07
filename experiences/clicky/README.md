@@ -1,7 +1,7 @@
 # heyclicky
 
 <a href="https://play.mint.gg/clicky">
-  <img src="https://play.mint.gg/experience-assets/clicky/social-card.webp" alt="The heyclicky landing page surrounded by floating 3D character, tech, and sticker props." width="100%">
+  <img src="../../.github/assets/experiences/clicky.webp" alt="The heyclicky landing page surrounded by floating 3D character, tech, and sticker props." width="100%">
 </a>
 
 Explore a playful desktop AI companion through draggable media windows, switchable 2D and 3D stickers, easter eggs, features, social proof, pricing, and FAQs.

@@ -19,13 +19,25 @@ async function readJson(path, label) {
 
 for (const directory of directories) {
   const prefix = `experiences/${directory}`;
+  const cardPath = `.github/assets/experiences/${directory}.webp`;
   const manifest = await readJson(`${prefix}/experience.json`, `${directory}/experience.json`);
   const packageJson = await readJson(`${prefix}/package.json`, `${directory}/package.json`);
+  let experienceReadme = "";
 
   try {
-    await readFile(new URL(`${prefix}/README.md`, repositoryRoot));
+    experienceReadme = await readFile(new URL(`${prefix}/README.md`, repositoryRoot), "utf8");
   } catch {
     errors.push(`${directory}: missing README.md`);
+  }
+
+  try {
+    const card = await readFile(new URL(cardPath, repositoryRoot));
+    const isWebp =
+      card.subarray(0, 4).toString("ascii") === "RIFF" &&
+      card.subarray(8, 12).toString("ascii") === "WEBP";
+    if (!isWebp) errors.push(`${directory}: social card is not a valid WebP file`);
+  } catch {
+    errors.push(`${directory}: missing local social card`);
   }
 
   if (!manifest || !packageJson) continue;
@@ -56,6 +68,12 @@ for (const directory of directories) {
   }
   if (!readme.includes(`https://play.mint.gg/${directory}`)) {
     errors.push(`${directory}: root README is missing a live demo link`);
+  }
+  if (!readme.includes(cardPath)) {
+    errors.push(`${directory}: root README is missing its local social card`);
+  }
+  if (!experienceReadme.includes(`../../${cardPath}`)) {
+    errors.push(`${directory}: experience README is missing its local social card`);
   }
 
   records.push({ directory, order: manifest.order, title: manifest.title });

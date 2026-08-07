@@ -1,7 +1,7 @@
 # Mossbound
 
 <a href="https://play.mint.gg/mossbound">
-  <img src="https://play.mint.gg/experience-assets/mossbound/social-card.webp" alt="A rune sword facing corrupted grove creatures among mossy ruins" width="100%">
+  <img src="../../.github/assets/experiences/mossbound.webp" alt="A rune sword facing corrupted grove creatures among mossy ruins" width="100%">
 </a>
 
 A first-person fantasy melee run through five escalating waves of corrupted grove creatures, ending in a showdown with the Thornheart.

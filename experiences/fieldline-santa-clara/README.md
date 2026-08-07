@@ -1,7 +1,7 @@
 # Fieldline Santa Clara
 
 <a href="https://play.mint.gg/fieldline-santa-clara">
-  <img src="https://play.mint.gg/experience-assets/fieldline-santa-clara/social-card.webp" alt="Fieldline’s modeled Levi’s Stadium bowl with the field, red seating, and selected-seat analysis panels." width="100%">
+  <img src="../../.github/assets/experiences/fieldline-santa-clara.webp" alt="Fieldline’s modeled Levi’s Stadium bowl with the field, red seating, and selected-seat analysis panels." width="100%">
 </a>
 
 Explore every section at Levi’s Stadium, enter modeled seated views, compare sightlines, and inspect obstruction, shade, weather, and event context before opening official tickets.

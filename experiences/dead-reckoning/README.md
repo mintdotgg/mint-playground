@@ -1,7 +1,7 @@
 # Dead Reckoning
 
 <a href="https://play.mint.gg/dead-reckoning">
-  <img src="https://play.mint.gg/experience-assets/dead-reckoning/social-card.webp" alt="Polished ivory and black chess pieces emerging from pale fog above a rocky board in an ink-wash mountain valley." width="100%">
+  <img src="../../.github/assets/experiences/dead-reckoning.webp" alt="Polished ivory and black chess pieces emerging from pale fog above a rocky board in an ink-wash mountain valley." width="100%">
 </a>
 
 Play a complete 3D chess match where fog reveals only squares your pieces attack while a greedy AI moves unseen.

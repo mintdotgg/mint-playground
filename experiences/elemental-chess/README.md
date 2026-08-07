@@ -1,7 +1,7 @@
 # Elemental Chess
 
 <a href="https://play.mint.gg/elemental-chess">
-  <img src="https://play.mint.gg/experience-assets/elemental-chess/social-card.webp" alt="Water Tribe and Fire Nation sculptures face each other across an ornate icy chessboard." width="100%">
+  <img src="../../.github/assets/experiences/elemental-chess.webp" alt="Water Tribe and Fire Nation sculptures face each other across an ornate icy chessboard." width="100%">
 </a>
 
 Choose Water, Earth, Fire, or Air, face a rival, and play a complete cinematic 3D chess match in a Mint-authored elemental world.

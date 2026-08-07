@@ -1,7 +1,7 @@
 # Orbit Week
 
 <a href="https://play.mint.gg/orbit-week">
-  <img src="https://play.mint.gg/experience-assets/orbit-week/social-card.webp" alt="A glowing Sun and dark Mercury frame the Monday mission planner against a deep-space star field." width="100%">
+  <img src="../../.github/assets/experiences/orbit-week.webp" alt="A glowing Sun and dark Mercury frame the Monday mission planner against a deep-space star field." width="100%">
 </a>
 
 A cinematic 3D weekly planner where each day is a planet and every task becomes a mission you can add, complete, and carry through the week.

@@ -1,7 +1,7 @@
 # Sole Archive
 
 <a href="https://play.mint.gg/sole-archive">
-  <img src="https://play.mint.gg/experience-assets/sole-archive/social-card.webp" alt="Sole Archive showing the Sublevel Zero sneaker in a dark acid-green configurator with product controls." width="100%">
+  <img src="../../.github/assets/experiences/sole-archive.webp" alt="Sole Archive showing the Sublevel Zero sneaker in a dark acid-green configurator with product controls." width="100%">
 </a>
 
 Inspect and configure six fictional sneakers in an underground boutique with exploded materials, comparison, wishlist, sizing, and a persistent demo cart.

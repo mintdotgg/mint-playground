@@ -1,7 +1,7 @@
 # Pogo Man
 
 <a href="https://play.mint.gg/pogo-man">
-  <img src="https://play.mint.gg/experience-assets/pogo-man/social-card.webp" alt="A stylized rider bounces on a pogo stick over yellow and coral cars on a colorful city street." width="100%">
+  <img src="../../.github/assets/experiences/pogo-man.webp" alt="A stylized rider bounces on a pogo stick over yellow and coral cars on a colorful city street." width="100%">
 </a>
 
 Charge double jumps to clear city traffic, build combos, and chase a high score in a one-button 3D arcade run.

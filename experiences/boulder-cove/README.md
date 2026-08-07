@@ -1,7 +1,7 @@
 # Boulder Cove
 
 <a href="https://play.mint.gg/boulder-cove">
-  <img src="https://play.mint.gg/experience-assets/boulder-cove/social-card.webp" alt="A cave kid explores a pastel prehistoric village with stone huts, a bone bridge, trees, tools, and a life-sim HUD." width="100%">
+  <img src="../../.github/assets/experiences/boulder-cove.webp" alt="A cave kid explores a pastel prehistoric village with stone huts, a bone bridge, trees, tools, and a life-sim HUD." width="100%">
 </a>
 
 A cozy prehistoric island life game where you gather, fish, catch bugs, plant trees, and help dinosaur neighbors earn your own boulder hut.

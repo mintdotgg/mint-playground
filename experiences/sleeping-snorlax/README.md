@@ -1,7 +1,7 @@
 # Sleeping Snorlax
 
 <a href="https://play.mint.gg/sleeping-snorlax">
-  <img src="https://play.mint.gg/experience-assets/sleeping-snorlax/social-card.webp" alt="A large sleeping Snorlax resting in a sunny low-poly meadow beneath a Poke Snorlax prompt." width="100%">
+  <img src="../../.github/assets/experiences/sleeping-snorlax.webp" alt="A large sleeping Snorlax resting in a sunny low-poly meadow beneath a Poke Snorlax prompt." width="100%">
 </a>
 
 Poke a peacefully sleeping Snorlax to trigger escalating procedural reactions, combos, wake-ups, and permanent growth.

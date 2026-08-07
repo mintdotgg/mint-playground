@@ -1,7 +1,7 @@
 # Mint Hoops
 
 <a href="https://play.mint.gg/mint-hoops">
-  <img src="https://play.mint.gg/experience-assets/mint-hoops/social-card.webp" alt="Mint Hoops fieldhouse with a basketball aimed at a lime-trimmed hoop" width="100%">
+  <img src="../../.github/assets/experiences/mint-hoops.webp" alt="Mint Hoops fieldhouse with a basketball aimed at a lime-trimmed hoop" width="100%">
 </a>
 
 A 60-second arcade basketball score attack with drag-to-shoot controls, combo multipliers, and a three-point finale.

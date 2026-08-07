@@ -31,11 +31,13 @@ Announcements, Q&A, Ideas, and Show and tell.
 ## Publishing an experience
 
 1. Confirm the experience has an `experience.json`, package metadata, README,
-   live demo, source link, and social card.
+   live demo, source link, and a local social card at
+   `.github/assets/experiences/<slug>.webp`.
 2. Confirm all names, models, images, audio, and reference material can be
    published. Rename or remove material with unclear rights before promotion.
 3. Run `pnpm validate:catalog` and the experience's build and tests.
-4. Add it to the category and full catalog sections in the root README.
+4. Add it to the category and full catalog sections in the root README, and use
+   the local social card from both the root and experience READMEs.
 5. Use the `new-experience` label so generated release notes classify it.
 
 ## Playground drops

@@ -1,7 +1,7 @@
 # Genesis Grove Putt-Putt
 
 <a href="https://play.mint.gg/mint-putt">
-  <img src="https://play.mint.gg/experience-assets/mint-putt/social-card.webp" alt="Aerial view of Half Dome Opening, a lime-green putting lane through a rocky Yosemite-inspired landscape" width="100%">
+  <img src="../../.github/assets/experiences/mint-putt.webp" alt="Aerial view of Half Dome Opening, a lime-green putting lane through a rocky Yosemite-inspired landscape" width="100%">
 </a>
 
 An 18-hole putting round through California-inspired Gaussian splat worlds, with drag-to-aim shots, touch controls, and a running scorecard.

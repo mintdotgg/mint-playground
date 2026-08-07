@@ -1,7 +1,7 @@
 # Jimothy’s Backyard Dash
 
 <a href="https://play.mint.gg/jimothys-backyard-dash">
-  <img src="https://play.mint.gg/experience-assets/jimothys-backyard-dash/social-card.webp" alt="Jimothy’s Backyard Dash menu showing three racers at the start of a three-lane backyard course." width="100%">
+  <img src="../../.github/assets/experiences/jimothys-backyard-dash.webp" alt="Jimothy’s Backyard Dash menu showing three racers at the start of a three-lane backyard course." width="100%">
 </a>
 
 Guide Jimothy through a fast three-lane backyard race, dodging obstacles, collecting Moon Tokens, and battling two rivals across five streamed worlds.

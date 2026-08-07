@@ -1,7 +1,7 @@
 # Kirby Smash
 
 <a href="https://play.mint.gg/kirby-smash">
-  <img src="https://play.mint.gg/experience-assets/kirby-smash/social-card.webp" alt="Two colorful fighters battle on a floating three-platform arena above waterfalls and distant sky islands." width="100%">
+  <img src="../../.github/assets/experiences/kirby-smash.webp" alt="Two colorful fighters battle on a floating three-platform arena above waterfalls and distant sky islands." width="100%">
 </a>
 
 Battle across three floating arenas in a 2.5D platform fighter with four selectable combatants, local two-player or CPU matches, percent damage, stocks, and Smash-style knockback.
