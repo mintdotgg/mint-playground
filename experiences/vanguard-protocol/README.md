@@ -1,7 +1,7 @@
 # Vanguard Protocol
 
 <a href="https://play.mint.gg/vanguard-protocol">
-  <img src="https://play.mint.gg/experience-assets/vanguard-protocol/social-card.webp" alt="Nyx-7 displayed in the Vanguard Protocol combat roster" width="100%">
+  <img src="../../.github/assets/experiences/vanguard-protocol.webp" alt="Nyx-7 displayed in the Vanguard Protocol combat roster" width="100%">
 </a>
 
 A cinematic five-character combat roster with animated fighters and reactive tactical staging.

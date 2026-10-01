@@ -1,7 +1,7 @@
 # The Forgotten Experiment
 
 <a href="https://play.mint.gg/forgotten-experiment">
-  <img src="https://play.mint.gg/experience-assets/forgotten-experiment/social-card.webp" alt="A worn containment machine stands in an abandoned laboratory beneath a classified experiment HUD." width="100%">
+  <img src="../../.github/assets/experiences/forgotten-experiment.webp" alt="A worn containment machine stands in an abandoned laboratory beneath a classified experiment HUD." width="100%">
 </a>
 
 Search two abandoned laboratory rooms, collect and equip tools, solve layered evidence puzzles, and unlock Dr. Elias Vale&#39;s experiment.

@@ -1,7 +1,7 @@
 # Future Form: Robot Store
 
 <a href="https://play.mint.gg/robot-store">
-  <img src="https://play.mint.gg/experience-assets/robot-store/social-card.webp" alt="Editorial robot storefront featuring the orange-and-white Sunday Memo robot surrounded by technical callouts and a carousel of robot models." width="100%">
+  <img src="../../.github/assets/experiences/robot-store.webp" alt="Editorial robot storefront featuring the orange-and-white Sunday Memo robot surrounded by technical callouts and a carousel of robot models." width="100%">
 </a>
 
 Explore an editorial 3D archive of 15 humanoid robots, orbit each digital twin, and compare their capabilities.

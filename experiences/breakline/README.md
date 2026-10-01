@@ -1,7 +1,7 @@
 # Breakline
 
 <a href="https://play.mint.gg/breakline">
-  <img src="https://play.mint.gg/experience-assets/breakline/social-card.webp" alt="A snowboarder carves through a bright alpine course as the HUD tracks closing polar bear and Yeti pursuers." width="100%">
+  <img src="../../.github/assets/experiences/breakline.webp" alt="A snowboarder carves through a bright alpine course as the HUD tracks closing polar bear and Yeti pursuers." width="100%">
 </a>
 
 Carve a 1.8 km mountain, chain tricks and grinds, and stay ahead of a Yeti and polar bear in a third-person arcade snowboarding chase.

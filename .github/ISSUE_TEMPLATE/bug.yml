@@ -1,0 +1,55 @@
+name: Bug report
+description: Report a reproducible problem in an experience or its source.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for helping improve Mint Playground. Please keep security reports private as described in SECURITY.md.
+  - type: input
+    id: experience
+    attributes:
+      label: Experience slug
+      description: The directory name or live-demo slug, such as vanguard-protocol.
+      placeholder: vanguard-protocol
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the behavior and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction steps
+      placeholder: |
+        1. Open …
+        2. Select …
+        3. Observe …
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Browser and device
+      placeholder: Chrome 140 on macOS 16, or Safari on iPhone 18
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshots, recordings, or console output
+      description: Remove tokens, personal data, and other sensitive information before posting.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I searched existing issues for this problem.
+          required: true
+        - label: This is not a security vulnerability.
+          required: true

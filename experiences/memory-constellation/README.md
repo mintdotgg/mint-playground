@@ -1,7 +1,7 @@
 # Memory Constellation
 
 <a href="https://play.mint.gg/memory-constellation">
-  <img src="https://play.mint.gg/experience-assets/memory-constellation/social-card.webp" alt="A dark memory observatory with warm connected stars, orbital trails, and the heading Where, when, and who we remember." width="100%">
+  <img src="../../.github/assets/experiences/memory-constellation.webp" alt="A dark memory observatory with warm connected stars, orbital trails, and the heading Where, when, and who we remember." width="100%">
 </a>
 
 Capture private memories locally, explore their connections as a 3D constellation, and revisit every moment in an accessible timeline.

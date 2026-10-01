@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Mint MCP documentation
+    url: https://mcp.mint.gg/docs
+    about: Get help installing or using Mint MCP.
+  - name: Play the experiences
+    url: https://play.mint.gg
+    about: Confirm whether a problem also appears in the deployed experience.

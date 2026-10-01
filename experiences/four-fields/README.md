@@ -1,7 +1,7 @@
 # Four Fields
 
 <a href="https://play.mint.gg/four-fields">
-  <img src="https://play.mint.gg/experience-assets/four-fields/social-card.webp" alt="A warm storybook miniature farm with a barn, farmhouse, fenced fields, hay bales, and a water trough." width="100%">
+  <img src="../../.github/assets/experiences/four-fields.webp" alt="A warm storybook miniature farm with a barn, farmhouse, fenced fields, hay bales, and a water trough." width="100%">
 </a>
 
 Harvest corn, potatoes, tomatoes, and strawberries across four timed plots in a warm storybook miniature farm.

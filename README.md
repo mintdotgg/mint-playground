@@ -1,17 +1,92 @@
-# Mint Playground
+<p align="center">
+  <a href="https://play.mint.gg">
+    <img src=".github/assets/social-preview.jpg" alt="Mint Playground — 39 open-source Three.js experiences" width="100%">
+  </a>
+</p>
 
-Open-source Three.js Experiences from [Mint Playground](https://play.mint.gg/).
+<h1 align="center">Mint Playground</h1>
 
-Every app here was made with [Mint MCP](https://mcp.mint.gg/) as the 3D asset
-pipeline and
-[Mint Three.js Skills](https://github.com/mintdotgg/mint-threejs-skills) as the coding workflow.
+<p align="center">
+  <strong>39 production-grade 3D web experiences, with live demos and source.</strong><br>
+  Explore reusable patterns for browser games, product configurators, data visualization,<br>
+  character animation, physics, audio, and Gaussian splats.
+</p>
 
-## Experiences
+<p align="center">
+  <a href="https://play.mint.gg"><strong>Play the demos</strong></a>
+  ·
+  <a href="#quick-start"><strong>Run one locally</strong></a>
+  ·
+  <a href="#browse-by-category"><strong>Browse by category</strong></a>
+  ·
+  <a href="CONTRIBUTING.md"><strong>Contribute</strong></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/mintdotgg/mint-playground/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/mintdotgg/mint-playground?style=flat-square&color=bdf832"></a>
+  <a href="https://github.com/mintdotgg/mint-playground/actions/workflows/validate.yml"><img alt="Catalog validation" src="https://img.shields.io/github/actions/workflow/status/mintdotgg/mint-playground/validate.yml?branch=main&style=flat-square&label=catalog"></a>
+  <a href="LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-161b22?style=flat-square"></a>
+</p>
+
+Every app is built with [Mint MCP](https://mcp.mint.gg/) as the 3D asset
+pipeline and [Mint Three.js Skills](https://github.com/mintdotgg/mint-threejs-skills)
+as the coding workflow. The source is organized as a pnpm workspace, with each
+experience isolated in `experiences/<slug>` and linked to its deployed version.
+
+## Start here
+
+<table>
+<tr>
+  <td width="25%" valign="top">
+    <a href="https://play.mint.gg/vanguard-protocol"><img src=".github/assets/experiences/vanguard-protocol.webp" alt="Vanguard Protocol animated character roster" width="100%"></a>
+    <strong>Character systems</strong><br>
+    <sub><a href="experiences/vanguard-protocol">Vanguard Protocol</a> — animation, selection, cameras, and reactive staging.</sub>
+  </td>
+  <td width="25%" valign="top">
+    <a href="https://play.mint.gg/breakline"><img src=".github/assets/experiences/breakline.webp" alt="Breakline arcade snowboarding game" width="100%"></a>
+    <strong>Game architecture</strong><br>
+    <sub><a href="experiences/breakline">Breakline</a> — physics, input, camera rigs, tricks, HUD, and audio.</sub>
+  </td>
+  <td width="25%" valign="top">
+    <a href="https://play.mint.gg/room-ritual"><img src=".github/assets/experiences/room-ritual.webp" alt="Room Ritual furniture configurator" width="100%"></a>
+    <strong>3D configurators</strong><br>
+    <sub><a href="experiences/room-ritual">Room Ritual</a> — placement, materials, lighting, and persistent state.</sub>
+  </td>
+  <td width="25%" valign="top">
+    <a href="https://play.mint.gg/impossible-places"><img src=".github/assets/experiences/impossible-places.webp" alt="Impossible Places Gaussian-splat world" width="100%"></a>
+    <strong>Gaussian splats</strong><br>
+    <sub><a href="experiences/impossible-places">Impossible Places</a> — streamed worlds and cinematic exploration.</sub>
+  </td>
+</tr>
+</table>
+
+## Browse by category
+
+| Category | Good places to begin |
+| --- | --- |
+| **Browser games** | [Breakline](experiences/breakline), [Mossbound](experiences/mossbound), [Reef Rivals](experiences/reef-rivals), [Genesis Grove Putt-Putt](experiences/mint-putt), [Flappy Bird 3D](experiences/flappy-bird-3d) |
+| **Product and commerce** | [Common Form](experiences/common-form), [Room Ritual](experiences/room-ritual), [Sole Archive](experiences/sole-archive), [Seatline NYC](experiences/seatline-nyc) |
+| **Data and education** | [Compound Visualization](experiences/compound-visualization), [Periodic Table 3D](experiences/periodic-table), [Financial City](experiences/financial-city), [SF Tennis Atlas](experiences/sf-tennis-atlas) |
+| **Creative and editorial** | [Neon Relic](experiences/neon-relic), [CDX-2089 Music Player](experiences/cdx-2089-music-player), [Side One](experiences/side-one), [The Complete Shelf](experiences/complete-shelf) |
+| **Worlds and simulation** | [Impossible Places](experiences/impossible-places), [Project Forge-5](experiences/project-forge-5), [Quadrotor Sandbox](experiences/quadrotor-sandbox), [Boulder Cove](experiences/boulder-cove) |
+
+## Patterns you can reuse
+
+| Pattern | Reference implementation |
+| --- | --- |
+| Character animation and selection | [`vanguard-protocol/src/showcase.ts`](experiences/vanguard-protocol/src/showcase.ts) |
+| Third-person physics and camera systems | [`breakline/src/systems`](experiences/breakline/src/systems) |
+| Configurator state and spatial placement | [`room-ritual/src`](experiences/room-ritual/src) |
+| Audio-reactive Three.js visuals | [`cdx-2089-music-player/src/audio`](experiences/cdx-2089-music-player/src/audio) |
+| Interactive scientific visualization | [`compound-visualization/src`](experiences/compound-visualization/src) |
+| Product viewer and persistent cart | [`sole-archive/components/sole-archive`](experiences/sole-archive/components/sole-archive) |
+
+## All experiences
 
 <table>
 <tr>
   <td width="220" valign="top">
-    <a href="https://play.mint.gg/vanguard-protocol"><img src="https://play.mint.gg/experience-assets/vanguard-protocol/social-card.webp" alt="Nyx-7 displayed in the Vanguard Protocol combat roster" width="220"></a>
+    <a href="https://play.mint.gg/vanguard-protocol"><img src=".github/assets/experiences/vanguard-protocol.webp" alt="Nyx-7 displayed in the Vanguard Protocol combat roster" width="220"></a>
     <h3>Vanguard Protocol</h3>
     <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/vanguard-protocol">Code</a> · <a href="https://play.mint.gg/vanguard-protocol">Live demo</a></p>
   </td>
@@ -22,7 +97,7 @@ pipeline and
 </tr>
 <tr>
   <td width="220" valign="top">
-    <a href="https://play.mint.gg/helios-form"><img src="https://play.mint.gg/experience-assets/helios-form/social-card.webp" alt="Asterion interceptor displayed in the Helios Form orbital showroom" width="220"></a>
+    <a href="https://play.mint.gg/helios-form"><img src=".github/assets/experiences/helios-form.webp" alt="Asterion interceptor displayed in the Helios Form orbital showroom" width="220"></a>
     <h3>Helios Form</h3>
     <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/helios-form">Code</a> · <a href="https://play.mint.gg/helios-form">Live demo</a></p>
   </td>
@@ -33,7 +108,7 @@ pipeline and
 </tr>
 <tr>
   <td width="220" valign="top">
-    <a href="https://play.mint.gg/neon-relic"><img src="https://play.mint.gg/experience-assets/neon-relic/social-card.webp" alt="Aether humanoid displayed in the Neon Relic editorial gallery" width="220"></a>
+    <a href="https://play.mint.gg/neon-relic"><img src=".github/assets/experiences/neon-relic.webp" alt="Aether humanoid displayed in the Neon Relic editorial gallery" width="220"></a>
     <h3>Neon Relic</h3>
     <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/neon-relic">Code</a> · <a href="https://play.mint.gg/neon-relic">Live demo</a></p>
   </td>
@@ -44,7 +119,7 @@ pipeline and
 </tr>
 <tr>
   <td width="220" valign="top">
-    <a href="https://play.mint.gg/impossible-places"><img src="https://play.mint.gg/experience-assets/impossible-places/social-card.webp" alt="The Observatory issue of the Impossible Places travel magazine" width="220"></a>
+    <a href="https://play.mint.gg/impossible-places"><img src=".github/assets/experiences/impossible-places.webp" alt="The Observatory issue of the Impossible Places travel magazine" width="220"></a>
     <h3>Impossible Places</h3>
     <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/impossible-places">Code</a> · <a href="https://play.mint.gg/impossible-places">Live demo</a></p>
   </td>
@@ -55,7 +130,7 @@ pipeline and
 </tr>
 <tr>
   <td width="220" valign="top">
-    <a href="https://play.mint.gg/mint-hoops"><img src="https://play.mint.gg/experience-assets/mint-hoops/social-card.webp" alt="Mint Hoops fieldhouse with a basketball aimed at a lime-trimmed hoop" width="220"></a>
+    <a href="https://play.mint.gg/mint-hoops"><img src=".github/assets/experiences/mint-hoops.webp" alt="Mint Hoops fieldhouse with a basketball aimed at a lime-trimmed hoop" width="220"></a>
     <h3>Mint Hoops</h3>
     <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/mint-hoops">Code</a> · <a href="https://play.mint.gg/mint-hoops">Live demo</a></p>
   </td>
@@ -66,7 +141,7 @@ pipeline and
 </tr>
 <tr>
   <td width="220" valign="top">
-    <a href="https://play.mint.gg/mossbound"><img src="https://play.mint.gg/experience-assets/mossbound/social-card.webp" alt="A rune sword facing corrupted grove creatures among mossy ruins" width="220"></a>
+    <a href="https://play.mint.gg/mossbound"><img src=".github/assets/experiences/mossbound.webp" alt="A rune sword facing corrupted grove creatures among mossy ruins" width="220"></a>
     <h3>Mossbound</h3>
     <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/mossbound">Code</a> · <a href="https://play.mint.gg/mossbound">Live demo</a></p>
   </td>
@@ -77,7 +152,7 @@ pipeline and
 </tr>
 <tr>
   <td width="220" valign="top">
-    <a href="https://play.mint.gg/dynasty-index"><img src="https://play.mint.gg/experience-assets/dynasty-index/social-card.webp" alt="Jalen Quill basketball card displayed in the Dynasty Index collector vault" width="220"></a>
+    <a href="https://play.mint.gg/dynasty-index"><img src=".github/assets/experiences/dynasty-index.webp" alt="Jalen Quill basketball card displayed in the Dynasty Index collector vault" width="220"></a>
     <h3>Dynasty Index</h3>
     <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/dynasty-index">Code</a> · <a href="https://play.mint.gg/dynasty-index">Live demo</a></p>
   </td>
@@ -88,7 +163,7 @@ pipeline and
 </tr>
 <tr>
   <td width="220" valign="top">
-    <a href="https://play.mint.gg/sf-tennis-atlas"><img src="https://play.mint.gg/experience-assets/sf-tennis-atlas/social-card.webp" alt="SF Tennis Atlas showing official public tennis facilities across a stylized 3D map of San Francisco" width="220"></a>
+    <a href="https://play.mint.gg/sf-tennis-atlas"><img src=".github/assets/experiences/sf-tennis-atlas.webp" alt="SF Tennis Atlas showing official public tennis facilities across a stylized 3D map of San Francisco" width="220"></a>
     <h3>SF Tennis Atlas</h3>
     <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/sf-tennis-atlas">Code</a> · <a href="https://play.mint.gg/sf-tennis-atlas">Live demo</a></p>
   </td>
@@ -99,7 +174,7 @@ pipeline and
 </tr>
 <tr>
   <td width="220" valign="top">
-    <a href="https://play.mint.gg/reef-rivals"><img src="https://play.mint.gg/experience-assets/reef-rivals/social-card.webp" alt="Two tube-riding heroes face a three-pirate raft crew in the tropical Reef Rivals arena." width="220"></a>
+    <a href="https://play.mint.gg/reef-rivals"><img src=".github/assets/experiences/reef-rivals.webp" alt="Two tube-riding heroes face a three-pirate raft crew in the tropical Reef Rivals arena." width="220"></a>
     <h3>Reef Rivals: Treasure Tide</h3>
     <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/reef-rivals">Code</a> · <a href="https://play.mint.gg/reef-rivals">Live demo</a></p>
   </td>
@@ -110,7 +185,7 @@ pipeline and
 </tr>
 <tr>
   <td width="220" valign="top">
-    <a href="https://play.mint.gg/cdx-2089-music-player"><img src="https://play.mint.gg/experience-assets/cdx-2089-music-player/social-card.webp" alt="The PRISM skin of the CDX-2089 futuristic music player with its illuminated disc and controls." width="220"></a>
+    <a href="https://play.mint.gg/cdx-2089-music-player"><img src=".github/assets/experiences/cdx-2089-music-player.webp" alt="The PRISM skin of the CDX-2089 futuristic music player with its illuminated disc and controls." width="220"></a>
     <h3>CDX-2089 Music Player</h3>
     <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/cdx-2089-music-player">Code</a> · <a href="https://play.mint.gg/cdx-2089-music-player">Live demo</a></p>
   </td>
@@ -121,7 +196,7 @@ pipeline and
 </tr>
 <tr>
   <td width="220" valign="top">
-    <a href="https://play.mint.gg/final-whistle"><img src="https://play.mint.gg/experience-assets/final-whistle/social-card.webp" alt="Spain celebrates a 2-1 championship victory in a packed open-top stadium." width="220"></a>
+    <a href="https://play.mint.gg/final-whistle"><img src=".github/assets/experiences/final-whistle.webp" alt="Spain celebrates a 2-1 championship victory in a packed open-top stadium." width="220"></a>
     <h3>Final Whistle: Spain vs Argentina</h3>
     <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/final-whistle">Code</a> · <a href="https://play.mint.gg/final-whistle">Live demo</a></p>
   </td>
@@ -132,7 +207,7 @@ pipeline and
 </tr>
 <tr>
   <td width="220" valign="top">
-    <a href="https://play.mint.gg/mint-putt"><img src="https://play.mint.gg/experience-assets/mint-putt/social-card.webp" alt="Aerial view of Half Dome Opening, a lime-green putting lane through a rocky Yosemite-inspired landscape" width="220"></a>
+    <a href="https://play.mint.gg/mint-putt"><img src=".github/assets/experiences/mint-putt.webp" alt="Aerial view of Half Dome Opening, a lime-green putting lane through a rocky Yosemite-inspired landscape" width="220"></a>
     <h3>Genesis Grove Putt-Putt</h3>
     <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/mint-putt">Code</a> · <a href="https://play.mint.gg/mint-putt">Live demo</a></p>
   </td>
@@ -143,7 +218,7 @@ pipeline and
 </tr>
 <tr>
   <td width="220" valign="top">
-    <a href="https://play.mint.gg/boulder-cove"><img src="https://play.mint.gg/experience-assets/boulder-cove/social-card.webp" alt="A cave kid explores a pastel prehistoric village with stone huts, a bone bridge, trees, tools, and a life-sim HUD." width="220"></a>
+    <a href="https://play.mint.gg/boulder-cove"><img src=".github/assets/experiences/boulder-cove.webp" alt="A cave kid explores a pastel prehistoric village with stone huts, a bone bridge, trees, tools, and a life-sim HUD." width="220"></a>
     <h3>Boulder Cove</h3>
     <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/boulder-cove">Code</a> · <a href="https://play.mint.gg/boulder-cove">Live demo</a></p>
   </td>
@@ -154,7 +229,7 @@ pipeline and
 </tr>
 <tr>
   <td width="220" valign="top">
-    <a href="https://play.mint.gg/orbit-week"><img src="https://play.mint.gg/experience-assets/orbit-week/social-card.webp" alt="A glowing Sun and dark Mercury frame the Monday mission planner against a deep-space star field." width="220"></a>
+    <a href="https://play.mint.gg/orbit-week"><img src=".github/assets/experiences/orbit-week.webp" alt="A glowing Sun and dark Mercury frame the Monday mission planner against a deep-space star field." width="220"></a>
     <h3>Orbit Week</h3>
     <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/orbit-week">Code</a> · <a href="https://play.mint.gg/orbit-week">Live demo</a></p>
   </td>
@@ -165,7 +240,7 @@ pipeline and
 </tr>
 <tr>
   <td width="220" valign="top">
-    <a href="https://play.mint.gg/jimothys-backyard-dash"><img src="https://play.mint.gg/experience-assets/jimothys-backyard-dash/social-card.webp" alt="Jimothy’s Backyard Dash menu showing three racers at the start of a three-lane backyard course." width="220"></a>
+    <a href="https://play.mint.gg/jimothys-backyard-dash"><img src=".github/assets/experiences/jimothys-backyard-dash.webp" alt="Jimothy’s Backyard Dash menu showing three racers at the start of a three-lane backyard course." width="220"></a>
     <h3>Jimothy’s Backyard Dash</h3>
     <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/jimothys-backyard-dash">Code</a> · <a href="https://play.mint.gg/jimothys-backyard-dash">Live demo</a></p>
   </td>
@@ -176,7 +251,7 @@ pipeline and
 </tr>
 <tr>
   <td width="220" valign="top">
-    <a href="https://play.mint.gg/common-form"><img src="https://play.mint.gg/experience-assets/common-form/social-card.webp" alt="Common Form showroom with the Everyday Tote and five everyday objects staged beneath warm sculptural lighting." width="220"></a>
+    <a href="https://play.mint.gg/common-form"><img src=".github/assets/experiences/common-form.webp" alt="Common Form showroom with the Everyday Tote and five everyday objects staged beneath warm sculptural lighting." width="220"></a>
     <h3>Common Form</h3>
     <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/common-form">Code</a> · <a href="https://play.mint.gg/common-form">Live demo</a></p>
   </td>
@@ -187,7 +262,7 @@ pipeline and
 </tr>
 <tr>
   <td width="220" valign="top">
-    <a href="https://play.mint.gg/room-ritual"><img src="https://play.mint.gg/experience-assets/room-ritual/social-card.webp" alt="Room Ritual apartment configurator with a furniture catalog, measured 3D room plan, and product inspector." width="220"></a>
+    <a href="https://play.mint.gg/room-ritual"><img src=".github/assets/experiences/room-ritual.webp" alt="Room Ritual apartment configurator with a furniture catalog, measured 3D room plan, and product inspector." width="220"></a>
     <h3>Room Ritual</h3>
     <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/room-ritual">Code</a> · <a href="https://play.mint.gg/room-ritual">Live demo</a></p>
   </td>
@@ -198,7 +273,7 @@ pipeline and
 </tr>
 <tr>
   <td width="220" valign="top">
-    <a href="https://play.mint.gg/sole-archive"><img src="https://play.mint.gg/experience-assets/sole-archive/social-card.webp" alt="Sole Archive showing the Sublevel Zero sneaker in a dark acid-green configurator with product controls." width="220"></a>
+    <a href="https://play.mint.gg/sole-archive"><img src=".github/assets/experiences/sole-archive.webp" alt="Sole Archive showing the Sublevel Zero sneaker in a dark acid-green configurator with product controls." width="220"></a>
     <h3>Sole Archive</h3>
     <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/sole-archive">Code</a> · <a href="https://play.mint.gg/sole-archive">Live demo</a></p>
   </td>
@@ -209,7 +284,7 @@ pipeline and
 </tr>
 <tr>
   <td width="220" valign="top">
-    <a href="https://play.mint.gg/seatline-nyc"><img src="https://play.mint.gg/experience-assets/seatline-nyc/social-card.webp" alt="Seatline NYC showing a selected seat beside the 3D auditorium sightline and booking controls." width="220"></a>
+    <a href="https://play.mint.gg/seatline-nyc"><img src=".github/assets/experiences/seatline-nyc.webp" alt="Seatline NYC showing a selected seat beside the 3D auditorium sightline and booking controls." width="220"></a>
     <h3>Seatline NYC</h3>
     <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/seatline-nyc">Code</a> · <a href="https://play.mint.gg/seatline-nyc">Live demo</a></p>
   </td>
@@ -220,7 +295,7 @@ pipeline and
 </tr>
 <tr>
   <td width="220" valign="top">
-    <a href="https://play.mint.gg/elemental-chess"><img src="https://play.mint.gg/experience-assets/elemental-chess/social-card.webp" alt="Water Tribe and Fire Nation sculptures face each other across an ornate icy chessboard." width="220"></a>
+    <a href="https://play.mint.gg/elemental-chess"><img src=".github/assets/experiences/elemental-chess.webp" alt="Water Tribe and Fire Nation sculptures face each other across an ornate icy chessboard." width="220"></a>
     <h3>Elemental Chess</h3>
     <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/elemental-chess">Code</a> · <a href="https://play.mint.gg/elemental-chess">Live demo</a></p>
   </td>
@@ -231,7 +306,7 @@ pipeline and
 </tr>
 <tr>
   <td width="220" valign="top">
-    <a href="https://play.mint.gg/memory-constellation"><img src="https://play.mint.gg/experience-assets/memory-constellation/social-card.webp" alt="A dark memory observatory with warm connected stars, orbital trails, and the heading Where, when, and who we remember." width="220"></a>
+    <a href="https://play.mint.gg/memory-constellation"><img src=".github/assets/experiences/memory-constellation.webp" alt="A dark memory observatory with warm connected stars, orbital trails, and the heading Where, when, and who we remember." width="220"></a>
     <h3>Memory Constellation</h3>
     <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/memory-constellation">Code</a> · <a href="https://play.mint.gg/memory-constellation">Live demo</a></p>
   </td>
@@ -242,7 +317,7 @@ pipeline and
 </tr>
 <tr>
   <td width="220" valign="top">
-    <a href="https://play.mint.gg/pogo-man"><img src="https://play.mint.gg/experience-assets/pogo-man/social-card.webp" alt="A stylized rider bounces on a pogo stick over yellow and coral cars on a colorful city street." width="220"></a>
+    <a href="https://play.mint.gg/pogo-man"><img src=".github/assets/experiences/pogo-man.webp" alt="A stylized rider bounces on a pogo stick over yellow and coral cars on a colorful city street." width="220"></a>
     <h3>Pogo Man</h3>
     <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/pogo-man">Code</a> · <a href="https://play.mint.gg/pogo-man">Live demo</a></p>
   </td>
@@ -253,7 +328,7 @@ pipeline and
 </tr>
 <tr>
   <td width="220" valign="top">
-    <a href="https://play.mint.gg/robot-store"><img src="https://play.mint.gg/experience-assets/robot-store/social-card.webp" alt="Editorial robot storefront featuring the orange-and-white Sunday Memo robot surrounded by technical callouts and a carousel of robot models." width="220"></a>
+    <a href="https://play.mint.gg/robot-store"><img src=".github/assets/experiences/robot-store.webp" alt="Editorial robot storefront featuring the orange-and-white Sunday Memo robot surrounded by technical callouts and a carousel of robot models." width="220"></a>
     <h3>Future Form: Robot Store</h3>
     <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/robot-store">Code</a> · <a href="https://play.mint.gg/robot-store">Live demo</a></p>
   </td>
@@ -264,7 +339,7 @@ pipeline and
 </tr>
 <tr>
   <td width="220" valign="top">
-    <a href="https://play.mint.gg/breakline"><img src="https://play.mint.gg/experience-assets/breakline/social-card.webp" alt="A snowboarder carves through a bright alpine course as the HUD tracks closing polar bear and Yeti pursuers." width="220"></a>
+    <a href="https://play.mint.gg/breakline"><img src=".github/assets/experiences/breakline.webp" alt="A snowboarder carves through a bright alpine course as the HUD tracks closing polar bear and Yeti pursuers." width="220"></a>
     <h3>Breakline</h3>
     <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/breakline">Code</a> · <a href="https://play.mint.gg/breakline">Live demo</a></p>
   </td>
@@ -275,7 +350,7 @@ pipeline and
 </tr>
 <tr>
   <td width="220" valign="top">
-    <a href="https://play.mint.gg/four-fields"><img src="https://play.mint.gg/experience-assets/four-fields/social-card.webp" alt="A warm storybook miniature farm with a barn, farmhouse, fenced fields, hay bales, and a water trough." width="220"></a>
+    <a href="https://play.mint.gg/four-fields"><img src=".github/assets/experiences/four-fields.webp" alt="A warm storybook miniature farm with a barn, farmhouse, fenced fields, hay bales, and a water trough." width="220"></a>
     <h3>Four Fields</h3>
     <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/four-fields">Code</a> · <a href="https://play.mint.gg/four-fields">Live demo</a></p>
   </td>
@@ -286,7 +361,7 @@ pipeline and
 </tr>
 <tr>
   <td width="220" valign="top">
-    <a href="https://play.mint.gg/financial-city"><img src="https://play.mint.gg/experience-assets/financial-city/social-card.webp" alt="A daytime miniature financial city with active streets, civic buildings, parks, and dense Metropolitan Ledger architecture." width="220"></a>
+    <a href="https://play.mint.gg/financial-city"><img src=".github/assets/experiences/financial-city.webp" alt="A daytime miniature financial city with active streets, civic buildings, parks, and dense Metropolitan Ledger architecture." width="220"></a>
     <h3>Financial City</h3>
     <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/financial-city">Code</a> · <a href="https://play.mint.gg/financial-city">Live demo</a></p>
   </td>
@@ -297,7 +372,7 @@ pipeline and
 </tr>
 <tr>
   <td width="220" valign="top">
-    <a href="https://play.mint.gg/complete-shelf"><img src="https://play.mint.gg/experience-assets/complete-shelf/social-card.webp" alt="A warm editorial 3D bookshelf with colorful procedural hardcovers arranged above a walnut shelf." width="220"></a>
+    <a href="https://play.mint.gg/complete-shelf"><img src=".github/assets/experiences/complete-shelf.webp" alt="A warm editorial 3D bookshelf with colorful procedural hardcovers arranged above a walnut shelf." width="220"></a>
     <h3>The Complete Shelf</h3>
     <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/complete-shelf">Code</a> · <a href="https://play.mint.gg/complete-shelf">Live demo</a></p>
   </td>
@@ -308,7 +383,7 @@ pipeline and
 </tr>
 <tr>
   <td width="220" valign="top">
-    <a href="https://play.mint.gg/kirby-smash"><img src="https://play.mint.gg/experience-assets/kirby-smash/social-card.webp" alt="Two colorful fighters battle on a floating three-platform arena above waterfalls and distant sky islands." width="220"></a>
+    <a href="https://play.mint.gg/kirby-smash"><img src=".github/assets/experiences/kirby-smash.webp" alt="Two colorful fighters battle on a floating three-platform arena above waterfalls and distant sky islands." width="220"></a>
     <h3>Kirby Smash</h3>
     <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/kirby-smash">Code</a> · <a href="https://play.mint.gg/kirby-smash">Live demo</a></p>
   </td>
@@ -319,7 +394,7 @@ pipeline and
 </tr>
 <tr>
   <td width="220" valign="top">
-    <a href="https://play.mint.gg/compound-visualization"><img src="https://play.mint.gg/experience-assets/compound-visualization/social-card.webp" alt="A ball-and-stick caffeine molecule surrounded by composition, measurement, and structural-library controls." width="220"></a>
+    <a href="https://play.mint.gg/compound-visualization"><img src=".github/assets/experiences/compound-visualization.webp" alt="A ball-and-stick caffeine molecule surrounded by composition, measurement, and structural-library controls." width="220"></a>
     <h3>Compound Visualization</h3>
     <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/compound-visualization">Code</a> · <a href="https://play.mint.gg/compound-visualization">Live demo</a></p>
   </td>
@@ -330,7 +405,7 @@ pipeline and
 </tr>
 <tr>
   <td width="220" valign="top">
-    <a href="https://play.mint.gg/forgotten-experiment"><img src="https://play.mint.gg/experience-assets/forgotten-experiment/social-card.webp" alt="A worn containment machine stands in an abandoned laboratory beneath a classified experiment HUD." width="220"></a>
+    <a href="https://play.mint.gg/forgotten-experiment"><img src=".github/assets/experiences/forgotten-experiment.webp" alt="A worn containment machine stands in an abandoned laboratory beneath a classified experiment HUD." width="220"></a>
     <h3>The Forgotten Experiment</h3>
     <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/forgotten-experiment">Code</a> · <a href="https://play.mint.gg/forgotten-experiment">Live demo</a></p>
   </td>
@@ -341,7 +416,7 @@ pipeline and
 </tr>
 <tr>
   <td width="220" valign="top">
-    <a href="https://play.mint.gg/periodic-table"><img src="https://play.mint.gg/experience-assets/periodic-table/social-card.webp" alt="A glossy wooden periodic table with 118 color-coded raised element tiles and a matching category board." width="220"></a>
+    <a href="https://play.mint.gg/periodic-table"><img src=".github/assets/experiences/periodic-table.webp" alt="A glossy wooden periodic table with 118 color-coded raised element tiles and a matching category board." width="220"></a>
     <h3>Periodic Table 3D</h3>
     <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/periodic-table">Code</a> · <a href="https://play.mint.gg/periodic-table">Live demo</a></p>
   </td>
@@ -352,7 +427,7 @@ pipeline and
 </tr>
 <tr>
   <td width="220" valign="top">
-    <a href="https://play.mint.gg/side-one"><img src="https://play.mint.gg/experience-assets/side-one/social-card.webp" alt="A black vinyl record with a red center label emerging from a minimal cream sleeve beside the Side One wordmark." width="220"></a>
+    <a href="https://play.mint.gg/side-one"><img src=".github/assets/experiences/side-one.webp" alt="A black vinyl record with a red center label emerging from a minimal cream sleeve beside the Side One wordmark." width="220"></a>
     <h3>Side One</h3>
     <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/side-one">Code</a> · <a href="https://play.mint.gg/side-one">Live demo</a></p>
   </td>
@@ -363,7 +438,7 @@ pipeline and
 </tr>
 <tr>
   <td width="220" valign="top">
-    <a href="https://play.mint.gg/dead-reckoning"><img src="https://play.mint.gg/experience-assets/dead-reckoning/social-card.webp" alt="Polished ivory and black chess pieces emerging from pale fog above a rocky board in an ink-wash mountain valley." width="220"></a>
+    <a href="https://play.mint.gg/dead-reckoning"><img src=".github/assets/experiences/dead-reckoning.webp" alt="Polished ivory and black chess pieces emerging from pale fog above a rocky board in an ink-wash mountain valley." width="220"></a>
     <h3>Dead Reckoning</h3>
     <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/dead-reckoning">Code</a> · <a href="https://play.mint.gg/dead-reckoning">Live demo</a></p>
   </td>
@@ -374,7 +449,7 @@ pipeline and
 </tr>
 <tr>
   <td width="220" valign="top">
-    <a href="https://play.mint.gg/project-forge-5"><img src="https://play.mint.gg/experience-assets/project-forge-5/social-card.webp" alt="AXIOM H1 humanoid robot standing in the Project Forge-5 platform roster interface." width="220"></a>
+    <a href="https://play.mint.gg/project-forge-5"><img src=".github/assets/experiences/project-forge-5.webp" alt="AXIOM H1 humanoid robot standing in the Project Forge-5 platform roster interface." width="220"></a>
     <h3>Project Forge-5</h3>
     <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/project-forge-5">Code</a> · <a href="https://play.mint.gg/project-forge-5">Live demo</a></p>
   </td>
@@ -385,7 +460,7 @@ pipeline and
 </tr>
 <tr>
   <td width="220" valign="top">
-    <a href="https://play.mint.gg/flappy-bird-3d"><img src="https://play.mint.gg/experience-assets/flappy-bird-3d/social-card.webp" alt="A yellow 3D bird facing a green pipe course over a bright blue ocean beneath the Flappy Bird 3D title." width="220"></a>
+    <a href="https://play.mint.gg/flappy-bird-3d"><img src=".github/assets/experiences/flappy-bird-3d.webp" alt="A yellow 3D bird facing a green pipe course over a bright blue ocean beneath the Flappy Bird 3D title." width="220"></a>
     <h3>Flappy Bird 3D</h3>
     <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/flappy-bird-3d">Code</a> · <a href="https://play.mint.gg/flappy-bird-3d">Live demo</a></p>
   </td>
@@ -396,7 +471,7 @@ pipeline and
 </tr>
 <tr>
   <td width="220" valign="top">
-    <a href="https://play.mint.gg/sleeping-snorlax"><img src="https://play.mint.gg/experience-assets/sleeping-snorlax/social-card.webp" alt="A large sleeping Snorlax resting in a sunny low-poly meadow beneath a Poke Snorlax prompt." width="220"></a>
+    <a href="https://play.mint.gg/sleeping-snorlax"><img src=".github/assets/experiences/sleeping-snorlax.webp" alt="A large sleeping Snorlax resting in a sunny low-poly meadow beneath a Poke Snorlax prompt." width="220"></a>
     <h3>Sleeping Snorlax</h3>
     <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/sleeping-snorlax">Code</a> · <a href="https://play.mint.gg/sleeping-snorlax">Live demo</a></p>
   </td>
@@ -407,7 +482,7 @@ pipeline and
 </tr>
 <tr>
   <td width="220" valign="top">
-    <a href="https://play.mint.gg/fieldline-santa-clara"><img src="https://play.mint.gg/experience-assets/fieldline-santa-clara/social-card.webp" alt="Fieldline’s modeled Levi’s Stadium bowl with the field, red seating, and selected-seat analysis panels." width="220"></a>
+    <a href="https://play.mint.gg/fieldline-santa-clara"><img src=".github/assets/experiences/fieldline-santa-clara.webp" alt="Fieldline’s modeled Levi’s Stadium bowl with the field, red seating, and selected-seat analysis panels." width="220"></a>
     <h3>Fieldline Santa Clara</h3>
     <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/fieldline-santa-clara">Code</a> · <a href="https://play.mint.gg/fieldline-santa-clara">Live demo</a></p>
   </td>
@@ -418,7 +493,7 @@ pipeline and
 </tr>
 <tr>
   <td width="220" valign="top">
-    <a href="https://play.mint.gg/quadrotor-sandbox"><img src="https://play.mint.gg/experience-assets/quadrotor-sandbox/social-card.webp" alt="A shuttle launch stack climbing above a modern city with glowing engine plumes and live flight telemetry." width="220"></a>
+    <a href="https://play.mint.gg/quadrotor-sandbox"><img src=".github/assets/experiences/quadrotor-sandbox.webp" alt="A shuttle launch stack climbing above a modern city with glowing engine plumes and live flight telemetry." width="220"></a>
     <h3>Quadrotor Sandbox</h3>
     <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/quadrotor-sandbox">Code</a> · <a href="https://play.mint.gg/quadrotor-sandbox">Live demo</a></p>
   </td>
@@ -429,7 +504,7 @@ pipeline and
 </tr>
 <tr>
   <td width="220" valign="top">
-    <a href="https://play.mint.gg/clicky"><img src="https://play.mint.gg/experience-assets/clicky/social-card.webp" alt="The heyclicky landing page surrounded by floating 3D character, tech, and sticker props." width="220"></a>
+    <a href="https://play.mint.gg/clicky"><img src=".github/assets/experiences/clicky.webp" alt="The heyclicky landing page surrounded by floating 3D character, tech, and sticker props." width="220"></a>
     <h3>heyclicky</h3>
     <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/clicky">Code</a> · <a href="https://play.mint.gg/clicky">Live demo</a></p>
   </td>
@@ -660,16 +735,46 @@ pipeline and
 </tr>
 </table>
 
-## Run locally
+## Quick start
 
-Install the workspace and start any Experience by its directory name:
+Requirements: Node.js 20 or newer and pnpm 10.6.2. Corepack can install the
+pinned pnpm version for you.
 
 ```bash
-pnpm install
-pnpm --dir experiences/vanguard-protocol dev
+corepack enable
+pnpm install --filter ./experiences/vanguard-protocol
+pnpm play vanguard-protocol
 ```
 
-Build every Experience with `pnpm build`.
+Run `pnpm play` without a slug to choose an experience interactively, or use
+`pnpm play --list` to print every available slug. Runtime 3D assets are loaded
+from Mint CDN, so the experiences require a network connection.
+
+To verify the repository catalog without installing dependencies:
+
+```bash
+pnpm validate:catalog
+```
+
+Build all experiences with `pnpm build`, or build one with:
+
+```bash
+pnpm --filter ./experiences/vanguard-protocol build
+```
+
+## Contributing
+
+Bug fixes, accessibility improvements, performance work, tests, and clearer
+documentation are welcome. Start with the [contribution guide](CONTRIBUTING.md)
+and look for [`good first issue`](https://github.com/mintdotgg/mint-playground/labels/good%20first%20issue)
+or [`help wanted`](https://github.com/mintdotgg/mint-playground/labels/help%20wanted)
+issues. New experience ideas belong in the experience request form so the
+maintainers can align them with the publishing pipeline before code is written.
+
+If this collection saves you time or gives you an idea, star the repository to
+follow future Playground drops. Maintainers can use the
+[GitHub visibility playbook](docs/maintainer-playbook.md) for repository settings,
+release structure, publishing checks, and weekly measurement.
 
 ## License
 

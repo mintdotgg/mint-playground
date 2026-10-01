@@ -1,7 +1,7 @@
 # Final Whistle: Spain vs Argentina
 
 <a href="https://play.mint.gg/final-whistle">
-  <img src="https://play.mint.gg/experience-assets/final-whistle/social-card.webp" alt="Spain celebrates a 2-1 championship victory in a packed open-top stadium." width="100%">
+  <img src="../../.github/assets/experiences/final-whistle.webp" alt="Spain celebrates a 2-1 championship victory in a packed open-top stadium." width="100%">
 </a>
 
 Lead Spain through a 150-second 3D arcade football final against Argentina with passing, tackles, charged shots, and golden-goal drama.

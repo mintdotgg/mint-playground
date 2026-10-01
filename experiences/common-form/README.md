@@ -1,7 +1,7 @@
 # Common Form
 
 <a href="https://play.mint.gg/common-form">
-  <img src="https://play.mint.gg/experience-assets/common-form/social-card.webp" alt="Common Form showroom with the Everyday Tote and five everyday objects staged beneath warm sculptural lighting." width="100%">
+  <img src="../../.github/assets/experiences/common-form.webp" alt="Common Form showroom with the Everyday Tote and five everyday objects staged beneath warm sculptural lighting." width="100%">
 </a>
 
 Explore six considered everyday objects in a warm interactive showroom, inspect them in 3D, and build a persistent demo cart.

@@ -1,7 +1,7 @@
 # CDX-2089 Music Player
 
 <a href="https://play.mint.gg/cdx-2089-music-player">
-  <img src="https://play.mint.gg/experience-assets/cdx-2089-music-player/social-card.webp" alt="The PRISM skin of the CDX-2089 futuristic music player with its illuminated disc and controls." width="100%">
+  <img src="../../.github/assets/experiences/cdx-2089-music-player.webp" alt="The PRISM skin of the CDX-2089 futuristic music player with its illuminated disc and controls." width="100%">
 </a>
 
 A skin-adaptive 3D music player with five futuristic disc decks, audio-reactive visuals, and an unfolding dance floor.

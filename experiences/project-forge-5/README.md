@@ -1,7 +1,7 @@
 # Project Forge-5
 
 <a href="https://play.mint.gg/project-forge-5">
-  <img src="https://play.mint.gg/experience-assets/project-forge-5/social-card.webp" alt="AXIOM H1 humanoid robot standing in the Project Forge-5 platform roster interface." width="100%">
+  <img src="../../.github/assets/experiences/project-forge-5.webp" alt="AXIOM H1 humanoid robot standing in the Project Forge-5 platform roster interface." width="100%">
 </a>
 
 Command five specialized robots through indoor qualification missions and an outdoor physics sandbox.

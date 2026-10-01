@@ -1,7 +1,7 @@
 # Periodic Table 3D
 
 <a href="https://play.mint.gg/periodic-table">
-  <img src="https://play.mint.gg/experience-assets/periodic-table/social-card.webp" alt="A glossy wooden periodic table with 118 color-coded raised element tiles and a matching category board." width="100%">
+  <img src="../../.github/assets/experiences/periodic-table.webp" alt="A glossy wooden periodic table with 118 color-coded raised element tiles and a matching category board." width="100%">
 </a>
 
 Browse all 118 elements on a tactile 3D table, open any tile, and orbit an animated atom surrounded by detailed scientific properties.

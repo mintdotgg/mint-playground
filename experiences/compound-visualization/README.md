@@ -1,7 +1,7 @@
 # Compound Visualization
 
 <a href="https://play.mint.gg/compound-visualization">
-  <img src="https://play.mint.gg/experience-assets/compound-visualization/social-card.webp" alt="A ball-and-stick caffeine molecule surrounded by composition, measurement, and structural-library controls." width="100%">
+  <img src="../../.github/assets/experiences/compound-visualization.webp" alt="A ball-and-stick caffeine molecule surrounded by composition, measurement, and structural-library controls." width="100%">
 </a>
 
 Explore more than 40 molecules and crystals, switch rendering styles, inspect atoms and bonds, measure geometry, and search PubChem.

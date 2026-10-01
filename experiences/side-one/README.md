@@ -1,7 +1,7 @@
 # Side One
 
 <a href="https://play.mint.gg/side-one">
-  <img src="https://play.mint.gg/experience-assets/side-one/social-card.webp" alt="A black vinyl record with a red center label emerging from a minimal cream sleeve beside the Side One wordmark." width="100%">
+  <img src="../../.github/assets/experiences/side-one.webp" alt="A black vinyl record with a red center label emerging from a minimal cream sleeve beside the Side One wordmark." width="100%">
 </a>
 
 Browse seven landmark releases across nine pressings, inspect every sleeve and track list, and cue a record on a configurable 3D turntable.

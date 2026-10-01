@@ -1,7 +1,7 @@
 # Neon Relic
 
 <a href="https://play.mint.gg/neon-relic">
-  <img src="https://play.mint.gg/experience-assets/neon-relic/social-card.webp" alt="Aether humanoid displayed in the Neon Relic editorial gallery" width="100%">
+  <img src="../../.github/assets/experiences/neon-relic.webp" alt="Aether humanoid displayed in the Neon Relic editorial gallery" width="100%">
 </a>
 
 An interactive poster gallery where four sci-fi relics reshape the typography, lighting, materials, and sound.

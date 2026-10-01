@@ -1,7 +1,7 @@
 # Seatline NYC
 
 <a href="https://play.mint.gg/seatline-nyc">
-  <img src="https://play.mint.gg/experience-assets/seatline-nyc/social-card.webp" alt="Seatline NYC showing a selected seat beside the 3D auditorium sightline and booking controls." width="100%">
+  <img src="../../.github/assets/experiences/seatline-nyc.webp" alt="Seatline NYC showing a selected seat beside the 3D auditorium sightline and booking controls." width="100%">
 </a>
 
 Choose a New York theater, showtime, and seat, then preview the 3D screen angle and sightline before opening the venue’s live listing.

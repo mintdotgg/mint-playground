@@ -1,7 +1,7 @@
 # Impossible Places
 
 <a href="https://play.mint.gg/impossible-places">
-  <img src="https://play.mint.gg/experience-assets/impossible-places/social-card.webp" alt="The Observatory issue of the Impossible Places travel magazine" width="100%">
+  <img src="../../.github/assets/experiences/impossible-places.webp" alt="The Observatory issue of the Impossible Places travel magazine" width="100%">
 </a>
 
 A cinematic travel magazine spanning five explorable Mint-generated Gaussian-splat worlds.

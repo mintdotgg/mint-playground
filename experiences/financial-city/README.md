@@ -1,7 +1,7 @@
 # Financial City
 
 <a href="https://play.mint.gg/financial-city">
-  <img src="https://play.mint.gg/experience-assets/financial-city/social-card.webp" alt="A daytime miniature financial city with active streets, civic buildings, parks, and dense Metropolitan Ledger architecture." width="100%">
+  <img src="../../.github/assets/experiences/financial-city.webp" alt="A daytime miniature financial city with active streets, civic buildings, parks, and dense Metropolitan Ledger architecture." width="100%">
 </a>
 
 Shape a private monthly budget and watch traffic, civic services, construction pressure, and forty city blocks respond in a living miniature metropolis.

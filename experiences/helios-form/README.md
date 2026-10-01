@@ -1,7 +1,7 @@
 # Helios Form
 
 <a href="https://play.mint.gg/helios-form">
-  <img src="https://play.mint.gg/experience-assets/helios-form/social-card.webp" alt="Asterion interceptor displayed in the Helios Form orbital showroom" width="100%">
+  <img src="../../.github/assets/experiences/helios-form.webp" alt="Asterion interceptor displayed in the Helios Form orbital showroom" width="100%">
 </a>
 
 A luminous orbital-vehicle showroom for inspecting six futuristic craft and their onboard systems.
