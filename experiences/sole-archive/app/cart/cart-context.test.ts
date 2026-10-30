@@ -1,4 +1,4 @@
-import { describe, expect, test } from "bun:test";
+import { describe, expect, test } from "vitest";
 import { type CartConfiguration, getCartLineId } from "@/app/cart/cart-context";
 
 const baseConfiguration: CartConfiguration = {

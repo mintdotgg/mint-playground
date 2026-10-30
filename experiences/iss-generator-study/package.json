@@ -1,0 +1,18 @@
+{
+  "name": "@mint/playground-experience-iss-generator-study",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5214",
+    "build": "vite build --base /_experiences/iss-generator-study/",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "three": "0.184.0"
+  },
+  "devDependencies": {
+    "@types/three": "0.184.1",
+    "vite": "8.0.13"
+  }
+}

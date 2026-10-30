@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next dev --hostname 127.0.0.1 --port 5192",
     "build": "next build",
-    "test": "node --test lib/money.test.ts"
+    "test": "node --test lib/money.test.ts && vitest run"
   },
   "dependencies": {
     "@hookform/resolvers": "5.2.2",
@@ -74,6 +74,7 @@
     "@types/three": "0.185.0",
     "postcss": "8.5.19",
     "tailwindcss": "4.3.2",
-    "typescript": "5.9.3"
+    "typescript": "5.9.3",
+    "vitest": "4.1.7"
   }
 }

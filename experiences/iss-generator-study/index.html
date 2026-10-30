@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#05070b" />
+    <meta name="description" content="Interactive comparison of four AI-generated International Space Station models." />
+    <title>ISS Generator Study</title>
+    <link rel="preconnect" href="https://cdn.mint.gg" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" />
+  </head>
+  <body>
+    <main id="app">
+      <div id="viewport" aria-label="Interactive 3D space station viewer"></div>
+      <div class="transit-vignette" aria-hidden="true"></div>
+      <div class="grain" aria-hidden="true"></div>
+
+      <header class="topbar">
+        <a class="brand" href="#" aria-label="ISS Generator Study home">
+          <span class="brand-mark">IGS</span>
+          <span class="brand-copy"><strong>ISS</strong><small>GENERATOR STUDY / 04</small></span>
+        </a>
+        <div class="mission-status"><span></span> LIVE MODEL TELEMETRY</div>
+      </header>
+
+      <section class="intro" aria-labelledby="page-title">
+        <p class="eyebrow">AI MODEL COMPARISON · ISS</p>
+        <h1 id="page-title">Same station.<br /><em>Four interpretations.</em></h1>
+        <p class="dek">Inspect silhouette, material response, and mesh structure from an identical orbital viewpoint.</p>
+      </section>
+
+      <aside class="telemetry" aria-live="polite">
+        <div class="telemetry-head">
+          <span id="active-index">01 / 04</span>
+          <span id="load-state">READY</span>
+        </div>
+        <h2 id="active-name">MINT</h2>
+        <p id="active-subtitle">REFERENCE ASSET</p>
+        <dl>
+          <div><dt>MESHES</dt><dd id="stat-meshes">158</dd></div>
+          <div><dt>VERTICES</dt><dd id="stat-vertices">1.14M</dd></div>
+          <div><dt>FACES</dt><dd id="stat-faces">916K</dd></div>
+          <div><dt>MATERIALS</dt><dd id="stat-materials">53</dd></div>
+        </dl>
+        <div class="fidelity">
+          <span>REFERENCE FIDELITY</span>
+          <div class="fidelity-track"><i id="fidelity-bar" style="width: 100%"></i></div>
+          <b id="fidelity-score">100</b>
+        </div>
+      </aside>
+
+      <section class="inspection-controls" aria-label="Inspection controls">
+        <button id="topology-toggle" class="control-button" type="button" aria-pressed="false">
+          <span class="control-icon topology-icon"></span>
+          <span><small>VIEW MODE</small><strong>TOPOLOGY</strong></span>
+          <i>OFF</i>
+        </button>
+        <button id="explode-toggle" class="control-button" type="button" aria-pressed="false">
+          <span class="control-icon explode-icon"></span>
+          <span><small>MINT ASSEMBLY</small><strong>DISASSEMBLE</strong></span>
+          <i>READY</i>
+        </button>
+        <button id="interior-toggle" class="control-button" type="button" aria-pressed="false">
+          <span class="control-icon interior-icon"></span>
+          <span><small>MINT INTERIOR</small><strong>ENTER DESTINY</strong></span>
+          <i>READY</i>
+        </button>
+      </section>
+
+      <nav class="model-switcher" aria-label="Choose a generator model">
+        <p>SELECT GENERATOR</p>
+        <div class="model-buttons">
+          <button class="model-button active" data-model="mint" type="button"><b>01</b><span>MINT<small>Reference</small></span></button>
+          <button class="model-button" data-model="tripo" type="button"><b>02</b><span>TRIPO<small>H3.1</small></span></button>
+          <button class="model-button" data-model="meshy" type="button"><b>03</b><span>MESHY<small>7.1</small></span></button>
+          <button class="model-button" data-model="rodin" type="button"><b>04</b><span>RODIN<small>2.5</small></span></button>
+        </div>
+      </nav>
+
+      <div class="orbit-caption" aria-hidden="true">
+        <span>EARTH · LOW ORBIT</span>
+        <b>408 KM ALTITUDE</b>
+      </div>
+
+      <footer class="hintbar">
+        <span><i class="mouse-icon"></i> DRAG TO ORBIT</span>
+        <span><i class="scroll-icon"></i> SCROLL TO ZOOM</span>
+        <span class="interior-hint">INSIDE DESTINY · DRAG TO LOOK</span>
+        <span class="coordinate" id="coordinate">LAT 28.5° · LON −80.6°</span>
+      </footer>
+
+      <div id="loading-overlay" class="loading-overlay">
+        <div class="loader-ring"></div>
+        <p>ACQUIRING MINT MODEL</p>
+        <span id="loading-progress">0%</span>
+      </div>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,153 @@
+{
+  "registryVersion": 1,
+  "assetRoot": "public",
+  "delivery": "mint_cdn",
+  "assets": {
+    "draco-runtime": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "runtime",
+        "assetType": "draco_decoder",
+        "assetId": "draco-gltf-three-0.184.0"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "decoder_path": {
+          "artifactId": "draco-gltf-three-0.184.0",
+          "role": "runtime_decoder_path",
+          "format": "directory",
+          "contentType": "application/octet-stream",
+          "runtimeUrl": "https://cdn.mint.gg/runtime/draco/gltf/three-0.184.0/",
+          "loaderHint": "draco"
+        }
+      }
+    },
+    "mint-iss": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks7404tzgtbcwxcgs7g4rtper98h7r30"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "model": {
+          "artifactId": "draco_glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "byteSize": 21255316,
+          "runtimeUrl": "https://cdn.mint.gg/app/playground/orbital-generator-study/models/mint-31b8e5336715.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "tripo-iss": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "external",
+        "assetType": "model",
+        "assetId": "tripo-h3.1-iss-3eb06ef1d48f"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "model": {
+          "artifactId": "draco_glb",
+          "role": "comparison_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "byteSize": 13108124,
+          "runtimeUrl": "https://cdn.mint.gg/app/playground/orbital-generator-study/models/tripo-3eb06ef1d48f.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "meshy-iss": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "external",
+        "assetType": "model",
+        "assetId": "meshy-7.1-iss-f2f6da4a8c00"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "model": {
+          "artifactId": "draco_glb",
+          "role": "comparison_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "byteSize": 14236052,
+          "runtimeUrl": "https://cdn.mint.gg/app/playground/orbital-generator-study/models/meshy-f2f6da4a8c00.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "rodin-iss": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "external",
+        "assetType": "model",
+        "assetId": "rodin-2.5-iss-cef6352eaebc"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "model": {
+          "artifactId": "draco_glb",
+          "role": "comparison_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "byteSize": 13780376,
+          "runtimeUrl": "https://cdn.mint.gg/app/playground/orbital-generator-study/models/rodin-cef6352eaebc.glb",
+          "loaderHint": "gltf"
+        }
+      }
+    },
+    "earth-surface": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "external",
+        "assetType": "material",
+        "assetId": "threejs-examples-earth-planet-textures"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "day": {
+          "artifactId": "earth_day",
+          "role": "base_color",
+          "format": "jpg",
+          "contentType": "image/jpeg",
+          "byteSize": 512606,
+          "runtimeUrl": "https://cdn.mint.gg/app/playground/orbital-generator-study/textures/earth-day-2faa400d1ead.jpg",
+          "loaderHint": "texture"
+        },
+        "normal": {
+          "artifactId": "earth_normal",
+          "role": "normal",
+          "format": "jpg",
+          "contentType": "image/jpeg",
+          "byteSize": 336774,
+          "runtimeUrl": "https://cdn.mint.gg/app/playground/orbital-generator-study/textures/earth-normal-3fc43e9639c3.jpg",
+          "loaderHint": "texture"
+        },
+        "specular": {
+          "artifactId": "earth_specular",
+          "role": "specular",
+          "format": "jpg",
+          "contentType": "image/jpeg",
+          "byteSize": 223421,
+          "runtimeUrl": "https://cdn.mint.gg/app/playground/orbital-generator-study/textures/earth-specular-2df48906732d.jpg",
+          "loaderHint": "texture"
+        },
+        "clouds": {
+          "artifactId": "earth_clouds",
+          "role": "cloud_layer",
+          "format": "png",
+          "contentType": "image/png",
+          "byteSize": 260222,
+          "runtimeUrl": "https://cdn.mint.gg/app/playground/orbital-generator-study/textures/earth-clouds-7d3b82ef6b3f.png",
+          "loaderHint": "texture"
+        }
+      }
+    }
+  }
+}

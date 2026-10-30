@@ -77,9 +77,7 @@ test("V9 reserved district sites either clear infill or explicitly replace it", 
       if (infill.parcelId !== reserved.parcelId) continue;
       if (!squareFootprintsOverlap(infill, reserved)) continue;
       assert.ok(
-        infill.hideWhen?.includes(
-          reserved.id as NonNullable<typeof infill.hideWhen>[number],
-        ),
+        "hideWhen" in infill && infill.hideWhen.some(id => id === reserved.id),
         `${infill.key} overlaps ${reserved.id} without yielding its site`,
       );
     }
@@ -120,7 +118,7 @@ test("V9 selects deferred, balanced, and luxury buildings from financial health"
 test("V9 presets keep dense blocks while yielding active reserved districts", () => {
   const visibleWith = (blockers: ReadonlySet<string>) =>
     FINANCIAL_CITY_V9_INFILL.filter(
-      (spec) => !spec.hideWhen?.some((id) => blockers.has(id)),
+      (spec) => !("hideWhen" in spec && spec.hideWhen.some((id) => blockers.has(id))),
     ).length;
 
   assert.equal(visibleWith(new Set(["debtConstruction"])), 38);

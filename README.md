@@ -658,6 +658,17 @@ pipeline and
     <p><sub>threejs · webcam · hand-tracking · ninjutsu · interactive</sub></p>
   </td>
 </tr>
+<tr>
+  <td width="220" valign="top">
+    <a href="https://play.mint.gg/iss-generator-study"><img src="https://play.mint.gg/experience-assets/iss-generator-study/social-card.webp" alt="The International Space Station with golden solar arrays in orbit beside Earth, framed by mission telemetry and a four-generator model switcher." width="220"></a>
+    <h3>ISS Generator Study</h3>
+    <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/iss-generator-study">Code</a> · <a href="https://play.mint.gg/iss-generator-study">Live demo</a></p>
+  </td>
+  <td valign="top">
+    <p>Fly between four AI-generated International Space Stations above Earth, compare their topology, disassemble Mint&#39;s 158-part build, and step inside the Destiny laboratory.</p>
+    <p><sub>three.js · space · model-comparison · inspection</sub></p>
+  </td>
+</tr>
 </table>
 
 ## Run locally

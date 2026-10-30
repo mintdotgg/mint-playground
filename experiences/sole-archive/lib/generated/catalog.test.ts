@@ -1,4 +1,4 @@
-import { describe, expect, test } from "bun:test";
+import { describe, expect, test } from "vitest";
 import { generatedProducts } from "@/lib/generated/catalog";
 
 describe("Sole Archive catalog", () => {

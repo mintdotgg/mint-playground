@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 2,
+  "order": 590,
+  "slug": "iss-generator-study",
+  "title": "ISS Generator Study",
+  "description": "Fly between four AI-generated International Space Stations above Earth, compare their topology, disassemble Mint's 158-part build, and step inside the Destiny laboratory.",
+  "status": "published",
+  "publishedAt": "2026-10-30",
+  "tags": [
+    "three.js",
+    "space",
+    "model-comparison",
+    "inspection"
+  ],
+  "prompt": {
+    "version": 1,
+    "objective": "Build an orbital viewer for a segmented International Space Station model.",
+    "mintAssets": [
+      {
+        "kind": "model",
+        "brief": "A metre-scaled International Space Station with named modules, solar arrays, and a Destiny lab interior."
+      }
+    ],
+    "experience": [
+      "Orbit the station above a turning Earth and a fixed starfield.",
+      "Toggle wireframe topology and disassemble every part into a catalog grid.",
+      "Enter the Destiny lab and drag to look around."
+    ],
+    "visualDirection": "Mono-type mission telemetry over deep space with cyan wireframes."
+  },
+  "thumbnail": {
+    "src": "/experience-assets/iss-generator-study/social-card.webp",
+    "alt": "The International Space Station with golden solar arrays in orbit beside Earth, framed by mission telemetry and a four-generator model switcher."
+  },
+  "social": {
+    "title": "ISS Generator Study",
+    "description": "Fly between four AI-generated International Space Stations above Earth, compare their topology, disassemble Mint's 158-part build, and step inside the Destiny laboratory.",
+    "image": {
+      "src": "/experience-assets/iss-generator-study/social-card.webp",
+      "alt": "The International Space Station with golden solar arrays in orbit beside Earth, framed by mission telemetry and a four-generator model switcher.",
+      "width": 1200,
+      "height": 630,
+      "accent": "#52e8ff"
+    }
+  },
+  "runtime": {
+    "kind": "bundle",
+    "src": "/_experiences/iss-generator-study/index.html",
+    "title": "ISS Generator Study"
+  }
+}

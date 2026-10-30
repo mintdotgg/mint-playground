@@ -80,7 +80,7 @@ test("every normalized V7 route keeps every production vehicle footprint on road
     );
 
     for (const vehicle of VEHICLE_FOOTPRINTS) {
-      if (!vehicle.routeKinds.includes(route.kind)) continue;
+      if (!vehicle.routeKinds.some(kind => kind === route.kind)) continue;
       for (let step = 0; step < 4_000; step += 1) {
         const progress = step / 4_000;
         const position = curve.getPointAt(progress);
