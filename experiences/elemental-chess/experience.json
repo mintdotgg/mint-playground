@@ -3,7 +3,7 @@
   "order": 190,
   "slug": "elemental-chess",
   "title": "Elemental Chess",
-  "description": "Choose Water, Earth, Fire, or Air, face a rival, and play a complete cinematic 3D chess match in a Mint-authored elemental world.",
+  "description": "Play 3D chess against the computer in your browser. Choose Water, Earth, Fire, or Air, orbit the board, and play a full match with standard chess rules.",
   "status": "published",
   "publishedAt": "2026-07-22",
   "tags": ["Next.js", "Three.js", "Chess", "Strategy"],

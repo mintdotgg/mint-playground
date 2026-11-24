@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
+import { getInitialShelfBookIndex } from "./book-links";
 import { catalog } from "./catalog";
 import { ShelfEngine, type ShelfMode } from "./ShelfEngine";
 import { siteConfig } from "./site-config";
@@ -48,6 +49,8 @@ export function ProgressLibrary() {
         onReady: () => setReady(true),
       });
       engineRef.current = engine;
+      const initialBookIndex = getInitialShelfBookIndex(window);
+      if (initialBookIndex !== null) engine.focusBook(initialBookIndex);
     }
 
     void start();

@@ -1,7 +1,7 @@
 import * as THREE from 'three';
 import type { SparkRenderer } from '@sparkjsdev/spark';
 
-import { DESTINATIONS, destinationById, type Destination } from './destinations';
+import { DESTINATIONS, destinationById, getInitialDestination, type Destination } from './destinations';
 import { SplatTransition } from './world/SplatTransition';
 import { WorldScene } from './world/WorldScene';
 
@@ -59,7 +59,7 @@ export class App {
   private lastFrameSeconds = performance.now() / 1000;
   private elapsedSeconds = 0;
   private activeWorld?: WorldScene;
-  private selected: Destination = DESTINATIONS[0]!;
+  private selected: Destination = getInitialDestination(window);
   private transitioning = true;
   private statusGeneration = 0;
   private reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;

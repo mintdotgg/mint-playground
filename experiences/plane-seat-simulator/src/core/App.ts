@@ -4,6 +4,7 @@ import { syncedKeys } from "../assets/asset-manifest";
 import { disposeMintGltfRuntime } from "../assets/gltf-runtime";
 import { CameraRig } from "../camera/CameraRig";
 import { SEATS } from "../data/cabin-layout";
+import { getInitialPlaneSeat } from "../data/seat-links";
 import { LookControls } from "../input/LookControls";
 import { OrbitControls } from "../input/OrbitControls";
 import { WalkControls } from "../input/WalkControls";
@@ -44,7 +45,7 @@ export class App {
   private machine: ModeMachine;
   private overlay: SeatMapOverlay;
   private hud: Hud;
-  private menu: StartMenu;
+  private menu?: StartMenu;
   private library = new AssetLibrary();
   private raycaster = new THREE.Raycaster();
 
@@ -105,12 +106,18 @@ export class App {
     });
 
     this.machine.startOverview();
-    // The cabin loads behind the title card; Start hands over to the seat map.
-    this.menu = new StartMenu(
-      container,
-      () => this.machine.openMap(),
-      () => this.state.patch({ menuOpen: false }),
-    );
+    const initialSeat = getInitialPlaneSeat(window);
+    if (initialSeat) {
+      this.state.patch({ menuOpen: false });
+      this.machine.goToLocation(initialSeat);
+    } else {
+      // The cabin loads behind the title card; Start hands over to the seat map.
+      this.menu = new StartMenu(
+        container,
+        () => this.machine.openMap(),
+        () => this.state.patch({ menuOpen: false }),
+      );
+    }
     this.wireOverviewInteractions();
     this.wireWalkInteractions();
     this.loop = new Loop((dt) => this.update(dt));
@@ -248,7 +255,7 @@ export class App {
     this.look.dispose();
     this.walk.dispose();
     this.orbit.dispose();
-    this.menu.dispose();
+    this.menu?.dispose();
     window.removeEventListener("keydown", this.onShortcut);
     this.renderer.dispose();
     disposeMintGltfRuntime();

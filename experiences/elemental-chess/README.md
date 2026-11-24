@@ -4,7 +4,7 @@
   <img src="https://play.mint.gg/experience-assets/elemental-chess/social-card.webp" alt="Water Tribe and Fire Nation sculptures face each other across an ornate icy chessboard." width="100%">
 </a>
 
-Choose Water, Earth, Fire, or Air, face a rival, and play a complete cinematic 3D chess match in a Mint-authored elemental world.
+Play 3D chess against the computer in your browser. Choose Water, Earth, Fire, or Air, orbit the board, and play a full match with standard chess rules.
 
 [Live demo](https://play.mint.gg/elemental-chess) · [Source code](https://github.com/mintdotgg/mint-playground/tree/main/experiences/elemental-chess)
 

@@ -4,7 +4,7 @@
   <img src="https://play.mint.gg/experience-assets/flappy-bird-3d/social-card.webp" alt="A yellow 3D bird facing a green pipe course over a bright blue ocean beneath the Flappy Bird 3D title." width="100%">
 </a>
 
-Fly a selectable 3D bird down an endless ocean causeway, flapping through randomized pipe gaps for a high score.
+Play Flappy Bird 3D in your browser. Choose a bird, then press Space, click, or tap to flap through an endless course of randomized pipe gaps.
 
 [Live demo](https://play.mint.gg/flappy-bird-3d) · [Source code](https://github.com/mintdotgg/mint-playground/tree/main/experiences/flappy-bird-3d)
 

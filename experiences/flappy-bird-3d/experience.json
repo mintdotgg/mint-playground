@@ -3,7 +3,7 @@
   "order": 340,
   "slug": "flappy-bird-3d",
   "title": "Flappy Bird 3D",
-  "description": "Fly a selectable 3D bird down an endless ocean causeway, flapping through randomized pipe gaps for a high score.",
+  "description": "Play Flappy Bird 3D in your browser. Choose a bird, then press Space, click, or tap to flap through an endless course of randomized pipe gaps.",
   "status": "published",
   "publishedAt": "2026-08-03",
   "tags": ["threejs", "arcade", "endless-runner", "physics", "game"],

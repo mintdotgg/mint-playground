@@ -242,3 +242,27 @@ export function destinationById(id: string): Destination {
   if (!destination) throw new Error(`Unknown destination: ${id}`);
   return destination;
 }
+
+type DestinationLocation = Pick<Location, 'pathname' | 'search'>;
+
+function requestedDestination(search: string): Destination | undefined {
+  const id = new URLSearchParams(search).get('destination');
+  return DESTINATIONS.find((item) => item.id === id);
+}
+
+export function getInitialDestination({ location, parent }: {
+  location: DestinationLocation;
+  parent: { location: DestinationLocation };
+}): Destination {
+  const requested = requestedDestination(location.search);
+  if (requested) return requested;
+  try {
+    // The bundled experience reads the public route's selection before starting its first load.
+    if (parent.location.pathname === '/impossible-places') {
+      return requestedDestination(parent.location.search) ?? DESTINATIONS[0]!;
+    }
+  } catch {
+    // A third-party embed cannot expose its parent document. Use the default in that case.
+  }
+  return DESTINATIONS[0]!;
+}

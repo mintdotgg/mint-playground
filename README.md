@@ -1,10 +1,16 @@
 # Mint Playground
 
-Open-source Three.js Experiences from [Mint Playground](https://play.mint.gg/).
+Play open-source Three.js browser games and demos on [Mint Playground](https://play.mint.gg/).
 
 Every app here was made with [Mint MCP](https://mcp.mint.gg/) as the 3D asset
 pipeline and
 [Mint Three.js Skills](https://github.com/mintdotgg/mint-threejs-skills) as the coding workflow.
+
+## Find an example by topic
+
+- [Three.js examples with source code](https://play.mint.gg/threejs-examples) groups live demos and their source files by topic, including GLB loading, physics, instancing, and Gaussian splats. The same collection is available as a [JSON catalog](https://play.mint.gg/threejs-examples/catalog.json).
+- [Periodic Table 3D source ZIP](https://play.mint.gg/experience-assets/periodic-table/periodic-table-source.zip) is a standalone example of drawing and picking 118 tiles with one InstancedMesh.
+- The [Three.js GLB test pack](https://mint.gg/examples/threejs-assets/threejs-glb-test-files.zip) includes nine GLBs and checksums for testing loaders, animation, Draco, Meshopt, and KTX2.
 
 ## Experiences
 
@@ -225,7 +231,7 @@ pipeline and
     <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/elemental-chess">Code</a> · <a href="https://play.mint.gg/elemental-chess">Live demo</a></p>
   </td>
   <td valign="top">
-    <p>Choose Water, Earth, Fire, or Air, face a rival, and play a complete cinematic 3D chess match in a Mint-authored elemental world.</p>
+    <p>Play 3D chess against the computer in your browser. Choose Water, Earth, Fire, or Air, orbit the board, and play a full match with standard chess rules.</p>
     <p><sub>Next.js · Three.js · Chess · Strategy</sub></p>
   </td>
 </tr>
@@ -390,7 +396,7 @@ pipeline and
     <p><a href="https://github.com/mintdotgg/mint-playground/tree/main/experiences/flappy-bird-3d">Code</a> · <a href="https://play.mint.gg/flappy-bird-3d">Live demo</a></p>
   </td>
   <td valign="top">
-    <p>Fly a selectable 3D bird down an endless ocean causeway, flapping through randomized pipe gaps for a high score.</p>
+    <p>Play Flappy Bird 3D in your browser. Choose a bird, then press Space, click, or tap to flap through an endless course of randomized pipe gaps.</p>
     <p><sub>threejs · arcade · endless-runner · physics · game</sub></p>
   </td>
 </tr>
